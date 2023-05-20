@@ -41,7 +41,7 @@ app.post("/first-aid", async (req, res) => {
                 {
                     role: "system",
                     content:
-                        "you are a bot that provides the user essential first aid advice for a emergency medical response application.",
+                        "you are a bot that provides the user essential first aid advice. Please find chat history in the assistant role content to respond to the best of your ability.",
                 },
                 { role: "user", content: message },
                 { role: "assistant", content: toString(context) },
@@ -56,6 +56,7 @@ app.post("/first-aid", async (req, res) => {
             context: context, // Adding the `context` field to the `add` object
         };
         console.log(add);
+        console.log("doneeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee");
         res.status(200).json(add);
         // res.status(200).json(add);
         // res.json(response.data);
