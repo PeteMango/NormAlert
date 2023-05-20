@@ -4,6 +4,14 @@ const axios = require("axios");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const app = express();
+const pgp = require('pg-promise')();
+const db = pgp({
+    host: 'localhost',
+    port: 5432,
+    database: 'olympihacks',
+    user: 'normanchen',
+    password: process.env.POSTGRES_PWRD,
+});
 
 const { Configuration, OpenAIApi } = require("openai");
 const configuration = new Configuration({
@@ -188,3 +196,21 @@ const PORT = 4000;
 app.listen(PORT, () => {
   console.log(`Listening on port ${PORT}`);
 });
+
+app.get("/api/test/postgres", (req, res) => {
+    db.any('SELECT * FROM users')
+    .then(data => {
+        res.status(200).send(data);
+        // res.send("hello");
+    })
+    .catch(error => {
+        console.log(error);
+        res.status(500).send("error retrieving data");
+    });
+});
+
+// psql
+// create database olympihacks
+// \c olympihacks
+// CREATE TABLE users (                                                                                  id serial NOT NULL,                                                                                             username character varying(255) NOT NULL,                                                                       email character varying(255) NOT NULL,                                                                          password_hash character varying(255) NOT NULL,                                                                  created_at timestamp without time zone DEFAULT now(),                                                       name text not null);
+// INSERT INTO users (username, email, password_hash, name) VALUES ('johnDoe', 'johndoe@example.com', 'hashedPassword123', 'John Doe');
