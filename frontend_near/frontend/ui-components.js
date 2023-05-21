@@ -20,6 +20,9 @@ export function SignInPrompt({greeting, onClick}) {
         only for testing!
       </p>
       <br/> */}
+      <div>
+        NORM ALERT
+      </div>
       <p style={{ textAlign: 'center' }}>
         <button onClick={onClick}>Sign in with NEAR Wallet</button>
       </p>
