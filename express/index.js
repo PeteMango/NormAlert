@@ -85,7 +85,7 @@ app.get("/api/test/postgres", (req, res) => {
         res.status(500).send("error retrieving data");
     });
 });
-
+ // comment
 // psql
 // create database olympihacks
 // \c olympihacks
