@@ -143,8 +143,8 @@
     }
   }
 })({"1xC6H":[function(require,module,exports) {
-var Refresh = require("3a640581654faa95");
-var ErrorOverlay = require("80f0df83d8d6612a");
+var Refresh = require("298841a14b16d0e2");
+var ErrorOverlay = require("a5dcc6cd9abced1f");
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
 window.$RefreshSig$ = function() {
@@ -163,11 +163,11 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"3a640581654faa95":"786KC","80f0df83d8d6612a":"1dldy"}],"786KC":[function(require,module,exports) {
+},{"298841a14b16d0e2":"786KC","a5dcc6cd9abced1f":"1dldy"}],"786KC":[function(require,module,exports) {
 "use strict";
-module.exports = require("92da67bcf8d39256");
+module.exports = require("9e0b8b1ed70089a9");
 
-},{"92da67bcf8d39256":"hdge7"}],"hdge7":[function(require,module,exports) {
+},{"9e0b8b1ed70089a9":"hdge7"}],"hdge7":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -628,7 +628,7 @@ module.exports = require("92da67bcf8d39256");
 })();
 
 },{}],"1dldy":[function(require,module,exports) {
-var process = require("600686231fa10d47");
+var process = require("494a2e1a18813f51");
 !function(e, t) {
     module.exports = t();
 }(window, function() {
@@ -2358,7 +2358,7 @@ var process = require("600686231fa10d47");
     ]);
 });
 
-},{"600686231fa10d47":"d5jf4"}],"d5jf4":[function(require,module,exports) {
+},{"494a2e1a18813f51":"d5jf4"}],"d5jf4":[function(require,module,exports) {
 // shim for using process in browser
 var process = module.exports = {};
 // cached from whatever global is present so that test runners that stub it
@@ -2959,11 +2959,11 @@ window.onload = async ()=>{
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./near-wallet":"dg9wB","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./App":"2Ew96","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./App":"2Ew96","./near-wallet":"dg9wB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
-module.exports = require("d1b1ae4fe8b9fa9b");
+module.exports = require("820bf7981a6d0210");
 
-},{"d1b1ae4fe8b9fa9b":"48uCM"}],"48uCM":[function(require,module,exports) {
+},{"820bf7981a6d0210":"48uCM"}],"48uCM":[function(require,module,exports) {
 /**
  * @license React
  * react-jsx-dev-runtime.development.js
@@ -2975,7 +2975,7 @@ module.exports = require("d1b1ae4fe8b9fa9b");
  */ "use strict";
 (function() {
     "use strict";
-    var React = require("a02fd8906a2f698b");
+    var React = require("372e2d77a0c09e13");
     // ATTENTION
     // When adding new symbols to this file,
     // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
@@ -3794,11 +3794,11 @@ module.exports = require("d1b1ae4fe8b9fa9b");
     exports.jsxDEV = jsxDEV$1;
 })();
 
-},{"a02fd8906a2f698b":"21dqq"}],"21dqq":[function(require,module,exports) {
+},{"372e2d77a0c09e13":"21dqq"}],"21dqq":[function(require,module,exports) {
 "use strict";
-module.exports = require("128f63f8802c30b2");
+module.exports = require("4d08f2ee3bab99ec");
 
-},{"128f63f8802c30b2":"6YvXz"}],"6YvXz":[function(require,module,exports) {
+},{"4d08f2ee3bab99ec":"6YvXz"}],"6YvXz":[function(require,module,exports) {
 /**
  * @license React
  * react.development.js
@@ -5666,7 +5666,7 @@ module.exports = require("128f63f8802c30b2");
 
 },{}],"lOjBx":[function(require,module,exports) {
 "use strict";
-var m = require("20a00aea7135f780");
+var m = require("e91e537c13bef34d");
 var i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
 exports.createRoot = function(c, o) {
     i.usingClientEntryPoint = true;
@@ -5685,7 +5685,7 @@ exports.hydrateRoot = function(c, h, o) {
     }
 };
 
-},{"20a00aea7135f780":"j6uA9"}],"j6uA9":[function(require,module,exports) {
+},{"e91e537c13bef34d":"j6uA9"}],"j6uA9":[function(require,module,exports) {
 "use strict";
 function checkDCE() {
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === "undefined" || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== "function") return;
@@ -5699,9 +5699,9 @@ function checkDCE() {
     // a false positive.
     throw new Error("^_^");
 }
-module.exports = require("3aa32935f9494077");
+module.exports = require("602f979c494d5853");
 
-},{"3aa32935f9494077":"3iA9v"}],"3iA9v":[function(require,module,exports) {
+},{"602f979c494d5853":"3iA9v"}],"3iA9v":[function(require,module,exports) {
 /**
  * @license React
  * react-dom.development.js
@@ -5714,8 +5714,8 @@ module.exports = require("3aa32935f9494077");
 (function() {
     "use strict";
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
-    var React = require("3f191c67b9a83e5a");
-    var Scheduler = require("4464fdfb517fd28c");
+    var React = require("2e6cbe39c3c6ede");
+    var Scheduler = require("1df0d2bcffe0cd15");
     var ReactSharedInternals = React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
     var suppressWarning = false;
     function setSuppressWarning(newSuppressWarning) {
@@ -26686,11 +26686,11 @@ module.exports = require("3aa32935f9494077");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{"3f191c67b9a83e5a":"21dqq","4464fdfb517fd28c":"juvHo"}],"juvHo":[function(require,module,exports) {
+},{"2e6cbe39c3c6ede":"21dqq","1df0d2bcffe0cd15":"juvHo"}],"juvHo":[function(require,module,exports) {
 "use strict";
-module.exports = require("5ff8f0e27ec58783");
+module.exports = require("49672af6ae3bb980");
 
-},{"5ff8f0e27ec58783":"RqdIf"}],"RqdIf":[function(require,module,exports) {
+},{"49672af6ae3bb980":"RqdIf"}],"RqdIf":[function(require,module,exports) {
 /**
  * @license React
  * scheduler.development.js
@@ -27144,7 +27144,7348 @@ module.exports = require("5ff8f0e27ec58783");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"dg9wB":[function(require,module,exports) {
+},{}],"2Ew96":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$c1db = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$c1db.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _runtime = require("regenerator-runtime/runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _globalCss = require("./assets/global.css");
+var _hello = require("./components/Hello");
+var _chatGPT = require("./components/ChatGPT");
+var _nav = require("./components/Nav");
+var _reactRouterDom = require("react-router-dom");
+var _signIn = require("./components/SignIn");
+var _signOut = require("./components/SignOut");
+var _medicalForm = require("./components/MedicalForm");
+var _button = require("./components/Button");
+var _optional = require("./components/Optional");
+var _final = require("./components/Final");
+var _sidebar = require("./components/Sidebar");
+function App({ isSignedIn , contractId , wallet  }) {
+    /// If user not signed-in with wallet - show prompt
+    if (!isSignedIn) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _signIn.SignIn), {
+        onClick: ()=>wallet.signIn()
+    }, void 0, false, {
+        fileName: "App.js",
+        lineNumber: 22,
+        columnNumber: 12
+    }, this);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _nav.Nav), {}, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 26,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _signOut.SignOut), {
+                accountId: wallet.accountId,
+                onClick: ()=>wallet.signOut()
+            }, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 27,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Routes), {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            exact: true,
+                            path: "/",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _hello.Hello), {}, void 0, false, void 0, void 0)
+                        }, void 0, false, {
+                            fileName: "App.js",
+                            lineNumber: 30,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "first-aid",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _chatGPT.ChatGPT), {}, void 0, false, void 0, void 0)
+                        }, void 0, false, {
+                            fileName: "App.js",
+                            lineNumber: 31,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "medical-history",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _medicalForm.MedicalForm), {}, void 0, false, void 0, void 0)
+                        }, void 0, false, {
+                            fileName: "App.js",
+                            lineNumber: 32,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "button",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _button.Button), {}, void 0, false, void 0, void 0)
+                        }, void 0, false, {
+                            fileName: "App.js",
+                            lineNumber: 33,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "optional",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _optional.Optional), {}, void 0, false, void 0, void 0)
+                        }, void 0, false, {
+                            fileName: "App.js",
+                            lineNumber: 34,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "final",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _final.Final), {}, void 0, false, void 0, void 0)
+                        }, void 0, false, {
+                            fileName: "App.js",
+                            lineNumber: 35,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "sidebar",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sidebar.Sidebar), {}, void 0, false, void 0, void 0)
+                        }, void 0, false, {
+                            fileName: "App.js",
+                            lineNumber: 36,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "App.js",
+                    lineNumber: 29,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 28,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true);
+}
+exports.default = App;
+_c = App;
+var _c;
+$RefreshReg$(_c, "App");
+
+  $parcel$ReactRefreshHelpers$c1db.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","regenerator-runtime/runtime":"dXNgZ","react":"21dqq","./assets/global.css":"1hP5v","./components/Hello":"fZlyE","./components/ChatGPT":"41oow","./components/Nav":"bk2KG","react-router-dom":"9xmpe","./components/SignIn":"dXcMu","./components/SignOut":"f6LUR","./components/MedicalForm":"8hL4H","./components/Button":"9A4fb","./components/Optional":"h9n8f","./components/Final":"h2iZR","./components/Sidebar":"1tpOb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dXNgZ":[function(require,module,exports) {
+/**
+ * Copyright (c) 2014-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */ var runtime = function(exports) {
+    "use strict";
+    var Op = Object.prototype;
+    var hasOwn = Op.hasOwnProperty;
+    var defineProperty = Object.defineProperty || function(obj, key, desc) {
+        obj[key] = desc.value;
+    };
+    var undefined; // More compressible than void 0.
+    var $Symbol = typeof Symbol === "function" ? Symbol : {};
+    var iteratorSymbol = $Symbol.iterator || "@@iterator";
+    var asyncIteratorSymbol = $Symbol.asyncIterator || "@@asyncIterator";
+    var toStringTagSymbol = $Symbol.toStringTag || "@@toStringTag";
+    function define(obj, key, value) {
+        Object.defineProperty(obj, key, {
+            value: value,
+            enumerable: true,
+            configurable: true,
+            writable: true
+        });
+        return obj[key];
+    }
+    try {
+        // IE 8 has a broken Object.defineProperty that only works on DOM objects.
+        define({}, "");
+    } catch (err) {
+        define = function(obj, key, value) {
+            return obj[key] = value;
+        };
+    }
+    function wrap(innerFn, outerFn, self, tryLocsList) {
+        // If outerFn provided and outerFn.prototype is a Generator, then outerFn.prototype instanceof Generator.
+        var protoGenerator = outerFn && outerFn.prototype instanceof Generator ? outerFn : Generator;
+        var generator = Object.create(protoGenerator.prototype);
+        var context = new Context(tryLocsList || []);
+        // The ._invoke method unifies the implementations of the .next,
+        // .throw, and .return methods.
+        defineProperty(generator, "_invoke", {
+            value: makeInvokeMethod(innerFn, self, context)
+        });
+        return generator;
+    }
+    exports.wrap = wrap;
+    // Try/catch helper to minimize deoptimizations. Returns a completion
+    // record like context.tryEntries[i].completion. This interface could
+    // have been (and was previously) designed to take a closure to be
+    // invoked without arguments, but in all the cases we care about we
+    // already have an existing method we want to call, so there's no need
+    // to create a new function object. We can even get away with assuming
+    // the method takes exactly one argument, since that happens to be true
+    // in every case, so we don't have to touch the arguments object. The
+    // only additional allocation required is the completion record, which
+    // has a stable shape and so hopefully should be cheap to allocate.
+    function tryCatch(fn, obj, arg) {
+        try {
+            return {
+                type: "normal",
+                arg: fn.call(obj, arg)
+            };
+        } catch (err) {
+            return {
+                type: "throw",
+                arg: err
+            };
+        }
+    }
+    var GenStateSuspendedStart = "suspendedStart";
+    var GenStateSuspendedYield = "suspendedYield";
+    var GenStateExecuting = "executing";
+    var GenStateCompleted = "completed";
+    // Returning this object from the innerFn has the same effect as
+    // breaking out of the dispatch switch statement.
+    var ContinueSentinel = {};
+    // Dummy constructor functions that we use as the .constructor and
+    // .constructor.prototype properties for functions that return Generator
+    // objects. For full spec compliance, you may wish to configure your
+    // minifier not to mangle the names of these two functions.
+    function Generator() {}
+    function GeneratorFunction() {}
+    function GeneratorFunctionPrototype() {}
+    // This is a polyfill for %IteratorPrototype% for environments that
+    // don't natively support it.
+    var IteratorPrototype = {};
+    define(IteratorPrototype, iteratorSymbol, function() {
+        return this;
+    });
+    var getProto = Object.getPrototypeOf;
+    var NativeIteratorPrototype = getProto && getProto(getProto(values([])));
+    if (NativeIteratorPrototype && NativeIteratorPrototype !== Op && hasOwn.call(NativeIteratorPrototype, iteratorSymbol)) // This environment has a native %IteratorPrototype%; use it instead
+    // of the polyfill.
+    IteratorPrototype = NativeIteratorPrototype;
+    var Gp = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(IteratorPrototype);
+    GeneratorFunction.prototype = GeneratorFunctionPrototype;
+    defineProperty(Gp, "constructor", {
+        value: GeneratorFunctionPrototype,
+        configurable: true
+    });
+    defineProperty(GeneratorFunctionPrototype, "constructor", {
+        value: GeneratorFunction,
+        configurable: true
+    });
+    GeneratorFunction.displayName = define(GeneratorFunctionPrototype, toStringTagSymbol, "GeneratorFunction");
+    // Helper for defining the .next, .throw, and .return methods of the
+    // Iterator interface in terms of a single ._invoke method.
+    function defineIteratorMethods(prototype) {
+        [
+            "next",
+            "throw",
+            "return"
+        ].forEach(function(method) {
+            define(prototype, method, function(arg) {
+                return this._invoke(method, arg);
+            });
+        });
+    }
+    exports.isGeneratorFunction = function(genFun) {
+        var ctor = typeof genFun === "function" && genFun.constructor;
+        return ctor ? ctor === GeneratorFunction || // For the native GeneratorFunction constructor, the best we can
+        // do is to check its .name property.
+        (ctor.displayName || ctor.name) === "GeneratorFunction" : false;
+    };
+    exports.mark = function(genFun) {
+        if (Object.setPrototypeOf) Object.setPrototypeOf(genFun, GeneratorFunctionPrototype);
+        else {
+            genFun.__proto__ = GeneratorFunctionPrototype;
+            define(genFun, toStringTagSymbol, "GeneratorFunction");
+        }
+        genFun.prototype = Object.create(Gp);
+        return genFun;
+    };
+    // Within the body of any async function, `await x` is transformed to
+    // `yield regeneratorRuntime.awrap(x)`, so that the runtime can test
+    // `hasOwn.call(value, "__await")` to determine if the yielded value is
+    // meant to be awaited.
+    exports.awrap = function(arg) {
+        return {
+            __await: arg
+        };
+    };
+    function AsyncIterator(generator, PromiseImpl) {
+        function invoke(method, arg, resolve, reject) {
+            var record = tryCatch(generator[method], generator, arg);
+            if (record.type === "throw") reject(record.arg);
+            else {
+                var result = record.arg;
+                var value = result.value;
+                if (value && typeof value === "object" && hasOwn.call(value, "__await")) return PromiseImpl.resolve(value.__await).then(function(value) {
+                    invoke("next", value, resolve, reject);
+                }, function(err) {
+                    invoke("throw", err, resolve, reject);
+                });
+                return PromiseImpl.resolve(value).then(function(unwrapped) {
+                    // When a yielded Promise is resolved, its final value becomes
+                    // the .value of the Promise<{value,done}> result for the
+                    // current iteration.
+                    result.value = unwrapped;
+                    resolve(result);
+                }, function(error) {
+                    // If a rejected Promise was yielded, throw the rejection back
+                    // into the async generator function so it can be handled there.
+                    return invoke("throw", error, resolve, reject);
+                });
+            }
+        }
+        var previousPromise;
+        function enqueue(method, arg) {
+            function callInvokeWithMethodAndArg() {
+                return new PromiseImpl(function(resolve, reject) {
+                    invoke(method, arg, resolve, reject);
+                });
+            }
+            return previousPromise = // If enqueue has been called before, then we want to wait until
+            // all previous Promises have been resolved before calling invoke,
+            // so that results are always delivered in the correct order. If
+            // enqueue has not been called before, then it is important to
+            // call invoke immediately, without waiting on a callback to fire,
+            // so that the async generator function has the opportunity to do
+            // any necessary setup in a predictable way. This predictability
+            // is why the Promise constructor synchronously invokes its
+            // executor callback, and why async functions synchronously
+            // execute code before the first await. Since we implement simple
+            // async functions in terms of async generators, it is especially
+            // important to get this right, even though it requires care.
+            previousPromise ? previousPromise.then(callInvokeWithMethodAndArg, // Avoid propagating failures to Promises returned by later
+            // invocations of the iterator.
+            callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg();
+        }
+        // Define the unified helper method that is used to implement .next,
+        // .throw, and .return (see defineIteratorMethods).
+        defineProperty(this, "_invoke", {
+            value: enqueue
+        });
+    }
+    defineIteratorMethods(AsyncIterator.prototype);
+    define(AsyncIterator.prototype, asyncIteratorSymbol, function() {
+        return this;
+    });
+    exports.AsyncIterator = AsyncIterator;
+    // Note that simple async functions are implemented on top of
+    // AsyncIterator objects; they just return a Promise for the value of
+    // the final result produced by the iterator.
+    exports.async = function(innerFn, outerFn, self, tryLocsList, PromiseImpl) {
+        if (PromiseImpl === void 0) PromiseImpl = Promise;
+        var iter = new AsyncIterator(wrap(innerFn, outerFn, self, tryLocsList), PromiseImpl);
+        return exports.isGeneratorFunction(outerFn) ? iter // If outerFn is a generator, return the full iterator.
+         : iter.next().then(function(result) {
+            return result.done ? result.value : iter.next();
+        });
+    };
+    function makeInvokeMethod(innerFn, self, context) {
+        var state = GenStateSuspendedStart;
+        return function invoke(method, arg) {
+            if (state === GenStateExecuting) throw new Error("Generator is already running");
+            if (state === GenStateCompleted) {
+                if (method === "throw") throw arg;
+                // Be forgiving, per 25.3.3.3.3 of the spec:
+                // https://people.mozilla.org/~jorendorff/es6-draft.html#sec-generatorresume
+                return doneResult();
+            }
+            context.method = method;
+            context.arg = arg;
+            while(true){
+                var delegate = context.delegate;
+                if (delegate) {
+                    var delegateResult = maybeInvokeDelegate(delegate, context);
+                    if (delegateResult) {
+                        if (delegateResult === ContinueSentinel) continue;
+                        return delegateResult;
+                    }
+                }
+                if (context.method === "next") // Setting context._sent for legacy support of Babel's
+                // function.sent implementation.
+                context.sent = context._sent = context.arg;
+                else if (context.method === "throw") {
+                    if (state === GenStateSuspendedStart) {
+                        state = GenStateCompleted;
+                        throw context.arg;
+                    }
+                    context.dispatchException(context.arg);
+                } else if (context.method === "return") context.abrupt("return", context.arg);
+                state = GenStateExecuting;
+                var record = tryCatch(innerFn, self, context);
+                if (record.type === "normal") {
+                    // If an exception is thrown from innerFn, we leave state ===
+                    // GenStateExecuting and loop back for another invocation.
+                    state = context.done ? GenStateCompleted : GenStateSuspendedYield;
+                    if (record.arg === ContinueSentinel) continue;
+                    return {
+                        value: record.arg,
+                        done: context.done
+                    };
+                } else if (record.type === "throw") {
+                    state = GenStateCompleted;
+                    // Dispatch the exception by looping back around to the
+                    // context.dispatchException(context.arg) call above.
+                    context.method = "throw";
+                    context.arg = record.arg;
+                }
+            }
+        };
+    }
+    // Call delegate.iterator[context.method](context.arg) and handle the
+    // result, either by returning a { value, done } result from the
+    // delegate iterator, or by modifying context.method and context.arg,
+    // setting context.delegate to null, and returning the ContinueSentinel.
+    function maybeInvokeDelegate(delegate, context) {
+        var methodName = context.method;
+        var method = delegate.iterator[methodName];
+        if (method === undefined) {
+            // A .throw or .return when the delegate iterator has no .throw
+            // method, or a missing .next mehtod, always terminate the
+            // yield* loop.
+            context.delegate = null;
+            // Note: ["return"] must be used for ES3 parsing compatibility.
+            if (methodName === "throw" && delegate.iterator["return"]) {
+                // If the delegate iterator has a return method, give it a
+                // chance to clean up.
+                context.method = "return";
+                context.arg = undefined;
+                maybeInvokeDelegate(delegate, context);
+                if (context.method === "throw") // If maybeInvokeDelegate(context) changed context.method from
+                // "return" to "throw", let that override the TypeError below.
+                return ContinueSentinel;
+            }
+            if (methodName !== "return") {
+                context.method = "throw";
+                context.arg = new TypeError("The iterator does not provide a '" + methodName + "' method");
+            }
+            return ContinueSentinel;
+        }
+        var record = tryCatch(method, delegate.iterator, context.arg);
+        if (record.type === "throw") {
+            context.method = "throw";
+            context.arg = record.arg;
+            context.delegate = null;
+            return ContinueSentinel;
+        }
+        var info = record.arg;
+        if (!info) {
+            context.method = "throw";
+            context.arg = new TypeError("iterator result is not an object");
+            context.delegate = null;
+            return ContinueSentinel;
+        }
+        if (info.done) {
+            // Assign the result of the finished delegate to the temporary
+            // variable specified by delegate.resultName (see delegateYield).
+            context[delegate.resultName] = info.value;
+            // Resume execution at the desired location (see delegateYield).
+            context.next = delegate.nextLoc;
+            // If context.method was "throw" but the delegate handled the
+            // exception, let the outer generator proceed normally. If
+            // context.method was "next", forget context.arg since it has been
+            // "consumed" by the delegate iterator. If context.method was
+            // "return", allow the original .return call to continue in the
+            // outer generator.
+            if (context.method !== "return") {
+                context.method = "next";
+                context.arg = undefined;
+            }
+        } else // Re-yield the result returned by the delegate method.
+        return info;
+        // The delegate iterator is finished, so forget it and continue with
+        // the outer generator.
+        context.delegate = null;
+        return ContinueSentinel;
+    }
+    // Define Generator.prototype.{next,throw,return} in terms of the
+    // unified ._invoke helper method.
+    defineIteratorMethods(Gp);
+    define(Gp, toStringTagSymbol, "Generator");
+    // A Generator should always return itself as the iterator object when the
+    // @@iterator function is called on it. Some browsers' implementations of the
+    // iterator prototype chain incorrectly implement this, causing the Generator
+    // object to not be returned from this call. This ensures that doesn't happen.
+    // See https://github.com/facebook/regenerator/issues/274 for more details.
+    define(Gp, iteratorSymbol, function() {
+        return this;
+    });
+    define(Gp, "toString", function() {
+        return "[object Generator]";
+    });
+    function pushTryEntry(locs) {
+        var entry = {
+            tryLoc: locs[0]
+        };
+        if (1 in locs) entry.catchLoc = locs[1];
+        if (2 in locs) {
+            entry.finallyLoc = locs[2];
+            entry.afterLoc = locs[3];
+        }
+        this.tryEntries.push(entry);
+    }
+    function resetTryEntry(entry) {
+        var record = entry.completion || {};
+        record.type = "normal";
+        delete record.arg;
+        entry.completion = record;
+    }
+    function Context(tryLocsList) {
+        // The root entry object (effectively a try statement without a catch
+        // or a finally block) gives us a place to store values thrown from
+        // locations where there is no enclosing try statement.
+        this.tryEntries = [
+            {
+                tryLoc: "root"
+            }
+        ];
+        tryLocsList.forEach(pushTryEntry, this);
+        this.reset(true);
+    }
+    exports.keys = function(val) {
+        var object = Object(val);
+        var keys = [];
+        for(var key in object)keys.push(key);
+        keys.reverse();
+        // Rather than returning an object with a next method, we keep
+        // things simple and return the next function itself.
+        return function next() {
+            while(keys.length){
+                var key = keys.pop();
+                if (key in object) {
+                    next.value = key;
+                    next.done = false;
+                    return next;
+                }
+            }
+            // To avoid creating an additional object, we just hang the .value
+            // and .done properties off the next function object itself. This
+            // also ensures that the minifier will not anonymize the function.
+            next.done = true;
+            return next;
+        };
+    };
+    function values(iterable) {
+        if (iterable) {
+            var iteratorMethod = iterable[iteratorSymbol];
+            if (iteratorMethod) return iteratorMethod.call(iterable);
+            if (typeof iterable.next === "function") return iterable;
+            if (!isNaN(iterable.length)) {
+                var i = -1, next = function next() {
+                    while(++i < iterable.length)if (hasOwn.call(iterable, i)) {
+                        next.value = iterable[i];
+                        next.done = false;
+                        return next;
+                    }
+                    next.value = undefined;
+                    next.done = true;
+                    return next;
+                };
+                return next.next = next;
+            }
+        }
+        // Return an iterator with no values.
+        return {
+            next: doneResult
+        };
+    }
+    exports.values = values;
+    function doneResult() {
+        return {
+            value: undefined,
+            done: true
+        };
+    }
+    Context.prototype = {
+        constructor: Context,
+        reset: function(skipTempReset) {
+            this.prev = 0;
+            this.next = 0;
+            // Resetting context._sent for legacy support of Babel's
+            // function.sent implementation.
+            this.sent = this._sent = undefined;
+            this.done = false;
+            this.delegate = null;
+            this.method = "next";
+            this.arg = undefined;
+            this.tryEntries.forEach(resetTryEntry);
+            if (!skipTempReset) {
+                for(var name in this)// Not sure about the optimal order of these conditions:
+                if (name.charAt(0) === "t" && hasOwn.call(this, name) && !isNaN(+name.slice(1))) this[name] = undefined;
+            }
+        },
+        stop: function() {
+            this.done = true;
+            var rootEntry = this.tryEntries[0];
+            var rootRecord = rootEntry.completion;
+            if (rootRecord.type === "throw") throw rootRecord.arg;
+            return this.rval;
+        },
+        dispatchException: function(exception) {
+            if (this.done) throw exception;
+            var context = this;
+            function handle(loc, caught) {
+                record.type = "throw";
+                record.arg = exception;
+                context.next = loc;
+                if (caught) {
+                    // If the dispatched exception was caught by a catch block,
+                    // then let that catch block handle the exception normally.
+                    context.method = "next";
+                    context.arg = undefined;
+                }
+                return !!caught;
+            }
+            for(var i = this.tryEntries.length - 1; i >= 0; --i){
+                var entry = this.tryEntries[i];
+                var record = entry.completion;
+                if (entry.tryLoc === "root") // Exception thrown outside of any try block that could handle
+                // it, so set the completion value of the entire function to
+                // throw the exception.
+                return handle("end");
+                if (entry.tryLoc <= this.prev) {
+                    var hasCatch = hasOwn.call(entry, "catchLoc");
+                    var hasFinally = hasOwn.call(entry, "finallyLoc");
+                    if (hasCatch && hasFinally) {
+                        if (this.prev < entry.catchLoc) return handle(entry.catchLoc, true);
+                        else if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc);
+                    } else if (hasCatch) {
+                        if (this.prev < entry.catchLoc) return handle(entry.catchLoc, true);
+                    } else if (hasFinally) {
+                        if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc);
+                    } else throw new Error("try statement without catch or finally");
+                }
+            }
+        },
+        abrupt: function(type, arg) {
+            for(var i = this.tryEntries.length - 1; i >= 0; --i){
+                var entry = this.tryEntries[i];
+                if (entry.tryLoc <= this.prev && hasOwn.call(entry, "finallyLoc") && this.prev < entry.finallyLoc) {
+                    var finallyEntry = entry;
+                    break;
+                }
+            }
+            if (finallyEntry && (type === "break" || type === "continue") && finallyEntry.tryLoc <= arg && arg <= finallyEntry.finallyLoc) // Ignore the finally entry if control is not jumping to a
+            // location outside the try/catch block.
+            finallyEntry = null;
+            var record = finallyEntry ? finallyEntry.completion : {};
+            record.type = type;
+            record.arg = arg;
+            if (finallyEntry) {
+                this.method = "next";
+                this.next = finallyEntry.finallyLoc;
+                return ContinueSentinel;
+            }
+            return this.complete(record);
+        },
+        complete: function(record, afterLoc) {
+            if (record.type === "throw") throw record.arg;
+            if (record.type === "break" || record.type === "continue") this.next = record.arg;
+            else if (record.type === "return") {
+                this.rval = this.arg = record.arg;
+                this.method = "return";
+                this.next = "end";
+            } else if (record.type === "normal" && afterLoc) this.next = afterLoc;
+            return ContinueSentinel;
+        },
+        finish: function(finallyLoc) {
+            for(var i = this.tryEntries.length - 1; i >= 0; --i){
+                var entry = this.tryEntries[i];
+                if (entry.finallyLoc === finallyLoc) {
+                    this.complete(entry.completion, entry.afterLoc);
+                    resetTryEntry(entry);
+                    return ContinueSentinel;
+                }
+            }
+        },
+        "catch": function(tryLoc) {
+            for(var i = this.tryEntries.length - 1; i >= 0; --i){
+                var entry = this.tryEntries[i];
+                if (entry.tryLoc === tryLoc) {
+                    var record = entry.completion;
+                    if (record.type === "throw") {
+                        var thrown = record.arg;
+                        resetTryEntry(entry);
+                    }
+                    return thrown;
+                }
+            }
+            // The context.catch method must only be called with a location
+            // argument that corresponds to a known catch block.
+            throw new Error("illegal catch attempt");
+        },
+        delegateYield: function(iterable, resultName, nextLoc) {
+            this.delegate = {
+                iterator: values(iterable),
+                resultName: resultName,
+                nextLoc: nextLoc
+            };
+            if (this.method === "next") // Deliberately forget the last sent value so that we don't
+            // accidentally pass it on to the delegate.
+            this.arg = undefined;
+            return ContinueSentinel;
+        }
+    };
+    // Regardless of whether this script is executing as a CommonJS module
+    // or not, return the runtime object so that we can declare the variable
+    // regeneratorRuntime in the outer scope, which allows this module to be
+    // injected easily by `bin/regenerator --include-runtime script.js`.
+    return exports;
+}(// If this script is executing as a CommonJS module, use module.exports
+// as the regeneratorRuntime namespace. Otherwise create a new empty
+// object. Either way, the resulting object will be used to initialize
+// the regeneratorRuntime variable at the top of this file.
+(0, module.exports));
+try {
+    regeneratorRuntime = runtime;
+} catch (accidentalStrictMode) {
+    // This module should not be running in strict mode, so the above
+    // assignment should always work unless something is misconfigured. Just
+    // in case runtime.js accidentally runs in strict mode, in modern engines
+    // we can explicitly access globalThis. In older engines we can escape
+    // strict mode using a global Function call. This could conceivably fail
+    // if a Content Security Policy forbids using Function, but in that case
+    // the proper solution is to fix the accidental strict mode problem. If
+    // you've misconfigured your bundler to force strict mode and applied a
+    // CSP to forbid Function, and you're not willing to fix either of those
+    // problems, please detail your unique predicament in a GitHub issue.
+    if (typeof globalThis === "object") globalThis.regeneratorRuntime = runtime;
+    else Function("r", "regeneratorRuntime = r")(runtime);
+}
+
+},{}],"1hP5v":[function() {},{}],"fZlyE":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$1bc3 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$1bc3.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Hello", ()=>Hello);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
+const Hello = ()=>{
+    _s();
+    const navigate = (0, _reactRouterDom.useNavigate)();
+    navigate("/medical-history");
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: "Hello"
+    }, void 0, false, {
+        fileName: "components/Hello.jsx",
+        lineNumber: 8,
+        columnNumber: 5
+    }, undefined);
+};
+_s(Hello, "CzcTeTziyjMsSrAVmHuCCb6+Bfg=", false, function() {
+    return [
+        (0, _reactRouterDom.useNavigate)
+    ];
+});
+_c = Hello;
+var _c;
+$RefreshReg$(_c, "Hello");
+
+  $parcel$ReactRefreshHelpers$1bc3.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"9xmpe"}],"gkKU3":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}],"km3Ru":[function(require,module,exports) {
+"use strict";
+var Refresh = require("ac201cdd2dc952aa");
+function debounce(func, delay) {
+    {
+        let timeout = undefined;
+        let lastTime = 0;
+        return function(args) {
+            // Call immediately if last call was more than the delay ago.
+            // Otherwise, set a timeout. This means the first call is fast
+            // (for the common case of a single update), and subsequent updates
+            // are batched.
+            let now = Date.now();
+            if (now - lastTime > delay) {
+                lastTime = now;
+                func.call(null, args);
+            } else {
+                clearTimeout(timeout);
+                timeout = setTimeout(function() {
+                    timeout = undefined;
+                    lastTime = Date.now();
+                    func.call(null, args);
+                }, delay);
+            }
+        };
+    }
+}
+var enqueueUpdate = debounce(function() {
+    Refresh.performReactRefresh();
+}, 30); // Everthing below is either adapted or copied from
+// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
+// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
+module.exports.prelude = function(module1) {
+    window.$RefreshReg$ = function(type, id) {
+        Refresh.register(type, module1.id + " " + id);
+    };
+    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
+};
+module.exports.postlude = function(module1) {
+    if (isReactRefreshBoundary(module1.exports)) {
+        registerExportsForReactRefresh(module1);
+        if (module1.hot) {
+            module1.hot.dispose(function(data) {
+                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
+                data.prevExports = module1.exports;
+            });
+            module1.hot.accept(function(getParents) {
+                var prevExports = module1.hot.data.prevExports;
+                var nextExports = module1.exports; // Since we just executed the code for it, it's possible
+                // that the new exports make it ineligible for being a boundary.
+                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports); // It can also become ineligible if its exports are incompatible
+                // with the previous exports.
+                // For example, if you add/remove/change exports, we'll want
+                // to re-execute the importing modules, and force those components
+                // to re-render. Similarly, if you convert a class component
+                // to a function, we want to invalidate the boundary.
+                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
+                if (isNoLongerABoundary || didInvalidate) {
+                    // We'll be conservative. The only case in which we won't do a full
+                    // reload is if all parent modules are also refresh boundaries.
+                    // In that case we'll add them to the current queue.
+                    var parents = getParents();
+                    if (parents.length === 0) {
+                        // Looks like we bubbled to the root. Can't recover from that.
+                        window.location.reload();
+                        return;
+                    }
+                    return parents;
+                }
+                enqueueUpdate();
+            });
+        }
+    }
+};
+function isReactRefreshBoundary(exports) {
+    if (Refresh.isLikelyComponentType(exports)) return true;
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    return false;
+    var hasExports = false;
+    var areAllExportsComponents = true;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        hasExports = true;
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
+        return false;
+        var exportValue = exports[key];
+        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
+    }
+    return hasExports && areAllExportsComponents;
+}
+function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
+    var prevSignature = getRefreshBoundarySignature(prevExports);
+    var nextSignature = getRefreshBoundarySignature(nextExports);
+    if (prevSignature.length !== nextSignature.length) return true;
+    for(var i = 0; i < nextSignature.length; i++){
+        if (prevSignature[i] !== nextSignature[i]) return true;
+    }
+    return false;
+} // When this signature changes, it's unsafe to stop at this refresh boundary.
+function getRefreshBoundarySignature(exports) {
+    var signature = [];
+    signature.push(Refresh.getFamilyByType(exports));
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return signature;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        signature.push(key);
+        signature.push(Refresh.getFamilyByType(exportValue));
+    }
+    return signature;
+}
+function registerExportsForReactRefresh(module1) {
+    var exports = module1.exports, id = module1.id;
+    Refresh.register(exports, id + " %exports%");
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        Refresh.register(exportValue, id + " %exports% " + key);
+    }
+}
+
+},{"ac201cdd2dc952aa":"786KC"}],"9xmpe":[function(require,module,exports) {
+/**
+ * React Router DOM v6.11.2
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "AbortedDeferredError", ()=>(0, _reactRouter.AbortedDeferredError));
+parcelHelpers.export(exports, "Await", ()=>(0, _reactRouter.Await));
+parcelHelpers.export(exports, "MemoryRouter", ()=>(0, _reactRouter.MemoryRouter));
+parcelHelpers.export(exports, "Navigate", ()=>(0, _reactRouter.Navigate));
+parcelHelpers.export(exports, "NavigationType", ()=>(0, _reactRouter.NavigationType));
+parcelHelpers.export(exports, "Outlet", ()=>(0, _reactRouter.Outlet));
+parcelHelpers.export(exports, "Route", ()=>(0, _reactRouter.Route));
+parcelHelpers.export(exports, "Router", ()=>(0, _reactRouter.Router));
+parcelHelpers.export(exports, "RouterProvider", ()=>(0, _reactRouter.RouterProvider));
+parcelHelpers.export(exports, "Routes", ()=>(0, _reactRouter.Routes));
+parcelHelpers.export(exports, "UNSAFE_DataRouterContext", ()=>(0, _reactRouter.UNSAFE_DataRouterContext));
+parcelHelpers.export(exports, "UNSAFE_DataRouterStateContext", ()=>(0, _reactRouter.UNSAFE_DataRouterStateContext));
+parcelHelpers.export(exports, "UNSAFE_LocationContext", ()=>(0, _reactRouter.UNSAFE_LocationContext));
+parcelHelpers.export(exports, "UNSAFE_NavigationContext", ()=>(0, _reactRouter.UNSAFE_NavigationContext));
+parcelHelpers.export(exports, "UNSAFE_RouteContext", ()=>(0, _reactRouter.UNSAFE_RouteContext));
+parcelHelpers.export(exports, "UNSAFE_useRouteId", ()=>(0, _reactRouter.UNSAFE_useRouteId));
+parcelHelpers.export(exports, "createMemoryRouter", ()=>(0, _reactRouter.createMemoryRouter));
+parcelHelpers.export(exports, "createPath", ()=>(0, _reactRouter.createPath));
+parcelHelpers.export(exports, "createRoutesFromChildren", ()=>(0, _reactRouter.createRoutesFromChildren));
+parcelHelpers.export(exports, "createRoutesFromElements", ()=>(0, _reactRouter.createRoutesFromElements));
+parcelHelpers.export(exports, "defer", ()=>(0, _reactRouter.defer));
+parcelHelpers.export(exports, "generatePath", ()=>(0, _reactRouter.generatePath));
+parcelHelpers.export(exports, "isRouteErrorResponse", ()=>(0, _reactRouter.isRouteErrorResponse));
+parcelHelpers.export(exports, "json", ()=>(0, _reactRouter.json));
+parcelHelpers.export(exports, "matchPath", ()=>(0, _reactRouter.matchPath));
+parcelHelpers.export(exports, "matchRoutes", ()=>(0, _reactRouter.matchRoutes));
+parcelHelpers.export(exports, "parsePath", ()=>(0, _reactRouter.parsePath));
+parcelHelpers.export(exports, "redirect", ()=>(0, _reactRouter.redirect));
+parcelHelpers.export(exports, "renderMatches", ()=>(0, _reactRouter.renderMatches));
+parcelHelpers.export(exports, "resolvePath", ()=>(0, _reactRouter.resolvePath));
+parcelHelpers.export(exports, "unstable_useBlocker", ()=>(0, _reactRouter.unstable_useBlocker));
+parcelHelpers.export(exports, "useActionData", ()=>(0, _reactRouter.useActionData));
+parcelHelpers.export(exports, "useAsyncError", ()=>(0, _reactRouter.useAsyncError));
+parcelHelpers.export(exports, "useAsyncValue", ()=>(0, _reactRouter.useAsyncValue));
+parcelHelpers.export(exports, "useHref", ()=>(0, _reactRouter.useHref));
+parcelHelpers.export(exports, "useInRouterContext", ()=>(0, _reactRouter.useInRouterContext));
+parcelHelpers.export(exports, "useLoaderData", ()=>(0, _reactRouter.useLoaderData));
+parcelHelpers.export(exports, "useLocation", ()=>(0, _reactRouter.useLocation));
+parcelHelpers.export(exports, "useMatch", ()=>(0, _reactRouter.useMatch));
+parcelHelpers.export(exports, "useMatches", ()=>(0, _reactRouter.useMatches));
+parcelHelpers.export(exports, "useNavigate", ()=>(0, _reactRouter.useNavigate));
+parcelHelpers.export(exports, "useNavigation", ()=>(0, _reactRouter.useNavigation));
+parcelHelpers.export(exports, "useNavigationType", ()=>(0, _reactRouter.useNavigationType));
+parcelHelpers.export(exports, "useOutlet", ()=>(0, _reactRouter.useOutlet));
+parcelHelpers.export(exports, "useOutletContext", ()=>(0, _reactRouter.useOutletContext));
+parcelHelpers.export(exports, "useParams", ()=>(0, _reactRouter.useParams));
+parcelHelpers.export(exports, "useResolvedPath", ()=>(0, _reactRouter.useResolvedPath));
+parcelHelpers.export(exports, "useRevalidator", ()=>(0, _reactRouter.useRevalidator));
+parcelHelpers.export(exports, "useRouteError", ()=>(0, _reactRouter.useRouteError));
+parcelHelpers.export(exports, "useRouteLoaderData", ()=>(0, _reactRouter.useRouteLoaderData));
+parcelHelpers.export(exports, "useRoutes", ()=>(0, _reactRouter.useRoutes));
+//#endregion
+parcelHelpers.export(exports, "BrowserRouter", ()=>BrowserRouter);
+parcelHelpers.export(exports, "Form", ()=>Form);
+parcelHelpers.export(exports, "HashRouter", ()=>HashRouter);
+parcelHelpers.export(exports, "Link", ()=>Link);
+parcelHelpers.export(exports, "NavLink", ()=>NavLink);
+parcelHelpers.export(exports, "ScrollRestoration", ()=>ScrollRestoration);
+parcelHelpers.export(exports, "UNSAFE_useScrollRestoration", ()=>useScrollRestoration);
+parcelHelpers.export(exports, "createBrowserRouter", ()=>createBrowserRouter);
+parcelHelpers.export(exports, "createHashRouter", ()=>createHashRouter);
+parcelHelpers.export(exports, "createSearchParams", ()=>createSearchParams);
+parcelHelpers.export(exports, "unstable_HistoryRouter", ()=>HistoryRouter);
+parcelHelpers.export(exports, "unstable_usePrompt", ()=>usePrompt);
+parcelHelpers.export(exports, "useBeforeUnload", ()=>useBeforeUnload);
+parcelHelpers.export(exports, "useFetcher", ()=>useFetcher);
+parcelHelpers.export(exports, "useFetchers", ()=>useFetchers);
+parcelHelpers.export(exports, "useFormAction", ()=>useFormAction);
+parcelHelpers.export(exports, "useLinkClickHandler", ()=>useLinkClickHandler);
+parcelHelpers.export(exports, "useSearchParams", ()=>useSearchParams);
+parcelHelpers.export(exports, "useSubmit", ()=>useSubmit);
+var _react = require("react");
+var _reactRouter = require("react-router");
+var _router = require("@remix-run/router");
+function _extends() {
+    _extends = Object.assign ? Object.assign.bind() : function(target) {
+        for(var i = 1; i < arguments.length; i++){
+            var source = arguments[i];
+            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
+        }
+        return target;
+    };
+    return _extends.apply(this, arguments);
+}
+function _objectWithoutPropertiesLoose(source, excluded) {
+    if (source == null) return {};
+    var target = {};
+    var sourceKeys = Object.keys(source);
+    var key, i;
+    for(i = 0; i < sourceKeys.length; i++){
+        key = sourceKeys[i];
+        if (excluded.indexOf(key) >= 0) continue;
+        target[key] = source[key];
+    }
+    return target;
+}
+const defaultMethod = "get";
+const defaultEncType = "application/x-www-form-urlencoded";
+function isHtmlElement(object) {
+    return object != null && typeof object.tagName === "string";
+}
+function isButtonElement(object) {
+    return isHtmlElement(object) && object.tagName.toLowerCase() === "button";
+}
+function isFormElement(object) {
+    return isHtmlElement(object) && object.tagName.toLowerCase() === "form";
+}
+function isInputElement(object) {
+    return isHtmlElement(object) && object.tagName.toLowerCase() === "input";
+}
+function isModifiedEvent(event) {
+    return !!(event.metaKey || event.altKey || event.ctrlKey || event.shiftKey);
+}
+function shouldProcessLinkClick(event, target) {
+    return event.button === 0 && (!target || target === "_self") && // Let browser handle "target=_blank" etc.
+    !isModifiedEvent(event) // Ignore clicks with modifier keys
+    ;
+}
+/**
+ * Creates a URLSearchParams object using the given initializer.
+ *
+ * This is identical to `new URLSearchParams(init)` except it also
+ * supports arrays as values in the object form of the initializer
+ * instead of just strings. This is convenient when you need multiple
+ * values for a given key, but don't want to use an array initializer.
+ *
+ * For example, instead of:
+ *
+ *   let searchParams = new URLSearchParams([
+ *     ['sort', 'name'],
+ *     ['sort', 'price']
+ *   ]);
+ *
+ * you can do:
+ *
+ *   let searchParams = createSearchParams({
+ *     sort: ['name', 'price']
+ *   });
+ */ function createSearchParams(init) {
+    if (init === void 0) init = "";
+    return new URLSearchParams(typeof init === "string" || Array.isArray(init) || init instanceof URLSearchParams ? init : Object.keys(init).reduce((memo, key)=>{
+        let value = init[key];
+        return memo.concat(Array.isArray(value) ? value.map((v)=>[
+                key,
+                v
+            ]) : [
+            [
+                key,
+                value
+            ]
+        ]);
+    }, []));
+}
+function getSearchParamsForLocation(locationSearch, defaultSearchParams) {
+    let searchParams = createSearchParams(locationSearch);
+    if (defaultSearchParams) {
+        for (let key of defaultSearchParams.keys())if (!searchParams.has(key)) defaultSearchParams.getAll(key).forEach((value)=>{
+            searchParams.append(key, value);
+        });
+    }
+    return searchParams;
+}
+function getFormSubmissionInfo(target, options, basename) {
+    let method;
+    let action = null;
+    let encType;
+    let formData;
+    if (isFormElement(target)) {
+        let submissionTrigger = options.submissionTrigger;
+        if (options.action) action = options.action;
+        else {
+            // When grabbing the action from the element, it will have had the basename
+            // prefixed to ensure non-JS scenarios work, so strip it since we'll
+            // re-prefix in the router
+            let attr = target.getAttribute("action");
+            action = attr ? (0, _router.stripBasename)(attr, basename) : null;
+        }
+        method = options.method || target.getAttribute("method") || defaultMethod;
+        encType = options.encType || target.getAttribute("enctype") || defaultEncType;
+        formData = new FormData(target);
+        if (submissionTrigger && submissionTrigger.name) formData.append(submissionTrigger.name, submissionTrigger.value);
+    } else if (isButtonElement(target) || isInputElement(target) && (target.type === "submit" || target.type === "image")) {
+        let form = target.form;
+        if (form == null) throw new Error('Cannot submit a <button> or <input type="submit"> without a <form>');
+         // <button>/<input type="submit"> may override attributes of <form>
+        if (options.action) action = options.action;
+        else {
+            // When grabbing the action from the element, it will have had the basename
+            // prefixed to ensure non-JS scenarios work, so strip it since we'll
+            // re-prefix in the router
+            let attr = target.getAttribute("formaction") || form.getAttribute("action");
+            action = attr ? (0, _router.stripBasename)(attr, basename) : null;
+        }
+        method = options.method || target.getAttribute("formmethod") || form.getAttribute("method") || defaultMethod;
+        encType = options.encType || target.getAttribute("formenctype") || form.getAttribute("enctype") || defaultEncType;
+        formData = new FormData(form); // Include name + value from a <button>, appending in case the button name
+        // matches an existing input name
+        if (target.name) formData.append(target.name, target.value);
+    } else if (isHtmlElement(target)) throw new Error('Cannot submit element that is not <form>, <button>, or <input type="submit|image">');
+    else {
+        method = options.method || defaultMethod;
+        action = options.action || null;
+        encType = options.encType || defaultEncType;
+        if (target instanceof FormData) formData = target;
+        else {
+            formData = new FormData();
+            if (target instanceof URLSearchParams) for (let [name, value] of target)formData.append(name, value);
+            else if (target != null) for (let name of Object.keys(target))formData.append(name, target[name]);
+        }
+    }
+    return {
+        action,
+        method: method.toLowerCase(),
+        encType,
+        formData
+    };
+}
+const _excluded = [
+    "onClick",
+    "relative",
+    "reloadDocument",
+    "replace",
+    "state",
+    "target",
+    "to",
+    "preventScrollReset"
+], _excluded2 = [
+    "aria-current",
+    "caseSensitive",
+    "className",
+    "end",
+    "style",
+    "to",
+    "children"
+], _excluded3 = [
+    "reloadDocument",
+    "replace",
+    "method",
+    "action",
+    "onSubmit",
+    "fetcherKey",
+    "routeId",
+    "relative",
+    "preventScrollReset"
+];
+function createBrowserRouter(routes, opts) {
+    return (0, _router.createRouter)({
+        basename: opts == null ? void 0 : opts.basename,
+        future: _extends({}, opts == null ? void 0 : opts.future, {
+            v7_prependBasename: true
+        }),
+        history: (0, _router.createBrowserHistory)({
+            window: opts == null ? void 0 : opts.window
+        }),
+        hydrationData: (opts == null ? void 0 : opts.hydrationData) || parseHydrationData(),
+        routes,
+        mapRouteProperties: (0, _reactRouter.UNSAFE_mapRouteProperties)
+    }).initialize();
+}
+function createHashRouter(routes, opts) {
+    return (0, _router.createRouter)({
+        basename: opts == null ? void 0 : opts.basename,
+        future: _extends({}, opts == null ? void 0 : opts.future, {
+            v7_prependBasename: true
+        }),
+        history: (0, _router.createHashHistory)({
+            window: opts == null ? void 0 : opts.window
+        }),
+        hydrationData: (opts == null ? void 0 : opts.hydrationData) || parseHydrationData(),
+        routes,
+        mapRouteProperties: (0, _reactRouter.UNSAFE_mapRouteProperties)
+    }).initialize();
+}
+function parseHydrationData() {
+    var _window;
+    let state = (_window = window) == null ? void 0 : _window.__staticRouterHydrationData;
+    if (state && state.errors) state = _extends({}, state, {
+        errors: deserializeErrors(state.errors)
+    });
+    return state;
+}
+function deserializeErrors(errors) {
+    if (!errors) return null;
+    let entries = Object.entries(errors);
+    let serialized = {};
+    for (let [key, val] of entries){
+        // Hey you!  If you change this, please change the corresponding logic in
+        // serializeErrors in react-router-dom/server.tsx :)
+        if (val && val.__type === "RouteErrorResponse") serialized[key] = new (0, _router.ErrorResponse)(val.status, val.statusText, val.data, val.internal === true);
+        else if (val && val.__type === "Error") {
+            let error = new Error(val.message); // Wipe away the client-side stack trace.  Nothing to fill it in with
+            // because we don't serialize SSR stack traces for security reasons
+            error.stack = "";
+            serialized[key] = error;
+        } else serialized[key] = val;
+    }
+    return serialized;
+}
+/**
+ * A `<Router>` for use in web browsers. Provides the cleanest URLs.
+ */ function BrowserRouter(_ref) {
+    let { basename , children , window: window1  } = _ref;
+    let historyRef = _react.useRef();
+    if (historyRef.current == null) historyRef.current = (0, _router.createBrowserHistory)({
+        window: window1,
+        v5Compat: true
+    });
+    let history = historyRef.current;
+    let [state, setState] = _react.useState({
+        action: history.action,
+        location: history.location
+    });
+    _react.useLayoutEffect(()=>history.listen(setState), [
+        history
+    ]);
+    return /*#__PURE__*/ _react.createElement((0, _reactRouter.Router), {
+        basename: basename,
+        children: children,
+        location: state.location,
+        navigationType: state.action,
+        navigator: history
+    });
+}
+/**
+ * A `<Router>` for use in web browsers. Stores the location in the hash
+ * portion of the URL so it is not sent to the server.
+ */ function HashRouter(_ref2) {
+    let { basename , children , window: window1  } = _ref2;
+    let historyRef = _react.useRef();
+    if (historyRef.current == null) historyRef.current = (0, _router.createHashHistory)({
+        window: window1,
+        v5Compat: true
+    });
+    let history = historyRef.current;
+    let [state, setState] = _react.useState({
+        action: history.action,
+        location: history.location
+    });
+    _react.useLayoutEffect(()=>history.listen(setState), [
+        history
+    ]);
+    return /*#__PURE__*/ _react.createElement((0, _reactRouter.Router), {
+        basename: basename,
+        children: children,
+        location: state.location,
+        navigationType: state.action,
+        navigator: history
+    });
+}
+/**
+ * A `<Router>` that accepts a pre-instantiated history object. It's important
+ * to note that using your own history object is highly discouraged and may add
+ * two versions of the history library to your bundles unless you use the same
+ * version of the history library that React Router uses internally.
+ */ function HistoryRouter(_ref3) {
+    let { basename , children , history  } = _ref3;
+    const [state, setState] = _react.useState({
+        action: history.action,
+        location: history.location
+    });
+    _react.useLayoutEffect(()=>history.listen(setState), [
+        history
+    ]);
+    return /*#__PURE__*/ _react.createElement((0, _reactRouter.Router), {
+        basename: basename,
+        children: children,
+        location: state.location,
+        navigationType: state.action,
+        navigator: history
+    });
+}
+HistoryRouter.displayName = "unstable_HistoryRouter";
+const isBrowser = typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined";
+const ABSOLUTE_URL_REGEX = /^(?:[a-z][a-z0-9+.-]*:|\/\/)/i;
+/**
+ * The public API for rendering a history-aware <a>.
+ */ const Link = /*#__PURE__*/ _react.forwardRef(function LinkWithRef(_ref4, ref) {
+    let { onClick , relative , reloadDocument , replace , state , target , to , preventScrollReset  } = _ref4, rest = _objectWithoutPropertiesLoose(_ref4, _excluded);
+    let { basename  } = _react.useContext((0, _reactRouter.UNSAFE_NavigationContext)); // Rendered into <a href> for absolute URLs
+    let absoluteHref;
+    let isExternal = false;
+    if (typeof to === "string" && ABSOLUTE_URL_REGEX.test(to)) {
+        // Render the absolute href server- and client-side
+        absoluteHref = to; // Only check for external origins client-side
+        if (isBrowser) try {
+            let currentUrl = new URL(window.location.href);
+            let targetUrl = to.startsWith("//") ? new URL(currentUrl.protocol + to) : new URL(to);
+            let path = (0, _router.stripBasename)(targetUrl.pathname, basename);
+            if (targetUrl.origin === currentUrl.origin && path != null) // Strip the protocol/origin/basename for same-origin absolute URLs
+            to = path + targetUrl.search + targetUrl.hash;
+            else isExternal = true;
+        } catch (e) {
+            (0, _router.UNSAFE_warning)(false, '<Link to="' + to + '"> contains an invalid URL which will probably break ' + "when clicked - please update to a valid URL path.");
+        }
+    } // Rendered into <a href> for relative URLs
+    let href = (0, _reactRouter.useHref)(to, {
+        relative
+    });
+    let internalOnClick = useLinkClickHandler(to, {
+        replace,
+        state,
+        target,
+        preventScrollReset,
+        relative
+    });
+    function handleClick(event) {
+        if (onClick) onClick(event);
+        if (!event.defaultPrevented) internalOnClick(event);
+    }
+    return(/*#__PURE__*/ // eslint-disable-next-line jsx-a11y/anchor-has-content
+    _react.createElement("a", _extends({}, rest, {
+        href: absoluteHref || href,
+        onClick: isExternal || reloadDocument ? onClick : handleClick,
+        ref: ref,
+        target: target
+    })));
+});
+Link.displayName = "Link";
+/**
+ * A <Link> wrapper that knows if it's "active" or not.
+ */ const NavLink = /*#__PURE__*/ _react.forwardRef(function NavLinkWithRef(_ref5, ref) {
+    let { "aria-current": ariaCurrentProp = "page" , caseSensitive =false , className: classNameProp = "" , end =false , style: styleProp , to , children  } = _ref5, rest = _objectWithoutPropertiesLoose(_ref5, _excluded2);
+    let path = (0, _reactRouter.useResolvedPath)(to, {
+        relative: rest.relative
+    });
+    let location = (0, _reactRouter.useLocation)();
+    let routerState = _react.useContext((0, _reactRouter.UNSAFE_DataRouterStateContext));
+    let { navigator  } = _react.useContext((0, _reactRouter.UNSAFE_NavigationContext));
+    let toPathname = navigator.encodeLocation ? navigator.encodeLocation(path).pathname : path.pathname;
+    let locationPathname = location.pathname;
+    let nextLocationPathname = routerState && routerState.navigation && routerState.navigation.location ? routerState.navigation.location.pathname : null;
+    if (!caseSensitive) {
+        locationPathname = locationPathname.toLowerCase();
+        nextLocationPathname = nextLocationPathname ? nextLocationPathname.toLowerCase() : null;
+        toPathname = toPathname.toLowerCase();
+    }
+    let isActive = locationPathname === toPathname || !end && locationPathname.startsWith(toPathname) && locationPathname.charAt(toPathname.length) === "/";
+    let isPending = nextLocationPathname != null && (nextLocationPathname === toPathname || !end && nextLocationPathname.startsWith(toPathname) && nextLocationPathname.charAt(toPathname.length) === "/");
+    let ariaCurrent = isActive ? ariaCurrentProp : undefined;
+    let className;
+    if (typeof classNameProp === "function") className = classNameProp({
+        isActive,
+        isPending
+    });
+    else // If the className prop is not a function, we use a default `active`
+    // class for <NavLink />s that are active. In v5 `active` was the default
+    // value for `activeClassName`, but we are removing that API and can still
+    // use the old default behavior for a cleaner upgrade path and keep the
+    // simple styling rules working as they currently do.
+    className = [
+        classNameProp,
+        isActive ? "active" : null,
+        isPending ? "pending" : null
+    ].filter(Boolean).join(" ");
+    let style = typeof styleProp === "function" ? styleProp({
+        isActive,
+        isPending
+    }) : styleProp;
+    return /*#__PURE__*/ _react.createElement(Link, _extends({}, rest, {
+        "aria-current": ariaCurrent,
+        className: className,
+        ref: ref,
+        style: style,
+        to: to
+    }), typeof children === "function" ? children({
+        isActive,
+        isPending
+    }) : children);
+});
+NavLink.displayName = "NavLink";
+/**
+ * A `@remix-run/router`-aware `<form>`. It behaves like a normal form except
+ * that the interaction with the server is with `fetch` instead of new document
+ * requests, allowing components to add nicer UX to the page as the form is
+ * submitted and returns with data.
+ */ const Form = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
+    return /*#__PURE__*/ _react.createElement(FormImpl, _extends({}, props, {
+        ref: ref
+    }));
+});
+Form.displayName = "Form";
+const FormImpl = /*#__PURE__*/ _react.forwardRef((_ref6, forwardedRef)=>{
+    let { reloadDocument , replace , method =defaultMethod , action , onSubmit , fetcherKey , routeId , relative , preventScrollReset  } = _ref6, props = _objectWithoutPropertiesLoose(_ref6, _excluded3);
+    let submit = useSubmitImpl(fetcherKey, routeId);
+    let formMethod = method.toLowerCase() === "get" ? "get" : "post";
+    let formAction = useFormAction(action, {
+        relative
+    });
+    let submitHandler = (event)=>{
+        onSubmit && onSubmit(event);
+        if (event.defaultPrevented) return;
+        event.preventDefault();
+        let submitter = event.nativeEvent.submitter;
+        let submitMethod = (submitter == null ? void 0 : submitter.getAttribute("formmethod")) || method;
+        submit(submitter || event.currentTarget, {
+            method: submitMethod,
+            replace,
+            relative,
+            preventScrollReset
+        });
+    };
+    return /*#__PURE__*/ _react.createElement("form", _extends({
+        ref: forwardedRef,
+        method: formMethod,
+        action: formAction,
+        onSubmit: reloadDocument ? onSubmit : submitHandler
+    }, props));
+});
+FormImpl.displayName = "FormImpl";
+/**
+ * This component will emulate the browser's scroll restoration on location
+ * changes.
+ */ function ScrollRestoration(_ref7) {
+    let { getKey , storageKey  } = _ref7;
+    useScrollRestoration({
+        getKey,
+        storageKey
+    });
+    return null;
+}
+ScrollRestoration.displayName = "ScrollRestoration";
+////////////////////////////////////////////////////////////////////////////////
+//#region Hooks
+////////////////////////////////////////////////////////////////////////////////
+var DataRouterHook;
+(function(DataRouterHook) {
+    DataRouterHook["UseScrollRestoration"] = "useScrollRestoration";
+    DataRouterHook["UseSubmitImpl"] = "useSubmitImpl";
+    DataRouterHook["UseFetcher"] = "useFetcher";
+})(DataRouterHook || (DataRouterHook = {}));
+var DataRouterStateHook;
+(function(DataRouterStateHook) {
+    DataRouterStateHook["UseFetchers"] = "useFetchers";
+    DataRouterStateHook["UseScrollRestoration"] = "useScrollRestoration";
+})(DataRouterStateHook || (DataRouterStateHook = {}));
+function getDataRouterConsoleError(hookName) {
+    return hookName + " must be used within a data router.  See https://reactrouter.com/routers/picking-a-router.";
+}
+function useDataRouterContext(hookName) {
+    let ctx = _react.useContext((0, _reactRouter.UNSAFE_DataRouterContext));
+    !ctx && (0, _router.UNSAFE_invariant)(false, getDataRouterConsoleError(hookName));
+    return ctx;
+}
+function useDataRouterState(hookName) {
+    let state = _react.useContext((0, _reactRouter.UNSAFE_DataRouterStateContext));
+    !state && (0, _router.UNSAFE_invariant)(false, getDataRouterConsoleError(hookName));
+    return state;
+}
+/**
+ * Handles the click behavior for router `<Link>` components. This is useful if
+ * you need to create custom `<Link>` components with the same click behavior we
+ * use in our exported `<Link>`.
+ */ function useLinkClickHandler(to, _temp) {
+    let { target , replace: replaceProp , state , preventScrollReset , relative  } = _temp === void 0 ? {} : _temp;
+    let navigate = (0, _reactRouter.useNavigate)();
+    let location = (0, _reactRouter.useLocation)();
+    let path = (0, _reactRouter.useResolvedPath)(to, {
+        relative
+    });
+    return _react.useCallback((event)=>{
+        if (shouldProcessLinkClick(event, target)) {
+            event.preventDefault(); // If the URL hasn't changed, a regular <a> will do a replace instead of
+            // a push, so do the same here unless the replace prop is explicitly set
+            let replace = replaceProp !== undefined ? replaceProp : (0, _reactRouter.createPath)(location) === (0, _reactRouter.createPath)(path);
+            navigate(to, {
+                replace,
+                state,
+                preventScrollReset,
+                relative
+            });
+        }
+    }, [
+        location,
+        navigate,
+        path,
+        replaceProp,
+        state,
+        target,
+        to,
+        preventScrollReset,
+        relative
+    ]);
+}
+/**
+ * A convenient wrapper for reading and writing search parameters via the
+ * URLSearchParams interface.
+ */ function useSearchParams(defaultInit) {
+    (0, _router.UNSAFE_warning)(typeof URLSearchParams !== "undefined", "You cannot use the `useSearchParams` hook in a browser that does not support the URLSearchParams API. If you need to support Internet Explorer 11, we recommend you load a polyfill such as https://github.com/ungap/url-search-params\n\nIf you're unsure how to load polyfills, we recommend you check out https://polyfill.io/v3/ which provides some recommendations about how to load polyfills only for users that need them, instead of for every user.");
+    let defaultSearchParamsRef = _react.useRef(createSearchParams(defaultInit));
+    let hasSetSearchParamsRef = _react.useRef(false);
+    let location = (0, _reactRouter.useLocation)();
+    let searchParams = _react.useMemo(()=>// Once we call that we want those to take precedence, otherwise you can't
+        // remove a param with setSearchParams({}) if it has an initial value
+        getSearchParamsForLocation(location.search, hasSetSearchParamsRef.current ? null : defaultSearchParamsRef.current), [
+        location.search
+    ]);
+    let navigate = (0, _reactRouter.useNavigate)();
+    let setSearchParams = _react.useCallback((nextInit, navigateOptions)=>{
+        const newSearchParams = createSearchParams(typeof nextInit === "function" ? nextInit(searchParams) : nextInit);
+        hasSetSearchParamsRef.current = true;
+        navigate("?" + newSearchParams, navigateOptions);
+    }, [
+        navigate,
+        searchParams
+    ]);
+    return [
+        searchParams,
+        setSearchParams
+    ];
+}
+/**
+ * Returns a function that may be used to programmatically submit a form (or
+ * some arbitrary data) to the server.
+ */ function useSubmit() {
+    return useSubmitImpl();
+}
+function useSubmitImpl(fetcherKey, fetcherRouteId) {
+    let { router  } = useDataRouterContext(DataRouterHook.UseSubmitImpl);
+    let { basename  } = _react.useContext((0, _reactRouter.UNSAFE_NavigationContext));
+    let currentRouteId = (0, _reactRouter.UNSAFE_useRouteId)();
+    return _react.useCallback(function(target, options) {
+        if (options === void 0) options = {};
+        if (typeof document === "undefined") throw new Error("You are calling submit during the server render. Try calling submit within a `useEffect` or callback instead.");
+        let { action , method , encType , formData  } = getFormSubmissionInfo(target, options, basename); // Base options shared between fetch() and navigate()
+        let opts = {
+            preventScrollReset: options.preventScrollReset,
+            formData,
+            formMethod: method,
+            formEncType: encType
+        };
+        if (fetcherKey) {
+            !(fetcherRouteId != null) && (0, _router.UNSAFE_invariant)(false, "No routeId available for useFetcher()");
+            router.fetch(fetcherKey, fetcherRouteId, action, opts);
+        } else router.navigate(action, _extends({}, opts, {
+            replace: options.replace,
+            fromRouteId: currentRouteId
+        }));
+    }, [
+        router,
+        basename,
+        fetcherKey,
+        fetcherRouteId,
+        currentRouteId
+    ]);
+} // v7: Eventually we should deprecate this entirely in favor of using the
+// router method directly?
+function useFormAction(action, _temp2) {
+    let { relative  } = _temp2 === void 0 ? {} : _temp2;
+    let { basename  } = _react.useContext((0, _reactRouter.UNSAFE_NavigationContext));
+    let routeContext = _react.useContext((0, _reactRouter.UNSAFE_RouteContext));
+    !routeContext && (0, _router.UNSAFE_invariant)(false, "useFormAction must be used inside a RouteContext");
+    let [match] = routeContext.matches.slice(-1); // Shallow clone path so we can modify it below, otherwise we modify the
+    // object referenced by useMemo inside useResolvedPath
+    let path = _extends({}, (0, _reactRouter.useResolvedPath)(action ? action : ".", {
+        relative
+    })); // Previously we set the default action to ".". The problem with this is that
+    // `useResolvedPath(".")` excludes search params and the hash of the resolved
+    // URL. This is the intended behavior of when "." is specifically provided as
+    // the form action, but inconsistent w/ browsers when the action is omitted.
+    // https://github.com/remix-run/remix/issues/927
+    let location = (0, _reactRouter.useLocation)();
+    if (action == null) {
+        // Safe to write to these directly here since if action was undefined, we
+        // would have called useResolvedPath(".") which will never include a search
+        // or hash
+        path.search = location.search;
+        path.hash = location.hash; // When grabbing search params from the URL, remove the automatically
+        // inserted ?index param so we match the useResolvedPath search behavior
+        // which would not include ?index
+        if (match.route.index) {
+            let params = new URLSearchParams(path.search);
+            params.delete("index");
+            path.search = params.toString() ? "?" + params.toString() : "";
+        }
+    }
+    if ((!action || action === ".") && match.route.index) path.search = path.search ? path.search.replace(/^\?/, "?index&") : "?index";
+     // If we're operating within a basename, prepend it to the pathname prior
+    // to creating the form action.  If this is a root navigation, then just use
+    // the raw basename which allows the basename to have full control over the
+    // presence of a trailing slash on root actions
+    if (basename !== "/") path.pathname = path.pathname === "/" ? basename : (0, _router.joinPaths)([
+        basename,
+        path.pathname
+    ]);
+    return (0, _reactRouter.createPath)(path);
+}
+function createFetcherForm(fetcherKey, routeId) {
+    let FetcherForm = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
+        return /*#__PURE__*/ _react.createElement(FormImpl, _extends({}, props, {
+            ref: ref,
+            fetcherKey: fetcherKey,
+            routeId: routeId
+        }));
+    });
+    FetcherForm.displayName = "fetcher.Form";
+    return FetcherForm;
+}
+let fetcherId = 0;
+/**
+ * Interacts with route loaders and actions without causing a navigation. Great
+ * for any interaction that stays on the same page.
+ */ function useFetcher() {
+    var _route$matches;
+    let { router  } = useDataRouterContext(DataRouterHook.UseFetcher);
+    let route = _react.useContext((0, _reactRouter.UNSAFE_RouteContext));
+    !route && (0, _router.UNSAFE_invariant)(false, "useFetcher must be used inside a RouteContext");
+    let routeId = (_route$matches = route.matches[route.matches.length - 1]) == null ? void 0 : _route$matches.route.id;
+    !(routeId != null) && (0, _router.UNSAFE_invariant)(false, 'useFetcher can only be used on routes that contain a unique "id"');
+    let [fetcherKey] = _react.useState(()=>String(++fetcherId));
+    let [Form] = _react.useState(()=>{
+        !routeId && (0, _router.UNSAFE_invariant)(false, "No routeId available for fetcher.Form()");
+        return createFetcherForm(fetcherKey, routeId);
+    });
+    let [load] = _react.useState(()=>(href)=>{
+            !router && (0, _router.UNSAFE_invariant)(false, "No router available for fetcher.load()");
+            !routeId && (0, _router.UNSAFE_invariant)(false, "No routeId available for fetcher.load()");
+            router.fetch(fetcherKey, routeId, href);
+        });
+    let submit = useSubmitImpl(fetcherKey, routeId);
+    let fetcher = router.getFetcher(fetcherKey);
+    let fetcherWithComponents = _react.useMemo(()=>_extends({
+            Form,
+            submit,
+            load
+        }, fetcher), [
+        fetcher,
+        Form,
+        submit,
+        load
+    ]);
+    _react.useEffect(()=>{
+        // Is this busted when the React team gets real weird and calls effects
+        // twice on mount?  We really just need to garbage collect here when this
+        // fetcher is no longer around.
+        return ()=>{
+            if (!router) {
+                console.warn("No router available to clean up from useFetcher()");
+                return;
+            }
+            router.deleteFetcher(fetcherKey);
+        };
+    }, [
+        router,
+        fetcherKey
+    ]);
+    return fetcherWithComponents;
+}
+/**
+ * Provides all fetchers currently on the page. Useful for layouts and parent
+ * routes that need to provide pending/optimistic UI regarding the fetch.
+ */ function useFetchers() {
+    let state = useDataRouterState(DataRouterStateHook.UseFetchers);
+    return [
+        ...state.fetchers.values()
+    ];
+}
+const SCROLL_RESTORATION_STORAGE_KEY = "react-router-scroll-positions";
+let savedScrollPositions = {};
+/**
+ * When rendered inside a RouterProvider, will restore scroll positions on navigations
+ */ function useScrollRestoration(_temp3) {
+    let { getKey , storageKey  } = _temp3 === void 0 ? {} : _temp3;
+    let { router  } = useDataRouterContext(DataRouterHook.UseScrollRestoration);
+    let { restoreScrollPosition , preventScrollReset  } = useDataRouterState(DataRouterStateHook.UseScrollRestoration);
+    let location = (0, _reactRouter.useLocation)();
+    let matches = (0, _reactRouter.useMatches)();
+    let navigation = (0, _reactRouter.useNavigation)(); // Trigger manual scroll restoration while we're active
+    _react.useEffect(()=>{
+        window.history.scrollRestoration = "manual";
+        return ()=>{
+            window.history.scrollRestoration = "auto";
+        };
+    }, []); // Save positions on pagehide
+    usePageHide(_react.useCallback(()=>{
+        if (navigation.state === "idle") {
+            let key = (getKey ? getKey(location, matches) : null) || location.key;
+            savedScrollPositions[key] = window.scrollY;
+        }
+        sessionStorage.setItem(storageKey || SCROLL_RESTORATION_STORAGE_KEY, JSON.stringify(savedScrollPositions));
+        window.history.scrollRestoration = "auto";
+    }, [
+        storageKey,
+        getKey,
+        navigation.state,
+        location,
+        matches
+    ])); // Read in any saved scroll locations
+    if (typeof document !== "undefined") {
+        // eslint-disable-next-line react-hooks/rules-of-hooks
+        _react.useLayoutEffect(()=>{
+            try {
+                let sessionPositions = sessionStorage.getItem(storageKey || SCROLL_RESTORATION_STORAGE_KEY);
+                if (sessionPositions) savedScrollPositions = JSON.parse(sessionPositions);
+            } catch (e) {}
+        }, [
+            storageKey
+        ]); // Enable scroll restoration in the router
+        // eslint-disable-next-line react-hooks/rules-of-hooks
+        _react.useLayoutEffect(()=>{
+            let disableScrollRestoration = router == null ? void 0 : router.enableScrollRestoration(savedScrollPositions, ()=>window.scrollY, getKey);
+            return ()=>disableScrollRestoration && disableScrollRestoration();
+        }, [
+            router,
+            getKey
+        ]); // Restore scrolling when state.restoreScrollPosition changes
+        // eslint-disable-next-line react-hooks/rules-of-hooks
+        _react.useLayoutEffect(()=>{
+            // Explicit false means don't do anything (used for submissions)
+            if (restoreScrollPosition === false) return;
+             // been here before, scroll to it
+            if (typeof restoreScrollPosition === "number") {
+                window.scrollTo(0, restoreScrollPosition);
+                return;
+            } // try to scroll to the hash
+            if (location.hash) {
+                let el = document.getElementById(location.hash.slice(1));
+                if (el) {
+                    el.scrollIntoView();
+                    return;
+                }
+            } // Don't reset if this navigation opted out
+            if (preventScrollReset === true) return;
+             // otherwise go to the top on new locations
+            window.scrollTo(0, 0);
+        }, [
+            location,
+            restoreScrollPosition,
+            preventScrollReset
+        ]);
+    }
+}
+/**
+ * Setup a callback to be fired on the window's `beforeunload` event. This is
+ * useful for saving some data to `window.localStorage` just before the page
+ * refreshes.
+ *
+ * Note: The `callback` argument should be a function created with
+ * `React.useCallback()`.
+ */ function useBeforeUnload(callback, options) {
+    let { capture  } = options || {};
+    _react.useEffect(()=>{
+        let opts = capture != null ? {
+            capture
+        } : undefined;
+        window.addEventListener("beforeunload", callback, opts);
+        return ()=>{
+            window.removeEventListener("beforeunload", callback, opts);
+        };
+    }, [
+        callback,
+        capture
+    ]);
+}
+/**
+ * Setup a callback to be fired on the window's `pagehide` event. This is
+ * useful for saving some data to `window.localStorage` just before the page
+ * refreshes.  This event is better supported than beforeunload across browsers.
+ *
+ * Note: The `callback` argument should be a function created with
+ * `React.useCallback()`.
+ */ function usePageHide(callback, options) {
+    let { capture  } = options || {};
+    _react.useEffect(()=>{
+        let opts = capture != null ? {
+            capture
+        } : undefined;
+        window.addEventListener("pagehide", callback, opts);
+        return ()=>{
+            window.removeEventListener("pagehide", callback, opts);
+        };
+    }, [
+        callback,
+        capture
+    ]);
+}
+/**
+ * Wrapper around useBlocker to show a window.confirm prompt to users instead
+ * of building a custom UI with useBlocker.
+ *
+ * Warning: This has *a lot of rough edges* and behaves very differently (and
+ * very incorrectly in some cases) across browsers if user click addition
+ * back/forward navigations while the confirm is open.  Use at your own risk.
+ */ function usePrompt(_ref8) {
+    let { when , message  } = _ref8;
+    let blocker = (0, _reactRouter.unstable_useBlocker)(when);
+    _react.useEffect(()=>{
+        if (blocker.state === "blocked" && !when) blocker.reset();
+    }, [
+        blocker,
+        when
+    ]);
+    _react.useEffect(()=>{
+        if (blocker.state === "blocked") {
+            let proceed = window.confirm(message);
+            if (proceed) setTimeout(blocker.proceed, 0);
+            else blocker.reset();
+        }
+    }, [
+        blocker,
+        message
+    ]);
+}
+
+},{"react":"21dqq","react-router":"dbWyW","@remix-run/router":"5ncDG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dbWyW":[function(require,module,exports) {
+/**
+ * React Router v6.11.2
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "AbortedDeferredError", ()=>(0, _router.AbortedDeferredError));
+parcelHelpers.export(exports, "NavigationType", ()=>(0, _router.Action));
+parcelHelpers.export(exports, "createPath", ()=>(0, _router.createPath));
+parcelHelpers.export(exports, "defer", ()=>(0, _router.defer));
+parcelHelpers.export(exports, "generatePath", ()=>(0, _router.generatePath));
+parcelHelpers.export(exports, "isRouteErrorResponse", ()=>(0, _router.isRouteErrorResponse));
+parcelHelpers.export(exports, "json", ()=>(0, _router.json));
+parcelHelpers.export(exports, "matchPath", ()=>(0, _router.matchPath));
+parcelHelpers.export(exports, "matchRoutes", ()=>(0, _router.matchRoutes));
+parcelHelpers.export(exports, "parsePath", ()=>(0, _router.parsePath));
+parcelHelpers.export(exports, "redirect", ()=>(0, _router.redirect));
+parcelHelpers.export(exports, "resolvePath", ()=>(0, _router.resolvePath));
+parcelHelpers.export(exports, "Await", ()=>Await);
+parcelHelpers.export(exports, "MemoryRouter", ()=>MemoryRouter);
+parcelHelpers.export(exports, "Navigate", ()=>Navigate);
+parcelHelpers.export(exports, "Outlet", ()=>Outlet);
+parcelHelpers.export(exports, "Route", ()=>Route);
+parcelHelpers.export(exports, "Router", ()=>Router);
+parcelHelpers.export(exports, "RouterProvider", ()=>RouterProvider);
+parcelHelpers.export(exports, "Routes", ()=>Routes);
+parcelHelpers.export(exports, "UNSAFE_DataRouterContext", ()=>DataRouterContext);
+parcelHelpers.export(exports, "UNSAFE_DataRouterStateContext", ()=>DataRouterStateContext);
+parcelHelpers.export(exports, "UNSAFE_LocationContext", ()=>LocationContext);
+parcelHelpers.export(exports, "UNSAFE_NavigationContext", ()=>NavigationContext);
+parcelHelpers.export(exports, "UNSAFE_RouteContext", ()=>RouteContext);
+parcelHelpers.export(exports, "UNSAFE_mapRouteProperties", ()=>mapRouteProperties);
+parcelHelpers.export(exports, "UNSAFE_useRouteId", ()=>useRouteId);
+parcelHelpers.export(exports, "UNSAFE_useRoutesImpl", ()=>useRoutesImpl);
+parcelHelpers.export(exports, "createMemoryRouter", ()=>createMemoryRouter);
+parcelHelpers.export(exports, "createRoutesFromChildren", ()=>createRoutesFromChildren);
+parcelHelpers.export(exports, "createRoutesFromElements", ()=>createRoutesFromChildren);
+parcelHelpers.export(exports, "renderMatches", ()=>renderMatches);
+parcelHelpers.export(exports, "unstable_useBlocker", ()=>useBlocker);
+parcelHelpers.export(exports, "useActionData", ()=>useActionData);
+parcelHelpers.export(exports, "useAsyncError", ()=>useAsyncError);
+parcelHelpers.export(exports, "useAsyncValue", ()=>useAsyncValue);
+parcelHelpers.export(exports, "useHref", ()=>useHref);
+parcelHelpers.export(exports, "useInRouterContext", ()=>useInRouterContext);
+parcelHelpers.export(exports, "useLoaderData", ()=>useLoaderData);
+parcelHelpers.export(exports, "useLocation", ()=>useLocation);
+parcelHelpers.export(exports, "useMatch", ()=>useMatch);
+parcelHelpers.export(exports, "useMatches", ()=>useMatches);
+parcelHelpers.export(exports, "useNavigate", ()=>useNavigate);
+parcelHelpers.export(exports, "useNavigation", ()=>useNavigation);
+parcelHelpers.export(exports, "useNavigationType", ()=>useNavigationType);
+parcelHelpers.export(exports, "useOutlet", ()=>useOutlet);
+parcelHelpers.export(exports, "useOutletContext", ()=>useOutletContext);
+parcelHelpers.export(exports, "useParams", ()=>useParams);
+parcelHelpers.export(exports, "useResolvedPath", ()=>useResolvedPath);
+parcelHelpers.export(exports, "useRevalidator", ()=>useRevalidator);
+parcelHelpers.export(exports, "useRouteError", ()=>useRouteError);
+parcelHelpers.export(exports, "useRouteLoaderData", ()=>useRouteLoaderData);
+parcelHelpers.export(exports, "useRoutes", ()=>useRoutes);
+var _react = require("react");
+var _router = require("@remix-run/router");
+function _extends() {
+    _extends = Object.assign ? Object.assign.bind() : function(target) {
+        for(var i = 1; i < arguments.length; i++){
+            var source = arguments[i];
+            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
+        }
+        return target;
+    };
+    return _extends.apply(this, arguments);
+}
+const DataRouterContext = /*#__PURE__*/ _react.createContext(null);
+DataRouterContext.displayName = "DataRouter";
+const DataRouterStateContext = /*#__PURE__*/ _react.createContext(null);
+DataRouterStateContext.displayName = "DataRouterState";
+const AwaitContext = /*#__PURE__*/ _react.createContext(null);
+AwaitContext.displayName = "Await";
+const NavigationContext = /*#__PURE__*/ _react.createContext(null);
+NavigationContext.displayName = "Navigation";
+const LocationContext = /*#__PURE__*/ _react.createContext(null);
+LocationContext.displayName = "Location";
+const RouteContext = /*#__PURE__*/ _react.createContext({
+    outlet: null,
+    matches: [],
+    isDataRoute: false
+});
+RouteContext.displayName = "Route";
+const RouteErrorContext = /*#__PURE__*/ _react.createContext(null);
+RouteErrorContext.displayName = "RouteError";
+/**
+ * Returns the full href for the given "to" value. This is useful for building
+ * custom links that are also accessible and preserve right-click behavior.
+ *
+ * @see https://reactrouter.com/hooks/use-href
+ */ function useHref(to, _temp) {
+    let { relative  } = _temp === void 0 ? {} : _temp;
+    !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // router loaded. We can help them understand how to avoid that.
+    "useHref() may be used only in the context of a <Router> component.");
+    let { basename , navigator  } = _react.useContext(NavigationContext);
+    let { hash , pathname , search  } = useResolvedPath(to, {
+        relative
+    });
+    let joinedPathname = pathname; // If we're operating within a basename, prepend it to the pathname prior
+    // to creating the href.  If this is a root navigation, then just use the raw
+    // basename which allows the basename to have full control over the presence
+    // of a trailing slash on root links
+    if (basename !== "/") joinedPathname = pathname === "/" ? basename : (0, _router.joinPaths)([
+        basename,
+        pathname
+    ]);
+    return navigator.createHref({
+        pathname: joinedPathname,
+        search,
+        hash
+    });
+}
+/**
+ * Returns true if this component is a descendant of a <Router>.
+ *
+ * @see https://reactrouter.com/hooks/use-in-router-context
+ */ function useInRouterContext() {
+    return _react.useContext(LocationContext) != null;
+}
+/**
+ * Returns the current location object, which represents the current URL in web
+ * browsers.
+ *
+ * Note: If you're using this it may mean you're doing some of your own
+ * "routing" in your app, and we'd like to know what your use case is. We may
+ * be able to provide something higher-level to better suit your needs.
+ *
+ * @see https://reactrouter.com/hooks/use-location
+ */ function useLocation() {
+    !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // router loaded. We can help them understand how to avoid that.
+    "useLocation() may be used only in the context of a <Router> component.");
+    return _react.useContext(LocationContext).location;
+}
+/**
+ * Returns the current navigation action which describes how the router came to
+ * the current location, either by a pop, push, or replace on the history stack.
+ *
+ * @see https://reactrouter.com/hooks/use-navigation-type
+ */ function useNavigationType() {
+    return _react.useContext(LocationContext).navigationType;
+}
+/**
+ * Returns a PathMatch object if the given pattern matches the current URL.
+ * This is useful for components that need to know "active" state, e.g.
+ * <NavLink>.
+ *
+ * @see https://reactrouter.com/hooks/use-match
+ */ function useMatch(pattern) {
+    !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // router loaded. We can help them understand how to avoid that.
+    "useMatch() may be used only in the context of a <Router> component.");
+    let { pathname  } = useLocation();
+    return _react.useMemo(()=>(0, _router.matchPath)(pattern, pathname), [
+        pathname,
+        pattern
+    ]);
+}
+/**
+ * The interface for the navigate() function returned from useNavigate().
+ */ const navigateEffectWarning = "You should call navigate() in a React.useEffect(), not when your component is first rendered."; // Mute warnings for calls to useNavigate in SSR environments
+function useIsomorphicLayoutEffect(cb) {
+    let isStatic = _react.useContext(NavigationContext).static;
+    if (!isStatic) // We should be able to get rid of this once react 18.3 is released
+    // See: https://github.com/facebook/react/pull/26395
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    _react.useLayoutEffect(cb);
+}
+/**
+ * Returns an imperative method for changing the location. Used by <Link>s, but
+ * may also be used by other elements to change the location.
+ *
+ * @see https://reactrouter.com/hooks/use-navigate
+ */ function useNavigate() {
+    let { isDataRoute  } = _react.useContext(RouteContext); // Conditional usage is OK here because the usage of a data router is static
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    return isDataRoute ? useNavigateStable() : useNavigateUnstable();
+}
+function useNavigateUnstable() {
+    !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // router loaded. We can help them understand how to avoid that.
+    "useNavigate() may be used only in the context of a <Router> component.");
+    let dataRouterContext = _react.useContext(DataRouterContext);
+    let { basename , navigator  } = _react.useContext(NavigationContext);
+    let { matches  } = _react.useContext(RouteContext);
+    let { pathname: locationPathname  } = useLocation();
+    let routePathnamesJson = JSON.stringify((0, _router.UNSAFE_getPathContributingMatches)(matches).map((match)=>match.pathnameBase));
+    let activeRef = _react.useRef(false);
+    useIsomorphicLayoutEffect(()=>{
+        activeRef.current = true;
+    });
+    let navigate = _react.useCallback(function(to, options) {
+        if (options === void 0) options = {};
+        (0, _router.UNSAFE_warning)(activeRef.current, navigateEffectWarning); // Short circuit here since if this happens on first render the navigate
+        // is useless because we haven't wired up our history listener yet
+        if (!activeRef.current) return;
+        if (typeof to === "number") {
+            navigator.go(to);
+            return;
+        }
+        let path = (0, _router.resolveTo)(to, JSON.parse(routePathnamesJson), locationPathname, options.relative === "path"); // If we're operating within a basename, prepend it to the pathname prior
+        // to handing off to history (but only if we're not in a data router,
+        // otherwise it'll prepend the basename inside of the router).
+        // If this is a root navigation, then we navigate to the raw basename
+        // which allows the basename to have full control over the presence of a
+        // trailing slash on root links
+        if (dataRouterContext == null && basename !== "/") path.pathname = path.pathname === "/" ? basename : (0, _router.joinPaths)([
+            basename,
+            path.pathname
+        ]);
+        (!!options.replace ? navigator.replace : navigator.push)(path, options.state, options);
+    }, [
+        basename,
+        navigator,
+        routePathnamesJson,
+        locationPathname,
+        dataRouterContext
+    ]);
+    return navigate;
+}
+const OutletContext = /*#__PURE__*/ _react.createContext(null);
+/**
+ * Returns the context (if provided) for the child route at this level of the route
+ * hierarchy.
+ * @see https://reactrouter.com/hooks/use-outlet-context
+ */ function useOutletContext() {
+    return _react.useContext(OutletContext);
+}
+/**
+ * Returns the element for the child route at this level of the route
+ * hierarchy. Used internally by <Outlet> to render child routes.
+ *
+ * @see https://reactrouter.com/hooks/use-outlet
+ */ function useOutlet(context) {
+    let outlet = _react.useContext(RouteContext).outlet;
+    if (outlet) return /*#__PURE__*/ _react.createElement(OutletContext.Provider, {
+        value: context
+    }, outlet);
+    return outlet;
+}
+/**
+ * Returns an object of key/value pairs of the dynamic params from the current
+ * URL that were matched by the route path.
+ *
+ * @see https://reactrouter.com/hooks/use-params
+ */ function useParams() {
+    let { matches  } = _react.useContext(RouteContext);
+    let routeMatch = matches[matches.length - 1];
+    return routeMatch ? routeMatch.params : {};
+}
+/**
+ * Resolves the pathname of the given `to` value against the current location.
+ *
+ * @see https://reactrouter.com/hooks/use-resolved-path
+ */ function useResolvedPath(to, _temp2) {
+    let { relative  } = _temp2 === void 0 ? {} : _temp2;
+    let { matches  } = _react.useContext(RouteContext);
+    let { pathname: locationPathname  } = useLocation();
+    let routePathnamesJson = JSON.stringify((0, _router.UNSAFE_getPathContributingMatches)(matches).map((match)=>match.pathnameBase));
+    return _react.useMemo(()=>(0, _router.resolveTo)(to, JSON.parse(routePathnamesJson), locationPathname, relative === "path"), [
+        to,
+        routePathnamesJson,
+        locationPathname,
+        relative
+    ]);
+}
+/**
+ * Returns the element of the route that matched the current location, prepared
+ * with the correct context to render the remainder of the route tree. Route
+ * elements in the tree must render an <Outlet> to render their child route's
+ * element.
+ *
+ * @see https://reactrouter.com/hooks/use-routes
+ */ function useRoutes(routes, locationArg) {
+    return useRoutesImpl(routes, locationArg);
+} // Internal implementation with accept optional param for RouterProvider usage
+function useRoutesImpl(routes, locationArg, dataRouterState) {
+    !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // router loaded. We can help them understand how to avoid that.
+    "useRoutes() may be used only in the context of a <Router> component.");
+    let { navigator  } = _react.useContext(NavigationContext);
+    let { matches: parentMatches  } = _react.useContext(RouteContext);
+    let routeMatch = parentMatches[parentMatches.length - 1];
+    let parentParams = routeMatch ? routeMatch.params : {};
+    let parentPathname = routeMatch ? routeMatch.pathname : "/";
+    let parentPathnameBase = routeMatch ? routeMatch.pathnameBase : "/";
+    let parentRoute = routeMatch && routeMatch.route;
+    {
+        // You won't get a warning about 2 different <Routes> under a <Route>
+        // without a trailing *, but this is a best-effort warning anyway since we
+        // cannot even give the warning unless they land at the parent route.
+        //
+        // Example:
+        //
+        // <Routes>
+        //   {/* This route path MUST end with /* because otherwise
+        //       it will never match /blog/post/123 */}
+        //   <Route path="blog" element={<Blog />} />
+        //   <Route path="blog/feed" element={<BlogFeed />} />
+        // </Routes>
+        //
+        // function Blog() {
+        //   return (
+        //     <Routes>
+        //       <Route path="post/:id" element={<Post />} />
+        //     </Routes>
+        //   );
+        // }
+        let parentPath = parentRoute && parentRoute.path || "";
+        warningOnce(parentPathname, !parentRoute || parentPath.endsWith("*"), "You rendered descendant <Routes> (or called `useRoutes()`) at " + ('"' + parentPathname + '" (under <Route path="' + parentPath + '">) but the ') + 'parent route path has no trailing "*". This means if you navigate ' + "deeper, the parent won't match anymore and therefore the child " + "routes will never render.\n\n" + ('Please change the parent <Route path="' + parentPath + '"> to <Route ') + ('path="' + (parentPath === "/" ? "*" : parentPath + "/*") + '">.'));
+    }
+    let locationFromContext = useLocation();
+    let location;
+    if (locationArg) {
+        var _parsedLocationArg$pa;
+        let parsedLocationArg = typeof locationArg === "string" ? (0, _router.parsePath)(locationArg) : locationArg;
+        !(parentPathnameBase === "/" || ((_parsedLocationArg$pa = parsedLocationArg.pathname) == null ? void 0 : _parsedLocationArg$pa.startsWith(parentPathnameBase))) && (0, _router.UNSAFE_invariant)(false, "When overriding the location using `<Routes location>` or `useRoutes(routes, location)`, the location pathname must begin with the portion of the URL pathname that was " + ('matched by all parent routes. The current pathname base is "' + parentPathnameBase + '" ') + ('but pathname "' + parsedLocationArg.pathname + '" was given in the `location` prop.'));
+        location = parsedLocationArg;
+    } else location = locationFromContext;
+    let pathname = location.pathname || "/";
+    let remainingPathname = parentPathnameBase === "/" ? pathname : pathname.slice(parentPathnameBase.length) || "/";
+    let matches = (0, _router.matchRoutes)(routes, {
+        pathname: remainingPathname
+    });
+    (0, _router.UNSAFE_warning)(parentRoute || matches != null, 'No routes matched location "' + location.pathname + location.search + location.hash + '" ');
+    (0, _router.UNSAFE_warning)(matches == null || matches[matches.length - 1].route.element !== undefined || matches[matches.length - 1].route.Component !== undefined, 'Matched leaf route at location "' + location.pathname + location.search + location.hash + '" ' + "does not have an element or Component. This means it will render an <Outlet /> with a " + 'null value by default resulting in an "empty" page.');
+    let renderedMatches = _renderMatches(matches && matches.map((match)=>Object.assign({}, match, {
+            params: Object.assign({}, parentParams, match.params),
+            pathname: (0, _router.joinPaths)([
+                parentPathnameBase,
+                navigator.encodeLocation ? navigator.encodeLocation(match.pathname).pathname : match.pathname
+            ]),
+            pathnameBase: match.pathnameBase === "/" ? parentPathnameBase : (0, _router.joinPaths)([
+                parentPathnameBase,
+                navigator.encodeLocation ? navigator.encodeLocation(match.pathnameBase).pathname : match.pathnameBase
+            ])
+        })), parentMatches, dataRouterState); // When a user passes in a `locationArg`, the associated routes need to
+    // be wrapped in a new `LocationContext.Provider` in order for `useLocation`
+    // to use the scoped location instead of the global location.
+    if (locationArg && renderedMatches) return /*#__PURE__*/ _react.createElement(LocationContext.Provider, {
+        value: {
+            location: _extends({
+                pathname: "/",
+                search: "",
+                hash: "",
+                state: null,
+                key: "default"
+            }, location),
+            navigationType: (0, _router.Action).Pop
+        }
+    }, renderedMatches);
+    return renderedMatches;
+}
+function DefaultErrorComponent() {
+    let error = useRouteError();
+    let message = (0, _router.isRouteErrorResponse)(error) ? error.status + " " + error.statusText : error instanceof Error ? error.message : JSON.stringify(error);
+    let stack = error instanceof Error ? error.stack : null;
+    let lightgrey = "rgba(200,200,200, 0.5)";
+    let preStyles = {
+        padding: "0.5rem",
+        backgroundColor: lightgrey
+    };
+    let codeStyles = {
+        padding: "2px 4px",
+        backgroundColor: lightgrey
+    };
+    let devInfo = null;
+    console.error("Error handled by React Router default ErrorBoundary:", error);
+    devInfo = /*#__PURE__*/ _react.createElement(_react.Fragment, null, /*#__PURE__*/ _react.createElement("p", null, "\uD83D\uDCBF Hey developer \uD83D\uDC4B"), /*#__PURE__*/ _react.createElement("p", null, "You can provide a way better UX than this when your app throws errors by providing your own ", /*#__PURE__*/ _react.createElement("code", {
+        style: codeStyles
+    }, "ErrorBoundary"), " or", " ", /*#__PURE__*/ _react.createElement("code", {
+        style: codeStyles
+    }, "errorElement"), " prop on your route."));
+    return /*#__PURE__*/ _react.createElement(_react.Fragment, null, /*#__PURE__*/ _react.createElement("h2", null, "Unexpected Application Error!"), /*#__PURE__*/ _react.createElement("h3", {
+        style: {
+            fontStyle: "italic"
+        }
+    }, message), stack ? /*#__PURE__*/ _react.createElement("pre", {
+        style: preStyles
+    }, stack) : null, devInfo);
+}
+const defaultErrorElement = /*#__PURE__*/ _react.createElement(DefaultErrorComponent, null);
+class RenderErrorBoundary extends _react.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            location: props.location,
+            revalidation: props.revalidation,
+            error: props.error
+        };
+    }
+    static getDerivedStateFromError(error) {
+        return {
+            error: error
+        };
+    }
+    static getDerivedStateFromProps(props, state) {
+        // When we get into an error state, the user will likely click "back" to the
+        // previous page that didn't have an error. Because this wraps the entire
+        // application, that will have no effect--the error page continues to display.
+        // This gives us a mechanism to recover from the error when the location changes.
+        //
+        // Whether we're in an error state or not, we update the location in state
+        // so that when we are in an error state, it gets reset when a new location
+        // comes in and the user recovers from the error.
+        if (state.location !== props.location || state.revalidation !== "idle" && props.revalidation === "idle") return {
+            error: props.error,
+            location: props.location,
+            revalidation: props.revalidation
+        };
+         // If we're not changing locations, preserve the location but still surface
+        // any new errors that may come through. We retain the existing error, we do
+        // this because the error provided from the app state may be cleared without
+        // the location changing.
+        return {
+            error: props.error || state.error,
+            location: state.location,
+            revalidation: props.revalidation || state.revalidation
+        };
+    }
+    componentDidCatch(error, errorInfo) {
+        console.error("React Router caught the following error during render", error, errorInfo);
+    }
+    render() {
+        return this.state.error ? /*#__PURE__*/ _react.createElement(RouteContext.Provider, {
+            value: this.props.routeContext
+        }, /*#__PURE__*/ _react.createElement(RouteErrorContext.Provider, {
+            value: this.state.error,
+            children: this.props.component
+        })) : this.props.children;
+    }
+}
+function RenderedRoute(_ref) {
+    let { routeContext , match , children  } = _ref;
+    let dataRouterContext = _react.useContext(DataRouterContext); // Track how deep we got in our render pass to emulate SSR componentDidCatch
+    // in a DataStaticRouter
+    if (dataRouterContext && dataRouterContext.static && dataRouterContext.staticContext && (match.route.errorElement || match.route.ErrorBoundary)) dataRouterContext.staticContext._deepestRenderedBoundaryId = match.route.id;
+    return /*#__PURE__*/ _react.createElement(RouteContext.Provider, {
+        value: routeContext
+    }, children);
+}
+function _renderMatches(matches, parentMatches, dataRouterState) {
+    var _dataRouterState2;
+    if (parentMatches === void 0) parentMatches = [];
+    if (dataRouterState === void 0) dataRouterState = null;
+    if (matches == null) {
+        var _dataRouterState;
+        if ((_dataRouterState = dataRouterState) != null && _dataRouterState.errors) // Don't bail if we have data router errors so we can render them in the
+        // boundary.  Use the pre-matched (or shimmed) matches
+        matches = dataRouterState.matches;
+        else return null;
+    }
+    let renderedMatches = matches; // If we have data errors, trim matches to the highest error boundary
+    let errors = (_dataRouterState2 = dataRouterState) == null ? void 0 : _dataRouterState2.errors;
+    if (errors != null) {
+        let errorIndex = renderedMatches.findIndex((m)=>m.route.id && (errors == null ? void 0 : errors[m.route.id]));
+        !(errorIndex >= 0) && (0, _router.UNSAFE_invariant)(false, "Could not find a matching route for errors on route IDs: " + Object.keys(errors).join(","));
+        renderedMatches = renderedMatches.slice(0, Math.min(renderedMatches.length, errorIndex + 1));
+    }
+    return renderedMatches.reduceRight((outlet, match, index)=>{
+        let error = match.route.id ? errors == null ? void 0 : errors[match.route.id] : null; // Only data routers handle errors
+        let errorElement = null;
+        if (dataRouterState) errorElement = match.route.errorElement || defaultErrorElement;
+        let matches = parentMatches.concat(renderedMatches.slice(0, index + 1));
+        let getChildren = ()=>{
+            let children;
+            if (error) children = errorElement;
+            else if (match.route.Component) // Note: This is a de-optimized path since React won't re-use the
+            // ReactElement since it's identity changes with each new
+            // React.createElement call.  We keep this so folks can use
+            // `<Route Component={...}>` in `<Routes>` but generally `Component`
+            // usage is only advised in `RouterProvider` when we can convert it to
+            // `element` ahead of time.
+            children = /*#__PURE__*/ _react.createElement(match.route.Component, null);
+            else if (match.route.element) children = match.route.element;
+            else children = outlet;
+            return /*#__PURE__*/ _react.createElement(RenderedRoute, {
+                match: match,
+                routeContext: {
+                    outlet,
+                    matches,
+                    isDataRoute: dataRouterState != null
+                },
+                children: children
+            });
+        }; // Only wrap in an error boundary within data router usages when we have an
+        // ErrorBoundary/errorElement on this route.  Otherwise let it bubble up to
+        // an ancestor ErrorBoundary/errorElement
+        return dataRouterState && (match.route.ErrorBoundary || match.route.errorElement || index === 0) ? /*#__PURE__*/ _react.createElement(RenderErrorBoundary, {
+            location: dataRouterState.location,
+            revalidation: dataRouterState.revalidation,
+            component: errorElement,
+            error: error,
+            children: getChildren(),
+            routeContext: {
+                outlet: null,
+                matches,
+                isDataRoute: true
+            }
+        }) : getChildren();
+    }, null);
+}
+var DataRouterHook;
+(function(DataRouterHook) {
+    DataRouterHook["UseBlocker"] = "useBlocker";
+    DataRouterHook["UseRevalidator"] = "useRevalidator";
+    DataRouterHook["UseNavigateStable"] = "useNavigate";
+})(DataRouterHook || (DataRouterHook = {}));
+var DataRouterStateHook;
+(function(DataRouterStateHook) {
+    DataRouterStateHook["UseBlocker"] = "useBlocker";
+    DataRouterStateHook["UseLoaderData"] = "useLoaderData";
+    DataRouterStateHook["UseActionData"] = "useActionData";
+    DataRouterStateHook["UseRouteError"] = "useRouteError";
+    DataRouterStateHook["UseNavigation"] = "useNavigation";
+    DataRouterStateHook["UseRouteLoaderData"] = "useRouteLoaderData";
+    DataRouterStateHook["UseMatches"] = "useMatches";
+    DataRouterStateHook["UseRevalidator"] = "useRevalidator";
+    DataRouterStateHook["UseNavigateStable"] = "useNavigate";
+    DataRouterStateHook["UseRouteId"] = "useRouteId";
+})(DataRouterStateHook || (DataRouterStateHook = {}));
+function getDataRouterConsoleError(hookName) {
+    return hookName + " must be used within a data router.  See https://reactrouter.com/routers/picking-a-router.";
+}
+function useDataRouterContext(hookName) {
+    let ctx = _react.useContext(DataRouterContext);
+    !ctx && (0, _router.UNSAFE_invariant)(false, getDataRouterConsoleError(hookName));
+    return ctx;
+}
+function useDataRouterState(hookName) {
+    let state = _react.useContext(DataRouterStateContext);
+    !state && (0, _router.UNSAFE_invariant)(false, getDataRouterConsoleError(hookName));
+    return state;
+}
+function useRouteContext(hookName) {
+    let route = _react.useContext(RouteContext);
+    !route && (0, _router.UNSAFE_invariant)(false, getDataRouterConsoleError(hookName));
+    return route;
+} // Internal version with hookName-aware debugging
+function useCurrentRouteId(hookName) {
+    let route = useRouteContext(hookName);
+    let thisRoute = route.matches[route.matches.length - 1];
+    !thisRoute.route.id && (0, _router.UNSAFE_invariant)(false, hookName + ' can only be used on routes that contain a unique "id"');
+    return thisRoute.route.id;
+}
+/**
+ * Returns the ID for the nearest contextual route
+ */ function useRouteId() {
+    return useCurrentRouteId(DataRouterStateHook.UseRouteId);
+}
+/**
+ * Returns the current navigation, defaulting to an "idle" navigation when
+ * no navigation is in progress
+ */ function useNavigation() {
+    let state = useDataRouterState(DataRouterStateHook.UseNavigation);
+    return state.navigation;
+}
+/**
+ * Returns a revalidate function for manually triggering revalidation, as well
+ * as the current state of any manual revalidations
+ */ function useRevalidator() {
+    let dataRouterContext = useDataRouterContext(DataRouterHook.UseRevalidator);
+    let state = useDataRouterState(DataRouterStateHook.UseRevalidator);
+    return {
+        revalidate: dataRouterContext.router.revalidate,
+        state: state.revalidation
+    };
+}
+/**
+ * Returns the active route matches, useful for accessing loaderData for
+ * parent/child routes or the route "handle" property
+ */ function useMatches() {
+    let { matches , loaderData  } = useDataRouterState(DataRouterStateHook.UseMatches);
+    return _react.useMemo(()=>matches.map((match)=>{
+            let { pathname , params  } = match; // Note: This structure matches that created by createUseMatchesMatch
+            // in the @remix-run/router , so if you change this please also change
+            // that :)  Eventually we'll DRY this up
+            return {
+                id: match.route.id,
+                pathname,
+                params,
+                data: loaderData[match.route.id],
+                handle: match.route.handle
+            };
+        }), [
+        matches,
+        loaderData
+    ]);
+}
+/**
+ * Returns the loader data for the nearest ancestor Route loader
+ */ function useLoaderData() {
+    let state = useDataRouterState(DataRouterStateHook.UseLoaderData);
+    let routeId = useCurrentRouteId(DataRouterStateHook.UseLoaderData);
+    if (state.errors && state.errors[routeId] != null) {
+        console.error("You cannot `useLoaderData` in an errorElement (routeId: " + routeId + ")");
+        return undefined;
+    }
+    return state.loaderData[routeId];
+}
+/**
+ * Returns the loaderData for the given routeId
+ */ function useRouteLoaderData(routeId) {
+    let state = useDataRouterState(DataRouterStateHook.UseRouteLoaderData);
+    return state.loaderData[routeId];
+}
+/**
+ * Returns the action data for the nearest ancestor Route action
+ */ function useActionData() {
+    let state = useDataRouterState(DataRouterStateHook.UseActionData);
+    let route = _react.useContext(RouteContext);
+    !route && (0, _router.UNSAFE_invariant)(false, "useActionData must be used inside a RouteContext");
+    return Object.values((state == null ? void 0 : state.actionData) || {})[0];
+}
+/**
+ * Returns the nearest ancestor Route error, which could be a loader/action
+ * error or a render error.  This is intended to be called from your
+ * ErrorBoundary/errorElement to display a proper error message.
+ */ function useRouteError() {
+    var _state$errors;
+    let error = _react.useContext(RouteErrorContext);
+    let state = useDataRouterState(DataRouterStateHook.UseRouteError);
+    let routeId = useCurrentRouteId(DataRouterStateHook.UseRouteError); // If this was a render error, we put it in a RouteError context inside
+    // of RenderErrorBoundary
+    if (error) return error;
+     // Otherwise look for errors from our data router state
+    return (_state$errors = state.errors) == null ? void 0 : _state$errors[routeId];
+}
+/**
+ * Returns the happy-path data from the nearest ancestor <Await /> value
+ */ function useAsyncValue() {
+    let value = _react.useContext(AwaitContext);
+    return value == null ? void 0 : value._data;
+}
+/**
+ * Returns the error from the nearest ancestor <Await /> value
+ */ function useAsyncError() {
+    let value = _react.useContext(AwaitContext);
+    return value == null ? void 0 : value._error;
+}
+let blockerId = 0;
+/**
+ * Allow the application to block navigations within the SPA and present the
+ * user a confirmation dialog to confirm the navigation.  Mostly used to avoid
+ * using half-filled form data.  This does not handle hard-reloads or
+ * cross-origin navigations.
+ */ function useBlocker(shouldBlock) {
+    let { router  } = useDataRouterContext(DataRouterHook.UseBlocker);
+    let state = useDataRouterState(DataRouterStateHook.UseBlocker);
+    let [blockerKey] = _react.useState(()=>String(++blockerId));
+    let blockerFunction = _react.useCallback((args)=>{
+        return typeof shouldBlock === "function" ? !!shouldBlock(args) : !!shouldBlock;
+    }, [
+        shouldBlock
+    ]);
+    let blocker = router.getBlocker(blockerKey, blockerFunction); // Cleanup on unmount
+    _react.useEffect(()=>()=>router.deleteBlocker(blockerKey), [
+        router,
+        blockerKey
+    ]); // Prefer the blocker from state since DataRouterContext is memoized so this
+    // ensures we update on blocker state updates
+    return state.blockers.get(blockerKey) || blocker;
+}
+/**
+ * Stable version of useNavigate that is used when we are in the context of
+ * a RouterProvider.
+ */ function useNavigateStable() {
+    let { router  } = useDataRouterContext(DataRouterHook.UseNavigateStable);
+    let id = useCurrentRouteId(DataRouterStateHook.UseNavigateStable);
+    let activeRef = _react.useRef(false);
+    useIsomorphicLayoutEffect(()=>{
+        activeRef.current = true;
+    });
+    let navigate = _react.useCallback(function(to, options) {
+        if (options === void 0) options = {};
+        (0, _router.UNSAFE_warning)(activeRef.current, navigateEffectWarning); // Short circuit here since if this happens on first render the navigate
+        // is useless because we haven't wired up our router subscriber yet
+        if (!activeRef.current) return;
+        if (typeof to === "number") router.navigate(to);
+        else router.navigate(to, _extends({
+            fromRouteId: id
+        }, options));
+    }, [
+        router,
+        id
+    ]);
+    return navigate;
+}
+const alreadyWarned = {};
+function warningOnce(key, cond, message) {
+    if (!cond && !alreadyWarned[key]) {
+        alreadyWarned[key] = true;
+        (0, _router.UNSAFE_warning)(false, message);
+    }
+}
+/**
+ * Given a Remix Router instance, render the appropriate UI
+ */ function RouterProvider(_ref) {
+    let { fallbackElement , router  } = _ref;
+    // Need to use a layout effect here so we are subscribed early enough to
+    // pick up on any render-driven redirects/navigations (useEffect/<Navigate>)
+    let [state, setState] = _react.useState(router.state);
+    _react.useLayoutEffect(()=>router.subscribe(setState), [
+        router,
+        setState
+    ]);
+    let navigator = _react.useMemo(()=>{
+        return {
+            createHref: router.createHref,
+            encodeLocation: router.encodeLocation,
+            go: (n)=>router.navigate(n),
+            push: (to, state, opts)=>router.navigate(to, {
+                    state,
+                    preventScrollReset: opts == null ? void 0 : opts.preventScrollReset
+                }),
+            replace: (to, state, opts)=>router.navigate(to, {
+                    replace: true,
+                    state,
+                    preventScrollReset: opts == null ? void 0 : opts.preventScrollReset
+                })
+        };
+    }, [
+        router
+    ]);
+    let basename = router.basename || "/";
+    let dataRouterContext = _react.useMemo(()=>({
+            router,
+            navigator,
+            static: false,
+            basename
+        }), [
+        router,
+        navigator,
+        basename
+    ]); // The fragment and {null} here are important!  We need them to keep React 18's
+    // useId happy when we are server-rendering since we may have a <script> here
+    // containing the hydrated server-side staticContext (from StaticRouterProvider).
+    // useId relies on the component tree structure to generate deterministic id's
+    // so we need to ensure it remains the same on the client even though
+    // we don't need the <script> tag
+    return /*#__PURE__*/ _react.createElement(_react.Fragment, null, /*#__PURE__*/ _react.createElement(DataRouterContext.Provider, {
+        value: dataRouterContext
+    }, /*#__PURE__*/ _react.createElement(DataRouterStateContext.Provider, {
+        value: state
+    }, /*#__PURE__*/ _react.createElement(Router, {
+        basename: router.basename,
+        location: router.state.location,
+        navigationType: router.state.historyAction,
+        navigator: navigator
+    }, router.state.initialized ? /*#__PURE__*/ _react.createElement(DataRoutes, {
+        routes: router.routes,
+        state: state
+    }) : fallbackElement))), null);
+}
+function DataRoutes(_ref2) {
+    let { routes , state  } = _ref2;
+    return useRoutesImpl(routes, undefined, state);
+}
+/**
+ * A <Router> that stores all entries in memory.
+ *
+ * @see https://reactrouter.com/router-components/memory-router
+ */ function MemoryRouter(_ref3) {
+    let { basename , children , initialEntries , initialIndex  } = _ref3;
+    let historyRef = _react.useRef();
+    if (historyRef.current == null) historyRef.current = (0, _router.createMemoryHistory)({
+        initialEntries,
+        initialIndex,
+        v5Compat: true
+    });
+    let history = historyRef.current;
+    let [state, setState] = _react.useState({
+        action: history.action,
+        location: history.location
+    });
+    _react.useLayoutEffect(()=>history.listen(setState), [
+        history
+    ]);
+    return /*#__PURE__*/ _react.createElement(Router, {
+        basename: basename,
+        children: children,
+        location: state.location,
+        navigationType: state.action,
+        navigator: history
+    });
+}
+/**
+ * Changes the current location.
+ *
+ * Note: This API is mostly useful in React.Component subclasses that are not
+ * able to use hooks. In functional components, we recommend you use the
+ * `useNavigate` hook instead.
+ *
+ * @see https://reactrouter.com/components/navigate
+ */ function Navigate(_ref4) {
+    let { to , replace , state , relative  } = _ref4;
+    !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // the router loaded. We can help them understand how to avoid that.
+    "<Navigate> may be used only in the context of a <Router> component.");
+    (0, _router.UNSAFE_warning)(!_react.useContext(NavigationContext).static, "<Navigate> must not be used on the initial render in a <StaticRouter>. This is a no-op, but you should modify your code so the <Navigate> is only ever rendered in response to some user interaction or state change.");
+    let { matches  } = _react.useContext(RouteContext);
+    let { pathname: locationPathname  } = useLocation();
+    let navigate = useNavigate(); // Resolve the path outside of the effect so that when effects run twice in
+    // StrictMode they navigate to the same place
+    let path = (0, _router.resolveTo)(to, (0, _router.UNSAFE_getPathContributingMatches)(matches).map((match)=>match.pathnameBase), locationPathname, relative === "path");
+    let jsonPath = JSON.stringify(path);
+    _react.useEffect(()=>navigate(JSON.parse(jsonPath), {
+            replace,
+            state,
+            relative
+        }), [
+        navigate,
+        jsonPath,
+        relative,
+        replace,
+        state
+    ]);
+    return null;
+}
+/**
+ * Renders the child route's element, if there is one.
+ *
+ * @see https://reactrouter.com/components/outlet
+ */ function Outlet(props) {
+    return useOutlet(props.context);
+}
+/**
+ * Declares an element that should be rendered at a certain URL path.
+ *
+ * @see https://reactrouter.com/components/route
+ */ function Route(_props) {
+    (0, _router.UNSAFE_invariant)(false, "A <Route> is only ever to be used as the child of <Routes> element, never rendered directly. Please wrap your <Route> in a <Routes>.");
+}
+/**
+ * Provides location context for the rest of the app.
+ *
+ * Note: You usually won't render a <Router> directly. Instead, you'll render a
+ * router that is more specific to your environment such as a <BrowserRouter>
+ * in web browsers or a <StaticRouter> for server rendering.
+ *
+ * @see https://reactrouter.com/router-components/router
+ */ function Router(_ref5) {
+    let { basename: basenameProp = "/" , children =null , location: locationProp , navigationType =(0, _router.Action).Pop , navigator , static: staticProp = false  } = _ref5;
+    !!useInRouterContext() && (0, _router.UNSAFE_invariant)(false, "You cannot render a <Router> inside another <Router>. You should never have more than one in your app."); // Preserve trailing slashes on basename, so we can let the user control
+    // the enforcement of trailing slashes throughout the app
+    let basename = basenameProp.replace(/^\/*/, "/");
+    let navigationContext = _react.useMemo(()=>({
+            basename,
+            navigator,
+            static: staticProp
+        }), [
+        basename,
+        navigator,
+        staticProp
+    ]);
+    if (typeof locationProp === "string") locationProp = (0, _router.parsePath)(locationProp);
+    let { pathname ="/" , search ="" , hash ="" , state =null , key ="default"  } = locationProp;
+    let locationContext = _react.useMemo(()=>{
+        let trailingPathname = (0, _router.stripBasename)(pathname, basename);
+        if (trailingPathname == null) return null;
+        return {
+            location: {
+                pathname: trailingPathname,
+                search,
+                hash,
+                state,
+                key
+            },
+            navigationType
+        };
+    }, [
+        basename,
+        pathname,
+        search,
+        hash,
+        state,
+        key,
+        navigationType
+    ]);
+    (0, _router.UNSAFE_warning)(locationContext != null, '<Router basename="' + basename + '"> is not able to match the URL ' + ('"' + pathname + search + hash + '" because it does not start with the ') + "basename, so the <Router> won't render anything.");
+    if (locationContext == null) return null;
+    return /*#__PURE__*/ _react.createElement(NavigationContext.Provider, {
+        value: navigationContext
+    }, /*#__PURE__*/ _react.createElement(LocationContext.Provider, {
+        children: children,
+        value: locationContext
+    }));
+}
+/**
+ * A container for a nested tree of <Route> elements that renders the branch
+ * that best matches the current location.
+ *
+ * @see https://reactrouter.com/components/routes
+ */ function Routes(_ref6) {
+    let { children , location  } = _ref6;
+    return useRoutes(createRoutesFromChildren(children), location);
+}
+/**
+ * Component to use for rendering lazily loaded data from returning defer()
+ * in a loader function
+ */ function Await(_ref7) {
+    let { children , errorElement , resolve  } = _ref7;
+    return /*#__PURE__*/ _react.createElement(AwaitErrorBoundary, {
+        resolve: resolve,
+        errorElement: errorElement
+    }, /*#__PURE__*/ _react.createElement(ResolveAwait, null, children));
+}
+var AwaitRenderStatus;
+(function(AwaitRenderStatus) {
+    AwaitRenderStatus[AwaitRenderStatus["pending"] = 0] = "pending";
+    AwaitRenderStatus[AwaitRenderStatus["success"] = 1] = "success";
+    AwaitRenderStatus[AwaitRenderStatus["error"] = 2] = "error";
+})(AwaitRenderStatus || (AwaitRenderStatus = {}));
+const neverSettledPromise = new Promise(()=>{});
+class AwaitErrorBoundary extends _react.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            error: null
+        };
+    }
+    static getDerivedStateFromError(error) {
+        return {
+            error
+        };
+    }
+    componentDidCatch(error, errorInfo) {
+        console.error("<Await> caught the following error during render", error, errorInfo);
+    }
+    render() {
+        let { children , errorElement , resolve  } = this.props;
+        let promise = null;
+        let status = AwaitRenderStatus.pending;
+        if (!(resolve instanceof Promise)) {
+            // Didn't get a promise - provide as a resolved promise
+            status = AwaitRenderStatus.success;
+            promise = Promise.resolve();
+            Object.defineProperty(promise, "_tracked", {
+                get: ()=>true
+            });
+            Object.defineProperty(promise, "_data", {
+                get: ()=>resolve
+            });
+        } else if (this.state.error) {
+            // Caught a render error, provide it as a rejected promise
+            status = AwaitRenderStatus.error;
+            let renderError = this.state.error;
+            promise = Promise.reject().catch(()=>{}); // Avoid unhandled rejection warnings
+            Object.defineProperty(promise, "_tracked", {
+                get: ()=>true
+            });
+            Object.defineProperty(promise, "_error", {
+                get: ()=>renderError
+            });
+        } else if (resolve._tracked) {
+            // Already tracked promise - check contents
+            promise = resolve;
+            status = promise._error !== undefined ? AwaitRenderStatus.error : promise._data !== undefined ? AwaitRenderStatus.success : AwaitRenderStatus.pending;
+        } else {
+            // Raw (untracked) promise - track it
+            status = AwaitRenderStatus.pending;
+            Object.defineProperty(resolve, "_tracked", {
+                get: ()=>true
+            });
+            promise = resolve.then((data)=>Object.defineProperty(resolve, "_data", {
+                    get: ()=>data
+                }), (error)=>Object.defineProperty(resolve, "_error", {
+                    get: ()=>error
+                }));
+        }
+        if (status === AwaitRenderStatus.error && promise._error instanceof (0, _router.AbortedDeferredError)) // Freeze the UI by throwing a never resolved promise
+        throw neverSettledPromise;
+        if (status === AwaitRenderStatus.error && !errorElement) // No errorElement, throw to the nearest route-level error boundary
+        throw promise._error;
+        if (status === AwaitRenderStatus.error) // Render via our errorElement
+        return /*#__PURE__*/ _react.createElement(AwaitContext.Provider, {
+            value: promise,
+            children: errorElement
+        });
+        if (status === AwaitRenderStatus.success) // Render children with resolved value
+        return /*#__PURE__*/ _react.createElement(AwaitContext.Provider, {
+            value: promise,
+            children: children
+        });
+         // Throw to the suspense boundary
+        throw promise;
+    }
+}
+/**
+ * @private
+ * Indirection to leverage useAsyncValue for a render-prop API on <Await>
+ */ function ResolveAwait(_ref8) {
+    let { children  } = _ref8;
+    let data = useAsyncValue();
+    let toRender = typeof children === "function" ? children(data) : children;
+    return /*#__PURE__*/ _react.createElement(_react.Fragment, null, toRender);
+} ///////////////////////////////////////////////////////////////////////////////
+// UTILS
+///////////////////////////////////////////////////////////////////////////////
+/**
+ * Creates a route config from a React "children" object, which is usually
+ * either a `<Route>` element or an array of them. Used internally by
+ * `<Routes>` to create a route config from its children.
+ *
+ * @see https://reactrouter.com/utils/create-routes-from-children
+ */ function createRoutesFromChildren(children, parentPath) {
+    if (parentPath === void 0) parentPath = [];
+    let routes = [];
+    _react.Children.forEach(children, (element, index)=>{
+        if (!/*#__PURE__*/ _react.isValidElement(element)) // Ignore non-elements. This allows people to more easily inline
+        // conditionals in their route config.
+        return;
+        let treePath = [
+            ...parentPath,
+            index
+        ];
+        if (element.type === _react.Fragment) {
+            // Transparently support React.Fragment and its children.
+            routes.push.apply(routes, createRoutesFromChildren(element.props.children, treePath));
+            return;
+        }
+        !(element.type === Route) && (0, _router.UNSAFE_invariant)(false, "[" + (typeof element.type === "string" ? element.type : element.type.name) + "] is not a <Route> component. All component children of <Routes> must be a <Route> or <React.Fragment>");
+        !(!element.props.index || !element.props.children) && (0, _router.UNSAFE_invariant)(false, "An index route cannot have child routes.");
+        let route = {
+            id: element.props.id || treePath.join("-"),
+            caseSensitive: element.props.caseSensitive,
+            element: element.props.element,
+            Component: element.props.Component,
+            index: element.props.index,
+            path: element.props.path,
+            loader: element.props.loader,
+            action: element.props.action,
+            errorElement: element.props.errorElement,
+            ErrorBoundary: element.props.ErrorBoundary,
+            hasErrorBoundary: element.props.ErrorBoundary != null || element.props.errorElement != null,
+            shouldRevalidate: element.props.shouldRevalidate,
+            handle: element.props.handle,
+            lazy: element.props.lazy
+        };
+        if (element.props.children) route.children = createRoutesFromChildren(element.props.children, treePath);
+        routes.push(route);
+    });
+    return routes;
+}
+/**
+ * Renders the result of `matchRoutes()` into a React element.
+ */ function renderMatches(matches) {
+    return _renderMatches(matches);
+}
+function mapRouteProperties(route) {
+    let updates = {
+        // Note: this check also occurs in createRoutesFromChildren so update
+        // there if you change this -- please and thank you!
+        hasErrorBoundary: route.ErrorBoundary != null || route.errorElement != null
+    };
+    if (route.Component) {
+        if (route.element) (0, _router.UNSAFE_warning)(false, "You should not include both `Component` and `element` on your route - `Component` will be used.");
+        Object.assign(updates, {
+            element: /*#__PURE__*/ _react.createElement(route.Component),
+            Component: undefined
+        });
+    }
+    if (route.ErrorBoundary) {
+        if (route.errorElement) (0, _router.UNSAFE_warning)(false, "You should not include both `ErrorBoundary` and `errorElement` on your route - `ErrorBoundary` will be used.");
+        Object.assign(updates, {
+            errorElement: /*#__PURE__*/ _react.createElement(route.ErrorBoundary),
+            ErrorBoundary: undefined
+        });
+    }
+    return updates;
+}
+function createMemoryRouter(routes, opts) {
+    return (0, _router.createRouter)({
+        basename: opts == null ? void 0 : opts.basename,
+        future: _extends({}, opts == null ? void 0 : opts.future, {
+            v7_prependBasename: true
+        }),
+        history: (0, _router.createMemoryHistory)({
+            initialEntries: opts == null ? void 0 : opts.initialEntries,
+            initialIndex: opts == null ? void 0 : opts.initialIndex
+        }),
+        hydrationData: opts == null ? void 0 : opts.hydrationData,
+        routes,
+        mapRouteProperties
+    }).initialize();
+} ///////////////////////////////////////////////////////////////////////////////
+
+},{"react":"21dqq","@remix-run/router":"5ncDG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5ncDG":[function(require,module,exports) {
+/**
+ * @remix-run/router v1.6.2
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "AbortedDeferredError", ()=>AbortedDeferredError);
+parcelHelpers.export(exports, "Action", ()=>Action);
+parcelHelpers.export(exports, "ErrorResponse", ()=>ErrorResponse);
+parcelHelpers.export(exports, "IDLE_BLOCKER", ()=>IDLE_BLOCKER);
+parcelHelpers.export(exports, "IDLE_FETCHER", ()=>IDLE_FETCHER);
+parcelHelpers.export(exports, "IDLE_NAVIGATION", ()=>IDLE_NAVIGATION);
+parcelHelpers.export(exports, "UNSAFE_DEFERRED_SYMBOL", ()=>UNSAFE_DEFERRED_SYMBOL);
+parcelHelpers.export(exports, "UNSAFE_DeferredData", ()=>DeferredData);
+parcelHelpers.export(exports, "UNSAFE_convertRoutesToDataRoutes", ()=>convertRoutesToDataRoutes);
+parcelHelpers.export(exports, "UNSAFE_getPathContributingMatches", ()=>getPathContributingMatches);
+parcelHelpers.export(exports, "UNSAFE_invariant", ()=>invariant);
+parcelHelpers.export(exports, "UNSAFE_warning", ()=>warning);
+parcelHelpers.export(exports, "createBrowserHistory", ()=>createBrowserHistory);
+parcelHelpers.export(exports, "createHashHistory", ()=>createHashHistory);
+parcelHelpers.export(exports, "createMemoryHistory", ()=>createMemoryHistory);
+parcelHelpers.export(exports, "createPath", ()=>createPath);
+parcelHelpers.export(exports, "createRouter", ()=>createRouter);
+parcelHelpers.export(exports, "createStaticHandler", ()=>createStaticHandler);
+parcelHelpers.export(exports, "defer", ()=>defer);
+parcelHelpers.export(exports, "generatePath", ()=>generatePath);
+parcelHelpers.export(exports, "getStaticContextFromError", ()=>getStaticContextFromError);
+parcelHelpers.export(exports, "getToPathname", ()=>getToPathname);
+parcelHelpers.export(exports, "isDeferredData", ()=>isDeferredData);
+parcelHelpers.export(exports, "isRouteErrorResponse", ()=>isRouteErrorResponse);
+parcelHelpers.export(exports, "joinPaths", ()=>joinPaths);
+parcelHelpers.export(exports, "json", ()=>json);
+parcelHelpers.export(exports, "matchPath", ()=>matchPath);
+parcelHelpers.export(exports, "matchRoutes", ()=>matchRoutes);
+parcelHelpers.export(exports, "normalizePathname", ()=>normalizePathname);
+parcelHelpers.export(exports, "parsePath", ()=>parsePath);
+parcelHelpers.export(exports, "redirect", ()=>redirect);
+parcelHelpers.export(exports, "resolvePath", ()=>resolvePath);
+parcelHelpers.export(exports, "resolveTo", ()=>resolveTo);
+parcelHelpers.export(exports, "stripBasename", ()=>stripBasename);
+function _extends() {
+    _extends = Object.assign ? Object.assign.bind() : function(target) {
+        for(var i = 1; i < arguments.length; i++){
+            var source = arguments[i];
+            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
+        }
+        return target;
+    };
+    return _extends.apply(this, arguments);
+}
+////////////////////////////////////////////////////////////////////////////////
+//#region Types and Constants
+////////////////////////////////////////////////////////////////////////////////
+/**
+ * Actions represent the type of change to a location value.
+ */ var Action;
+(function(Action) {
+    /**
+   * A POP indicates a change to an arbitrary index in the history stack, such
+   * as a back or forward navigation. It does not describe the direction of the
+   * navigation, only that the current index changed.
+   *
+   * Note: This is the default action for newly created history objects.
+   */ Action["Pop"] = "POP";
+    /**
+   * A PUSH indicates a new entry being added to the history stack, such as when
+   * a link is clicked and a new page loads. When this happens, all subsequent
+   * entries in the stack are lost.
+   */ Action["Push"] = "PUSH";
+    /**
+   * A REPLACE indicates the entry at the current index in the history stack
+   * being replaced by a new one.
+   */ Action["Replace"] = "REPLACE";
+})(Action || (Action = {}));
+const PopStateEventType = "popstate";
+/**
+ * Memory history stores the current location in memory. It is designed for use
+ * in stateful non-browser environments like tests and React Native.
+ */ function createMemoryHistory(options) {
+    if (options === void 0) options = {};
+    let { initialEntries =[
+        "/"
+    ] , initialIndex , v5Compat =false  } = options;
+    let entries; // Declare so we can access from createMemoryLocation
+    entries = initialEntries.map((entry, index)=>createMemoryLocation(entry, typeof entry === "string" ? null : entry.state, index === 0 ? "default" : undefined));
+    let index = clampIndex(initialIndex == null ? entries.length - 1 : initialIndex);
+    let action = Action.Pop;
+    let listener = null;
+    function clampIndex(n) {
+        return Math.min(Math.max(n, 0), entries.length - 1);
+    }
+    function getCurrentLocation() {
+        return entries[index];
+    }
+    function createMemoryLocation(to, state, key) {
+        if (state === void 0) state = null;
+        let location = createLocation(entries ? getCurrentLocation().pathname : "/", to, state, key);
+        warning(location.pathname.charAt(0) === "/", "relative pathnames are not supported in memory history: " + JSON.stringify(to));
+        return location;
+    }
+    function createHref(to) {
+        return typeof to === "string" ? to : createPath(to);
+    }
+    let history = {
+        get index () {
+            return index;
+        },
+        get action () {
+            return action;
+        },
+        get location () {
+            return getCurrentLocation();
+        },
+        createHref,
+        createURL (to) {
+            return new URL(createHref(to), "http://localhost");
+        },
+        encodeLocation (to) {
+            let path = typeof to === "string" ? parsePath(to) : to;
+            return {
+                pathname: path.pathname || "",
+                search: path.search || "",
+                hash: path.hash || ""
+            };
+        },
+        push (to, state) {
+            action = Action.Push;
+            let nextLocation = createMemoryLocation(to, state);
+            index += 1;
+            entries.splice(index, entries.length, nextLocation);
+            if (v5Compat && listener) listener({
+                action,
+                location: nextLocation,
+                delta: 1
+            });
+        },
+        replace (to, state) {
+            action = Action.Replace;
+            let nextLocation = createMemoryLocation(to, state);
+            entries[index] = nextLocation;
+            if (v5Compat && listener) listener({
+                action,
+                location: nextLocation,
+                delta: 0
+            });
+        },
+        go (delta) {
+            action = Action.Pop;
+            let nextIndex = clampIndex(index + delta);
+            let nextLocation = entries[nextIndex];
+            index = nextIndex;
+            if (listener) listener({
+                action,
+                location: nextLocation,
+                delta
+            });
+        },
+        listen (fn) {
+            listener = fn;
+            return ()=>{
+                listener = null;
+            };
+        }
+    };
+    return history;
+}
+/**
+ * Browser history stores the location in regular URLs. This is the standard for
+ * most web apps, but it requires some configuration on the server to ensure you
+ * serve the same app at multiple URLs.
+ *
+ * @see https://github.com/remix-run/history/tree/main/docs/api-reference.md#createbrowserhistory
+ */ function createBrowserHistory(options) {
+    if (options === void 0) options = {};
+    function createBrowserLocation(window1, globalHistory) {
+        let { pathname , search , hash  } = window1.location;
+        return createLocation("", {
+            pathname,
+            search,
+            hash
+        }, globalHistory.state && globalHistory.state.usr || null, globalHistory.state && globalHistory.state.key || "default");
+    }
+    function createBrowserHref(window1, to) {
+        return typeof to === "string" ? to : createPath(to);
+    }
+    return getUrlBasedHistory(createBrowserLocation, createBrowserHref, null, options);
+}
+/**
+ * Hash history stores the location in window.location.hash. This makes it ideal
+ * for situations where you don't want to send the location to the server for
+ * some reason, either because you do cannot configure it or the URL space is
+ * reserved for something else.
+ *
+ * @see https://github.com/remix-run/history/tree/main/docs/api-reference.md#createhashhistory
+ */ function createHashHistory(options) {
+    if (options === void 0) options = {};
+    function createHashLocation(window1, globalHistory) {
+        let { pathname ="/" , search ="" , hash =""  } = parsePath(window1.location.hash.substr(1));
+        return createLocation("", {
+            pathname,
+            search,
+            hash
+        }, globalHistory.state && globalHistory.state.usr || null, globalHistory.state && globalHistory.state.key || "default");
+    }
+    function createHashHref(window1, to) {
+        let base = window1.document.querySelector("base");
+        let href = "";
+        if (base && base.getAttribute("href")) {
+            let url = window1.location.href;
+            let hashIndex = url.indexOf("#");
+            href = hashIndex === -1 ? url : url.slice(0, hashIndex);
+        }
+        return href + "#" + (typeof to === "string" ? to : createPath(to));
+    }
+    function validateHashLocation(location, to) {
+        warning(location.pathname.charAt(0) === "/", "relative pathnames are not supported in hash history.push(" + JSON.stringify(to) + ")");
+    }
+    return getUrlBasedHistory(createHashLocation, createHashHref, validateHashLocation, options);
+}
+function invariant(value, message) {
+    if (value === false || value === null || typeof value === "undefined") throw new Error(message);
+}
+function warning(cond, message) {
+    if (!cond) {
+        // eslint-disable-next-line no-console
+        if (typeof console !== "undefined") console.warn(message);
+        try {
+            // Welcome to debugging history!
+            //
+            // This error is thrown as a convenience so you can more easily
+            // find the source for a warning that appears in the console by
+            // enabling "pause on exceptions" in your JavaScript debugger.
+            throw new Error(message); // eslint-disable-next-line no-empty
+        } catch (e) {}
+    }
+}
+function createKey() {
+    return Math.random().toString(36).substr(2, 8);
+}
+/**
+ * For browser-based histories, we combine the state and key into an object
+ */ function getHistoryState(location, index) {
+    return {
+        usr: location.state,
+        key: location.key,
+        idx: index
+    };
+}
+/**
+ * Creates a Location object with a unique key from the given Path
+ */ function createLocation(current, to, state, key) {
+    if (state === void 0) state = null;
+    let location = _extends({
+        pathname: typeof current === "string" ? current : current.pathname,
+        search: "",
+        hash: ""
+    }, typeof to === "string" ? parsePath(to) : to, {
+        state,
+        // TODO: This could be cleaned up.  push/replace should probably just take
+        // full Locations now and avoid the need to run through this flow at all
+        // But that's a pretty big refactor to the current test suite so going to
+        // keep as is for the time being and just let any incoming keys take precedence
+        key: to && to.key || key || createKey()
+    });
+    return location;
+}
+/**
+ * Creates a string URL path from the given pathname, search, and hash components.
+ */ function createPath(_ref) {
+    let { pathname ="/" , search ="" , hash =""  } = _ref;
+    if (search && search !== "?") pathname += search.charAt(0) === "?" ? search : "?" + search;
+    if (hash && hash !== "#") pathname += hash.charAt(0) === "#" ? hash : "#" + hash;
+    return pathname;
+}
+/**
+ * Parses a string URL path into its separate pathname, search, and hash components.
+ */ function parsePath(path) {
+    let parsedPath = {};
+    if (path) {
+        let hashIndex = path.indexOf("#");
+        if (hashIndex >= 0) {
+            parsedPath.hash = path.substr(hashIndex);
+            path = path.substr(0, hashIndex);
+        }
+        let searchIndex = path.indexOf("?");
+        if (searchIndex >= 0) {
+            parsedPath.search = path.substr(searchIndex);
+            path = path.substr(0, searchIndex);
+        }
+        if (path) parsedPath.pathname = path;
+    }
+    return parsedPath;
+}
+function getUrlBasedHistory(getLocation, createHref, validateLocation, options) {
+    if (options === void 0) options = {};
+    let { window: window1 = document.defaultView , v5Compat =false  } = options;
+    let globalHistory = window1.history;
+    let action = Action.Pop;
+    let listener = null;
+    let index = getIndex(); // Index should only be null when we initialize. If not, it's because the
+    // user called history.pushState or history.replaceState directly, in which
+    // case we should log a warning as it will result in bugs.
+    if (index == null) {
+        index = 0;
+        globalHistory.replaceState(_extends({}, globalHistory.state, {
+            idx: index
+        }), "");
+    }
+    function getIndex() {
+        let state = globalHistory.state || {
+            idx: null
+        };
+        return state.idx;
+    }
+    function handlePop() {
+        action = Action.Pop;
+        let nextIndex = getIndex();
+        let delta = nextIndex == null ? null : nextIndex - index;
+        index = nextIndex;
+        if (listener) listener({
+            action,
+            location: history.location,
+            delta
+        });
+    }
+    function push(to, state) {
+        action = Action.Push;
+        let location = createLocation(history.location, to, state);
+        if (validateLocation) validateLocation(location, to);
+        index = getIndex() + 1;
+        let historyState = getHistoryState(location, index);
+        let url = history.createHref(location); // try...catch because iOS limits us to 100 pushState calls :/
+        try {
+            globalHistory.pushState(historyState, "", url);
+        } catch (error) {
+            // They are going to lose state here, but there is no real
+            // way to warn them about it since the page will refresh...
+            window1.location.assign(url);
+        }
+        if (v5Compat && listener) listener({
+            action,
+            location: history.location,
+            delta: 1
+        });
+    }
+    function replace(to, state) {
+        action = Action.Replace;
+        let location = createLocation(history.location, to, state);
+        if (validateLocation) validateLocation(location, to);
+        index = getIndex();
+        let historyState = getHistoryState(location, index);
+        let url = history.createHref(location);
+        globalHistory.replaceState(historyState, "", url);
+        if (v5Compat && listener) listener({
+            action,
+            location: history.location,
+            delta: 0
+        });
+    }
+    function createURL(to) {
+        // window.location.origin is "null" (the literal string value) in Firefox
+        // under certain conditions, notably when serving from a local HTML file
+        // See https://bugzilla.mozilla.org/show_bug.cgi?id=878297
+        let base = window1.location.origin !== "null" ? window1.location.origin : window1.location.href;
+        let href = typeof to === "string" ? to : createPath(to);
+        invariant(base, "No window.location.(origin|href) available to create URL for href: " + href);
+        return new URL(href, base);
+    }
+    let history = {
+        get action () {
+            return action;
+        },
+        get location () {
+            return getLocation(window1, globalHistory);
+        },
+        listen (fn) {
+            if (listener) throw new Error("A history only accepts one active listener");
+            window1.addEventListener(PopStateEventType, handlePop);
+            listener = fn;
+            return ()=>{
+                window1.removeEventListener(PopStateEventType, handlePop);
+                listener = null;
+            };
+        },
+        createHref (to) {
+            return createHref(window1, to);
+        },
+        createURL,
+        encodeLocation (to) {
+            // Encode a Location the same way window.location would
+            let url = createURL(to);
+            return {
+                pathname: url.pathname,
+                search: url.search,
+                hash: url.hash
+            };
+        },
+        push,
+        replace,
+        go (n) {
+            return globalHistory.go(n);
+        }
+    };
+    return history;
+} //#endregion
+var ResultType;
+(function(ResultType) {
+    ResultType["data"] = "data";
+    ResultType["deferred"] = "deferred";
+    ResultType["redirect"] = "redirect";
+    ResultType["error"] = "error";
+})(ResultType || (ResultType = {}));
+const immutableRouteKeys = new Set([
+    "lazy",
+    "caseSensitive",
+    "path",
+    "id",
+    "index",
+    "children"
+]);
+function isIndexRoute(route) {
+    return route.index === true;
+} // Walk the route tree generating unique IDs where necessary so we are working
+// solely with AgnosticDataRouteObject's within the Router
+function convertRoutesToDataRoutes(routes, mapRouteProperties, parentPath, manifest) {
+    if (parentPath === void 0) parentPath = [];
+    if (manifest === void 0) manifest = {};
+    return routes.map((route, index)=>{
+        let treePath = [
+            ...parentPath,
+            index
+        ];
+        let id = typeof route.id === "string" ? route.id : treePath.join("-");
+        invariant(route.index !== true || !route.children, "Cannot specify children on an index route");
+        invariant(!manifest[id], 'Found a route id collision on id "' + id + '".  Route ' + "id's must be globally unique within Data Router usages");
+        if (isIndexRoute(route)) {
+            let indexRoute = _extends({}, route, mapRouteProperties(route), {
+                id
+            });
+            manifest[id] = indexRoute;
+            return indexRoute;
+        } else {
+            let pathOrLayoutRoute = _extends({}, route, mapRouteProperties(route), {
+                id,
+                children: undefined
+            });
+            manifest[id] = pathOrLayoutRoute;
+            if (route.children) pathOrLayoutRoute.children = convertRoutesToDataRoutes(route.children, mapRouteProperties, treePath, manifest);
+            return pathOrLayoutRoute;
+        }
+    });
+}
+/**
+ * Matches the given routes to a location and returns the match data.
+ *
+ * @see https://reactrouter.com/utils/match-routes
+ */ function matchRoutes(routes, locationArg, basename) {
+    if (basename === void 0) basename = "/";
+    let location = typeof locationArg === "string" ? parsePath(locationArg) : locationArg;
+    let pathname = stripBasename(location.pathname || "/", basename);
+    if (pathname == null) return null;
+    let branches = flattenRoutes(routes);
+    rankRouteBranches(branches);
+    let matches = null;
+    for(let i = 0; matches == null && i < branches.length; ++i)matches = matchRouteBranch(branches[i], // or from router.navigate, but we want to match against the unencoded
+    // paths in the route definitions.  Memory router locations won't be
+    // encoded here but there also shouldn't be anything to decode so this
+    // should be a safe operation.  This avoids needing matchRoutes to be
+    // history-aware.
+    safelyDecodeURI(pathname));
+    return matches;
+}
+function flattenRoutes(routes, branches, parentsMeta, parentPath) {
+    if (branches === void 0) branches = [];
+    if (parentsMeta === void 0) parentsMeta = [];
+    if (parentPath === void 0) parentPath = "";
+    let flattenRoute = (route, index, relativePath)=>{
+        let meta = {
+            relativePath: relativePath === undefined ? route.path || "" : relativePath,
+            caseSensitive: route.caseSensitive === true,
+            childrenIndex: index,
+            route
+        };
+        if (meta.relativePath.startsWith("/")) {
+            invariant(meta.relativePath.startsWith(parentPath), 'Absolute route path "' + meta.relativePath + '" nested under path ' + ('"' + parentPath + '" is not valid. An absolute child route path ') + "must start with the combined path of all its parent routes.");
+            meta.relativePath = meta.relativePath.slice(parentPath.length);
+        }
+        let path = joinPaths([
+            parentPath,
+            meta.relativePath
+        ]);
+        let routesMeta = parentsMeta.concat(meta); // Add the children before adding this route to the array so we traverse the
+        // route tree depth-first and child routes appear before their parents in
+        // the "flattened" version.
+        if (route.children && route.children.length > 0) {
+            invariant(// @ts-expect-error
+            route.index !== true, "Index routes must not have child routes. Please remove " + ('all child routes from route path "' + path + '".'));
+            flattenRoutes(route.children, branches, routesMeta, path);
+        } // Routes without a path shouldn't ever match by themselves unless they are
+        // index routes, so don't add them to the list of possible branches.
+        if (route.path == null && !route.index) return;
+        branches.push({
+            path,
+            score: computeScore(path, route.index),
+            routesMeta
+        });
+    };
+    routes.forEach((route, index)=>{
+        var _route$path;
+        // coarse-grain check for optional params
+        if (route.path === "" || !((_route$path = route.path) != null && _route$path.includes("?"))) flattenRoute(route, index);
+        else for (let exploded of explodeOptionalSegments(route.path))flattenRoute(route, index, exploded);
+    });
+    return branches;
+}
+/**
+ * Computes all combinations of optional path segments for a given path,
+ * excluding combinations that are ambiguous and of lower priority.
+ *
+ * For example, `/one/:two?/three/:four?/:five?` explodes to:
+ * - `/one/three`
+ * - `/one/:two/three`
+ * - `/one/three/:four`
+ * - `/one/three/:five`
+ * - `/one/:two/three/:four`
+ * - `/one/:two/three/:five`
+ * - `/one/three/:four/:five`
+ * - `/one/:two/three/:four/:five`
+ */ function explodeOptionalSegments(path) {
+    let segments = path.split("/");
+    if (segments.length === 0) return [];
+    let [first, ...rest] = segments; // Optional path segments are denoted by a trailing `?`
+    let isOptional = first.endsWith("?"); // Compute the corresponding required segment: `foo?` -> `foo`
+    let required = first.replace(/\?$/, "");
+    if (rest.length === 0) // Intepret empty string as omitting an optional segment
+    // `["one", "", "three"]` corresponds to omitting `:two` from `/one/:two?/three` -> `/one/three`
+    return isOptional ? [
+        required,
+        ""
+    ] : [
+        required
+    ];
+    let restExploded = explodeOptionalSegments(rest.join("/"));
+    let result = []; // All child paths with the prefix.  Do this for all children before the
+    // optional version for all children so we get consistent ordering where the
+    // parent optional aspect is preferred as required.  Otherwise, we can get
+    // child sections interspersed where deeper optional segments are higher than
+    // parent optional segments, where for example, /:two would explodes _earlier_
+    // then /:one.  By always including the parent as required _for all children_
+    // first, we avoid this issue
+    result.push(...restExploded.map((subpath)=>subpath === "" ? required : [
+            required,
+            subpath
+        ].join("/"))); // Then if this is an optional value, add all child versions without
+    if (isOptional) result.push(...restExploded);
+     // for absolute paths, ensure `/` instead of empty segment
+    return result.map((exploded)=>path.startsWith("/") && exploded === "" ? "/" : exploded);
+}
+function rankRouteBranches(branches) {
+    branches.sort((a, b)=>a.score !== b.score ? b.score - a.score // Higher score first
+         : compareIndexes(a.routesMeta.map((meta)=>meta.childrenIndex), b.routesMeta.map((meta)=>meta.childrenIndex)));
+}
+const paramRe = /^:\w+$/;
+const dynamicSegmentValue = 3;
+const indexRouteValue = 2;
+const emptySegmentValue = 1;
+const staticSegmentValue = 10;
+const splatPenalty = -2;
+const isSplat = (s)=>s === "*";
+function computeScore(path, index) {
+    let segments = path.split("/");
+    let initialScore = segments.length;
+    if (segments.some(isSplat)) initialScore += splatPenalty;
+    if (index) initialScore += indexRouteValue;
+    return segments.filter((s)=>!isSplat(s)).reduce((score, segment)=>score + (paramRe.test(segment) ? dynamicSegmentValue : segment === "" ? emptySegmentValue : staticSegmentValue), initialScore);
+}
+function compareIndexes(a, b) {
+    let siblings = a.length === b.length && a.slice(0, -1).every((n, i)=>n === b[i]);
+    return siblings ? // first. This allows people to have fine-grained control over the matching
+    // behavior by simply putting routes with identical paths in the order they
+    // want them tried.
+    a[a.length - 1] - b[b.length - 1] : // so they sort equally.
+    0;
+}
+function matchRouteBranch(branch, pathname) {
+    let { routesMeta  } = branch;
+    let matchedParams = {};
+    let matchedPathname = "/";
+    let matches = [];
+    for(let i = 0; i < routesMeta.length; ++i){
+        let meta = routesMeta[i];
+        let end = i === routesMeta.length - 1;
+        let remainingPathname = matchedPathname === "/" ? pathname : pathname.slice(matchedPathname.length) || "/";
+        let match = matchPath({
+            path: meta.relativePath,
+            caseSensitive: meta.caseSensitive,
+            end
+        }, remainingPathname);
+        if (!match) return null;
+        Object.assign(matchedParams, match.params);
+        let route = meta.route;
+        matches.push({
+            // TODO: Can this as be avoided?
+            params: matchedParams,
+            pathname: joinPaths([
+                matchedPathname,
+                match.pathname
+            ]),
+            pathnameBase: normalizePathname(joinPaths([
+                matchedPathname,
+                match.pathnameBase
+            ])),
+            route
+        });
+        if (match.pathnameBase !== "/") matchedPathname = joinPaths([
+            matchedPathname,
+            match.pathnameBase
+        ]);
+    }
+    return matches;
+}
+/**
+ * Returns a path with params interpolated.
+ *
+ * @see https://reactrouter.com/utils/generate-path
+ */ function generatePath(originalPath, params) {
+    if (params === void 0) params = {};
+    let path = originalPath;
+    if (path.endsWith("*") && path !== "*" && !path.endsWith("/*")) {
+        warning(false, 'Route path "' + path + '" will be treated as if it were ' + ('"' + path.replace(/\*$/, "/*") + '" because the `*` character must ') + "always follow a `/` in the pattern. To get rid of this warning, " + ('please change the route path to "' + path.replace(/\*$/, "/*") + '".'));
+        path = path.replace(/\*$/, "/*");
+    } // ensure `/` is added at the beginning if the path is absolute
+    const prefix = path.startsWith("/") ? "/" : "";
+    const segments = path.split(/\/+/).map((segment, index, array)=>{
+        const isLastSegment = index === array.length - 1; // only apply the splat if it's the last segment
+        if (isLastSegment && segment === "*") {
+            const star = "*";
+            const starParam = params[star]; // Apply the splat
+            return starParam;
+        }
+        const keyMatch = segment.match(/^:(\w+)(\??)$/);
+        if (keyMatch) {
+            const [, key, optional] = keyMatch;
+            let param = params[key];
+            if (optional === "?") return param == null ? "" : param;
+            if (param == null) invariant(false, 'Missing ":' + key + '" param');
+            return param;
+        } // Remove any optional markers from optional static segments
+        return segment.replace(/\?$/g, "");
+    }) // Remove empty segments
+    .filter((segment)=>!!segment);
+    return prefix + segments.join("/");
+}
+/**
+ * Performs pattern matching on a URL pathname and returns information about
+ * the match.
+ *
+ * @see https://reactrouter.com/utils/match-path
+ */ function matchPath(pattern, pathname) {
+    if (typeof pattern === "string") pattern = {
+        path: pattern,
+        caseSensitive: false,
+        end: true
+    };
+    let [matcher, paramNames] = compilePath(pattern.path, pattern.caseSensitive, pattern.end);
+    let match = pathname.match(matcher);
+    if (!match) return null;
+    let matchedPathname = match[0];
+    let pathnameBase = matchedPathname.replace(/(.)\/+$/, "$1");
+    let captureGroups = match.slice(1);
+    let params = paramNames.reduce((memo, paramName, index)=>{
+        // We need to compute the pathnameBase here using the raw splat value
+        // instead of using params["*"] later because it will be decoded then
+        if (paramName === "*") {
+            let splatValue = captureGroups[index] || "";
+            pathnameBase = matchedPathname.slice(0, matchedPathname.length - splatValue.length).replace(/(.)\/+$/, "$1");
+        }
+        memo[paramName] = safelyDecodeURIComponent(captureGroups[index] || "", paramName);
+        return memo;
+    }, {});
+    return {
+        params,
+        pathname: matchedPathname,
+        pathnameBase,
+        pattern
+    };
+}
+function compilePath(path, caseSensitive, end) {
+    if (caseSensitive === void 0) caseSensitive = false;
+    if (end === void 0) end = true;
+    warning(path === "*" || !path.endsWith("*") || path.endsWith("/*"), 'Route path "' + path + '" will be treated as if it were ' + ('"' + path.replace(/\*$/, "/*") + '" because the `*` character must ') + "always follow a `/` in the pattern. To get rid of this warning, " + ('please change the route path to "' + path.replace(/\*$/, "/*") + '".'));
+    let paramNames = [];
+    let regexpSource = "^" + path.replace(/\/*\*?$/, "") // Ignore trailing / and /*, we'll handle it below
+    .replace(/^\/*/, "/") // Make sure it has a leading /
+    .replace(/[\\.*+^$?{}|()[\]]/g, "\\$&") // Escape special regex chars
+    .replace(/\/:(\w+)/g, (_, paramName)=>{
+        paramNames.push(paramName);
+        return "/([^\\/]+)";
+    });
+    if (path.endsWith("*")) {
+        paramNames.push("*");
+        regexpSource += path === "*" || path === "/*" ? "(.*)$" // Already matched the initial /, just match the rest
+         : "(?:\\/(.+)|\\/*)$"; // Don't include the / in params["*"]
+    } else if (end) // When matching to the end, ignore trailing slashes
+    regexpSource += "\\/*$";
+    else if (path !== "" && path !== "/") // If our path is non-empty and contains anything beyond an initial slash,
+    // then we have _some_ form of path in our regex so we should expect to
+    // match only if we find the end of this path segment.  Look for an optional
+    // non-captured trailing slash (to match a portion of the URL) or the end
+    // of the path (if we've matched to the end).  We used to do this with a
+    // word boundary but that gives false positives on routes like
+    // /user-preferences since `-` counts as a word boundary.
+    regexpSource += "(?:(?=\\/|$))";
+    let matcher = new RegExp(regexpSource, caseSensitive ? undefined : "i");
+    return [
+        matcher,
+        paramNames
+    ];
+}
+function safelyDecodeURI(value) {
+    try {
+        return decodeURI(value);
+    } catch (error) {
+        warning(false, 'The URL path "' + value + '" could not be decoded because it is is a ' + "malformed URL segment. This is probably due to a bad percent " + ("encoding (" + error + ")."));
+        return value;
+    }
+}
+function safelyDecodeURIComponent(value, paramName) {
+    try {
+        return decodeURIComponent(value);
+    } catch (error) {
+        warning(false, 'The value for the URL param "' + paramName + '" will not be decoded because' + (' the string "' + value + '" is a malformed URL segment. This is probably') + (" due to a bad percent encoding (" + error + ")."));
+        return value;
+    }
+}
+/**
+ * @private
+ */ function stripBasename(pathname, basename) {
+    if (basename === "/") return pathname;
+    if (!pathname.toLowerCase().startsWith(basename.toLowerCase())) return null;
+     // We want to leave trailing slash behavior in the user's control, so if they
+    // specify a basename with a trailing slash, we should support it
+    let startIndex = basename.endsWith("/") ? basename.length - 1 : basename.length;
+    let nextChar = pathname.charAt(startIndex);
+    if (nextChar && nextChar !== "/") // pathname does not start with basename/
+    return null;
+    return pathname.slice(startIndex) || "/";
+}
+/**
+ * Returns a resolved path object relative to the given pathname.
+ *
+ * @see https://reactrouter.com/utils/resolve-path
+ */ function resolvePath(to, fromPathname) {
+    if (fromPathname === void 0) fromPathname = "/";
+    let { pathname: toPathname , search ="" , hash =""  } = typeof to === "string" ? parsePath(to) : to;
+    let pathname = toPathname ? toPathname.startsWith("/") ? toPathname : resolvePathname(toPathname, fromPathname) : fromPathname;
+    return {
+        pathname,
+        search: normalizeSearch(search),
+        hash: normalizeHash(hash)
+    };
+}
+function resolvePathname(relativePath, fromPathname) {
+    let segments = fromPathname.replace(/\/+$/, "").split("/");
+    let relativeSegments = relativePath.split("/");
+    relativeSegments.forEach((segment)=>{
+        if (segment === "..") // Keep the root "" segment so the pathname starts at /
+        {
+            if (segments.length > 1) segments.pop();
+        } else if (segment !== ".") segments.push(segment);
+    });
+    return segments.length > 1 ? segments.join("/") : "/";
+}
+function getInvalidPathError(char, field, dest, path) {
+    return "Cannot include a '" + char + "' character in a manually specified " + ("`to." + field + "` field [" + JSON.stringify(path) + "].  Please separate it out to the ") + ("`to." + dest + "` field. Alternatively you may provide the full path as ") + 'a string in <Link to="..."> and the router will parse it for you.';
+}
+/**
+ * @private
+ *
+ * When processing relative navigation we want to ignore ancestor routes that
+ * do not contribute to the path, such that index/pathless layout routes don't
+ * interfere.
+ *
+ * For example, when moving a route element into an index route and/or a
+ * pathless layout route, relative link behavior contained within should stay
+ * the same.  Both of the following examples should link back to the root:
+ *
+ *   <Route path="/">
+ *     <Route path="accounts" element={<Link to=".."}>
+ *   </Route>
+ *
+ *   <Route path="/">
+ *     <Route path="accounts">
+ *       <Route element={<AccountsLayout />}>       // <-- Does not contribute
+ *         <Route index element={<Link to=".."} />  // <-- Does not contribute
+ *       </Route
+ *     </Route>
+ *   </Route>
+ */ function getPathContributingMatches(matches) {
+    return matches.filter((match, index)=>index === 0 || match.route.path && match.route.path.length > 0);
+}
+/**
+ * @private
+ */ function resolveTo(toArg, routePathnames, locationPathname, isPathRelative) {
+    if (isPathRelative === void 0) isPathRelative = false;
+    let to;
+    if (typeof toArg === "string") to = parsePath(toArg);
+    else {
+        to = _extends({}, toArg);
+        invariant(!to.pathname || !to.pathname.includes("?"), getInvalidPathError("?", "pathname", "search", to));
+        invariant(!to.pathname || !to.pathname.includes("#"), getInvalidPathError("#", "pathname", "hash", to));
+        invariant(!to.search || !to.search.includes("#"), getInvalidPathError("#", "search", "hash", to));
+    }
+    let isEmptyPath = toArg === "" || to.pathname === "";
+    let toPathname = isEmptyPath ? "/" : to.pathname;
+    let from; // Routing is relative to the current pathname if explicitly requested.
+    //
+    // If a pathname is explicitly provided in `to`, it should be relative to the
+    // route context. This is explained in `Note on `<Link to>` values` in our
+    // migration guide from v5 as a means of disambiguation between `to` values
+    // that begin with `/` and those that do not. However, this is problematic for
+    // `to` values that do not provide a pathname. `to` can simply be a search or
+    // hash string, in which case we should assume that the navigation is relative
+    // to the current location's pathname and *not* the route pathname.
+    if (isPathRelative || toPathname == null) from = locationPathname;
+    else {
+        let routePathnameIndex = routePathnames.length - 1;
+        if (toPathname.startsWith("..")) {
+            let toSegments = toPathname.split("/"); // Each leading .. segment means "go up one route" instead of "go up one
+            // URL segment".  This is a key difference from how <a href> works and a
+            // major reason we call this a "to" value instead of a "href".
+            while(toSegments[0] === ".."){
+                toSegments.shift();
+                routePathnameIndex -= 1;
+            }
+            to.pathname = toSegments.join("/");
+        } // If there are more ".." segments than parent routes, resolve relative to
+        // the root / URL.
+        from = routePathnameIndex >= 0 ? routePathnames[routePathnameIndex] : "/";
+    }
+    let path = resolvePath(to, from); // Ensure the pathname has a trailing slash if the original "to" had one
+    let hasExplicitTrailingSlash = toPathname && toPathname !== "/" && toPathname.endsWith("/"); // Or if this was a link to the current path which has a trailing slash
+    let hasCurrentTrailingSlash = (isEmptyPath || toPathname === ".") && locationPathname.endsWith("/");
+    if (!path.pathname.endsWith("/") && (hasExplicitTrailingSlash || hasCurrentTrailingSlash)) path.pathname += "/";
+    return path;
+}
+/**
+ * @private
+ */ function getToPathname(to) {
+    // Empty strings should be treated the same as / paths
+    return to === "" || to.pathname === "" ? "/" : typeof to === "string" ? parsePath(to).pathname : to.pathname;
+}
+/**
+ * @private
+ */ const joinPaths = (paths)=>paths.join("/").replace(/\/\/+/g, "/");
+/**
+ * @private
+ */ const normalizePathname = (pathname)=>pathname.replace(/\/+$/, "").replace(/^\/*/, "/");
+/**
+ * @private
+ */ const normalizeSearch = (search)=>!search || search === "?" ? "" : search.startsWith("?") ? search : "?" + search;
+/**
+ * @private
+ */ const normalizeHash = (hash)=>!hash || hash === "#" ? "" : hash.startsWith("#") ? hash : "#" + hash;
+/**
+ * This is a shortcut for creating `application/json` responses. Converts `data`
+ * to JSON and sets the `Content-Type` header.
+ */ const json = function json(data, init) {
+    if (init === void 0) init = {};
+    let responseInit = typeof init === "number" ? {
+        status: init
+    } : init;
+    let headers = new Headers(responseInit.headers);
+    if (!headers.has("Content-Type")) headers.set("Content-Type", "application/json; charset=utf-8");
+    return new Response(JSON.stringify(data), _extends({}, responseInit, {
+        headers
+    }));
+};
+class AbortedDeferredError extends Error {
+}
+class DeferredData {
+    constructor(data, responseInit){
+        this.pendingKeysSet = new Set();
+        this.subscribers = new Set();
+        this.deferredKeys = [];
+        invariant(data && typeof data === "object" && !Array.isArray(data), "defer() only accepts plain objects"); // Set up an AbortController + Promise we can race against to exit early
+        // cancellation
+        let reject;
+        this.abortPromise = new Promise((_, r)=>reject = r);
+        this.controller = new AbortController();
+        let onAbort = ()=>reject(new AbortedDeferredError("Deferred data aborted"));
+        this.unlistenAbortSignal = ()=>this.controller.signal.removeEventListener("abort", onAbort);
+        this.controller.signal.addEventListener("abort", onAbort);
+        this.data = Object.entries(data).reduce((acc, _ref)=>{
+            let [key, value] = _ref;
+            return Object.assign(acc, {
+                [key]: this.trackPromise(key, value)
+            });
+        }, {});
+        if (this.done) // All incoming values were resolved
+        this.unlistenAbortSignal();
+        this.init = responseInit;
+    }
+    trackPromise(key, value) {
+        if (!(value instanceof Promise)) return value;
+        this.deferredKeys.push(key);
+        this.pendingKeysSet.add(key); // We store a little wrapper promise that will be extended with
+        // _data/_error props upon resolve/reject
+        let promise = Promise.race([
+            value,
+            this.abortPromise
+        ]).then((data)=>this.onSettle(promise, key, null, data), (error)=>this.onSettle(promise, key, error)); // Register rejection listeners to avoid uncaught promise rejections on
+        // errors or aborted deferred values
+        promise.catch(()=>{});
+        Object.defineProperty(promise, "_tracked", {
+            get: ()=>true
+        });
+        return promise;
+    }
+    onSettle(promise, key, error, data) {
+        if (this.controller.signal.aborted && error instanceof AbortedDeferredError) {
+            this.unlistenAbortSignal();
+            Object.defineProperty(promise, "_error", {
+                get: ()=>error
+            });
+            return Promise.reject(error);
+        }
+        this.pendingKeysSet.delete(key);
+        if (this.done) // Nothing left to abort!
+        this.unlistenAbortSignal();
+        if (error) {
+            Object.defineProperty(promise, "_error", {
+                get: ()=>error
+            });
+            this.emit(false, key);
+            return Promise.reject(error);
+        }
+        Object.defineProperty(promise, "_data", {
+            get: ()=>data
+        });
+        this.emit(false, key);
+        return data;
+    }
+    emit(aborted, settledKey) {
+        this.subscribers.forEach((subscriber)=>subscriber(aborted, settledKey));
+    }
+    subscribe(fn) {
+        this.subscribers.add(fn);
+        return ()=>this.subscribers.delete(fn);
+    }
+    cancel() {
+        this.controller.abort();
+        this.pendingKeysSet.forEach((v, k)=>this.pendingKeysSet.delete(k));
+        this.emit(true);
+    }
+    async resolveData(signal) {
+        let aborted = false;
+        if (!this.done) {
+            let onAbort = ()=>this.cancel();
+            signal.addEventListener("abort", onAbort);
+            aborted = await new Promise((resolve)=>{
+                this.subscribe((aborted)=>{
+                    signal.removeEventListener("abort", onAbort);
+                    if (aborted || this.done) resolve(aborted);
+                });
+            });
+        }
+        return aborted;
+    }
+    get done() {
+        return this.pendingKeysSet.size === 0;
+    }
+    get unwrappedData() {
+        invariant(this.data !== null && this.done, "Can only unwrap data on initialized and settled deferreds");
+        return Object.entries(this.data).reduce((acc, _ref2)=>{
+            let [key, value] = _ref2;
+            return Object.assign(acc, {
+                [key]: unwrapTrackedPromise(value)
+            });
+        }, {});
+    }
+    get pendingKeys() {
+        return Array.from(this.pendingKeysSet);
+    }
+}
+function isTrackedPromise(value) {
+    return value instanceof Promise && value._tracked === true;
+}
+function unwrapTrackedPromise(value) {
+    if (!isTrackedPromise(value)) return value;
+    if (value._error) throw value._error;
+    return value._data;
+}
+const defer = function defer(data, init) {
+    if (init === void 0) init = {};
+    let responseInit = typeof init === "number" ? {
+        status: init
+    } : init;
+    return new DeferredData(data, responseInit);
+};
+/**
+ * A redirect response. Sets the status code and the `Location` header.
+ * Defaults to "302 Found".
+ */ const redirect = function redirect(url, init) {
+    if (init === void 0) init = 302;
+    let responseInit = init;
+    if (typeof responseInit === "number") responseInit = {
+        status: responseInit
+    };
+    else if (typeof responseInit.status === "undefined") responseInit.status = 302;
+    let headers = new Headers(responseInit.headers);
+    headers.set("Location", url);
+    return new Response(null, _extends({}, responseInit, {
+        headers
+    }));
+};
+/**
+ * @private
+ * Utility class we use to hold auto-unwrapped 4xx/5xx Response bodies
+ */ class ErrorResponse {
+    constructor(status, statusText, data, internal){
+        if (internal === void 0) internal = false;
+        this.status = status;
+        this.statusText = statusText || "";
+        this.internal = internal;
+        if (data instanceof Error) {
+            this.data = data.toString();
+            this.error = data;
+        } else this.data = data;
+    }
+}
+/**
+ * Check if the given error is an ErrorResponse generated from a 4xx/5xx
+ * Response thrown from an action/loader
+ */ function isRouteErrorResponse(error) {
+    return error != null && typeof error.status === "number" && typeof error.statusText === "string" && typeof error.internal === "boolean" && "data" in error;
+}
+const validMutationMethodsArr = [
+    "post",
+    "put",
+    "patch",
+    "delete"
+];
+const validMutationMethods = new Set(validMutationMethodsArr);
+const validRequestMethodsArr = [
+    "get",
+    ...validMutationMethodsArr
+];
+const validRequestMethods = new Set(validRequestMethodsArr);
+const redirectStatusCodes = new Set([
+    301,
+    302,
+    303,
+    307,
+    308
+]);
+const redirectPreserveMethodStatusCodes = new Set([
+    307,
+    308
+]);
+const IDLE_NAVIGATION = {
+    state: "idle",
+    location: undefined,
+    formMethod: undefined,
+    formAction: undefined,
+    formEncType: undefined,
+    formData: undefined
+};
+const IDLE_FETCHER = {
+    state: "idle",
+    data: undefined,
+    formMethod: undefined,
+    formAction: undefined,
+    formEncType: undefined,
+    formData: undefined
+};
+const IDLE_BLOCKER = {
+    state: "unblocked",
+    proceed: undefined,
+    reset: undefined,
+    location: undefined
+};
+const ABSOLUTE_URL_REGEX = /^(?:[a-z][a-z0-9+.-]*:|\/\/)/i;
+const isBrowser = typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined";
+const isServer = !isBrowser;
+const defaultMapRouteProperties = (route)=>({
+        hasErrorBoundary: Boolean(route.hasErrorBoundary)
+    }); //#endregion
+////////////////////////////////////////////////////////////////////////////////
+//#region createRouter
+////////////////////////////////////////////////////////////////////////////////
+/**
+ * Create a router and listen to history POP navigations
+ */ function createRouter(init) {
+    invariant(init.routes.length > 0, "You must provide a non-empty routes array to createRouter");
+    let mapRouteProperties;
+    if (init.mapRouteProperties) mapRouteProperties = init.mapRouteProperties;
+    else if (init.detectErrorBoundary) {
+        // If they are still using the deprecated version, wrap it with the new API
+        let detectErrorBoundary = init.detectErrorBoundary;
+        mapRouteProperties = (route)=>({
+                hasErrorBoundary: detectErrorBoundary(route)
+            });
+    } else mapRouteProperties = defaultMapRouteProperties;
+     // Routes keyed by ID
+    let manifest = {}; // Routes in tree format for matching
+    let dataRoutes = convertRoutesToDataRoutes(init.routes, mapRouteProperties, undefined, manifest);
+    let inFlightDataRoutes;
+    let basename = init.basename || "/"; // Config driven behavior flags
+    let future = _extends({
+        v7_normalizeFormMethod: false,
+        v7_prependBasename: false
+    }, init.future); // Cleanup function for history
+    let unlistenHistory = null; // Externally-provided functions to call on all state changes
+    let subscribers = new Set(); // Externally-provided object to hold scroll restoration locations during routing
+    let savedScrollPositions = null; // Externally-provided function to get scroll restoration keys
+    let getScrollRestorationKey = null; // Externally-provided function to get current scroll position
+    let getScrollPosition = null; // One-time flag to control the initial hydration scroll restoration.  Because
+    // we don't get the saved positions from <ScrollRestoration /> until _after_
+    // the initial render, we need to manually trigger a separate updateState to
+    // send along the restoreScrollPosition
+    // Set to true if we have `hydrationData` since we assume we were SSR'd and that
+    // SSR did the initial scroll restoration.
+    let initialScrollRestored = init.hydrationData != null;
+    let initialMatches = matchRoutes(dataRoutes, init.history.location, basename);
+    let initialErrors = null;
+    if (initialMatches == null) {
+        // If we do not match a user-provided-route, fall back to the root
+        // to allow the error boundary to take over
+        let error = getInternalRouterError(404, {
+            pathname: init.history.location.pathname
+        });
+        let { matches , route  } = getShortCircuitMatches(dataRoutes);
+        initialMatches = matches;
+        initialErrors = {
+            [route.id]: error
+        };
+    }
+    let initialized = // functions around still then we'll need to run them in initialize()
+    !initialMatches.some((m)=>m.route.lazy) && (!initialMatches.some((m)=>m.route.loader) || init.hydrationData != null);
+    let router;
+    let state = {
+        historyAction: init.history.action,
+        location: init.history.location,
+        matches: initialMatches,
+        initialized,
+        navigation: IDLE_NAVIGATION,
+        // Don't restore on initial updateState() if we were SSR'd
+        restoreScrollPosition: init.hydrationData != null ? false : null,
+        preventScrollReset: false,
+        revalidation: "idle",
+        loaderData: init.hydrationData && init.hydrationData.loaderData || {},
+        actionData: init.hydrationData && init.hydrationData.actionData || null,
+        errors: init.hydrationData && init.hydrationData.errors || initialErrors,
+        fetchers: new Map(),
+        blockers: new Map()
+    }; // -- Stateful internal variables to manage navigations --
+    // Current navigation in progress (to be committed in completeNavigation)
+    let pendingAction = Action.Pop; // Should the current navigation prevent the scroll reset if scroll cannot
+    // be restored?
+    let pendingPreventScrollReset = false; // AbortController for the active navigation
+    let pendingNavigationController; // We use this to avoid touching history in completeNavigation if a
+    // revalidation is entirely uninterrupted
+    let isUninterruptedRevalidation = false; // Use this internal flag to force revalidation of all loaders:
+    //  - submissions (completed or interrupted)
+    //  - useRevalidator()
+    //  - X-Remix-Revalidate (from redirect)
+    let isRevalidationRequired = false; // Use this internal array to capture routes that require revalidation due
+    // to a cancelled deferred on action submission
+    let cancelledDeferredRoutes = []; // Use this internal array to capture fetcher loads that were cancelled by an
+    // action navigation and require revalidation
+    let cancelledFetcherLoads = []; // AbortControllers for any in-flight fetchers
+    let fetchControllers = new Map(); // Track loads based on the order in which they started
+    let incrementingLoadId = 0; // Track the outstanding pending navigation data load to be compared against
+    // the globally incrementing load when a fetcher load lands after a completed
+    // navigation
+    let pendingNavigationLoadId = -1; // Fetchers that triggered data reloads as a result of their actions
+    let fetchReloadIds = new Map(); // Fetchers that triggered redirect navigations
+    let fetchRedirectIds = new Set(); // Most recent href/match for fetcher.load calls for fetchers
+    let fetchLoadMatches = new Map(); // Store DeferredData instances for active route matches.  When a
+    // route loader returns defer() we stick one in here.  Then, when a nested
+    // promise resolves we update loaderData.  If a new navigation starts we
+    // cancel active deferreds for eliminated routes.
+    let activeDeferreds = new Map(); // Store blocker functions in a separate Map outside of router state since
+    // we don't need to update UI state if they change
+    let blockerFunctions = new Map(); // Flag to ignore the next history update, so we can revert the URL change on
+    // a POP navigation that was blocked by the user without touching router state
+    let ignoreNextHistoryUpdate = false; // Initialize the router, all side effects should be kicked off from here.
+    // Implemented as a Fluent API for ease of:
+    //   let router = createRouter(init).initialize();
+    function initialize() {
+        // If history informs us of a POP navigation, start the navigation but do not update
+        // state.  We'll update our own state once the navigation completes
+        unlistenHistory = init.history.listen((_ref)=>{
+            let { action: historyAction , location , delta  } = _ref;
+            // Ignore this event if it was just us resetting the URL from a
+            // blocked POP navigation
+            if (ignoreNextHistoryUpdate) {
+                ignoreNextHistoryUpdate = false;
+                return;
+            }
+            warning(blockerFunctions.size === 0 || delta != null, "You are trying to use a blocker on a POP navigation to a location that was not created by @remix-run/router. This will fail silently in production. This can happen if you are navigating outside the router via `window.history.pushState`/`window.location.hash` instead of using router navigation APIs.  This can also happen if you are using createHashRouter and the user manually changes the URL.");
+            let blockerKey = shouldBlockNavigation({
+                currentLocation: state.location,
+                nextLocation: location,
+                historyAction
+            });
+            if (blockerKey && delta != null) {
+                // Restore the URL to match the current UI, but don't update router state
+                ignoreNextHistoryUpdate = true;
+                init.history.go(delta * -1); // Put the blocker into a blocked state
+                updateBlocker(blockerKey, {
+                    state: "blocked",
+                    location,
+                    proceed () {
+                        updateBlocker(blockerKey, {
+                            state: "proceeding",
+                            proceed: undefined,
+                            reset: undefined,
+                            location
+                        }); // Re-do the same POP navigation we just blocked
+                        init.history.go(delta);
+                    },
+                    reset () {
+                        deleteBlocker(blockerKey);
+                        updateState({
+                            blockers: new Map(router.state.blockers)
+                        });
+                    }
+                });
+                return;
+            }
+            return startNavigation(historyAction, location);
+        }); // Kick off initial data load if needed.  Use Pop to avoid modifying history
+        // Note we don't do any handling of lazy here.  For SPA's it'll get handled
+        // in the normal navigation flow.  For SSR it's expected that lazy modules are
+        // resolved prior to router creation since we can't go into a fallbackElement
+        // UI for SSR'd apps
+        if (!state.initialized) startNavigation(Action.Pop, state.location);
+        return router;
+    } // Clean up a router and it's side effects
+    function dispose() {
+        if (unlistenHistory) unlistenHistory();
+        subscribers.clear();
+        pendingNavigationController && pendingNavigationController.abort();
+        state.fetchers.forEach((_, key)=>deleteFetcher(key));
+        state.blockers.forEach((_, key)=>deleteBlocker(key));
+    } // Subscribe to state updates for the router
+    function subscribe(fn) {
+        subscribers.add(fn);
+        return ()=>subscribers.delete(fn);
+    } // Update our state and notify the calling context of the change
+    function updateState(newState) {
+        state = _extends({}, state, newState);
+        subscribers.forEach((subscriber)=>subscriber(state));
+    } // Complete a navigation returning the state.navigation back to the IDLE_NAVIGATION
+    // and setting state.[historyAction/location/matches] to the new route.
+    // - Location is a required param
+    // - Navigation will always be set to IDLE_NAVIGATION
+    // - Can pass any other state in newState
+    function completeNavigation(location, newState) {
+        var _location$state, _location$state2;
+        // Deduce if we're in a loading/actionReload state:
+        // - We have committed actionData in the store
+        // - The current navigation was a mutation submission
+        // - We're past the submitting state and into the loading state
+        // - The location being loaded is not the result of a redirect
+        let isActionReload = state.actionData != null && state.navigation.formMethod != null && isMutationMethod(state.navigation.formMethod) && state.navigation.state === "loading" && ((_location$state = location.state) == null ? void 0 : _location$state._isRedirect) !== true;
+        let actionData;
+        if (newState.actionData) {
+            if (Object.keys(newState.actionData).length > 0) actionData = newState.actionData;
+            else // Empty actionData -> clear prior actionData due to an action error
+            actionData = null;
+        } else if (isActionReload) // Keep the current data if we're wrapping up the action reload
+        actionData = state.actionData;
+        else // Clear actionData on any other completed navigations
+        actionData = null;
+         // Always preserve any existing loaderData from re-used routes
+        let loaderData = newState.loaderData ? mergeLoaderData(state.loaderData, newState.loaderData, newState.matches || [], newState.errors) : state.loaderData; // On a successful navigation we can assume we got through all blockers
+        // so we can start fresh
+        for (let [key] of blockerFunctions)deleteBlocker(key);
+         // Always respect the user flag.  Otherwise don't reset on mutation
+        // submission navigations unless they redirect
+        let preventScrollReset = pendingPreventScrollReset === true || state.navigation.formMethod != null && isMutationMethod(state.navigation.formMethod) && ((_location$state2 = location.state) == null ? void 0 : _location$state2._isRedirect) !== true;
+        if (inFlightDataRoutes) {
+            dataRoutes = inFlightDataRoutes;
+            inFlightDataRoutes = undefined;
+        }
+        updateState(_extends({}, newState, {
+            actionData,
+            loaderData,
+            historyAction: pendingAction,
+            location,
+            initialized: true,
+            navigation: IDLE_NAVIGATION,
+            revalidation: "idle",
+            restoreScrollPosition: getSavedScrollPosition(location, newState.matches || state.matches),
+            preventScrollReset,
+            blockers: new Map(state.blockers)
+        }));
+        if (isUninterruptedRevalidation) ;
+        else if (pendingAction === Action.Pop) ;
+        else if (pendingAction === Action.Push) init.history.push(location, location.state);
+        else if (pendingAction === Action.Replace) init.history.replace(location, location.state);
+         // Reset stateful navigation vars
+        pendingAction = Action.Pop;
+        pendingPreventScrollReset = false;
+        isUninterruptedRevalidation = false;
+        isRevalidationRequired = false;
+        cancelledDeferredRoutes = [];
+        cancelledFetcherLoads = [];
+    } // Trigger a navigation event, which can either be a numerical POP or a PUSH
+    // replace with an optional submission
+    async function navigate(to, opts) {
+        if (typeof to === "number") {
+            init.history.go(to);
+            return;
+        }
+        let normalizedPath = normalizeTo(state.location, state.matches, basename, future.v7_prependBasename, to, opts == null ? void 0 : opts.fromRouteId, opts == null ? void 0 : opts.relative);
+        let { path , submission , error  } = normalizeNavigateOptions(future.v7_normalizeFormMethod, false, normalizedPath, opts);
+        let currentLocation = state.location;
+        let nextLocation = createLocation(state.location, path, opts && opts.state); // When using navigate as a PUSH/REPLACE we aren't reading an already-encoded
+        // URL from window.location, so we need to encode it here so the behavior
+        // remains the same as POP and non-data-router usages.  new URL() does all
+        // the same encoding we'd get from a history.pushState/window.location read
+        // without having to touch history
+        nextLocation = _extends({}, nextLocation, init.history.encodeLocation(nextLocation));
+        let userReplace = opts && opts.replace != null ? opts.replace : undefined;
+        let historyAction = Action.Push;
+        if (userReplace === true) historyAction = Action.Replace;
+        else if (userReplace === false) ;
+        else if (submission != null && isMutationMethod(submission.formMethod) && submission.formAction === state.location.pathname + state.location.search) // By default on submissions to the current location we REPLACE so that
+        // users don't have to double-click the back button to get to the prior
+        // location.  If the user redirects to a different location from the
+        // action/loader this will be ignored and the redirect will be a PUSH
+        historyAction = Action.Replace;
+        let preventScrollReset = opts && "preventScrollReset" in opts ? opts.preventScrollReset === true : undefined;
+        let blockerKey = shouldBlockNavigation({
+            currentLocation,
+            nextLocation,
+            historyAction
+        });
+        if (blockerKey) {
+            // Put the blocker into a blocked state
+            updateBlocker(blockerKey, {
+                state: "blocked",
+                location: nextLocation,
+                proceed () {
+                    updateBlocker(blockerKey, {
+                        state: "proceeding",
+                        proceed: undefined,
+                        reset: undefined,
+                        location: nextLocation
+                    }); // Send the same navigation through
+                    navigate(to, opts);
+                },
+                reset () {
+                    deleteBlocker(blockerKey);
+                    updateState({
+                        blockers: new Map(state.blockers)
+                    });
+                }
+            });
+            return;
+        }
+        return await startNavigation(historyAction, nextLocation, {
+            submission,
+            // Send through the formData serialization error if we have one so we can
+            // render at the right error boundary after we match routes
+            pendingError: error,
+            preventScrollReset,
+            replace: opts && opts.replace
+        });
+    } // Revalidate all current loaders.  If a navigation is in progress or if this
+    // is interrupted by a navigation, allow this to "succeed" by calling all
+    // loaders during the next loader round
+    function revalidate() {
+        interruptActiveLoads();
+        updateState({
+            revalidation: "loading"
+        }); // If we're currently submitting an action, we don't need to start a new
+        // navigation, we'll just let the follow up loader execution call all loaders
+        if (state.navigation.state === "submitting") return;
+         // If we're currently in an idle state, start a new navigation for the current
+        // action/location and mark it as uninterrupted, which will skip the history
+        // update in completeNavigation
+        if (state.navigation.state === "idle") {
+            startNavigation(state.historyAction, state.location, {
+                startUninterruptedRevalidation: true
+            });
+            return;
+        } // Otherwise, if we're currently in a loading state, just start a new
+        // navigation to the navigation.location but do not trigger an uninterrupted
+        // revalidation so that history correctly updates once the navigation completes
+        startNavigation(pendingAction || state.historyAction, state.navigation.location, {
+            overrideNavigation: state.navigation
+        });
+    } // Start a navigation to the given action/location.  Can optionally provide a
+    // overrideNavigation which will override the normalLoad in the case of a redirect
+    // navigation
+    async function startNavigation(historyAction, location, opts) {
+        // Abort any in-progress navigations and start a new one. Unset any ongoing
+        // uninterrupted revalidations unless told otherwise, since we want this
+        // new navigation to update history normally
+        pendingNavigationController && pendingNavigationController.abort();
+        pendingNavigationController = null;
+        pendingAction = historyAction;
+        isUninterruptedRevalidation = (opts && opts.startUninterruptedRevalidation) === true; // Save the current scroll position every time we start a new navigation,
+        // and track whether we should reset scroll on completion
+        saveScrollPosition(state.location, state.matches);
+        pendingPreventScrollReset = (opts && opts.preventScrollReset) === true;
+        let routesToUse = inFlightDataRoutes || dataRoutes;
+        let loadingNavigation = opts && opts.overrideNavigation;
+        let matches = matchRoutes(routesToUse, location, basename); // Short circuit with a 404 on the root error boundary if we match nothing
+        if (!matches) {
+            let error = getInternalRouterError(404, {
+                pathname: location.pathname
+            });
+            let { matches: notFoundMatches , route  } = getShortCircuitMatches(routesToUse); // Cancel all pending deferred on 404s since we don't keep any routes
+            cancelActiveDeferreds();
+            completeNavigation(location, {
+                matches: notFoundMatches,
+                loaderData: {},
+                errors: {
+                    [route.id]: error
+                }
+            });
+            return;
+        } // Short circuit if it's only a hash change and not a mutation submission.
+        // Ignore on initial page loads because since the initial load will always
+        // be "same hash".
+        // For example, on /page#hash and submit a <Form method="post"> which will
+        // default to a navigation to /page
+        if (state.initialized && isHashChangeOnly(state.location, location) && !(opts && opts.submission && isMutationMethod(opts.submission.formMethod))) {
+            completeNavigation(location, {
+                matches
+            });
+            return;
+        } // Create a controller/Request for this navigation
+        pendingNavigationController = new AbortController();
+        let request = createClientSideRequest(init.history, location, pendingNavigationController.signal, opts && opts.submission);
+        let pendingActionData;
+        let pendingError;
+        if (opts && opts.pendingError) // If we have a pendingError, it means the user attempted a GET submission
+        // with binary FormData so assign here and skip to handleLoaders.  That
+        // way we handle calling loaders above the boundary etc.  It's not really
+        // different from an actionError in that sense.
+        pendingError = {
+            [findNearestBoundary(matches).route.id]: opts.pendingError
+        };
+        else if (opts && opts.submission && isMutationMethod(opts.submission.formMethod)) {
+            // Call action if we received an action submission
+            let actionOutput = await handleAction(request, location, opts.submission, matches, {
+                replace: opts.replace
+            });
+            if (actionOutput.shortCircuited) return;
+            pendingActionData = actionOutput.pendingActionData;
+            pendingError = actionOutput.pendingActionError;
+            let navigation = _extends({
+                state: "loading",
+                location
+            }, opts.submission);
+            loadingNavigation = navigation; // Create a GET request for the loaders
+            request = new Request(request.url, {
+                signal: request.signal
+            });
+        } // Call loaders
+        let { shortCircuited , loaderData , errors  } = await handleLoaders(request, location, matches, loadingNavigation, opts && opts.submission, opts && opts.fetcherSubmission, opts && opts.replace, pendingActionData, pendingError);
+        if (shortCircuited) return;
+         // Clean up now that the action/loaders have completed.  Don't clean up if
+        // we short circuited because pendingNavigationController will have already
+        // been assigned to a new controller for the next navigation
+        pendingNavigationController = null;
+        completeNavigation(location, _extends({
+            matches
+        }, pendingActionData ? {
+            actionData: pendingActionData
+        } : {}, {
+            loaderData,
+            errors
+        }));
+    } // Call the action matched by the leaf route for this navigation and handle
+    // redirects/errors
+    async function handleAction(request, location, submission, matches, opts) {
+        interruptActiveLoads(); // Put us in a submitting state
+        let navigation = _extends({
+            state: "submitting",
+            location
+        }, submission);
+        updateState({
+            navigation
+        }); // Call our action and get the result
+        let result;
+        let actionMatch = getTargetMatch(matches, location);
+        if (!actionMatch.route.action && !actionMatch.route.lazy) result = {
+            type: ResultType.error,
+            error: getInternalRouterError(405, {
+                method: request.method,
+                pathname: location.pathname,
+                routeId: actionMatch.route.id
+            })
+        };
+        else {
+            result = await callLoaderOrAction("action", request, actionMatch, matches, manifest, mapRouteProperties, basename);
+            if (request.signal.aborted) return {
+                shortCircuited: true
+            };
+        }
+        if (isRedirectResult(result)) {
+            let replace;
+            if (opts && opts.replace != null) replace = opts.replace;
+            else // If the user didn't explicity indicate replace behavior, replace if
+            // we redirected to the exact same location we're currently at to avoid
+            // double back-buttons
+            replace = result.location === state.location.pathname + state.location.search;
+            await startRedirectNavigation(state, result, {
+                submission,
+                replace
+            });
+            return {
+                shortCircuited: true
+            };
+        }
+        if (isErrorResult(result)) {
+            // Store off the pending error - we use it to determine which loaders
+            // to call and will commit it when we complete the navigation
+            let boundaryMatch = findNearestBoundary(matches, actionMatch.route.id); // By default, all submissions are REPLACE navigations, but if the
+            // action threw an error that'll be rendered in an errorElement, we fall
+            // back to PUSH so that the user can use the back button to get back to
+            // the pre-submission form location to try again
+            if ((opts && opts.replace) !== true) pendingAction = Action.Push;
+            return {
+                // Send back an empty object we can use to clear out any prior actionData
+                pendingActionData: {},
+                pendingActionError: {
+                    [boundaryMatch.route.id]: result.error
+                }
+            };
+        }
+        if (isDeferredResult(result)) throw getInternalRouterError(400, {
+            type: "defer-action"
+        });
+        return {
+            pendingActionData: {
+                [actionMatch.route.id]: result.data
+            }
+        };
+    } // Call all applicable loaders for the given matches, handling redirects,
+    // errors, etc.
+    async function handleLoaders(request, location, matches, overrideNavigation, submission, fetcherSubmission, replace, pendingActionData, pendingError) {
+        // Figure out the right navigation we want to use for data loading
+        let loadingNavigation = overrideNavigation;
+        if (!loadingNavigation) {
+            let navigation = _extends({
+                state: "loading",
+                location,
+                formMethod: undefined,
+                formAction: undefined,
+                formEncType: undefined,
+                formData: undefined
+            }, submission);
+            loadingNavigation = navigation;
+        } // If this was a redirect from an action we don't have a "submission" but
+        // we have it on the loading navigation so use that if available
+        let activeSubmission = submission || fetcherSubmission ? submission || fetcherSubmission : loadingNavigation.formMethod && loadingNavigation.formAction && loadingNavigation.formData && loadingNavigation.formEncType ? {
+            formMethod: loadingNavigation.formMethod,
+            formAction: loadingNavigation.formAction,
+            formData: loadingNavigation.formData,
+            formEncType: loadingNavigation.formEncType
+        } : undefined;
+        let routesToUse = inFlightDataRoutes || dataRoutes;
+        let [matchesToLoad, revalidatingFetchers] = getMatchesToLoad(init.history, state, matches, activeSubmission, location, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, fetchLoadMatches, routesToUse, basename, pendingActionData, pendingError); // Cancel pending deferreds for no-longer-matched routes or routes we're
+        // about to reload.  Note that if this is an action reload we would have
+        // already cancelled all pending deferreds so this would be a no-op
+        cancelActiveDeferreds((routeId)=>!(matches && matches.some((m)=>m.route.id === routeId)) || matchesToLoad && matchesToLoad.some((m)=>m.route.id === routeId)); // Short circuit if we have no loaders to run
+        if (matchesToLoad.length === 0 && revalidatingFetchers.length === 0) {
+            let updatedFetchers = markFetchRedirectsDone();
+            completeNavigation(location, _extends({
+                matches,
+                loaderData: {},
+                // Commit pending error if we're short circuiting
+                errors: pendingError || null
+            }, pendingActionData ? {
+                actionData: pendingActionData
+            } : {}, updatedFetchers ? {
+                fetchers: new Map(state.fetchers)
+            } : {}));
+            return {
+                shortCircuited: true
+            };
+        } // If this is an uninterrupted revalidation, we remain in our current idle
+        // state.  If not, we need to switch to our loading state and load data,
+        // preserving any new action data or existing action data (in the case of
+        // a revalidation interrupting an actionReload)
+        if (!isUninterruptedRevalidation) {
+            revalidatingFetchers.forEach((rf)=>{
+                let fetcher = state.fetchers.get(rf.key);
+                let revalidatingFetcher = {
+                    state: "loading",
+                    data: fetcher && fetcher.data,
+                    formMethod: undefined,
+                    formAction: undefined,
+                    formEncType: undefined,
+                    formData: undefined,
+                    " _hasFetcherDoneAnything ": true
+                };
+                state.fetchers.set(rf.key, revalidatingFetcher);
+            });
+            let actionData = pendingActionData || state.actionData;
+            updateState(_extends({
+                navigation: loadingNavigation
+            }, actionData ? Object.keys(actionData).length === 0 ? {
+                actionData: null
+            } : {
+                actionData
+            } : {}, revalidatingFetchers.length > 0 ? {
+                fetchers: new Map(state.fetchers)
+            } : {}));
+        }
+        pendingNavigationLoadId = ++incrementingLoadId;
+        revalidatingFetchers.forEach((rf)=>{
+            if (rf.controller) // Fetchers use an independent AbortController so that aborting a fetcher
+            // (via deleteFetcher) does not abort the triggering navigation that
+            // triggered the revalidation
+            fetchControllers.set(rf.key, rf.controller);
+        }); // Proxy navigation abort through to revalidation fetchers
+        let abortPendingFetchRevalidations = ()=>revalidatingFetchers.forEach((f)=>abortFetcher(f.key));
+        if (pendingNavigationController) pendingNavigationController.signal.addEventListener("abort", abortPendingFetchRevalidations);
+        let { results , loaderResults , fetcherResults  } = await callLoadersAndMaybeResolveData(state.matches, matches, matchesToLoad, revalidatingFetchers, request);
+        if (request.signal.aborted) return {
+            shortCircuited: true
+        };
+         // Clean up _after_ loaders have completed.  Don't clean up if we short
+        // circuited because fetchControllers would have been aborted and
+        // reassigned to new controllers for the next navigation
+        if (pendingNavigationController) pendingNavigationController.signal.removeEventListener("abort", abortPendingFetchRevalidations);
+        revalidatingFetchers.forEach((rf)=>fetchControllers.delete(rf.key)); // If any loaders returned a redirect Response, start a new REPLACE navigation
+        let redirect = findRedirect(results);
+        if (redirect) {
+            await startRedirectNavigation(state, redirect, {
+                replace
+            });
+            return {
+                shortCircuited: true
+            };
+        } // Process and commit output from loaders
+        let { loaderData , errors  } = processLoaderData(state, matches, matchesToLoad, loaderResults, pendingError, revalidatingFetchers, fetcherResults, activeDeferreds); // Wire up subscribers to update loaderData as promises settle
+        activeDeferreds.forEach((deferredData, routeId)=>{
+            deferredData.subscribe((aborted)=>{
+                // Note: No need to updateState here since the TrackedPromise on
+                // loaderData is stable across resolve/reject
+                // Remove this instance if we were aborted or if promises have settled
+                if (aborted || deferredData.done) activeDeferreds.delete(routeId);
+            });
+        });
+        let updatedFetchers = markFetchRedirectsDone();
+        let didAbortFetchLoads = abortStaleFetchLoads(pendingNavigationLoadId);
+        let shouldUpdateFetchers = updatedFetchers || didAbortFetchLoads || revalidatingFetchers.length > 0;
+        return _extends({
+            loaderData,
+            errors
+        }, shouldUpdateFetchers ? {
+            fetchers: new Map(state.fetchers)
+        } : {});
+    }
+    function getFetcher(key) {
+        return state.fetchers.get(key) || IDLE_FETCHER;
+    } // Trigger a fetcher load/submit for the given fetcher key
+    function fetch(key, routeId, href, opts) {
+        if (isServer) throw new Error("router.fetch() was called during the server render, but it shouldn't be. You are likely calling a useFetcher() method in the body of your component. Try moving it to a useEffect or a callback.");
+        if (fetchControllers.has(key)) abortFetcher(key);
+        let routesToUse = inFlightDataRoutes || dataRoutes;
+        let normalizedPath = normalizeTo(state.location, state.matches, basename, future.v7_prependBasename, href, routeId, opts == null ? void 0 : opts.relative);
+        let matches = matchRoutes(routesToUse, normalizedPath, basename);
+        if (!matches) {
+            setFetcherError(key, routeId, getInternalRouterError(404, {
+                pathname: normalizedPath
+            }));
+            return;
+        }
+        let { path , submission  } = normalizeNavigateOptions(future.v7_normalizeFormMethod, true, normalizedPath, opts);
+        let match = getTargetMatch(matches, path);
+        pendingPreventScrollReset = (opts && opts.preventScrollReset) === true;
+        if (submission && isMutationMethod(submission.formMethod)) {
+            handleFetcherAction(key, routeId, path, match, matches, submission);
+            return;
+        } // Store off the match so we can call it's shouldRevalidate on subsequent
+        // revalidations
+        fetchLoadMatches.set(key, {
+            routeId,
+            path
+        });
+        handleFetcherLoader(key, routeId, path, match, matches, submission);
+    } // Call the action for the matched fetcher.submit(), and then handle redirects,
+    // errors, and revalidation
+    async function handleFetcherAction(key, routeId, path, match, requestMatches, submission) {
+        interruptActiveLoads();
+        fetchLoadMatches.delete(key);
+        if (!match.route.action && !match.route.lazy) {
+            let error = getInternalRouterError(405, {
+                method: submission.formMethod,
+                pathname: path,
+                routeId: routeId
+            });
+            setFetcherError(key, routeId, error);
+            return;
+        } // Put this fetcher into it's submitting state
+        let existingFetcher = state.fetchers.get(key);
+        let fetcher = _extends({
+            state: "submitting"
+        }, submission, {
+            data: existingFetcher && existingFetcher.data,
+            " _hasFetcherDoneAnything ": true
+        });
+        state.fetchers.set(key, fetcher);
+        updateState({
+            fetchers: new Map(state.fetchers)
+        }); // Call the action for the fetcher
+        let abortController = new AbortController();
+        let fetchRequest = createClientSideRequest(init.history, path, abortController.signal, submission);
+        fetchControllers.set(key, abortController);
+        let actionResult = await callLoaderOrAction("action", fetchRequest, match, requestMatches, manifest, mapRouteProperties, basename);
+        if (fetchRequest.signal.aborted) {
+            // We can delete this so long as we weren't aborted by ou our own fetcher
+            // re-submit which would have put _new_ controller is in fetchControllers
+            if (fetchControllers.get(key) === abortController) fetchControllers.delete(key);
+            return;
+        }
+        if (isRedirectResult(actionResult)) {
+            fetchControllers.delete(key);
+            fetchRedirectIds.add(key);
+            let loadingFetcher = _extends({
+                state: "loading"
+            }, submission, {
+                data: undefined,
+                " _hasFetcherDoneAnything ": true
+            });
+            state.fetchers.set(key, loadingFetcher);
+            updateState({
+                fetchers: new Map(state.fetchers)
+            });
+            return startRedirectNavigation(state, actionResult, {
+                submission,
+                isFetchActionRedirect: true
+            });
+        } // Process any non-redirect errors thrown
+        if (isErrorResult(actionResult)) {
+            setFetcherError(key, routeId, actionResult.error);
+            return;
+        }
+        if (isDeferredResult(actionResult)) throw getInternalRouterError(400, {
+            type: "defer-action"
+        });
+         // Start the data load for current matches, or the next location if we're
+        // in the middle of a navigation
+        let nextLocation = state.navigation.location || state.location;
+        let revalidationRequest = createClientSideRequest(init.history, nextLocation, abortController.signal);
+        let routesToUse = inFlightDataRoutes || dataRoutes;
+        let matches = state.navigation.state !== "idle" ? matchRoutes(routesToUse, state.navigation.location, basename) : state.matches;
+        invariant(matches, "Didn't find any matches after fetcher action");
+        let loadId = ++incrementingLoadId;
+        fetchReloadIds.set(key, loadId);
+        let loadFetcher = _extends({
+            state: "loading",
+            data: actionResult.data
+        }, submission, {
+            " _hasFetcherDoneAnything ": true
+        });
+        state.fetchers.set(key, loadFetcher);
+        let [matchesToLoad, revalidatingFetchers] = getMatchesToLoad(init.history, state, matches, submission, nextLocation, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, fetchLoadMatches, routesToUse, basename, {
+            [match.route.id]: actionResult.data
+        }, undefined // No need to send through errors since we short circuit above
+        ); // Put all revalidating fetchers into the loading state, except for the
+        // current fetcher which we want to keep in it's current loading state which
+        // contains it's action submission info + action data
+        revalidatingFetchers.filter((rf)=>rf.key !== key).forEach((rf)=>{
+            let staleKey = rf.key;
+            let existingFetcher = state.fetchers.get(staleKey);
+            let revalidatingFetcher = {
+                state: "loading",
+                data: existingFetcher && existingFetcher.data,
+                formMethod: undefined,
+                formAction: undefined,
+                formEncType: undefined,
+                formData: undefined,
+                " _hasFetcherDoneAnything ": true
+            };
+            state.fetchers.set(staleKey, revalidatingFetcher);
+            if (rf.controller) fetchControllers.set(staleKey, rf.controller);
+        });
+        updateState({
+            fetchers: new Map(state.fetchers)
+        });
+        let abortPendingFetchRevalidations = ()=>revalidatingFetchers.forEach((rf)=>abortFetcher(rf.key));
+        abortController.signal.addEventListener("abort", abortPendingFetchRevalidations);
+        let { results , loaderResults , fetcherResults  } = await callLoadersAndMaybeResolveData(state.matches, matches, matchesToLoad, revalidatingFetchers, revalidationRequest);
+        if (abortController.signal.aborted) return;
+        abortController.signal.removeEventListener("abort", abortPendingFetchRevalidations);
+        fetchReloadIds.delete(key);
+        fetchControllers.delete(key);
+        revalidatingFetchers.forEach((r)=>fetchControllers.delete(r.key));
+        let redirect = findRedirect(results);
+        if (redirect) return startRedirectNavigation(state, redirect);
+         // Process and commit output from loaders
+        let { loaderData , errors  } = processLoaderData(state, state.matches, matchesToLoad, loaderResults, undefined, revalidatingFetchers, fetcherResults, activeDeferreds);
+        let doneFetcher = {
+            state: "idle",
+            data: actionResult.data,
+            formMethod: undefined,
+            formAction: undefined,
+            formEncType: undefined,
+            formData: undefined,
+            " _hasFetcherDoneAnything ": true
+        };
+        state.fetchers.set(key, doneFetcher);
+        let didAbortFetchLoads = abortStaleFetchLoads(loadId); // If we are currently in a navigation loading state and this fetcher is
+        // more recent than the navigation, we want the newer data so abort the
+        // navigation and complete it with the fetcher data
+        if (state.navigation.state === "loading" && loadId > pendingNavigationLoadId) {
+            invariant(pendingAction, "Expected pending action");
+            pendingNavigationController && pendingNavigationController.abort();
+            completeNavigation(state.navigation.location, {
+                matches,
+                loaderData,
+                errors,
+                fetchers: new Map(state.fetchers)
+            });
+        } else {
+            // otherwise just update with the fetcher data, preserving any existing
+            // loaderData for loaders that did not need to reload.  We have to
+            // manually merge here since we aren't going through completeNavigation
+            updateState(_extends({
+                errors,
+                loaderData: mergeLoaderData(state.loaderData, loaderData, matches, errors)
+            }, didAbortFetchLoads ? {
+                fetchers: new Map(state.fetchers)
+            } : {}));
+            isRevalidationRequired = false;
+        }
+    } // Call the matched loader for fetcher.load(), handling redirects, errors, etc.
+    async function handleFetcherLoader(key, routeId, path, match, matches, submission) {
+        let existingFetcher = state.fetchers.get(key); // Put this fetcher into it's loading state
+        let loadingFetcher = _extends({
+            state: "loading",
+            formMethod: undefined,
+            formAction: undefined,
+            formEncType: undefined,
+            formData: undefined
+        }, submission, {
+            data: existingFetcher && existingFetcher.data,
+            " _hasFetcherDoneAnything ": true
+        });
+        state.fetchers.set(key, loadingFetcher);
+        updateState({
+            fetchers: new Map(state.fetchers)
+        }); // Call the loader for this fetcher route match
+        let abortController = new AbortController();
+        let fetchRequest = createClientSideRequest(init.history, path, abortController.signal);
+        fetchControllers.set(key, abortController);
+        let result = await callLoaderOrAction("loader", fetchRequest, match, matches, manifest, mapRouteProperties, basename); // Deferred isn't supported for fetcher loads, await everything and treat it
+        // as a normal load.  resolveDeferredData will return undefined if this
+        // fetcher gets aborted, so we just leave result untouched and short circuit
+        // below if that happens
+        if (isDeferredResult(result)) result = await resolveDeferredData(result, fetchRequest.signal, true) || result;
+         // We can delete this so long as we weren't aborted by our our own fetcher
+        // re-load which would have put _new_ controller is in fetchControllers
+        if (fetchControllers.get(key) === abortController) fetchControllers.delete(key);
+        if (fetchRequest.signal.aborted) return;
+         // If the loader threw a redirect Response, start a new REPLACE navigation
+        if (isRedirectResult(result)) {
+            fetchRedirectIds.add(key);
+            await startRedirectNavigation(state, result);
+            return;
+        } // Process any non-redirect errors thrown
+        if (isErrorResult(result)) {
+            let boundaryMatch = findNearestBoundary(state.matches, routeId);
+            state.fetchers.delete(key); // TODO: In remix, this would reset to IDLE_NAVIGATION if it was a catch -
+            // do we need to behave any differently with our non-redirect errors?
+            // What if it was a non-redirect Response?
+            updateState({
+                fetchers: new Map(state.fetchers),
+                errors: {
+                    [boundaryMatch.route.id]: result.error
+                }
+            });
+            return;
+        }
+        invariant(!isDeferredResult(result), "Unhandled fetcher deferred data"); // Put the fetcher back into an idle state
+        let doneFetcher = {
+            state: "idle",
+            data: result.data,
+            formMethod: undefined,
+            formAction: undefined,
+            formEncType: undefined,
+            formData: undefined,
+            " _hasFetcherDoneAnything ": true
+        };
+        state.fetchers.set(key, doneFetcher);
+        updateState({
+            fetchers: new Map(state.fetchers)
+        });
+    }
+    /**
+   * Utility function to handle redirects returned from an action or loader.
+   * Normally, a redirect "replaces" the navigation that triggered it.  So, for
+   * example:
+   *
+   *  - user is on /a
+   *  - user clicks a link to /b
+   *  - loader for /b redirects to /c
+   *
+   * In a non-JS app the browser would track the in-flight navigation to /b and
+   * then replace it with /c when it encountered the redirect response.  In
+   * the end it would only ever update the URL bar with /c.
+   *
+   * In client-side routing using pushState/replaceState, we aim to emulate
+   * this behavior and we also do not update history until the end of the
+   * navigation (including processed redirects).  This means that we never
+   * actually touch history until we've processed redirects, so we just use
+   * the history action from the original navigation (PUSH or REPLACE).
+   */ async function startRedirectNavigation(state, redirect, _temp) {
+        var _window;
+        let { submission , replace , isFetchActionRedirect  } = _temp === void 0 ? {} : _temp;
+        if (redirect.revalidate) isRevalidationRequired = true;
+        let redirectLocation = createLocation(state.location, redirect.location, _extends({
+            _isRedirect: true
+        }, isFetchActionRedirect ? {
+            _isFetchActionRedirect: true
+        } : {}));
+        invariant(redirectLocation, "Expected a location on the redirect navigation"); // Check if this an absolute external redirect that goes to a new origin
+        if (ABSOLUTE_URL_REGEX.test(redirect.location) && isBrowser && typeof ((_window = window) == null ? void 0 : _window.location) !== "undefined") {
+            let url = init.history.createURL(redirect.location);
+            let isDifferentBasename = stripBasename(url.pathname, basename) == null;
+            if (window.location.origin !== url.origin || isDifferentBasename) {
+                if (replace) window.location.replace(redirect.location);
+                else window.location.assign(redirect.location);
+                return;
+            }
+        } // There's no need to abort on redirects, since we don't detect the
+        // redirect until the action/loaders have settled
+        pendingNavigationController = null;
+        let redirectHistoryAction = replace === true ? Action.Replace : Action.Push; // Use the incoming submission if provided, fallback on the active one in
+        // state.navigation
+        let { formMethod , formAction , formEncType , formData  } = state.navigation;
+        if (!submission && formMethod && formAction && formData && formEncType) submission = {
+            formMethod,
+            formAction,
+            formEncType,
+            formData
+        };
+         // If this was a 307/308 submission we want to preserve the HTTP method and
+        // re-submit the GET/POST/PUT/PATCH/DELETE as a submission navigation to the
+        // redirected location
+        if (redirectPreserveMethodStatusCodes.has(redirect.status) && submission && isMutationMethod(submission.formMethod)) await startNavigation(redirectHistoryAction, redirectLocation, {
+            submission: _extends({}, submission, {
+                formAction: redirect.location
+            }),
+            // Preserve this flag across redirects
+            preventScrollReset: pendingPreventScrollReset
+        });
+        else if (isFetchActionRedirect) // For a fetch action redirect, we kick off a new loading navigation
+        // without the fetcher submission, but we send it along for shouldRevalidate
+        await startNavigation(redirectHistoryAction, redirectLocation, {
+            overrideNavigation: {
+                state: "loading",
+                location: redirectLocation,
+                formMethod: undefined,
+                formAction: undefined,
+                formEncType: undefined,
+                formData: undefined
+            },
+            fetcherSubmission: submission,
+            // Preserve this flag across redirects
+            preventScrollReset: pendingPreventScrollReset
+        });
+        else // Otherwise, we kick off a new loading navigation, preserving the
+        // submission info for the duration of this navigation
+        await startNavigation(redirectHistoryAction, redirectLocation, {
+            overrideNavigation: {
+                state: "loading",
+                location: redirectLocation,
+                formMethod: submission ? submission.formMethod : undefined,
+                formAction: submission ? submission.formAction : undefined,
+                formEncType: submission ? submission.formEncType : undefined,
+                formData: submission ? submission.formData : undefined
+            },
+            // Preserve this flag across redirects
+            preventScrollReset: pendingPreventScrollReset
+        });
+    }
+    async function callLoadersAndMaybeResolveData(currentMatches, matches, matchesToLoad, fetchersToLoad, request) {
+        // Call all navigation loaders and revalidating fetcher loaders in parallel,
+        // then slice off the results into separate arrays so we can handle them
+        // accordingly
+        let results = await Promise.all([
+            ...matchesToLoad.map((match)=>callLoaderOrAction("loader", request, match, matches, manifest, mapRouteProperties, basename)),
+            ...fetchersToLoad.map((f)=>{
+                if (f.matches && f.match && f.controller) return callLoaderOrAction("loader", createClientSideRequest(init.history, f.path, f.controller.signal), f.match, f.matches, manifest, mapRouteProperties, basename);
+                else {
+                    let error = {
+                        type: ResultType.error,
+                        error: getInternalRouterError(404, {
+                            pathname: f.path
+                        })
+                    };
+                    return error;
+                }
+            })
+        ]);
+        let loaderResults = results.slice(0, matchesToLoad.length);
+        let fetcherResults = results.slice(matchesToLoad.length);
+        await Promise.all([
+            resolveDeferredResults(currentMatches, matchesToLoad, loaderResults, loaderResults.map(()=>request.signal), false, state.loaderData),
+            resolveDeferredResults(currentMatches, fetchersToLoad.map((f)=>f.match), fetcherResults, fetchersToLoad.map((f)=>f.controller ? f.controller.signal : null), true)
+        ]);
+        return {
+            results,
+            loaderResults,
+            fetcherResults
+        };
+    }
+    function interruptActiveLoads() {
+        // Every interruption triggers a revalidation
+        isRevalidationRequired = true; // Cancel pending route-level deferreds and mark cancelled routes for
+        // revalidation
+        cancelledDeferredRoutes.push(...cancelActiveDeferreds()); // Abort in-flight fetcher loads
+        fetchLoadMatches.forEach((_, key)=>{
+            if (fetchControllers.has(key)) {
+                cancelledFetcherLoads.push(key);
+                abortFetcher(key);
+            }
+        });
+    }
+    function setFetcherError(key, routeId, error) {
+        let boundaryMatch = findNearestBoundary(state.matches, routeId);
+        deleteFetcher(key);
+        updateState({
+            errors: {
+                [boundaryMatch.route.id]: error
+            },
+            fetchers: new Map(state.fetchers)
+        });
+    }
+    function deleteFetcher(key) {
+        if (fetchControllers.has(key)) abortFetcher(key);
+        fetchLoadMatches.delete(key);
+        fetchReloadIds.delete(key);
+        fetchRedirectIds.delete(key);
+        state.fetchers.delete(key);
+    }
+    function abortFetcher(key) {
+        let controller = fetchControllers.get(key);
+        invariant(controller, "Expected fetch controller: " + key);
+        controller.abort();
+        fetchControllers.delete(key);
+    }
+    function markFetchersDone(keys) {
+        for (let key of keys){
+            let fetcher = getFetcher(key);
+            let doneFetcher = {
+                state: "idle",
+                data: fetcher.data,
+                formMethod: undefined,
+                formAction: undefined,
+                formEncType: undefined,
+                formData: undefined,
+                " _hasFetcherDoneAnything ": true
+            };
+            state.fetchers.set(key, doneFetcher);
+        }
+    }
+    function markFetchRedirectsDone() {
+        let doneKeys = [];
+        let updatedFetchers = false;
+        for (let key of fetchRedirectIds){
+            let fetcher = state.fetchers.get(key);
+            invariant(fetcher, "Expected fetcher: " + key);
+            if (fetcher.state === "loading") {
+                fetchRedirectIds.delete(key);
+                doneKeys.push(key);
+                updatedFetchers = true;
+            }
+        }
+        markFetchersDone(doneKeys);
+        return updatedFetchers;
+    }
+    function abortStaleFetchLoads(landedId) {
+        let yeetedKeys = [];
+        for (let [key, id] of fetchReloadIds)if (id < landedId) {
+            let fetcher = state.fetchers.get(key);
+            invariant(fetcher, "Expected fetcher: " + key);
+            if (fetcher.state === "loading") {
+                abortFetcher(key);
+                fetchReloadIds.delete(key);
+                yeetedKeys.push(key);
+            }
+        }
+        markFetchersDone(yeetedKeys);
+        return yeetedKeys.length > 0;
+    }
+    function getBlocker(key, fn) {
+        let blocker = state.blockers.get(key) || IDLE_BLOCKER;
+        if (blockerFunctions.get(key) !== fn) blockerFunctions.set(key, fn);
+        return blocker;
+    }
+    function deleteBlocker(key) {
+        state.blockers.delete(key);
+        blockerFunctions.delete(key);
+    } // Utility function to update blockers, ensuring valid state transitions
+    function updateBlocker(key, newBlocker) {
+        let blocker = state.blockers.get(key) || IDLE_BLOCKER; // Poor mans state machine :)
+        // https://mermaid.live/edit#pako:eNqVkc9OwzAMxl8l8nnjAYrEtDIOHEBIgwvKJTReGy3_lDpIqO27k6awMG0XcrLlnz87nwdonESogKXXBuE79rq75XZO3-yHds0RJVuv70YrPlUrCEe2HfrORS3rubqZfuhtpg5C9wk5tZ4VKcRUq88q9Z8RS0-48cE1iHJkL0ugbHuFLus9L6spZy8nX9MP2CNdomVaposqu3fGayT8T8-jJQwhepo_UtpgBQaDEUom04dZhAN1aJBDlUKJBxE1ceB2Smj0Mln-IBW5AFU2dwUiktt_2Qaq2dBfaKdEup85UV7Yd-dKjlnkabl2Pvr0DTkTreM
+        invariant(blocker.state === "unblocked" && newBlocker.state === "blocked" || blocker.state === "blocked" && newBlocker.state === "blocked" || blocker.state === "blocked" && newBlocker.state === "proceeding" || blocker.state === "blocked" && newBlocker.state === "unblocked" || blocker.state === "proceeding" && newBlocker.state === "unblocked", "Invalid blocker state transition: " + blocker.state + " -> " + newBlocker.state);
+        state.blockers.set(key, newBlocker);
+        updateState({
+            blockers: new Map(state.blockers)
+        });
+    }
+    function shouldBlockNavigation(_ref2) {
+        let { currentLocation , nextLocation , historyAction  } = _ref2;
+        if (blockerFunctions.size === 0) return;
+         // We ony support a single active blocker at the moment since we don't have
+        // any compelling use cases for multi-blocker yet
+        if (blockerFunctions.size > 1) warning(false, "A router only supports one blocker at a time");
+        let entries = Array.from(blockerFunctions.entries());
+        let [blockerKey, blockerFunction] = entries[entries.length - 1];
+        let blocker = state.blockers.get(blockerKey);
+        if (blocker && blocker.state === "proceeding") // If the blocker is currently proceeding, we don't need to re-check
+        // it and can let this navigation continue
+        return;
+         // At this point, we know we're unblocked/blocked so we need to check the
+        // user-provided blocker function
+        if (blockerFunction({
+            currentLocation,
+            nextLocation,
+            historyAction
+        })) return blockerKey;
+    }
+    function cancelActiveDeferreds(predicate) {
+        let cancelledRouteIds = [];
+        activeDeferreds.forEach((dfd, routeId)=>{
+            if (!predicate || predicate(routeId)) {
+                // Cancel the deferred - but do not remove from activeDeferreds here -
+                // we rely on the subscribers to do that so our tests can assert proper
+                // cleanup via _internalActiveDeferreds
+                dfd.cancel();
+                cancelledRouteIds.push(routeId);
+                activeDeferreds.delete(routeId);
+            }
+        });
+        return cancelledRouteIds;
+    } // Opt in to capturing and reporting scroll positions during navigations,
+    // used by the <ScrollRestoration> component
+    function enableScrollRestoration(positions, getPosition, getKey) {
+        savedScrollPositions = positions;
+        getScrollPosition = getPosition;
+        getScrollRestorationKey = getKey || ((location)=>location.key); // Perform initial hydration scroll restoration, since we miss the boat on
+        // the initial updateState() because we've not yet rendered <ScrollRestoration/>
+        // and therefore have no savedScrollPositions available
+        if (!initialScrollRestored && state.navigation === IDLE_NAVIGATION) {
+            initialScrollRestored = true;
+            let y = getSavedScrollPosition(state.location, state.matches);
+            if (y != null) updateState({
+                restoreScrollPosition: y
+            });
+        }
+        return ()=>{
+            savedScrollPositions = null;
+            getScrollPosition = null;
+            getScrollRestorationKey = null;
+        };
+    }
+    function saveScrollPosition(location, matches) {
+        if (savedScrollPositions && getScrollRestorationKey && getScrollPosition) {
+            let userMatches = matches.map((m)=>createUseMatchesMatch(m, state.loaderData));
+            let key = getScrollRestorationKey(location, userMatches) || location.key;
+            savedScrollPositions[key] = getScrollPosition();
+        }
+    }
+    function getSavedScrollPosition(location, matches) {
+        if (savedScrollPositions && getScrollRestorationKey && getScrollPosition) {
+            let userMatches = matches.map((m)=>createUseMatchesMatch(m, state.loaderData));
+            let key = getScrollRestorationKey(location, userMatches) || location.key;
+            let y = savedScrollPositions[key];
+            if (typeof y === "number") return y;
+        }
+        return null;
+    }
+    function _internalSetRoutes(newRoutes) {
+        manifest = {};
+        inFlightDataRoutes = convertRoutesToDataRoutes(newRoutes, mapRouteProperties, undefined, manifest);
+    }
+    router = {
+        get basename () {
+            return basename;
+        },
+        get state () {
+            return state;
+        },
+        get routes () {
+            return dataRoutes;
+        },
+        initialize,
+        subscribe,
+        enableScrollRestoration,
+        navigate,
+        fetch,
+        revalidate,
+        // Passthrough to history-aware createHref used by useHref so we get proper
+        // hash-aware URLs in DOM paths
+        createHref: (to)=>init.history.createHref(to),
+        encodeLocation: (to)=>init.history.encodeLocation(to),
+        getFetcher,
+        deleteFetcher,
+        dispose,
+        getBlocker,
+        deleteBlocker,
+        _internalFetchControllers: fetchControllers,
+        _internalActiveDeferreds: activeDeferreds,
+        // TODO: Remove setRoutes, it's temporary to avoid dealing with
+        // updating the tree while validating the update algorithm.
+        _internalSetRoutes
+    };
+    return router;
+} //#endregion
+////////////////////////////////////////////////////////////////////////////////
+//#region createStaticHandler
+////////////////////////////////////////////////////////////////////////////////
+const UNSAFE_DEFERRED_SYMBOL = Symbol("deferred");
+function createStaticHandler(routes, opts) {
+    invariant(routes.length > 0, "You must provide a non-empty routes array to createStaticHandler");
+    let manifest = {};
+    let basename = (opts ? opts.basename : null) || "/";
+    let mapRouteProperties;
+    if (opts != null && opts.mapRouteProperties) mapRouteProperties = opts.mapRouteProperties;
+    else if (opts != null && opts.detectErrorBoundary) {
+        // If they are still using the deprecated version, wrap it with the new API
+        let detectErrorBoundary = opts.detectErrorBoundary;
+        mapRouteProperties = (route)=>({
+                hasErrorBoundary: detectErrorBoundary(route)
+            });
+    } else mapRouteProperties = defaultMapRouteProperties;
+    let dataRoutes = convertRoutesToDataRoutes(routes, mapRouteProperties, undefined, manifest);
+    /**
+   * The query() method is intended for document requests, in which we want to
+   * call an optional action and potentially multiple loaders for all nested
+   * routes.  It returns a StaticHandlerContext object, which is very similar
+   * to the router state (location, loaderData, actionData, errors, etc.) and
+   * also adds SSR-specific information such as the statusCode and headers
+   * from action/loaders Responses.
+   *
+   * It _should_ never throw and should report all errors through the
+   * returned context.errors object, properly associating errors to their error
+   * boundary.  Additionally, it tracks _deepestRenderedBoundaryId which can be
+   * used to emulate React error boundaries during SSr by performing a second
+   * pass only down to the boundaryId.
+   *
+   * The one exception where we do not return a StaticHandlerContext is when a
+   * redirect response is returned or thrown from any action/loader.  We
+   * propagate that out and return the raw Response so the HTTP server can
+   * return it directly.
+   */ async function query(request, _temp2) {
+        let { requestContext  } = _temp2 === void 0 ? {} : _temp2;
+        let url = new URL(request.url);
+        let method = request.method;
+        let location = createLocation("", createPath(url), null, "default");
+        let matches = matchRoutes(dataRoutes, location, basename); // SSR supports HEAD requests while SPA doesn't
+        if (!isValidMethod(method) && method !== "HEAD") {
+            let error = getInternalRouterError(405, {
+                method
+            });
+            let { matches: methodNotAllowedMatches , route  } = getShortCircuitMatches(dataRoutes);
+            return {
+                basename,
+                location,
+                matches: methodNotAllowedMatches,
+                loaderData: {},
+                actionData: null,
+                errors: {
+                    [route.id]: error
+                },
+                statusCode: error.status,
+                loaderHeaders: {},
+                actionHeaders: {},
+                activeDeferreds: null
+            };
+        } else if (!matches) {
+            let error = getInternalRouterError(404, {
+                pathname: location.pathname
+            });
+            let { matches: notFoundMatches , route  } = getShortCircuitMatches(dataRoutes);
+            return {
+                basename,
+                location,
+                matches: notFoundMatches,
+                loaderData: {},
+                actionData: null,
+                errors: {
+                    [route.id]: error
+                },
+                statusCode: error.status,
+                loaderHeaders: {},
+                actionHeaders: {},
+                activeDeferreds: null
+            };
+        }
+        let result = await queryImpl(request, location, matches, requestContext);
+        if (isResponse(result)) return result;
+         // When returning StaticHandlerContext, we patch back in the location here
+        // since we need it for React Context.  But this helps keep our submit and
+        // loadRouteData operating on a Request instead of a Location
+        return _extends({
+            location,
+            basename
+        }, result);
+    }
+    /**
+   * The queryRoute() method is intended for targeted route requests, either
+   * for fetch ?_data requests or resource route requests.  In this case, we
+   * are only ever calling a single action or loader, and we are returning the
+   * returned value directly.  In most cases, this will be a Response returned
+   * from the action/loader, but it may be a primitive or other value as well -
+   * and in such cases the calling context should handle that accordingly.
+   *
+   * We do respect the throw/return differentiation, so if an action/loader
+   * throws, then this method will throw the value.  This is important so we
+   * can do proper boundary identification in Remix where a thrown Response
+   * must go to the Catch Boundary but a returned Response is happy-path.
+   *
+   * One thing to note is that any Router-initiated Errors that make sense
+   * to associate with a status code will be thrown as an ErrorResponse
+   * instance which include the raw Error, such that the calling context can
+   * serialize the error as they see fit while including the proper response
+   * code.  Examples here are 404 and 405 errors that occur prior to reaching
+   * any user-defined loaders.
+   */ async function queryRoute(request, _temp3) {
+        let { routeId , requestContext  } = _temp3 === void 0 ? {} : _temp3;
+        let url = new URL(request.url);
+        let method = request.method;
+        let location = createLocation("", createPath(url), null, "default");
+        let matches = matchRoutes(dataRoutes, location, basename); // SSR supports HEAD requests while SPA doesn't
+        if (!isValidMethod(method) && method !== "HEAD" && method !== "OPTIONS") throw getInternalRouterError(405, {
+            method
+        });
+        else if (!matches) throw getInternalRouterError(404, {
+            pathname: location.pathname
+        });
+        let match = routeId ? matches.find((m)=>m.route.id === routeId) : getTargetMatch(matches, location);
+        if (routeId && !match) throw getInternalRouterError(403, {
+            pathname: location.pathname,
+            routeId
+        });
+        else if (!match) // This should never hit I don't think?
+        throw getInternalRouterError(404, {
+            pathname: location.pathname
+        });
+        let result = await queryImpl(request, location, matches, requestContext, match);
+        if (isResponse(result)) return result;
+        let error = result.errors ? Object.values(result.errors)[0] : undefined;
+        if (error !== undefined) // If we got back result.errors, that means the loader/action threw
+        // _something_ that wasn't a Response, but it's not guaranteed/required
+        // to be an `instanceof Error` either, so we have to use throw here to
+        // preserve the "error" state outside of queryImpl.
+        throw error;
+         // Pick off the right state value to return
+        if (result.actionData) return Object.values(result.actionData)[0];
+        if (result.loaderData) {
+            var _result$activeDeferre;
+            let data = Object.values(result.loaderData)[0];
+            if ((_result$activeDeferre = result.activeDeferreds) != null && _result$activeDeferre[match.route.id]) data[UNSAFE_DEFERRED_SYMBOL] = result.activeDeferreds[match.route.id];
+            return data;
+        }
+        return undefined;
+    }
+    async function queryImpl(request, location, matches, requestContext, routeMatch) {
+        invariant(request.signal, "query()/queryRoute() requests must contain an AbortController signal");
+        try {
+            if (isMutationMethod(request.method.toLowerCase())) {
+                let result = await submit(request, matches, routeMatch || getTargetMatch(matches, location), requestContext, routeMatch != null);
+                return result;
+            }
+            let result = await loadRouteData(request, matches, requestContext, routeMatch);
+            return isResponse(result) ? result : _extends({}, result, {
+                actionData: null,
+                actionHeaders: {}
+            });
+        } catch (e) {
+            // If the user threw/returned a Response in callLoaderOrAction, we throw
+            // it to bail out and then return or throw here based on whether the user
+            // returned or threw
+            if (isQueryRouteResponse(e)) {
+                if (e.type === ResultType.error && !isRedirectResponse(e.response)) throw e.response;
+                return e.response;
+            } // Redirects are always returned since they don't propagate to catch
+            // boundaries
+            if (isRedirectResponse(e)) return e;
+            throw e;
+        }
+    }
+    async function submit(request, matches, actionMatch, requestContext, isRouteRequest) {
+        let result;
+        if (!actionMatch.route.action && !actionMatch.route.lazy) {
+            let error = getInternalRouterError(405, {
+                method: request.method,
+                pathname: new URL(request.url).pathname,
+                routeId: actionMatch.route.id
+            });
+            if (isRouteRequest) throw error;
+            result = {
+                type: ResultType.error,
+                error
+            };
+        } else {
+            result = await callLoaderOrAction("action", request, actionMatch, matches, manifest, mapRouteProperties, basename, true, isRouteRequest, requestContext);
+            if (request.signal.aborted) {
+                let method = isRouteRequest ? "queryRoute" : "query";
+                throw new Error(method + "() call aborted");
+            }
+        }
+        if (isRedirectResult(result)) // Uhhhh - this should never happen, we should always throw these from
+        // callLoaderOrAction, but the type narrowing here keeps TS happy and we
+        // can get back on the "throw all redirect responses" train here should
+        // this ever happen :/
+        throw new Response(null, {
+            status: result.status,
+            headers: {
+                Location: result.location
+            }
+        });
+        if (isDeferredResult(result)) {
+            let error = getInternalRouterError(400, {
+                type: "defer-action"
+            });
+            if (isRouteRequest) throw error;
+            result = {
+                type: ResultType.error,
+                error
+            };
+        }
+        if (isRouteRequest) {
+            // Note: This should only be non-Response values if we get here, since
+            // isRouteRequest should throw any Response received in callLoaderOrAction
+            if (isErrorResult(result)) throw result.error;
+            return {
+                matches: [
+                    actionMatch
+                ],
+                loaderData: {},
+                actionData: {
+                    [actionMatch.route.id]: result.data
+                },
+                errors: null,
+                // Note: statusCode + headers are unused here since queryRoute will
+                // return the raw Response or value
+                statusCode: 200,
+                loaderHeaders: {},
+                actionHeaders: {},
+                activeDeferreds: null
+            };
+        }
+        if (isErrorResult(result)) {
+            // Store off the pending error - we use it to determine which loaders
+            // to call and will commit it when we complete the navigation
+            let boundaryMatch = findNearestBoundary(matches, actionMatch.route.id);
+            let context = await loadRouteData(request, matches, requestContext, undefined, {
+                [boundaryMatch.route.id]: result.error
+            }); // action status codes take precedence over loader status codes
+            return _extends({}, context, {
+                statusCode: isRouteErrorResponse(result.error) ? result.error.status : 500,
+                actionData: null,
+                actionHeaders: _extends({}, result.headers ? {
+                    [actionMatch.route.id]: result.headers
+                } : {})
+            });
+        } // Create a GET request for the loaders
+        let loaderRequest = new Request(request.url, {
+            headers: request.headers,
+            redirect: request.redirect,
+            signal: request.signal
+        });
+        let context = await loadRouteData(loaderRequest, matches, requestContext);
+        return _extends({}, context, result.statusCode ? {
+            statusCode: result.statusCode
+        } : {}, {
+            actionData: {
+                [actionMatch.route.id]: result.data
+            },
+            actionHeaders: _extends({}, result.headers ? {
+                [actionMatch.route.id]: result.headers
+            } : {})
+        });
+    }
+    async function loadRouteData(request, matches, requestContext, routeMatch, pendingActionError) {
+        let isRouteRequest = routeMatch != null; // Short circuit if we have no loaders to run (queryRoute())
+        if (isRouteRequest && !(routeMatch != null && routeMatch.route.loader) && !(routeMatch != null && routeMatch.route.lazy)) throw getInternalRouterError(400, {
+            method: request.method,
+            pathname: new URL(request.url).pathname,
+            routeId: routeMatch == null ? void 0 : routeMatch.route.id
+        });
+        let requestMatches = routeMatch ? [
+            routeMatch
+        ] : getLoaderMatchesUntilBoundary(matches, Object.keys(pendingActionError || {})[0]);
+        let matchesToLoad = requestMatches.filter((m)=>m.route.loader || m.route.lazy); // Short circuit if we have no loaders to run (query())
+        if (matchesToLoad.length === 0) return {
+            matches,
+            // Add a null for all matched routes for proper revalidation on the client
+            loaderData: matches.reduce((acc, m)=>Object.assign(acc, {
+                    [m.route.id]: null
+                }), {}),
+            errors: pendingActionError || null,
+            statusCode: 200,
+            loaderHeaders: {},
+            activeDeferreds: null
+        };
+        let results = await Promise.all([
+            ...matchesToLoad.map((match)=>callLoaderOrAction("loader", request, match, matches, manifest, mapRouteProperties, basename, true, isRouteRequest, requestContext))
+        ]);
+        if (request.signal.aborted) {
+            let method = isRouteRequest ? "queryRoute" : "query";
+            throw new Error(method + "() call aborted");
+        } // Process and commit output from loaders
+        let activeDeferreds = new Map();
+        let context = processRouteLoaderData(matches, matchesToLoad, results, pendingActionError, activeDeferreds); // Add a null for any non-loader matches for proper revalidation on the client
+        let executedLoaders = new Set(matchesToLoad.map((match)=>match.route.id));
+        matches.forEach((match)=>{
+            if (!executedLoaders.has(match.route.id)) context.loaderData[match.route.id] = null;
+        });
+        return _extends({}, context, {
+            matches,
+            activeDeferreds: activeDeferreds.size > 0 ? Object.fromEntries(activeDeferreds.entries()) : null
+        });
+    }
+    return {
+        dataRoutes,
+        query,
+        queryRoute
+    };
+} //#endregion
+////////////////////////////////////////////////////////////////////////////////
+//#region Helpers
+////////////////////////////////////////////////////////////////////////////////
+/**
+ * Given an existing StaticHandlerContext and an error thrown at render time,
+ * provide an updated StaticHandlerContext suitable for a second SSR render
+ */ function getStaticContextFromError(routes, context, error) {
+    let newContext = _extends({}, context, {
+        statusCode: 500,
+        errors: {
+            [context._deepestRenderedBoundaryId || routes[0].id]: error
+        }
+    });
+    return newContext;
+}
+function isSubmissionNavigation(opts) {
+    return opts != null && "formData" in opts;
+}
+function normalizeTo(location, matches, basename, prependBasename, to, fromRouteId, relative) {
+    let contextualMatches;
+    let activeRouteMatch;
+    if (fromRouteId != null && relative !== "path") {
+        // Grab matches up to the calling route so our route-relative logic is
+        // relative to the correct source route.  When using relative:path,
+        // fromRouteId is ignored since that is always relative to the current
+        // location path
+        contextualMatches = [];
+        for (let match of matches){
+            contextualMatches.push(match);
+            if (match.route.id === fromRouteId) {
+                activeRouteMatch = match;
+                break;
+            }
+        }
+    } else {
+        contextualMatches = matches;
+        activeRouteMatch = matches[matches.length - 1];
+    } // Resolve the relative path
+    let path = resolveTo(to ? to : ".", getPathContributingMatches(contextualMatches).map((m)=>m.pathnameBase), stripBasename(location.pathname, basename) || location.pathname, relative === "path"); // When `to` is not specified we inherit search/hash from the current
+    // location, unlike when to="." and we just inherit the path.
+    // See https://github.com/remix-run/remix/issues/927
+    if (to == null) {
+        path.search = location.search;
+        path.hash = location.hash;
+    } // Add an ?index param for matched index routes if we don't already have one
+    if ((to == null || to === "" || to === ".") && activeRouteMatch && activeRouteMatch.route.index && !hasNakedIndexQuery(path.search)) path.search = path.search ? path.search.replace(/^\?/, "?index&") : "?index";
+     // If we're operating within a basename, prepend it to the pathname.  If
+    // this is a root navigation, then just use the raw basename which allows
+    // the basename to have full control over the presence of a trailing slash
+    // on root actions
+    if (prependBasename && basename !== "/") path.pathname = path.pathname === "/" ? basename : joinPaths([
+        basename,
+        path.pathname
+    ]);
+    return createPath(path);
+} // Normalize navigation options by converting formMethod=GET formData objects to
+// URLSearchParams so they behave identically to links with query params
+function normalizeNavigateOptions(normalizeFormMethod, isFetcher, path, opts) {
+    // Return location verbatim on non-submission navigations
+    if (!opts || !isSubmissionNavigation(opts)) return {
+        path
+    };
+    if (opts.formMethod && !isValidMethod(opts.formMethod)) return {
+        path,
+        error: getInternalRouterError(405, {
+            method: opts.formMethod
+        })
+    };
+     // Create a Submission on non-GET navigations
+    let submission;
+    if (opts.formData) {
+        let formMethod = opts.formMethod || "get";
+        submission = {
+            formMethod: normalizeFormMethod ? formMethod.toUpperCase() : formMethod.toLowerCase(),
+            formAction: stripHashFromPath(path),
+            formEncType: opts && opts.formEncType || "application/x-www-form-urlencoded",
+            formData: opts.formData
+        };
+        if (isMutationMethod(submission.formMethod)) return {
+            path,
+            submission
+        };
+    } // Flatten submission onto URLSearchParams for GET submissions
+    let parsedPath = parsePath(path);
+    let searchParams = convertFormDataToSearchParams(opts.formData); // On GET navigation submissions we can drop the ?index param from the
+    // resulting location since all loaders will run.  But fetcher GET submissions
+    // only run a single loader so we need to preserve any incoming ?index params
+    if (isFetcher && parsedPath.search && hasNakedIndexQuery(parsedPath.search)) searchParams.append("index", "");
+    parsedPath.search = "?" + searchParams;
+    return {
+        path: createPath(parsedPath),
+        submission
+    };
+} // Filter out all routes below any caught error as they aren't going to
+// render so we don't need to load them
+function getLoaderMatchesUntilBoundary(matches, boundaryId) {
+    let boundaryMatches = matches;
+    if (boundaryId) {
+        let index = matches.findIndex((m)=>m.route.id === boundaryId);
+        if (index >= 0) boundaryMatches = matches.slice(0, index);
+    }
+    return boundaryMatches;
+}
+function getMatchesToLoad(history, state, matches, submission, location, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, fetchLoadMatches, routesToUse, basename, pendingActionData, pendingError) {
+    let actionResult = pendingError ? Object.values(pendingError)[0] : pendingActionData ? Object.values(pendingActionData)[0] : undefined;
+    let currentUrl = history.createURL(state.location);
+    let nextUrl = history.createURL(location); // Pick navigation matches that are net-new or qualify for revalidation
+    let boundaryId = pendingError ? Object.keys(pendingError)[0] : undefined;
+    let boundaryMatches = getLoaderMatchesUntilBoundary(matches, boundaryId);
+    let navigationMatches = boundaryMatches.filter((match, index)=>{
+        if (match.route.lazy) // We haven't loaded this route yet so we don't know if it's got a loader!
+        return true;
+        if (match.route.loader == null) return false;
+         // Always call the loader on new route instances and pending defer cancellations
+        if (isNewLoader(state.loaderData, state.matches[index], match) || cancelledDeferredRoutes.some((id)=>id === match.route.id)) return true;
+         // This is the default implementation for when we revalidate.  If the route
+        // provides it's own implementation, then we give them full control but
+        // provide this value so they can leverage it if needed after they check
+        // their own specific use cases
+        let currentRouteMatch = state.matches[index];
+        let nextRouteMatch = match;
+        return shouldRevalidateLoader(match, _extends({
+            currentUrl,
+            currentParams: currentRouteMatch.params,
+            nextUrl,
+            nextParams: nextRouteMatch.params
+        }, submission, {
+            actionResult,
+            defaultShouldRevalidate: isRevalidationRequired || // Clicked the same link, resubmitted a GET form
+            currentUrl.pathname + currentUrl.search === nextUrl.pathname + nextUrl.search || // Search params affect all loaders
+            currentUrl.search !== nextUrl.search || isNewRouteInstance(currentRouteMatch, nextRouteMatch)
+        }));
+    }); // Pick fetcher.loads that need to be revalidated
+    let revalidatingFetchers = [];
+    fetchLoadMatches.forEach((f, key)=>{
+        // Don't revalidate if fetcher won't be present in the subsequent render
+        if (!matches.some((m)=>m.route.id === f.routeId)) return;
+        let fetcherMatches = matchRoutes(routesToUse, f.path, basename); // If the fetcher path no longer matches, push it in with null matches so
+        // we can trigger a 404 in callLoadersAndMaybeResolveData
+        if (!fetcherMatches) {
+            revalidatingFetchers.push({
+                key,
+                routeId: f.routeId,
+                path: f.path,
+                matches: null,
+                match: null,
+                controller: null
+            });
+            return;
+        }
+        let fetcherMatch = getTargetMatch(fetcherMatches, f.path);
+        if (cancelledFetcherLoads.includes(key)) {
+            revalidatingFetchers.push({
+                key,
+                routeId: f.routeId,
+                path: f.path,
+                matches: fetcherMatches,
+                match: fetcherMatch,
+                controller: new AbortController()
+            });
+            return;
+        } // Revalidating fetchers are decoupled from the route matches since they
+        // hit a static href, so they _always_ check shouldRevalidate and the
+        // default is strictly if a revalidation is explicitly required (action
+        // submissions, useRevalidator, X-Remix-Revalidate).
+        let shouldRevalidate = shouldRevalidateLoader(fetcherMatch, _extends({
+            currentUrl,
+            currentParams: state.matches[state.matches.length - 1].params,
+            nextUrl,
+            nextParams: matches[matches.length - 1].params
+        }, submission, {
+            actionResult,
+            // Forced revalidation due to submission, useRevalidator, or X-Remix-Revalidate
+            defaultShouldRevalidate: isRevalidationRequired
+        }));
+        if (shouldRevalidate) revalidatingFetchers.push({
+            key,
+            routeId: f.routeId,
+            path: f.path,
+            matches: fetcherMatches,
+            match: fetcherMatch,
+            controller: new AbortController()
+        });
+    });
+    return [
+        navigationMatches,
+        revalidatingFetchers
+    ];
+}
+function isNewLoader(currentLoaderData, currentMatch, match) {
+    let isNew = !currentMatch || // [a, b] -> [a, c]
+    match.route.id !== currentMatch.route.id; // Handle the case that we don't have data for a re-used route, potentially
+    // from a prior error or from a cancelled pending deferred
+    let isMissingData = currentLoaderData[match.route.id] === undefined; // Always load if this is a net-new route or we don't yet have data
+    return isNew || isMissingData;
+}
+function isNewRouteInstance(currentMatch, match) {
+    let currentPath = currentMatch.route.path;
+    return currentMatch.pathname !== match.pathname || // splat param changed, which is not present in match.path
+    // e.g. /files/images/avatar.jpg -> files/finances.xls
+    currentPath != null && currentPath.endsWith("*") && currentMatch.params["*"] !== match.params["*"];
+}
+function shouldRevalidateLoader(loaderMatch, arg) {
+    if (loaderMatch.route.shouldRevalidate) {
+        let routeChoice = loaderMatch.route.shouldRevalidate(arg);
+        if (typeof routeChoice === "boolean") return routeChoice;
+    }
+    return arg.defaultShouldRevalidate;
+}
+/**
+ * Execute route.lazy() methods to lazily load route modules (loader, action,
+ * shouldRevalidate) and update the routeManifest in place which shares objects
+ * with dataRoutes so those get updated as well.
+ */ async function loadLazyRouteModule(route, mapRouteProperties, manifest) {
+    if (!route.lazy) return;
+    let lazyRoute = await route.lazy(); // If the lazy route function was executed and removed by another parallel
+    // call then we can return - first lazy() to finish wins because the return
+    // value of lazy is expected to be static
+    if (!route.lazy) return;
+    let routeToUpdate = manifest[route.id];
+    invariant(routeToUpdate, "No route found in manifest"); // Update the route in place.  This should be safe because there's no way
+    // we could yet be sitting on this route as we can't get there without
+    // resolving lazy() first.
+    //
+    // This is different than the HMR "update" use-case where we may actively be
+    // on the route being updated.  The main concern boils down to "does this
+    // mutation affect any ongoing navigations or any current state.matches
+    // values?".  If not, it should be safe to update in place.
+    let routeUpdates = {};
+    for(let lazyRouteProperty in lazyRoute){
+        let staticRouteValue = routeToUpdate[lazyRouteProperty];
+        let isPropertyStaticallyDefined = staticRouteValue !== undefined && // This property isn't static since it should always be updated based
+        // on the route updates
+        lazyRouteProperty !== "hasErrorBoundary";
+        warning(!isPropertyStaticallyDefined, 'Route "' + routeToUpdate.id + '" has a static property "' + lazyRouteProperty + '" ' + "defined but its lazy function is also returning a value for this property. " + ('The lazy route property "' + lazyRouteProperty + '" will be ignored.'));
+        if (!isPropertyStaticallyDefined && !immutableRouteKeys.has(lazyRouteProperty)) routeUpdates[lazyRouteProperty] = lazyRoute[lazyRouteProperty];
+    } // Mutate the route with the provided updates.  Do this first so we pass
+    // the updated version to mapRouteProperties
+    Object.assign(routeToUpdate, routeUpdates); // Mutate the `hasErrorBoundary` property on the route based on the route
+    // updates and remove the `lazy` function so we don't resolve the lazy
+    // route again.
+    Object.assign(routeToUpdate, _extends({}, mapRouteProperties(routeToUpdate), {
+        lazy: undefined
+    }));
+}
+async function callLoaderOrAction(type, request, match, matches, manifest, mapRouteProperties, basename, isStaticRequest, isRouteRequest, requestContext) {
+    if (isStaticRequest === void 0) isStaticRequest = false;
+    if (isRouteRequest === void 0) isRouteRequest = false;
+    let resultType;
+    let result;
+    let onReject;
+    let runHandler = (handler)=>{
+        // Setup a promise we can race against so that abort signals short circuit
+        let reject;
+        let abortPromise = new Promise((_, r)=>reject = r);
+        onReject = ()=>reject();
+        request.signal.addEventListener("abort", onReject);
+        return Promise.race([
+            handler({
+                request,
+                params: match.params,
+                context: requestContext
+            }),
+            abortPromise
+        ]);
+    };
+    try {
+        let handler = match.route[type];
+        if (match.route.lazy) {
+            if (handler) {
+                // Run statically defined handler in parallel with lazy()
+                let values = await Promise.all([
+                    runHandler(handler),
+                    loadLazyRouteModule(match.route, mapRouteProperties, manifest)
+                ]);
+                result = values[0];
+            } else {
+                // Load lazy route module, then run any returned handler
+                await loadLazyRouteModule(match.route, mapRouteProperties, manifest);
+                handler = match.route[type];
+                if (handler) // Handler still run even if we got interrupted to maintain consistency
+                // with un-abortable behavior of handler execution on non-lazy or
+                // previously-lazy-loaded routes
+                result = await runHandler(handler);
+                else if (type === "action") {
+                    let url = new URL(request.url);
+                    let pathname = url.pathname + url.search;
+                    throw getInternalRouterError(405, {
+                        method: request.method,
+                        pathname,
+                        routeId: match.route.id
+                    });
+                } else // lazy() route has no loader to run.  Short circuit here so we don't
+                // hit the invariant below that errors on returning undefined.
+                return {
+                    type: ResultType.data,
+                    data: undefined
+                };
+            }
+        } else if (!handler) {
+            let url = new URL(request.url);
+            let pathname = url.pathname + url.search;
+            throw getInternalRouterError(404, {
+                pathname
+            });
+        } else result = await runHandler(handler);
+        invariant(result !== undefined, "You defined " + (type === "action" ? "an action" : "a loader") + " for route " + ('"' + match.route.id + "\" but didn't return anything from your `" + type + "` ") + "function. Please return a value or `null`.");
+    } catch (e) {
+        resultType = ResultType.error;
+        result = e;
+    } finally{
+        if (onReject) request.signal.removeEventListener("abort", onReject);
+    }
+    if (isResponse(result)) {
+        let status = result.status; // Process redirects
+        if (redirectStatusCodes.has(status)) {
+            let location = result.headers.get("Location");
+            invariant(location, "Redirects returned/thrown from loaders/actions must have a Location header"); // Support relative routing in internal redirects
+            if (!ABSOLUTE_URL_REGEX.test(location)) location = normalizeTo(new URL(request.url), matches.slice(0, matches.indexOf(match) + 1), basename, true, location);
+            else if (!isStaticRequest) {
+                // Strip off the protocol+origin for same-origin + same-basename absolute
+                // redirects. If this is a static request, we can let it go back to the
+                // browser as-is
+                let currentUrl = new URL(request.url);
+                let url = location.startsWith("//") ? new URL(currentUrl.protocol + location) : new URL(location);
+                let isSameBasename = stripBasename(url.pathname, basename) != null;
+                if (url.origin === currentUrl.origin && isSameBasename) location = url.pathname + url.search + url.hash;
+            } // Don't process redirects in the router during static requests requests.
+            // Instead, throw the Response and let the server handle it with an HTTP
+            // redirect.  We also update the Location header in place in this flow so
+            // basename and relative routing is taken into account
+            if (isStaticRequest) {
+                result.headers.set("Location", location);
+                throw result;
+            }
+            return {
+                type: ResultType.redirect,
+                status,
+                location,
+                revalidate: result.headers.get("X-Remix-Revalidate") !== null
+            };
+        } // For SSR single-route requests, we want to hand Responses back directly
+        // without unwrapping.  We do this with the QueryRouteResponse wrapper
+        // interface so we can know whether it was returned or thrown
+        if (isRouteRequest) // eslint-disable-next-line no-throw-literal
+        throw {
+            type: resultType || ResultType.data,
+            response: result
+        };
+        let data;
+        let contentType = result.headers.get("Content-Type"); // Check between word boundaries instead of startsWith() due to the last
+        // paragraph of https://httpwg.org/specs/rfc9110.html#field.content-type
+        if (contentType && /\bapplication\/json\b/.test(contentType)) data = await result.json();
+        else data = await result.text();
+        if (resultType === ResultType.error) return {
+            type: resultType,
+            error: new ErrorResponse(status, result.statusText, data),
+            headers: result.headers
+        };
+        return {
+            type: ResultType.data,
+            data,
+            statusCode: result.status,
+            headers: result.headers
+        };
+    }
+    if (resultType === ResultType.error) return {
+        type: resultType,
+        error: result
+    };
+    if (isDeferredData(result)) {
+        var _result$init, _result$init2;
+        return {
+            type: ResultType.deferred,
+            deferredData: result,
+            statusCode: (_result$init = result.init) == null ? void 0 : _result$init.status,
+            headers: ((_result$init2 = result.init) == null ? void 0 : _result$init2.headers) && new Headers(result.init.headers)
+        };
+    }
+    return {
+        type: ResultType.data,
+        data: result
+    };
+} // Utility method for creating the Request instances for loaders/actions during
+// client-side navigations and fetches.  During SSR we will always have a
+// Request instance from the static handler (query/queryRoute)
+function createClientSideRequest(history, location, signal, submission) {
+    let url = history.createURL(stripHashFromPath(location)).toString();
+    let init = {
+        signal
+    };
+    if (submission && isMutationMethod(submission.formMethod)) {
+        let { formMethod , formEncType , formData  } = submission; // Didn't think we needed this but it turns out unlike other methods, patch
+        // won't be properly normalized to uppercase and results in a 405 error.
+        // See: https://fetch.spec.whatwg.org/#concept-method
+        init.method = formMethod.toUpperCase();
+        init.body = formEncType === "application/x-www-form-urlencoded" ? convertFormDataToSearchParams(formData) : formData;
+    } // Content-Type is inferred (https://fetch.spec.whatwg.org/#dom-request)
+    return new Request(url, init);
+}
+function convertFormDataToSearchParams(formData) {
+    let searchParams = new URLSearchParams();
+    for (let [key, value] of formData.entries())// https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#converting-an-entry-list-to-a-list-of-name-value-pairs
+    searchParams.append(key, value instanceof File ? value.name : value);
+    return searchParams;
+}
+function processRouteLoaderData(matches, matchesToLoad, results, pendingError, activeDeferreds) {
+    // Fill in loaderData/errors from our loaders
+    let loaderData = {};
+    let errors = null;
+    let statusCode;
+    let foundError = false;
+    let loaderHeaders = {}; // Process loader results into state.loaderData/state.errors
+    results.forEach((result, index)=>{
+        let id = matchesToLoad[index].route.id;
+        invariant(!isRedirectResult(result), "Cannot handle redirect results in processLoaderData");
+        if (isErrorResult(result)) {
+            // Look upwards from the matched route for the closest ancestor
+            // error boundary, defaulting to the root match
+            let boundaryMatch = findNearestBoundary(matches, id);
+            let error = result.error; // If we have a pending action error, we report it at the highest-route
+            // that throws a loader error, and then clear it out to indicate that
+            // it was consumed
+            if (pendingError) {
+                error = Object.values(pendingError)[0];
+                pendingError = undefined;
+            }
+            errors = errors || {}; // Prefer higher error values if lower errors bubble to the same boundary
+            if (errors[boundaryMatch.route.id] == null) errors[boundaryMatch.route.id] = error;
+             // Clear our any prior loaderData for the throwing route
+            loaderData[id] = undefined; // Once we find our first (highest) error, we set the status code and
+            // prevent deeper status codes from overriding
+            if (!foundError) {
+                foundError = true;
+                statusCode = isRouteErrorResponse(result.error) ? result.error.status : 500;
+            }
+            if (result.headers) loaderHeaders[id] = result.headers;
+        } else {
+            if (isDeferredResult(result)) {
+                activeDeferreds.set(id, result.deferredData);
+                loaderData[id] = result.deferredData.data;
+            } else loaderData[id] = result.data;
+             // Error status codes always override success status codes, but if all
+            // loaders are successful we take the deepest status code.
+            if (result.statusCode != null && result.statusCode !== 200 && !foundError) statusCode = result.statusCode;
+            if (result.headers) loaderHeaders[id] = result.headers;
+        }
+    }); // If we didn't consume the pending action error (i.e., all loaders
+    // resolved), then consume it here.  Also clear out any loaderData for the
+    // throwing route
+    if (pendingError) {
+        errors = pendingError;
+        loaderData[Object.keys(pendingError)[0]] = undefined;
+    }
+    return {
+        loaderData,
+        errors,
+        statusCode: statusCode || 200,
+        loaderHeaders
+    };
+}
+function processLoaderData(state, matches, matchesToLoad, results, pendingError, revalidatingFetchers, fetcherResults, activeDeferreds) {
+    let { loaderData , errors  } = processRouteLoaderData(matches, matchesToLoad, results, pendingError, activeDeferreds); // Process results from our revalidating fetchers
+    for(let index = 0; index < revalidatingFetchers.length; index++){
+        let { key , match , controller  } = revalidatingFetchers[index];
+        invariant(fetcherResults !== undefined && fetcherResults[index] !== undefined, "Did not find corresponding fetcher result");
+        let result = fetcherResults[index]; // Process fetcher non-redirect errors
+        if (controller && controller.signal.aborted) continue;
+        else if (isErrorResult(result)) {
+            let boundaryMatch = findNearestBoundary(state.matches, match == null ? void 0 : match.route.id);
+            if (!(errors && errors[boundaryMatch.route.id])) errors = _extends({}, errors, {
+                [boundaryMatch.route.id]: result.error
+            });
+            state.fetchers.delete(key);
+        } else if (isRedirectResult(result)) // Should never get here, redirects should get processed above, but we
+        // keep this to type narrow to a success result in the else
+        invariant(false, "Unhandled fetcher revalidation redirect");
+        else if (isDeferredResult(result)) // Should never get here, deferred data should be awaited for fetchers
+        // in resolveDeferredResults
+        invariant(false, "Unhandled fetcher deferred data");
+        else {
+            let doneFetcher = {
+                state: "idle",
+                data: result.data,
+                formMethod: undefined,
+                formAction: undefined,
+                formEncType: undefined,
+                formData: undefined,
+                " _hasFetcherDoneAnything ": true
+            };
+            state.fetchers.set(key, doneFetcher);
+        }
+    }
+    return {
+        loaderData,
+        errors
+    };
+}
+function mergeLoaderData(loaderData, newLoaderData, matches, errors) {
+    let mergedLoaderData = _extends({}, newLoaderData);
+    for (let match of matches){
+        let id = match.route.id;
+        if (newLoaderData.hasOwnProperty(id)) {
+            if (newLoaderData[id] !== undefined) mergedLoaderData[id] = newLoaderData[id];
+        } else if (loaderData[id] !== undefined && match.route.loader) // Preserve existing keys not included in newLoaderData and where a loader
+        // wasn't removed by HMR
+        mergedLoaderData[id] = loaderData[id];
+        if (errors && errors.hasOwnProperty(id)) break;
+    }
+    return mergedLoaderData;
+} // Find the nearest error boundary, looking upwards from the leaf route (or the
+// route specified by routeId) for the closest ancestor error boundary,
+// defaulting to the root match
+function findNearestBoundary(matches, routeId) {
+    let eligibleMatches = routeId ? matches.slice(0, matches.findIndex((m)=>m.route.id === routeId) + 1) : [
+        ...matches
+    ];
+    return eligibleMatches.reverse().find((m)=>m.route.hasErrorBoundary === true) || matches[0];
+}
+function getShortCircuitMatches(routes) {
+    // Prefer a root layout route if present, otherwise shim in a route object
+    let route = routes.find((r)=>r.index || !r.path || r.path === "/") || {
+        id: "__shim-error-route__"
+    };
+    return {
+        matches: [
+            {
+                params: {},
+                pathname: "",
+                pathnameBase: "",
+                route
+            }
+        ],
+        route
+    };
+}
+function getInternalRouterError(status, _temp4) {
+    let { pathname , routeId , method , type  } = _temp4 === void 0 ? {} : _temp4;
+    let statusText = "Unknown Server Error";
+    let errorMessage = "Unknown @remix-run/router error";
+    if (status === 400) {
+        statusText = "Bad Request";
+        if (method && pathname && routeId) errorMessage = "You made a " + method + ' request to "' + pathname + '" but ' + ('did not provide a `loader` for route "' + routeId + '", ') + "so there is no way to handle the request.";
+        else if (type === "defer-action") errorMessage = "defer() is not supported in actions";
+    } else if (status === 403) {
+        statusText = "Forbidden";
+        errorMessage = 'Route "' + routeId + '" does not match URL "' + pathname + '"';
+    } else if (status === 404) {
+        statusText = "Not Found";
+        errorMessage = 'No route matches URL "' + pathname + '"';
+    } else if (status === 405) {
+        statusText = "Method Not Allowed";
+        if (method && pathname && routeId) errorMessage = "You made a " + method.toUpperCase() + ' request to "' + pathname + '" but ' + ('did not provide an `action` for route "' + routeId + '", ') + "so there is no way to handle the request.";
+        else if (method) errorMessage = 'Invalid request method "' + method.toUpperCase() + '"';
+    }
+    return new ErrorResponse(status || 500, statusText, new Error(errorMessage), true);
+} // Find any returned redirect errors, starting from the lowest match
+function findRedirect(results) {
+    for(let i = results.length - 1; i >= 0; i--){
+        let result = results[i];
+        if (isRedirectResult(result)) return result;
+    }
+}
+function stripHashFromPath(path) {
+    let parsedPath = typeof path === "string" ? parsePath(path) : path;
+    return createPath(_extends({}, parsedPath, {
+        hash: ""
+    }));
+}
+function isHashChangeOnly(a, b) {
+    if (a.pathname !== b.pathname || a.search !== b.search) return false;
+    if (a.hash === "") // /page -> /page#hash
+    return b.hash !== "";
+    else if (a.hash === b.hash) // /page#hash -> /page#hash
+    return true;
+    else if (b.hash !== "") // /page#hash -> /page#other
+    return true;
+     // If the hash is removed the browser will re-perform a request to the server
+    // /page#hash -> /page
+    return false;
+}
+function isDeferredResult(result) {
+    return result.type === ResultType.deferred;
+}
+function isErrorResult(result) {
+    return result.type === ResultType.error;
+}
+function isRedirectResult(result) {
+    return (result && result.type) === ResultType.redirect;
+}
+function isDeferredData(value) {
+    let deferred = value;
+    return deferred && typeof deferred === "object" && typeof deferred.data === "object" && typeof deferred.subscribe === "function" && typeof deferred.cancel === "function" && typeof deferred.resolveData === "function";
+}
+function isResponse(value) {
+    return value != null && typeof value.status === "number" && typeof value.statusText === "string" && typeof value.headers === "object" && typeof value.body !== "undefined";
+}
+function isRedirectResponse(result) {
+    if (!isResponse(result)) return false;
+    let status = result.status;
+    let location = result.headers.get("Location");
+    return status >= 300 && status <= 399 && location != null;
+}
+function isQueryRouteResponse(obj) {
+    return obj && isResponse(obj.response) && (obj.type === ResultType.data || ResultType.error);
+}
+function isValidMethod(method) {
+    return validRequestMethods.has(method.toLowerCase());
+}
+function isMutationMethod(method) {
+    return validMutationMethods.has(method.toLowerCase());
+}
+async function resolveDeferredResults(currentMatches, matchesToLoad, results, signals, isFetcher, currentLoaderData) {
+    for(let index = 0; index < results.length; index++){
+        let result = results[index];
+        let match = matchesToLoad[index]; // If we don't have a match, then we can have a deferred result to do
+        // anything with.  This is for revalidating fetchers where the route was
+        // removed during HMR
+        if (!match) continue;
+        let currentMatch = currentMatches.find((m)=>m.route.id === match.route.id);
+        let isRevalidatingLoader = currentMatch != null && !isNewRouteInstance(currentMatch, match) && (currentLoaderData && currentLoaderData[match.route.id]) !== undefined;
+        if (isDeferredResult(result) && (isFetcher || isRevalidatingLoader)) {
+            // Note: we do not have to touch activeDeferreds here since we race them
+            // against the signal in resolveDeferredData and they'll get aborted
+            // there if needed
+            let signal = signals[index];
+            invariant(signal, "Expected an AbortSignal for revalidating fetcher deferred result");
+            await resolveDeferredData(result, signal, isFetcher).then((result)=>{
+                if (result) results[index] = result || results[index];
+            });
+        }
+    }
+}
+async function resolveDeferredData(result, signal, unwrap) {
+    if (unwrap === void 0) unwrap = false;
+    let aborted = await result.deferredData.resolveData(signal);
+    if (aborted) return;
+    if (unwrap) try {
+        return {
+            type: ResultType.data,
+            data: result.deferredData.unwrappedData
+        };
+    } catch (e) {
+        // Handle any TrackedPromise._error values encountered while unwrapping
+        return {
+            type: ResultType.error,
+            error: e
+        };
+    }
+    return {
+        type: ResultType.data,
+        data: result.deferredData.data
+    };
+}
+function hasNakedIndexQuery(search) {
+    return new URLSearchParams(search).getAll("index").some((v)=>v === "");
+} // Note: This should match the format exported by useMatches, so if you change
+// this please also change that :)  Eventually we'll DRY this up
+function createUseMatchesMatch(match, loaderData) {
+    let { route , pathname , params  } = match;
+    return {
+        id: route.id,
+        pathname,
+        params,
+        data: loaderData[route.id],
+        handle: route.handle
+    };
+}
+function getTargetMatch(matches, location) {
+    let search = typeof location === "string" ? parsePath(location).search : location.search;
+    if (matches[matches.length - 1].route.index && hasNakedIndexQuery(search || "")) // Return the leaf index route when index is present
+    return matches[matches.length - 1];
+     // Otherwise grab the deepest "path contributing" match (ignoring index and
+    // pathless layout routes)
+    let pathMatches = getPathContributingMatches(matches);
+    return pathMatches[pathMatches.length - 1];
+} //#endregion
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"41oow":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$4e25 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$4e25.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ChatGPT", ()=>ChatGPT);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _s = $RefreshSig$();
+const ChatGPT = ()=>{
+    _s();
+    const [response, setResponse] = (0, _react.useState)(null);
+    const [mess, setMess] = (0, _react.useState)("");
+    const [cont, setCont] = (0, _react.useState)([]);
+    const [answer, setAnswer] = (0, _react.useState)("");
+    const handleSubmit = async (e)=>{
+        e.preventDefault();
+        try {
+            const res = await fetch("http://localhost:4000/first-aid", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    message: mess,
+                    context: cont
+                })
+            });
+            const responseData = await res.json();
+            setResponse(responseData);
+            setAnswer(responseData.context);
+            setCont(responseData.context);
+            console.log("DONEEEeeeeeeeeee");
+        } catch (error) {
+            console.error(error);
+        }
+    };
+    (0, _react.useEffect)(()=>{
+        console.log("answer");
+        console.log(answer);
+    }, [
+        answer
+    ]);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            "ChatGPT",
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                onSubmit: handleSubmit,
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        children: [
+                            "Message: ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                type: "text",
+                                onChange: (e)=>setMess(e.target.value)
+                            }, void 0, false, {
+                                fileName: "components/ChatGPT.jsx",
+                                lineNumber: 43,
+                                columnNumber: 29
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/ChatGPT.jsx",
+                        lineNumber: 43,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        type: "submit",
+                        children: "submit"
+                    }, void 0, false, {
+                        fileName: "components/ChatGPT.jsx",
+                        lineNumber: 44,
+                        columnNumber: 13
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "components/ChatGPT.jsx",
+                lineNumber: 42,
+                columnNumber: 9
+            }, undefined),
+            response ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: [
+                    "Done",
+                    answer.map((item, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                    children: [
+                                        "Person: ",
+                                        item.role
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "components/ChatGPT.jsx",
+                                    lineNumber: 51,
+                                    columnNumber: 21
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "text-red-500",
+                                    children: item.message
+                                }, void 0, false, {
+                                    fileName: "components/ChatGPT.jsx",
+                                    lineNumber: 52,
+                                    columnNumber: 21
+                                }, undefined)
+                            ]
+                        }, index, true, {
+                            fileName: "components/ChatGPT.jsx",
+                            lineNumber: 50,
+                            columnNumber: 21
+                        }, undefined))
+                ]
+            }, void 0, true, {
+                fileName: "components/ChatGPT.jsx",
+                lineNumber: 47,
+                columnNumber: 13
+            }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: "Loading..."
+            }, void 0, false, {
+                fileName: "components/ChatGPT.jsx",
+                lineNumber: 57,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "components/ChatGPT.jsx",
+        lineNumber: 40,
+        columnNumber: 5
+    }, undefined);
+};
+_s(ChatGPT, "gRCVC9mhURT35lwoysdyqMFV8sE=");
+_c = ChatGPT;
+var _c;
+$RefreshReg$(_c, "ChatGPT");
+
+  $parcel$ReactRefreshHelpers$4e25.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bk2KG":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$0313 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$0313.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Nav", ()=>Nav);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _navCss = require("/Nav.css");
+const Nav = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
+        className: "navbar",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "navbar-container",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                    className: "navbar-logo",
+                    children: "Your App"
+                }, void 0, false, {
+                    fileName: "components/Nav.jsx",
+                    lineNumber: 8,
+                    columnNumber: 13
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                    className: "nav-menu",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            className: "nav-item",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "#",
+                                className: "nav-link",
+                                children: "Home"
+                            }, void 0, false, {
+                                fileName: "components/Nav.jsx",
+                                lineNumber: 11,
+                                columnNumber: 17
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "components/Nav.jsx",
+                            lineNumber: 10,
+                            columnNumber: 15
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            className: "nav-item",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "#",
+                                className: "nav-link",
+                                children: "About"
+                            }, void 0, false, {
+                                fileName: "components/Nav.jsx",
+                                lineNumber: 14,
+                                columnNumber: 17
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "components/Nav.jsx",
+                            lineNumber: 13,
+                            columnNumber: 15
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            className: "nav-item",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "#",
+                                className: "nav-link",
+                                children: "Services"
+                            }, void 0, false, {
+                                fileName: "components/Nav.jsx",
+                                lineNumber: 17,
+                                columnNumber: 17
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "components/Nav.jsx",
+                            lineNumber: 16,
+                            columnNumber: 15
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            className: "nav-item",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "#",
+                                className: "nav-link",
+                                children: "Contact"
+                            }, void 0, false, {
+                                fileName: "components/Nav.jsx",
+                                lineNumber: 20,
+                                columnNumber: 17
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "components/Nav.jsx",
+                            lineNumber: 19,
+                            columnNumber: 15
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/Nav.jsx",
+                    lineNumber: 9,
+                    columnNumber: 13
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "components/Nav.jsx",
+            lineNumber: 7,
+            columnNumber: 11
+        }, undefined)
+    }, void 0, false, {
+        fileName: "components/Nav.jsx",
+        lineNumber: 6,
+        columnNumber: 9
+    }, undefined);
+};
+_c = Nav;
+var _c;
+$RefreshReg$(_c, "Nav");
+
+  $parcel$ReactRefreshHelpers$0313.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","/Nav.css":"8vMCX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8vMCX":[function() {},{}],"dXcMu":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$e277 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$e277.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "SignIn", ()=>SignIn);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const SignIn = ({ onClick  })=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: "NORM ALERT"
+            }, void 0, false, {
+                fileName: "components/SignIn.jsx",
+                lineNumber: 6,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                style: {
+                    textAlign: "center"
+                },
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                    onClick: onClick,
+                    children: "Sign in with NEAR Wallet"
+                }, void 0, false, {
+                    fileName: "components/SignIn.jsx",
+                    lineNumber: 10,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "components/SignIn.jsx",
+                lineNumber: 9,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "components/SignIn.jsx",
+        lineNumber: 5,
+        columnNumber: 5
+    }, undefined);
+};
+_c = SignIn;
+var _c;
+$RefreshReg$(_c, "SignIn");
+
+  $parcel$ReactRefreshHelpers$e277.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"f6LUR":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$804c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$804c.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "SignOut", ()=>SignOut);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const SignOut = ({ accountId , onClick  })=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+            style: {
+                float: "right"
+            },
+            onClick: onClick,
+            children: [
+                "Sign out ",
+                accountId
+            ]
+        }, void 0, true, {
+            fileName: "components/SignOut.jsx",
+            lineNumber: 6,
+            columnNumber: 9
+        }, undefined)
+    }, void 0, false, {
+        fileName: "components/SignOut.jsx",
+        lineNumber: 5,
+        columnNumber: 5
+    }, undefined);
+};
+_c = SignOut;
+var _c;
+$RefreshReg$(_c, "SignOut");
+
+  $parcel$ReactRefreshHelpers$804c.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8hL4H":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$f7be = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$f7be.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "MedicalForm", ()=>MedicalForm);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
+const MedicalForm = ({ toRender  })=>{
+    _s();
+    const navigate = (0, _reactRouterDom.useNavigate)();
+    const [name, setName] = (0, _react.useState)("");
+    const [age, setAge] = (0, _react.useState)("");
+    const [bloodType, setBloodType] = (0, _react.useState)("");
+    const [allergies, setAllergies] = (0, _react.useState)([]);
+    const [medications, setMedications] = (0, _react.useState)([]);
+    const [toHash, setToHash] = (0, _react.useState)("");
+    const [accounts, setAccounts] = (0, _react.useState)(null);
+    if (!toRender) {
+        console.log("rendering");
+        toRender = !toRender;
+        navigate("/button");
+    } else navigate("/medical-history");
+    const handleSubmit = (e)=>{
+        e.preventDefault();
+        // Handle form submission, such as sending data to a server or performing necessary actions.
+        // You can access the entered values in the state variables (name, age, bloodType, allergies, medications).
+        const appendedAllergies = allergies.join(", ");
+        const appendedMedications = medications.join(", ");
+        const concatenatedString = name + age + bloodType + appendedAllergies + appendedMedications;
+        console.log(concatenatedString);
+        setToHash(concatenatedString);
+        fetch("http://localhost:4000/api/medical", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                hash: concatenatedString,
+                name: name,
+                age: age,
+                blood: bloodType,
+                allergies: allergies,
+                medication: medications
+            })
+        }).then((response)=>response.json()).then((data)=>{
+            // Handle the response from the server
+            // localStorage.setItem('hash', concatenatedString);
+            console.log("User information successfully sent to the server:", data);
+            navigate("/button");
+        }).catch((error)=>{
+            // Handle any error that occurred during the request
+            console.error("Error sending user information:", error);
+        });
+    };
+    const handleAllergyChange = (e, index)=>{
+        const updatedAllergies = [
+            ...allergies
+        ];
+        updatedAllergies[index] = e.target.value;
+        setAllergies(updatedAllergies);
+    };
+    const handleMedicationChange = (e, index)=>{
+        const updatedMedications = [
+            ...medications
+        ];
+        updatedMedications[index] = e.target.value;
+        setMedications(updatedMedications);
+    };
+    const addAllergy = ()=>{
+        setAllergies([
+            ...allergies,
+            ""
+        ]);
+    };
+    const removeAllergy = (index)=>{
+        const updatedAllergies = [
+            ...allergies
+        ];
+        updatedAllergies.splice(index, 1);
+        setAllergies(updatedAllergies);
+    };
+    const addMedication = ()=>{
+        setMedications([
+            ...medications,
+            ""
+        ]);
+    };
+    const removeMedication = (index)=>{
+        const updatedMedications = [
+            ...medications
+        ];
+        updatedMedications.splice(index, 1);
+        setMedications(updatedMedications);
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                children: "WE JUST NEED A LITTLE MORE INFORMATION"
+            }, void 0, false, {
+                fileName: "components/MedicalForm.jsx",
+                lineNumber: 94,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                onSubmit: handleSubmit,
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        children: [
+                            "Name:",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                type: "text",
+                                value: name,
+                                onChange: (e)=>setName(e.target.value)
+                            }, void 0, false, {
+                                fileName: "components/MedicalForm.jsx",
+                                lineNumber: 98,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/MedicalForm.jsx",
+                        lineNumber: 96,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/MedicalForm.jsx",
+                        lineNumber: 104,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        children: [
+                            "Age:",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                type: "number",
+                                value: age,
+                                onChange: (e)=>setAge(e.target.value)
+                            }, void 0, false, {
+                                fileName: "components/MedicalForm.jsx",
+                                lineNumber: 107,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/MedicalForm.jsx",
+                        lineNumber: 105,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/MedicalForm.jsx",
+                        lineNumber: 113,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        children: [
+                            "Blood Type:",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("select", {
+                                value: bloodType,
+                                onChange: (e)=>setBloodType(e.target.value),
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "",
+                                        children: "Select"
+                                    }, void 0, false, {
+                                        fileName: "components/MedicalForm.jsx",
+                                        lineNumber: 120,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "A+",
+                                        children: "A+"
+                                    }, void 0, false, {
+                                        fileName: "components/MedicalForm.jsx",
+                                        lineNumber: 121,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "A-",
+                                        children: "A-"
+                                    }, void 0, false, {
+                                        fileName: "components/MedicalForm.jsx",
+                                        lineNumber: 122,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "B+",
+                                        children: "B+"
+                                    }, void 0, false, {
+                                        fileName: "components/MedicalForm.jsx",
+                                        lineNumber: 123,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "B-",
+                                        children: "B-"
+                                    }, void 0, false, {
+                                        fileName: "components/MedicalForm.jsx",
+                                        lineNumber: 124,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "O+",
+                                        children: "O+"
+                                    }, void 0, false, {
+                                        fileName: "components/MedicalForm.jsx",
+                                        lineNumber: 125,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "O-",
+                                        children: "O-"
+                                    }, void 0, false, {
+                                        fileName: "components/MedicalForm.jsx",
+                                        lineNumber: 126,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "AB+",
+                                        children: "AB+"
+                                    }, void 0, false, {
+                                        fileName: "components/MedicalForm.jsx",
+                                        lineNumber: 127,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "AB-",
+                                        children: "AB-"
+                                    }, void 0, false, {
+                                        fileName: "components/MedicalForm.jsx",
+                                        lineNumber: 128,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/MedicalForm.jsx",
+                                lineNumber: 116,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/MedicalForm.jsx",
+                        lineNumber: 114,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/MedicalForm.jsx",
+                        lineNumber: 131,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        children: [
+                            "Allergies:",
+                            allergies.map((allergy, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                            type: "text",
+                                            value: allergy,
+                                            onChange: (e)=>handleAllergyChange(e, index)
+                                        }, void 0, false, {
+                                            fileName: "components/MedicalForm.jsx",
+                                            lineNumber: 136,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                            type: "button",
+                                            onClick: ()=>removeAllergy(index),
+                                            children: "Remove"
+                                        }, void 0, false, {
+                                            fileName: "components/MedicalForm.jsx",
+                                            lineNumber: 141,
+                                            columnNumber: 15
+                                        }, undefined)
+                                    ]
+                                }, index, true, {
+                                    fileName: "components/MedicalForm.jsx",
+                                    lineNumber: 135,
+                                    columnNumber: 13
+                                }, undefined)),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                type: "button",
+                                onClick: addAllergy,
+                                children: "Add Allergy"
+                            }, void 0, false, {
+                                fileName: "components/MedicalForm.jsx",
+                                lineNumber: 146,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/MedicalForm.jsx",
+                        lineNumber: 132,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/MedicalForm.jsx",
+                        lineNumber: 150,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        children: [
+                            "Medications:",
+                            medications.map((medication, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                            type: "text",
+                                            value: medication,
+                                            onChange: (e)=>handleMedicationChange(e, index)
+                                        }, void 0, false, {
+                                            fileName: "components/MedicalForm.jsx",
+                                            lineNumber: 155,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                            type: "button",
+                                            onClick: ()=>removeMedication(index),
+                                            children: "Remove"
+                                        }, void 0, false, {
+                                            fileName: "components/MedicalForm.jsx",
+                                            lineNumber: 160,
+                                            columnNumber: 15
+                                        }, undefined)
+                                    ]
+                                }, index, true, {
+                                    fileName: "components/MedicalForm.jsx",
+                                    lineNumber: 154,
+                                    columnNumber: 13
+                                }, undefined)),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                type: "button",
+                                onClick: addMedication,
+                                children: "Add Medication"
+                            }, void 0, false, {
+                                fileName: "components/MedicalForm.jsx",
+                                lineNumber: 165,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/MedicalForm.jsx",
+                        lineNumber: 151,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/MedicalForm.jsx",
+                        lineNumber: 169,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        type: "submit",
+                        children: "Submit"
+                    }, void 0, false, {
+                        fileName: "components/MedicalForm.jsx",
+                        lineNumber: 170,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "components/MedicalForm.jsx",
+                lineNumber: 95,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "components/MedicalForm.jsx",
+        lineNumber: 93,
+        columnNumber: 5
+    }, undefined);
+};
+_s(MedicalForm, "UvoSJbUI6XpPJRGzi320DRBmz0I=", false, function() {
+    return [
+        (0, _reactRouterDom.useNavigate)
+    ];
+});
+_c = MedicalForm;
+var _c;
+$RefreshReg$(_c, "MedicalForm");
+
+  $parcel$ReactRefreshHelpers$f7be.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"9xmpe"}],"9A4fb":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$c2e7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$c2e7.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Button", ()=>Button);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
+const Button = ()=>{
+    _s();
+    const navigate = (0, _reactRouterDom.useNavigate)();
+    const handleClick = ()=>{
+        // Handle button click event
+        console.log("pressed");
+        navigate("/optional");
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+            style: {
+                backgroundColor: "red",
+                color: "#fff",
+                padding: "10px 20px",
+                fontSize: "20px",
+                borderRadius: "8px",
+                border: "none",
+                cursor: "pointer"
+            },
+            onClick: handleClick,
+            children: "Click Me"
+        }, void 0, false, {
+            fileName: "components/Button.jsx",
+            lineNumber: 15,
+            columnNumber: 11
+        }, undefined)
+    }, void 0, false, {
+        fileName: "components/Button.jsx",
+        lineNumber: 13,
+        columnNumber: 9
+    }, undefined);
+};
+_s(Button, "CzcTeTziyjMsSrAVmHuCCb6+Bfg=", false, function() {
+    return [
+        (0, _reactRouterDom.useNavigate)
+    ];
+});
+_c = Button;
+var _c;
+$RefreshReg$(_c, "Button");
+
+  $parcel$ReactRefreshHelpers$c2e7.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"9xmpe"}],"h9n8f":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$cdd8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$cdd8.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Optional", ()=>Optional);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
+const Optional = ()=>{
+    _s();
+    const navigate = (0, _reactRouterDom.useNavigate)();
+    const [description, setDescription] = (0, _react.useState)("");
+    const handleDescriptionChange = (e)=>{
+        setDescription(e.target.value);
+    };
+    const handleButtonClick = ()=>{
+        if (description === "") // Handle skip button click event
+        console.log("skipped");
+        else // Handle submit button click event
+        console.log("submit");
+        console.log(description);
+        navigate("/final");
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                children: [
+                    "Description:",
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
+                        value: description,
+                        onChange: handleDescriptionChange,
+                        placeholder: "Enter your description"
+                    }, void 0, false, {
+                        fileName: "components/Optional.jsx",
+                        lineNumber: 28,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "components/Optional.jsx",
+                lineNumber: 26,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "components/Optional.jsx",
+                lineNumber: 34,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                type: "button",
+                onClick: handleButtonClick,
+                style: {
+                    backgroundColor: "#4caf50",
+                    color: "#fff",
+                    padding: "10px 20px",
+                    fontSize: "16px",
+                    borderRadius: "8px",
+                    border: "none",
+                    cursor: "pointer"
+                },
+                children: description.length === 0 ? "Skip" : "Submit"
+            }, void 0, false, {
+                fileName: "components/Optional.jsx",
+                lineNumber: 35,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "components/Optional.jsx",
+        lineNumber: 25,
+        columnNumber: 5
+    }, undefined);
+};
+_s(Optional, "1w/ovYjyqL1Bss56uZc/sK5qcyg=", false, function() {
+    return [
+        (0, _reactRouterDom.useNavigate)
+    ];
+});
+_c = Optional;
+var _c;
+$RefreshReg$(_c, "Optional");
+
+  $parcel$ReactRefreshHelpers$cdd8.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"9xmpe"}],"h2iZR":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$d4a1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$d4a1.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Final", ()=>Final);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const Final = ()=>{
+    const people = [
+        {
+            name: "John Doe",
+            eta: "10 minutes",
+            distance: "2 miles"
+        },
+        {
+            name: "Jane Smith",
+            eta: "15 minutes",
+            distance: "3 miles"
+        },
+        {
+            name: "Alice Johnson",
+            eta: "8 minutes",
+            distance: "1 mile"
+        }
+    ];
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        style: {
+            display: "flex",
+            flexDirection: "column",
+            minHeight: "100vh"
+        },
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                style: {
+                    flex: "1",
+                    backgroundColor: "#f0f0f0",
+                    minHeight: "60vh"
+                }
+            }, void 0, false, {
+                fileName: "components/Final.jsx",
+                lineNumber: 12,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                style: {
+                    backgroundColor: "#ffffff",
+                    padding: "20px",
+                    minHeight: "40vh"
+                },
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
+                    style: {
+                        width: "100%"
+                    },
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("thead", {
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                        children: "Name"
+                                    }, void 0, false, {
+                                        fileName: "components/Final.jsx",
+                                        lineNumber: 20,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                        children: "ETA"
+                                    }, void 0, false, {
+                                        fileName: "components/Final.jsx",
+                                        lineNumber: 21,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                        children: "Distance"
+                                    }, void 0, false, {
+                                        fileName: "components/Final.jsx",
+                                        lineNumber: 22,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/Final.jsx",
+                                lineNumber: 19,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "components/Final.jsx",
+                            lineNumber: 18,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tbody", {
+                            children: people.map((person, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                            children: person.name
+                                        }, void 0, false, {
+                                            fileName: "components/Final.jsx",
+                                            lineNumber: 28,
+                                            columnNumber: 17
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                            children: person.eta
+                                        }, void 0, false, {
+                                            fileName: "components/Final.jsx",
+                                            lineNumber: 29,
+                                            columnNumber: 17
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                            children: person.distance
+                                        }, void 0, false, {
+                                            fileName: "components/Final.jsx",
+                                            lineNumber: 30,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    ]
+                                }, index, true, {
+                                    fileName: "components/Final.jsx",
+                                    lineNumber: 27,
+                                    columnNumber: 15
+                                }, undefined))
+                        }, void 0, false, {
+                            fileName: "components/Final.jsx",
+                            lineNumber: 25,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/Final.jsx",
+                    lineNumber: 17,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "components/Final.jsx",
+                lineNumber: 15,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "components/Final.jsx",
+        lineNumber: 11,
+        columnNumber: 9
+    }, undefined);
+};
+_c = Final;
+var _c;
+$RefreshReg$(_c, "Final");
+
+  $parcel$ReactRefreshHelpers$d4a1.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1tpOb":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$24c0 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$24c0.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Sidebar", ()=>Sidebar);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _s = $RefreshSig$();
+const Sidebar = ()=>{
+    _s();
+    const [sidebarOpen, setSidebarOpen] = (0, _react.useState)(false);
+    const handleToggleSidebar = ()=>{
+        setSidebarOpen(!sidebarOpen);
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        style: {
+            display: "flex",
+            minHeight: "100vh"
+        },
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                onClick: handleToggleSidebar,
+                style: {
+                    position: "fixed",
+                    top: "20px",
+                    right: "20px",
+                    zIndex: 9999
+                },
+                children: "Toggle Sidebar"
+            }, void 0, false, {
+                fileName: "components/Sidebar.jsx",
+                lineNumber: 12,
+                columnNumber: 9
+            }, undefined),
+            sidebarOpen && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                style: {
+                    position: "fixed",
+                    top: 0,
+                    right: 0,
+                    width: "50%",
+                    height: "100%",
+                    backgroundColor: "#fff",
+                    zIndex: 9998
+                },
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "Sidebar Content"
+                    }, void 0, false, {
+                        fileName: "components/Sidebar.jsx",
+                        lineNumber: 35,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "This is the sidebar that appears on the right side of the screen."
+                    }, void 0, false, {
+                        fileName: "components/Sidebar.jsx",
+                        lineNumber: 36,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "You can put any content you want inside it."
+                    }, void 0, false, {
+                        fileName: "components/Sidebar.jsx",
+                        lineNumber: 37,
+                        columnNumber: 13
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "components/Sidebar.jsx",
+                lineNumber: 24,
+                columnNumber: 11
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                style: {
+                    flex: 1,
+                    backgroundColor: "#f0f0f0",
+                    minHeight: "100vh"
+                },
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        children: "Main Content"
+                    }, void 0, false, {
+                        fileName: "components/Sidebar.jsx",
+                        lineNumber: 42,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "This is the main content of the page that goes behind the sidebar."
+                    }, void 0, false, {
+                        fileName: "components/Sidebar.jsx",
+                        lineNumber: 43,
+                        columnNumber: 11
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "components/Sidebar.jsx",
+                lineNumber: 40,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "components/Sidebar.jsx",
+        lineNumber: 11,
+        columnNumber: 7
+    }, undefined);
+};
+_s(Sidebar, "5rGDkYpGQ8fHM9RkMWnKOwsxadk=");
+_c = Sidebar;
+var _c;
+$RefreshReg$(_c, "Sidebar");
+
+  $parcel$ReactRefreshHelpers$24c0.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dg9wB":[function(require,module,exports) {
 /* A helper file that simplifies using the wallet selector */ // near api js
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
@@ -27162,7 +34503,7 @@ var _myNearWalletIconPngDefault = parcelHelpers.interopDefault(_myNearWalletIcon
 var _core = require("@near-wallet-selector/core");
 var _ledger = require("@near-wallet-selector/ledger");
 var _myNearWallet = require("@near-wallet-selector/my-near-wallet");
-var Buffer = require("a0ac699fcef5bdb3").Buffer;
+var Buffer = require("ec5a8b4f56d70fde").Buffer;
 const THIRTY_TGAS = "30000000000000";
 const NO_DEPOSIT = "0";
 class Wallet {
@@ -27259,15 +34600,15 @@ class Wallet {
     }
 }
 
-},{"a0ac699fcef5bdb3":"fCgem","near-api-js":"ohc3m","@near-wallet-selector/modal-ui/styles.css":"b4TAP","@near-wallet-selector/modal-ui":"1nDKo","@near-wallet-selector/ledger/assets/ledger-icon.png":"dGAA6","@near-wallet-selector/my-near-wallet/assets/my-near-wallet-icon.png":"aTHwi","@near-wallet-selector/core":"eEY3a","@near-wallet-selector/ledger":"9enQf","@near-wallet-selector/my-near-wallet":"bYYGG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fCgem":[function(require,module,exports) {
+},{"ec5a8b4f56d70fde":"fCgem","near-api-js":"ohc3m","@near-wallet-selector/modal-ui/styles.css":"b4TAP","@near-wallet-selector/modal-ui":"1nDKo","@near-wallet-selector/ledger/assets/ledger-icon.png":"dGAA6","@near-wallet-selector/my-near-wallet/assets/my-near-wallet-icon.png":"aTHwi","@near-wallet-selector/core":"eEY3a","@near-wallet-selector/ledger":"9enQf","@near-wallet-selector/my-near-wallet":"bYYGG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fCgem":[function(require,module,exports) {
 /*!
  * The buffer module from node.js, for the browser.
  *
  * @author   Feross Aboukhadijeh <https://feross.org>
  * @license  MIT
  */ /* eslint-disable no-proto */ "use strict";
-var base64 = require("ddb8668c305c41ab");
-var ieee754 = require("2d2e1393fbfd54d8");
+var base64 = require("b962990c41678dd1");
+var ieee754 = require("574a6b2772828698");
 var customInspectSymbol = typeof Symbol === "function" && typeof Symbol["for"] === "function" // eslint-disable-line dot-notation
  ? Symbol["for"]("nodejs.util.inspect.custom") // eslint-disable-line dot-notation
  : null;
@@ -28489,7 +35830,7 @@ var hexSliceLookupTable = function() {
     return table;
 }();
 
-},{"ddb8668c305c41ab":"eIiSV","2d2e1393fbfd54d8":"cO95r"}],"eIiSV":[function(require,module,exports) {
+},{"b962990c41678dd1":"eIiSV","574a6b2772828698":"cO95r"}],"eIiSV":[function(require,module,exports) {
 "use strict";
 exports.byteLength = byteLength;
 exports.toByteArray = toByteArray;
@@ -28699,39 +36040,39 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.keyStores = void 0;
-/** @hidden @module */ exports.keyStores = __importStar(require("456cb77f62358ca9"));
-__exportStar(require("6dc40e0f31f97aa9"), exports);
-__exportStar(require("e37d87ec3840230e"), exports);
-require("3a70bc53c077fa24");
+/** @hidden @module */ exports.keyStores = __importStar(require("f9fa93f8b4cbc0f8"));
+__exportStar(require("d31e25ab61c18ad6"), exports);
+__exportStar(require("cfe031841a5a83f5"), exports);
+require("f7f271d80680a2a5");
 
-},{"456cb77f62358ca9":"aBfSM","6dc40e0f31f97aa9":"gtZXS","e37d87ec3840230e":"7yTE6","3a70bc53c077fa24":"2YFhR"}],"aBfSM":[function(require,module,exports) {
+},{"f9fa93f8b4cbc0f8":"aBfSM","d31e25ab61c18ad6":"gtZXS","cfe031841a5a83f5":"7yTE6","f7f271d80680a2a5":"2YFhR"}],"aBfSM":[function(require,module,exports) {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.MergeKeyStore = exports.BrowserLocalStorageKeyStore = exports.InMemoryKeyStore = exports.KeyStore = void 0;
-/** @hidden @module */ const keystore_1 = require("21a1c02cdea0688");
+/** @hidden @module */ const keystore_1 = require("14a2b4e4e4c42bd3");
 Object.defineProperty(exports, "KeyStore", {
     enumerable: true,
     get: function() {
         return keystore_1.KeyStore;
     }
 });
-const in_memory_key_store_1 = require("bb15fa8c46bfadc1");
+const in_memory_key_store_1 = require("b0b176bad39298a");
 Object.defineProperty(exports, "InMemoryKeyStore", {
     enumerable: true,
     get: function() {
         return in_memory_key_store_1.InMemoryKeyStore;
     }
 });
-const browser_local_storage_key_store_1 = require("dfbbfd38e3d9eaa1");
+const browser_local_storage_key_store_1 = require("9f5ddd15512a8250");
 Object.defineProperty(exports, "BrowserLocalStorageKeyStore", {
     enumerable: true,
     get: function() {
         return browser_local_storage_key_store_1.BrowserLocalStorageKeyStore;
     }
 });
-const merge_key_store_1 = require("bbacbeaf89d51110");
+const merge_key_store_1 = require("3ac16d30b6e69475");
 Object.defineProperty(exports, "MergeKeyStore", {
     enumerable: true,
     get: function() {
@@ -28739,7 +36080,7 @@ Object.defineProperty(exports, "MergeKeyStore", {
     }
 });
 
-},{"21a1c02cdea0688":"5Moei","bb15fa8c46bfadc1":"fTfs7","dfbbfd38e3d9eaa1":"l5Tuv","bbacbeaf89d51110":"kgqhu"}],"5Moei":[function(require,module,exports) {
+},{"14a2b4e4e4c42bd3":"5Moei","b0b176bad39298a":"fTfs7","9f5ddd15512a8250":"l5Tuv","3ac16d30b6e69475":"kgqhu"}],"5Moei":[function(require,module,exports) {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
@@ -28787,8 +36128,8 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.InMemoryKeyStore = void 0;
-const keystore_1 = require("d2dcc14163b7118");
-const key_pair_1 = require("9b923be777b5c53a");
+const keystore_1 = require("23d1baf595b69bd7");
+const key_pair_1 = require("b0b8955e8a82576d");
 /**
  * Simple in-memory keystore for mainly for testing purposes.
  *
@@ -28890,7 +36231,7 @@ const key_pair_1 = require("9b923be777b5c53a");
 }
 exports.InMemoryKeyStore = InMemoryKeyStore;
 
-},{"d2dcc14163b7118":"5Moei","9b923be777b5c53a":"kBQFP"}],"kBQFP":[function(require,module,exports) {
+},{"23d1baf595b69bd7":"5Moei","b0b8955e8a82576d":"kBQFP"}],"kBQFP":[function(require,module,exports) {
 "use strict";
 var __importDefault = this && this.__importDefault || function(mod) {
     return mod && mod.__esModule ? mod : {
@@ -28901,9 +36242,9 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.KeyPairEd25519 = exports.KeyPair = exports.PublicKey = exports.KeyType = void 0;
-const tweetnacl_1 = __importDefault(require("6f1270512899d769"));
-const serialize_1 = require("f21bcfc6726f71c6");
-const enums_1 = require("52aca837badf1a90");
+const tweetnacl_1 = __importDefault(require("c571f057a520efc0"));
+const serialize_1 = require("88b865cd7679a435");
+const enums_1 = require("35e91b60d41f838a");
 /** All supported key types */ var KeyType;
 (function(KeyType) {
     KeyType[KeyType["ED25519"] = 0] = "ED25519";
@@ -29030,7 +36371,7 @@ exports.KeyPair = KeyPair;
 }
 exports.KeyPairEd25519 = KeyPairEd25519;
 
-},{"6f1270512899d769":"3J9rh","f21bcfc6726f71c6":"dUoM9","52aca837badf1a90":"kjmPo"}],"3J9rh":[function(require,module,exports) {
+},{"c571f057a520efc0":"3J9rh","88b865cd7679a435":"dUoM9","35e91b60d41f838a":"kjmPo"}],"3J9rh":[function(require,module,exports) {
 (function(nacl) {
     "use strict";
     // Ported in 2014 by Dmitry Chestnykh and Devi Mandiri.
@@ -31428,7 +38769,7 @@ exports.KeyPairEd25519 = KeyPairEd25519;
             });
         } else {
             // Node.js.
-            crypto = require("f1fe8aa420a8d004");
+            crypto = require("c893735edaa58528");
             if (crypto && crypto.randomBytes) nacl.setPRNG(function(x, n) {
                 var i, v = crypto.randomBytes(n);
                 for(i = 0; i < n; i++)x[i] = v[i];
@@ -31438,7 +38779,7 @@ exports.KeyPairEd25519 = KeyPairEd25519;
     })();
 })((0, module.exports) ? module.exports : self.nacl = self.nacl || {});
 
-},{"f1fe8aa420a8d004":"jhUEF"}],"jhUEF":[function(require,module,exports) {
+},{"c893735edaa58528":"jhUEF"}],"jhUEF":[function(require,module,exports) {
 "use strict";
 
 },{}],"dUoM9":[function(require,module,exports) {
@@ -31447,7 +38788,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.BinaryReader = exports.BinaryWriter = exports.BorshError = exports.deserialize = exports.serialize = exports.base_decode = exports.base_encode = void 0;
-var borsh_1 = require("c1a227d5d2e4fd38");
+var borsh_1 = require("deabdf11a9cff70d");
 Object.defineProperty(exports, "base_encode", {
     enumerable: true,
     get: function() {
@@ -31491,8 +38832,8 @@ Object.defineProperty(exports, "BinaryReader", {
     }
 });
 
-},{"c1a227d5d2e4fd38":"4JCmN"}],"4JCmN":[function(require,module,exports) {
-var Buffer = require("527611980d5c1a12").Buffer;
+},{"deabdf11a9cff70d":"4JCmN"}],"4JCmN":[function(require,module,exports) {
+var Buffer = require("b099a66b0a488323").Buffer;
 "use strict";
 var __createBinding = this && this.__createBinding || (Object.create ? function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
@@ -31538,10 +38879,10 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.deserializeUnchecked = exports.deserialize = exports.serialize = exports.BinaryReader = exports.BinaryWriter = exports.BorshError = exports.baseDecode = exports.baseEncode = void 0;
-const bn_js_1 = __importDefault(require("f6c12c4ee6b51e08"));
-const bs58_1 = __importDefault(require("5cfec02dbaaef16b"));
+const bn_js_1 = __importDefault(require("a11072602688b0ef"));
+const bs58_1 = __importDefault(require("bf8a2560567ad8c1"));
 // TODO: Make sure this polyfill not included when not required
-const encoding = __importStar(require("fe2b0363c137d6c"));
+const encoding = __importStar(require("3b2b6b87a1b0a707"));
 const ResolvedTextDecoder = typeof TextDecoder !== "function" ? encoding.TextDecoder : TextDecoder;
 const textDecoder = new ResolvedTextDecoder("utf-8", {
     fatal: true
@@ -31891,7 +39232,7 @@ function deserializeUnchecked(schema, classType, buffer, Reader = BinaryReader) 
 }
 exports.deserializeUnchecked = deserializeUnchecked;
 
-},{"527611980d5c1a12":"fCgem","f6c12c4ee6b51e08":"VopIn","5cfec02dbaaef16b":"4ji3p","fe2b0363c137d6c":"feCA6"}],"VopIn":[function(require,module,exports) {
+},{"b099a66b0a488323":"fCgem","a11072602688b0ef":"VopIn","bf8a2560567ad8c1":"4ji3p","3b2b6b87a1b0a707":"feCA6"}],"VopIn":[function(require,module,exports) {
 (function(module1, exports) {
     "use strict";
     // Utils
@@ -31930,7 +39271,7 @@ exports.deserializeUnchecked = deserializeUnchecked;
     var Buffer;
     try {
         if (typeof window !== "undefined" && typeof window.Buffer !== "undefined") Buffer = window.Buffer;
-        else Buffer = require("845f9b3dca3b083").Buffer;
+        else Buffer = require("db6a8e714e6bf94c").Buffer;
     } catch (e) {}
     BN.isBN = function isBN(num) {
         if (num instanceof BN) return true;
@@ -34654,12 +41995,12 @@ exports.deserializeUnchecked = deserializeUnchecked;
     };
 })(module, this);
 
-},{"845f9b3dca3b083":"jhUEF"}],"4ji3p":[function(require,module,exports) {
-var basex = require("c209e0d58f640817");
+},{"db6a8e714e6bf94c":"jhUEF"}],"4ji3p":[function(require,module,exports) {
+var basex = require("2c9d6fb0250d6dc0");
 var ALPHABET = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz";
 module.exports = basex(ALPHABET);
 
-},{"c209e0d58f640817":"inVbl"}],"inVbl":[function(require,module,exports) {
+},{"2c9d6fb0250d6dc0":"inVbl"}],"inVbl":[function(require,module,exports) {
 "use strict";
 // base-x encoding / decoding
 // Copyright (c) 2018 base-x contributors
@@ -34667,7 +42008,7 @@ module.exports = basex(ALPHABET);
 // Distributed under the MIT software license, see the accompanying
 // file LICENSE or http://www.opensource.org/licenses/mit-license.php.
 // @ts-ignore
-var _Buffer = require("80ac4c8e0bf67ed").Buffer;
+var _Buffer = require("5acfa2d37753cf1").Buffer;
 function base(ALPHABET) {
     if (ALPHABET.length >= 255) throw new TypeError("Alphabet too long");
     var BASE_MAP = new Uint8Array(256);
@@ -34775,8 +42116,8 @@ function base(ALPHABET) {
 }
 module.exports = base;
 
-},{"80ac4c8e0bf67ed":"eW7r9"}],"eW7r9":[function(require,module,exports) {
-/*! safe-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */ /* eslint-disable node/no-deprecated-api */ var buffer = require("e456583d0ea92ca9");
+},{"5acfa2d37753cf1":"eW7r9"}],"eW7r9":[function(require,module,exports) {
+/*! safe-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */ /* eslint-disable node/no-deprecated-api */ var buffer = require("60bdb72feede3a91");
 var Buffer = buffer.Buffer;
 // alternative to using Object.keys for old browsers
 function copyProps(src, dst) {
@@ -34816,7 +42157,7 @@ SafeBuffer.allocUnsafeSlow = function(size) {
     return buffer.SlowBuffer(size);
 };
 
-},{"e456583d0ea92ca9":"fCgem"}],"feCA6":[function(require,module,exports) {
+},{"60bdb72feede3a91":"fCgem"}],"feCA6":[function(require,module,exports) {
 "use strict";
 // This is free and unencumbered software released into the public domain.
 // See LICENSE.md for more information.
@@ -35331,8 +42672,8 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.BrowserLocalStorageKeyStore = void 0;
-const keystore_1 = require("689b67befd37a090");
-const key_pair_1 = require("aafedf5b1d467d1f");
+const keystore_1 = require("cecd356dc8ec8e33");
+const key_pair_1 = require("ffa990d5370e6761");
 const LOCAL_STORAGE_KEY_PREFIX = "near-api-js:keystore:";
 /**
  * This class is used to store keys in the browsers local storage.
@@ -35443,7 +42784,7 @@ const LOCAL_STORAGE_KEY_PREFIX = "near-api-js:keystore:";
 }
 exports.BrowserLocalStorageKeyStore = BrowserLocalStorageKeyStore;
 
-},{"689b67befd37a090":"5Moei","aafedf5b1d467d1f":"kBQFP"}],"kgqhu":[function(require,module,exports) {
+},{"cecd356dc8ec8e33":"5Moei","ffa990d5370e6761":"kBQFP"}],"kgqhu":[function(require,module,exports) {
 "use strict";
 var __awaiter = this && this.__awaiter || function(thisArg, _arguments, P, generator) {
     function adopt(value) {
@@ -35476,7 +42817,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.MergeKeyStore = void 0;
-const keystore_1 = require("5271056ddbc557db");
+const keystore_1 = require("3c0f993ab1d2d7cd");
 class MergeKeyStore extends keystore_1.KeyStore {
     /**
      * @param keyStores read calls are attempted from start to end of array
@@ -35554,7 +42895,7 @@ class MergeKeyStore extends keystore_1.KeyStore {
 }
 exports.MergeKeyStore = MergeKeyStore;
 
-},{"5271056ddbc557db":"5Moei"}],"gtZXS":[function(require,module,exports) {
+},{"3c0f993ab1d2d7cd":"5Moei"}],"gtZXS":[function(require,module,exports) {
 "use strict";
 var __createBinding = this && this.__createBinding || (Object.create ? function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
@@ -35591,33 +42932,33 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.WalletConnection = exports.ConnectedWalletAccount = exports.Near = exports.KeyPair = exports.Signer = exports.InMemorySigner = exports.Contract = exports.Connection = exports.Account = exports.multisig = exports.validators = exports.transactions = exports.utils = exports.providers = exports.accountCreator = void 0;
-/** @hidden @module */ const providers = __importStar(require("240b023767ce37b7"));
+/** @hidden @module */ const providers = __importStar(require("dbd946f8bd5a307c"));
 exports.providers = providers;
-const utils = __importStar(require("5b236dfab243ce7f"));
+const utils = __importStar(require("857ed27d2fe20db6"));
 exports.utils = utils;
-const transactions = __importStar(require("907339d7c06b0606"));
+const transactions = __importStar(require("de8df9bbcacb7f4f"));
 exports.transactions = transactions;
-const validators = __importStar(require("3428a626211c53b0"));
+const validators = __importStar(require("84ac67f3c35db0dc"));
 exports.validators = validators;
-const account_1 = require("6e918d1e0940114b");
+const account_1 = require("3f16f0c229adb22d");
 Object.defineProperty(exports, "Account", {
     enumerable: true,
     get: function() {
         return account_1.Account;
     }
 });
-const multisig = __importStar(require("565502f2676cf1da"));
+const multisig = __importStar(require("d6fe28a837f74e28"));
 exports.multisig = multisig;
-const accountCreator = __importStar(require("acc6604ce51e073a"));
+const accountCreator = __importStar(require("d8af44421dec5661"));
 exports.accountCreator = accountCreator;
-const connection_1 = require("e1afc6bd3118fcb8");
+const connection_1 = require("84301e6c0fa27b48");
 Object.defineProperty(exports, "Connection", {
     enumerable: true,
     get: function() {
         return connection_1.Connection;
     }
 });
-const signer_1 = require("32d52e1a6d659e8f");
+const signer_1 = require("85a32d2de7a3946f");
 Object.defineProperty(exports, "Signer", {
     enumerable: true,
     get: function() {
@@ -35630,28 +42971,28 @@ Object.defineProperty(exports, "InMemorySigner", {
         return signer_1.InMemorySigner;
     }
 });
-const contract_1 = require("874322057108267a");
+const contract_1 = require("1d6bc1ffb663303");
 Object.defineProperty(exports, "Contract", {
     enumerable: true,
     get: function() {
         return contract_1.Contract;
     }
 });
-const key_pair_1 = require("d5d0b3f8f033e7d8");
+const key_pair_1 = require("8a869332b3c769f7");
 Object.defineProperty(exports, "KeyPair", {
     enumerable: true,
     get: function() {
         return key_pair_1.KeyPair;
     }
 });
-const near_1 = require("4186623b334cf775");
+const near_1 = require("3652d51d3bef38f");
 Object.defineProperty(exports, "Near", {
     enumerable: true,
     get: function() {
         return near_1.Near;
     }
 });
-const wallet_account_1 = require("ffe1bc54e9fa4eb");
+const wallet_account_1 = require("6af683bcb04c1027");
 Object.defineProperty(exports, "ConnectedWalletAccount", {
     enumerable: true,
     get: function() {
@@ -35665,13 +43006,13 @@ Object.defineProperty(exports, "WalletConnection", {
     }
 });
 
-},{"240b023767ce37b7":"gtL2a","5b236dfab243ce7f":"jOCMH","907339d7c06b0606":"jJQ5a","3428a626211c53b0":"6CFD9","6e918d1e0940114b":"hxSQV","565502f2676cf1da":"7q1du","acc6604ce51e073a":"aQbxV","e1afc6bd3118fcb8":"3ThJM","32d52e1a6d659e8f":"a6bzI","874322057108267a":"guo0T","d5d0b3f8f033e7d8":"kBQFP","4186623b334cf775":"9Ying","ffe1bc54e9fa4eb":"dHM3Z"}],"gtL2a":[function(require,module,exports) {
+},{"dbd946f8bd5a307c":"gtL2a","857ed27d2fe20db6":"jOCMH","de8df9bbcacb7f4f":"jJQ5a","84ac67f3c35db0dc":"6CFD9","3f16f0c229adb22d":"hxSQV","d6fe28a837f74e28":"7q1du","d8af44421dec5661":"aQbxV","84301e6c0fa27b48":"3ThJM","85a32d2de7a3946f":"a6bzI","1d6bc1ffb663303":"guo0T","8a869332b3c769f7":"kBQFP","3652d51d3bef38f":"9Ying","6af683bcb04c1027":"dHM3Z"}],"gtL2a":[function(require,module,exports) {
 "use strict";
 /** @hidden @module */ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.ErrorContext = exports.TypedError = exports.getTransactionLastResult = exports.FinalExecutionStatusBasic = exports.JsonRpcProvider = exports.Provider = void 0;
-const provider_1 = require("cd0fbed1981eba80");
+const provider_1 = require("f5a6561a8088e88");
 Object.defineProperty(exports, "Provider", {
     enumerable: true,
     get: function() {
@@ -35690,7 +43031,7 @@ Object.defineProperty(exports, "FinalExecutionStatusBasic", {
         return provider_1.FinalExecutionStatusBasic;
     }
 });
-const json_rpc_provider_1 = require("afece3147f29e578");
+const json_rpc_provider_1 = require("1eed1aba77134380");
 Object.defineProperty(exports, "JsonRpcProvider", {
     enumerable: true,
     get: function() {
@@ -35710,8 +43051,8 @@ Object.defineProperty(exports, "ErrorContext", {
     }
 });
 
-},{"cd0fbed1981eba80":"cUEh0","afece3147f29e578":"kzXVU"}],"cUEh0":[function(require,module,exports) {
-var Buffer = require("a8904560958c8db2").Buffer;
+},{"f5a6561a8088e88":"cUEh0","1eed1aba77134380":"kzXVU"}],"cUEh0":[function(require,module,exports) {
+var Buffer = require("39a084e4b8f3aacf").Buffer;
 "use strict";
 /**
  * NEAR RPC API request types and responses
@@ -35753,8 +43094,8 @@ exports.Provider = Provider;
 }
 exports.getTransactionLastResult = getTransactionLastResult;
 
-},{"a8904560958c8db2":"fCgem"}],"kzXVU":[function(require,module,exports) {
-var Buffer = require("add34273a5c5e69d").Buffer;
+},{"39a084e4b8f3aacf":"fCgem"}],"kzXVU":[function(require,module,exports) {
+var Buffer = require("2159470776a17bc1").Buffer;
 "use strict";
 var __awaiter = this && this.__awaiter || function(thisArg, _arguments, P, generator) {
     function adopt(value) {
@@ -35806,9 +43147,9 @@ exports.JsonRpcProvider = exports.ErrorContext = exports.TypedError = void 0;
  * This module contains the {@link JsonRpcProvider} client class
  * which can be used to interact with the [NEAR RPC API](https://docs.near.org/api/rpc/introduction).
  * @see {@link providers/provider | providers} for a list of request and response types
- */ const provider_1 = require("8cad08cf8f83c34b");
-const web_1 = require("8a66ada9d66002cd");
-const errors_1 = require("afc0c9a3c4876474");
+ */ const provider_1 = require("6e1c745f0037f11e");
+const web_1 = require("7d22565404d5f73f");
+const errors_1 = require("2951dc6219408b19");
 Object.defineProperty(exports, "TypedError", {
     enumerable: true,
     get: function() {
@@ -35821,9 +43162,9 @@ Object.defineProperty(exports, "ErrorContext", {
         return errors_1.ErrorContext;
     }
 });
-const borsh_1 = require("8994f44c4e3cf6fc");
-const exponential_backoff_1 = __importDefault(require("325b19628351165d"));
-const rpc_errors_1 = require("6418cc04696ebbba");
+const borsh_1 = require("b5ae56acfc5f7d19");
+const exponential_backoff_1 = __importDefault(require("915fd09a2326657f"));
+const rpc_errors_1 = require("98d2411cc129d753");
 // Default number of retries before giving up on a request.
 const REQUEST_RETRY_NUMBER = 12;
 // Default wait until next retry in millis.
@@ -36177,7 +43518,7 @@ let _nextId = 123;
 }
 exports.JsonRpcProvider = JsonRpcProvider;
 
-},{"add34273a5c5e69d":"fCgem","8cad08cf8f83c34b":"cUEh0","8a66ada9d66002cd":"iSqiB","afc0c9a3c4876474":"btMYy","8994f44c4e3cf6fc":"4JCmN","325b19628351165d":"51I5X","6418cc04696ebbba":"1TB1L"}],"iSqiB":[function(require,module,exports) {
+},{"2159470776a17bc1":"fCgem","6e1c745f0037f11e":"cUEh0","7d22565404d5f73f":"iSqiB","2951dc6219408b19":"btMYy","b5ae56acfc5f7d19":"4JCmN","915fd09a2326657f":"51I5X","98d2411cc129d753":"1TB1L"}],"iSqiB":[function(require,module,exports) {
 "use strict";
 var __awaiter = this && this.__awaiter || function(thisArg, _arguments, P, generator) {
     function adopt(value) {
@@ -36215,10 +43556,10 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.fetchJson = void 0;
-const http_errors_1 = __importDefault(require("6d5cec9dad7671aa"));
-const exponential_backoff_1 = __importDefault(require("8cc62165fe06f128"));
-const providers_1 = require("22fab50f56422c3a");
-const errors_1 = require("4d85f6e9ab35cfb9");
+const http_errors_1 = __importDefault(require("c3a5db0cef7d0a9b"));
+const exponential_backoff_1 = __importDefault(require("118fab08e3c10d71"));
+const providers_1 = require("d121aec9c37a5e46");
+const errors_1 = require("d2424c5ec2e9dc5d");
 const START_WAIT_TIME_MS = 1000;
 const BACKOFF_MULTIPLIER = 1.5;
 const RETRY_NUMBER = 10;
@@ -36260,7 +43601,7 @@ function fetchJson(connectionInfoOrUrl, json) {
 }
 exports.fetchJson = fetchJson;
 
-},{"6d5cec9dad7671aa":"a3NQ3","8cc62165fe06f128":"51I5X","22fab50f56422c3a":"gtL2a","4d85f6e9ab35cfb9":"btMYy"}],"a3NQ3":[function(require,module,exports) {
+},{"c3a5db0cef7d0a9b":"a3NQ3","118fab08e3c10d71":"51I5X","d121aec9c37a5e46":"gtL2a","d2424c5ec2e9dc5d":"btMYy"}],"a3NQ3":[function(require,module,exports) {
 /*!
  * http-errors
  * Copyright(c) 2014 Jonathan Ong
@@ -36270,11 +43611,11 @@ exports.fetchJson = fetchJson;
 /**
  * Module dependencies.
  * @private
- */ var deprecate = require("b5800d90eda64d3a")("http-errors");
-var setPrototypeOf = require("11569c1944cc372e");
-var statuses = require("17bc33f30a9b32c9");
-var inherits = require("52e2d4bb8e1e8f24");
-var toIdentifier = require("715df285d9d26852");
+ */ var deprecate = require("790632da57d3f271")("http-errors");
+var setPrototypeOf = require("c68dbaefc7c82158");
+var statuses = require("9b0220dc0046159b");
+var inherits = require("e80c1e3ec273c8bb");
+var toIdentifier = require("a34d19f30aff8741");
 /**
  * Module exports.
  * @public
@@ -36470,7 +43811,7 @@ populateConstructorExports(module.exports, statuses.codes, module.exports.HttpEr
     return name.substr(-5) !== "Error" ? name + "Error" : name;
 }
 
-},{"b5800d90eda64d3a":"hArTA","11569c1944cc372e":"7xKC9","17bc33f30a9b32c9":"l1u37","52e2d4bb8e1e8f24":"bRL3M","715df285d9d26852":"gn15y"}],"hArTA":[function(require,module,exports) {
+},{"790632da57d3f271":"hArTA","c68dbaefc7c82158":"7xKC9","9b0220dc0046159b":"l1u37","e80c1e3ec273c8bb":"bRL3M","a34d19f30aff8741":"gn15y"}],"hArTA":[function(require,module,exports) {
 /*!
  * depd
  * Copyright(c) 2015 Douglas Christopher Wilson
@@ -36541,7 +43882,7 @@ function mixinProperties(obj, proto) {
 /**
  * Module dependencies.
  * @private
- */ var codes = require("26ed986a272707d1");
+ */ var codes = require("47283f12993d8e2c");
 /**
  * Module exports.
  * @public
@@ -36618,7 +43959,7 @@ status.retry = {
     return n;
 }
 
-},{"26ed986a272707d1":"8IptR"}],"8IptR":[function(require,module,exports) {
+},{"47283f12993d8e2c":"8IptR"}],"8IptR":[function(require,module,exports) {
 module.exports = JSON.parse('{"100":"Continue","101":"Switching Protocols","102":"Processing","103":"Early Hints","200":"OK","201":"Created","202":"Accepted","203":"Non-Authoritative Information","204":"No Content","205":"Reset Content","206":"Partial Content","207":"Multi-Status","208":"Already Reported","226":"IM Used","300":"Multiple Choices","301":"Moved Permanently","302":"Found","303":"See Other","304":"Not Modified","305":"Use Proxy","306":"(Unused)","307":"Temporary Redirect","308":"Permanent Redirect","400":"Bad Request","401":"Unauthorized","402":"Payment Required","403":"Forbidden","404":"Not Found","405":"Method Not Allowed","406":"Not Acceptable","407":"Proxy Authentication Required","408":"Request Timeout","409":"Conflict","410":"Gone","411":"Length Required","412":"Precondition Failed","413":"Payload Too Large","414":"URI Too Long","415":"Unsupported Media Type","416":"Range Not Satisfiable","417":"Expectation Failed","418":"I\'m a teapot","421":"Misdirected Request","422":"Unprocessable Entity","423":"Locked","424":"Failed Dependency","425":"Unordered Collection","426":"Upgrade Required","428":"Precondition Required","429":"Too Many Requests","431":"Request Header Fields Too Large","451":"Unavailable For Legal Reasons","500":"Internal Server Error","501":"Not Implemented","502":"Bad Gateway","503":"Service Unavailable","504":"Gateway Timeout","505":"HTTP Version Not Supported","506":"Variant Also Negotiates","507":"Insufficient Storage","508":"Loop Detected","509":"Bandwidth Limit Exceeded","510":"Not Extended","511":"Network Authentication Required"}');
 
 },{}],"bRL3M":[function(require,module,exports) {
@@ -36768,11 +44109,11 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.formatError = exports.parseResultError = exports.parseRpcError = exports.ServerError = void 0;
-const mustache_1 = __importDefault(require("fea1ba1f7377ed9"));
-const rpc_error_schema_json_1 = __importDefault(require("20cc597959bf55a6"));
-const error_messages_json_1 = __importDefault(require("6e753b32efcff234"));
-const common_index_1 = require("50d5eee4f0df028");
-const errors_1 = require("f1ffd29e61d269ab");
+const mustache_1 = __importDefault(require("8ddf018b08107f1a"));
+const rpc_error_schema_json_1 = __importDefault(require("5aec7b6d68ba8c93"));
+const error_messages_json_1 = __importDefault(require("18fd5bd9299791f6"));
+const common_index_1 = require("932dc7205d7064c3");
+const errors_1 = require("4eed9b1e5ba0595a");
 const mustacheHelpers = {
     formatNear: ()=>(n, render)=>common_index_1.utils.format.formatNearAmount(render(n))
 };
@@ -36850,7 +44191,7 @@ exports.formatError = formatError;
     return Object.prototype.toString.call(n) === "[object String]";
 }
 
-},{"fea1ba1f7377ed9":"izE6r","20cc597959bf55a6":"k81HS","6e753b32efcff234":"1Z5Hy","50d5eee4f0df028":"gtZXS","f1ffd29e61d269ab":"btMYy"}],"izE6r":[function(require,module,exports) {
+},{"8ddf018b08107f1a":"izE6r","5aec7b6d68ba8c93":"k81HS","18fd5bd9299791f6":"1Z5Hy","932dc7205d7064c3":"gtZXS","4eed9b1e5ba0595a":"btMYy"}],"izE6r":[function(require,module,exports) {
 (function(global, factory) {
     module.exports = factory();
 })(this, function() {
@@ -37487,19 +44828,19 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.logWarning = exports.rpc_errors = exports.KeyPairEd25519 = exports.KeyPair = exports.PublicKey = exports.format = exports.enums = exports.web = exports.serialize = exports.key_pair = void 0;
-const key_pair = __importStar(require("41d69bd6de2a61a2"));
+const key_pair = __importStar(require("923c8d672708f322"));
 exports.key_pair = key_pair;
-const serialize = __importStar(require("c698e025c6ea7f56"));
+const serialize = __importStar(require("bf7dd4b72caad9d4"));
 exports.serialize = serialize;
-const web = __importStar(require("f101a6b5f74fc263"));
+const web = __importStar(require("64ad8668be94cd0f"));
 exports.web = web;
-const enums = __importStar(require("574609467198d076"));
+const enums = __importStar(require("d8b2c1f257832fb"));
 exports.enums = enums;
-const format = __importStar(require("ec358ad80804e301"));
+const format = __importStar(require("2c557df3e59f2775"));
 exports.format = format;
-const rpc_errors = __importStar(require("6a742bfc63925d2"));
+const rpc_errors = __importStar(require("e1385581292bac7a"));
 exports.rpc_errors = rpc_errors;
-const key_pair_1 = require("41d69bd6de2a61a2");
+const key_pair_1 = require("923c8d672708f322");
 Object.defineProperty(exports, "PublicKey", {
     enumerable: true,
     get: function() {
@@ -37518,7 +44859,7 @@ Object.defineProperty(exports, "KeyPairEd25519", {
         return key_pair_1.KeyPairEd25519;
     }
 });
-const errors_1 = require("3a307da0af0cd24a");
+const errors_1 = require("9e41dc7fba777f3");
 Object.defineProperty(exports, "logWarning", {
     enumerable: true,
     get: function() {
@@ -37526,7 +44867,7 @@ Object.defineProperty(exports, "logWarning", {
     }
 });
 
-},{"41d69bd6de2a61a2":"kBQFP","c698e025c6ea7f56":"dUoM9","f101a6b5f74fc263":"iSqiB","574609467198d076":"kjmPo","ec358ad80804e301":"16c5X","6a742bfc63925d2":"1TB1L","3a307da0af0cd24a":"btMYy"}],"16c5X":[function(require,module,exports) {
+},{"923c8d672708f322":"kBQFP","bf7dd4b72caad9d4":"dUoM9","64ad8668be94cd0f":"iSqiB","d8b2c1f257832fb":"kjmPo","2c557df3e59f2775":"16c5X","e1385581292bac7a":"1TB1L","9e41dc7fba777f3":"btMYy"}],"16c5X":[function(require,module,exports) {
 "use strict";
 var __importDefault = this && this.__importDefault || function(mod) {
     return mod && mod.__esModule ? mod : {
@@ -37537,7 +44878,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.parseNearAmount = exports.formatNearAmount = exports.NEAR_NOMINATION = exports.NEAR_NOMINATION_EXP = void 0;
-const bn_js_1 = __importDefault(require("3f47774f944df6e0"));
+const bn_js_1 = __importDefault(require("1a8df24d78417f22"));
 /**
  * Exponent for calculating how many indivisible units are there in one NEAR. See {@link NEAR_NOMINATION}.
  */ exports.NEAR_NOMINATION_EXP = 24;
@@ -37617,8 +44958,8 @@ exports.parseNearAmount = parseNearAmount;
     return value;
 }
 
-},{"3f47774f944df6e0":"VopIn"}],"jJQ5a":[function(require,module,exports) {
-var Buffer = require("99b5b02cd711d0a3").Buffer;
+},{"1a8df24d78417f22":"VopIn"}],"jJQ5a":[function(require,module,exports) {
+var Buffer = require("49acbf66cb75c10a").Buffer;
 "use strict";
 var __awaiter = this && this.__awaiter || function(thisArg, _arguments, P, generator) {
     function adopt(value) {
@@ -37656,10 +44997,10 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.signTransaction = exports.createTransaction = exports.SCHEMA = exports.Action = exports.SignedTransaction = exports.Transaction = exports.Signature = exports.deleteAccount = exports.deleteKey = exports.addKey = exports.stake = exports.transfer = exports.functionCall = exports.stringifyJsonOrBytes = exports.deployContract = exports.createAccount = exports.DeleteAccount = exports.DeleteKey = exports.AddKey = exports.Stake = exports.Transfer = exports.FunctionCall = exports.DeployContract = exports.CreateAccount = exports.IAction = exports.functionCallAccessKey = exports.fullAccessKey = exports.AccessKey = exports.AccessKeyPermission = exports.FullAccessPermission = exports.FunctionCallPermission = void 0;
-const js_sha256_1 = __importDefault(require("fd924cb443172482"));
-const enums_1 = require("4c8ea0e1b3783deb");
-const borsh_1 = require("ace31706cfcd6285");
-const key_pair_1 = require("56597bcae4ba7320");
+const js_sha256_1 = __importDefault(require("8e0bc7122f3f1f08"));
+const enums_1 = require("1d01722073a06da8");
+const borsh_1 = require("5ef49e218f5853f9");
+const key_pair_1 = require("f32b3f77d14439d");
 class FunctionCallPermission extends enums_1.Assignable {
 }
 exports.FunctionCallPermission = FunctionCallPermission;
@@ -38198,8 +45539,8 @@ function signTransaction(...args) {
 }
 exports.signTransaction = signTransaction;
 
-},{"99b5b02cd711d0a3":"fCgem","fd924cb443172482":"ahVaM","4c8ea0e1b3783deb":"kjmPo","ace31706cfcd6285":"4JCmN","56597bcae4ba7320":"kBQFP"}],"ahVaM":[function(require,module,exports) {
-var process = require("6aca65db1b5d193c");
+},{"49acbf66cb75c10a":"fCgem","8e0bc7122f3f1f08":"ahVaM","1d01722073a06da8":"kjmPo","5ef49e218f5853f9":"4JCmN","f32b3f77d14439d":"kBQFP"}],"ahVaM":[function(require,module,exports) {
+var process = require("703ea4427e20b0bf");
 var global = arguments[3];
 /**
  * [js-sha256]{@link https://github.com/emn178/js-sha256}
@@ -38688,7 +46029,7 @@ var global = arguments[3];
     }
 })();
 
-},{"6aca65db1b5d193c":"d5jf4"}],"6CFD9":[function(require,module,exports) {
+},{"703ea4427e20b0bf":"d5jf4"}],"6CFD9":[function(require,module,exports) {
 "use strict";
 var __importDefault = this && this.__importDefault || function(mod) {
     return mod && mod.__esModule ? mod : {
@@ -38699,8 +46040,8 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.diffEpochValidators = exports.findSeatPrice = void 0;
-const bn_js_1 = __importDefault(require("dcafccb9ede32054"));
-const depd_1 = __importDefault(require("ffabe665097c67c1"));
+const bn_js_1 = __importDefault(require("1242995b876b71f1"));
+const depd_1 = __importDefault(require("89437a897ac81230"));
 /** Finds seat price given validators stakes and number of seats.
  *  Calculation follow the spec: https://nomicon.io/Economics/README.html#validator-selection
  * @params validators: current or next epoch validators.
@@ -38770,7 +46111,7 @@ function findSeatPriceForProtocolAfter49(validators, maxNumberOfSeats, minimumSt
 }
 exports.diffEpochValidators = diffEpochValidators;
 
-},{"dcafccb9ede32054":"VopIn","ffabe665097c67c1":"2jGeI"}],"2jGeI":[function(require,module,exports) {
+},{"1242995b876b71f1":"VopIn","89437a897ac81230":"2jGeI"}],"2jGeI":[function(require,module,exports) {
 /*!
  * depd
  * Copyright(c) 2015 Douglas Christopher Wilson
@@ -38818,7 +46159,7 @@ exports.diffEpochValidators = diffEpochValidators;
 }
 
 },{}],"hxSQV":[function(require,module,exports) {
-var Buffer = require("d03e1c97c3136d69").Buffer;
+var Buffer = require("5f43ff0a52580542").Buffer;
 "use strict";
 var __awaiter = this && this.__awaiter || function(thisArg, _arguments, P, generator) {
     function adopt(value) {
@@ -38856,16 +46197,16 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.Account = void 0;
-const bn_js_1 = __importDefault(require("92ae5347e71fea44"));
-const depd_1 = __importDefault(require("461a167794f7db77"));
-const transaction_1 = require("70d8ec698c0875ad");
-const providers_1 = require("ce327fa05151e200");
-const borsh_1 = require("fd2749b47754fd7f");
-const key_pair_1 = require("7050bb5213ea972a");
-const errors_1 = require("33751ff644a832bf");
-const rpc_errors_1 = require("6deb8e5f392b6393");
-const constants_1 = require("9aea76d4bdb2cb2a");
-const exponential_backoff_1 = __importDefault(require("fb340a0be32aa2d9"));
+const bn_js_1 = __importDefault(require("7b3000f8d97d3aac"));
+const depd_1 = __importDefault(require("c124a9433d4a1f07"));
+const transaction_1 = require("632472c157547f29");
+const providers_1 = require("f75cd8d7d263303a");
+const borsh_1 = require("bcc11761d973298e");
+const key_pair_1 = require("163d12746bf85009");
+const errors_1 = require("f2ba0093e5a0e869");
+const rpc_errors_1 = require("5fbd5ca1f85e2ae5");
+const constants_1 = require("fb80615416052a50");
+const exponential_backoff_1 = __importDefault(require("c1358cdea6b079b"));
 // Default number of retries with different nonce before giving up on a transaction.
 const TX_NONCE_RETRY_NUMBER = 12;
 // Default wait until next retry in millis.
@@ -39435,7 +46776,7 @@ function bytesJsonStringify(input) {
 }
 exports.Account = Account;
 
-},{"d03e1c97c3136d69":"fCgem","92ae5347e71fea44":"VopIn","461a167794f7db77":"2jGeI","70d8ec698c0875ad":"jJQ5a","ce327fa05151e200":"gtL2a","fd2749b47754fd7f":"4JCmN","7050bb5213ea972a":"kBQFP","33751ff644a832bf":"btMYy","6deb8e5f392b6393":"1TB1L","9aea76d4bdb2cb2a":"lUNnG","fb340a0be32aa2d9":"51I5X"}],"lUNnG":[function(require,module,exports) {
+},{"5f43ff0a52580542":"fCgem","7b3000f8d97d3aac":"VopIn","c124a9433d4a1f07":"2jGeI","632472c157547f29":"jJQ5a","f75cd8d7d263303a":"gtL2a","bcc11761d973298e":"4JCmN","163d12746bf85009":"kBQFP","f2ba0093e5a0e869":"btMYy","5fbd5ca1f85e2ae5":"1TB1L","fb80615416052a50":"lUNnG","c1358cdea6b079b":"51I5X"}],"lUNnG":[function(require,module,exports) {
 "use strict";
 var __importDefault = this && this.__importDefault || function(mod) {
     return mod && mod.__esModule ? mod : {
@@ -39446,7 +46787,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.DEFAULT_FUNCTION_CALL_GAS = void 0;
-const bn_js_1 = __importDefault(require("3190edf4b45195a3"));
+const bn_js_1 = __importDefault(require("22365f81d23234c9"));
 // Default amount of gas to be sent with the function calls. Used to pay for the fees
 // incurred while running the contract execution. The unused amount will be refunded back to
 // the originator.
@@ -39455,8 +46796,8 @@ const bn_js_1 = __importDefault(require("3190edf4b45195a3"));
 // For discussion see https://github.com/nearprotocol/NEPs/issues/67
 exports.DEFAULT_FUNCTION_CALL_GAS = new bn_js_1.default("30000000000000");
 
-},{"3190edf4b45195a3":"VopIn"}],"7q1du":[function(require,module,exports) {
-var Buffer = require("e93b7465ef20b2d6").Buffer;
+},{"22365f81d23234c9":"VopIn"}],"7q1du":[function(require,module,exports) {
+var Buffer = require("ed9f15c9cb635b6c").Buffer;
 "use strict";
 var __awaiter = this && this.__awaiter || function(thisArg, _arguments, P, generator) {
     function adopt(value) {
@@ -39494,13 +46835,13 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.Account2FA = exports.AccountMultisig = exports.MultisigStateStatus = exports.MultisigDeleteRequestRejectionError = exports.MULTISIG_CONFIRM_METHODS = exports.MULTISIG_CHANGE_METHODS = exports.MULTISIG_DEPOSIT = exports.MULTISIG_GAS = exports.MULTISIG_ALLOWANCE = exports.MULTISIG_STORAGE_KEY = void 0;
-const bn_js_1 = __importDefault(require("45441377af9d384e"));
-const account_1 = require("2c8812cd0388da51");
-const format_1 = require("53f58cf7727882c7");
-const key_pair_1 = require("8ee1fe3c1e3d6d74");
-const transaction_1 = require("2d50b0466bd04e31");
-const providers_1 = require("69c3ccd62560f69d");
-const web_1 = require("c1deb315204da079");
+const bn_js_1 = __importDefault(require("9314468487701cd9"));
+const account_1 = require("8304dced717c484e");
+const format_1 = require("c47df1acc0821005");
+const key_pair_1 = require("3bb63569a07868");
+const transaction_1 = require("888f2f5ccd040947");
+const providers_1 = require("92e553050d7cf427");
+const web_1 = require("4865477e85ff9291");
 exports.MULTISIG_STORAGE_KEY = "__multisigRequest";
 exports.MULTISIG_ALLOWANCE = new bn_js_1.default((0, format_1.parseNearAmount)("1"));
 // TODO: Different gas value for different requests (can reduce gas usage dramatically)
@@ -39992,7 +47333,7 @@ const convertActions = (actions, accountId, receiverId)=>actions.map((a)=>{
         return action;
     });
 
-},{"e93b7465ef20b2d6":"fCgem","45441377af9d384e":"VopIn","2c8812cd0388da51":"hxSQV","53f58cf7727882c7":"16c5X","8ee1fe3c1e3d6d74":"kBQFP","2d50b0466bd04e31":"jJQ5a","69c3ccd62560f69d":"gtL2a","c1deb315204da079":"iSqiB"}],"aQbxV":[function(require,module,exports) {
+},{"ed9f15c9cb635b6c":"fCgem","9314468487701cd9":"VopIn","8304dced717c484e":"hxSQV","c47df1acc0821005":"16c5X","3bb63569a07868":"kBQFP","888f2f5ccd040947":"jJQ5a","92e553050d7cf427":"gtL2a","4865477e85ff9291":"iSqiB"}],"aQbxV":[function(require,module,exports) {
 "use strict";
 var __awaiter = this && this.__awaiter || function(thisArg, _arguments, P, generator) {
     function adopt(value) {
@@ -40025,7 +47366,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.UrlAccountCreator = exports.LocalAccountCreator = exports.AccountCreator = void 0;
-const web_1 = require("ce09bc6c20ec913e");
+const web_1 = require("65a80abf8d82a9f");
 /**
  * Account creator provides an interface for implementations to actually create accounts
  */ class AccountCreator {
@@ -40072,14 +47413,14 @@ class UrlAccountCreator extends AccountCreator {
 }
 exports.UrlAccountCreator = UrlAccountCreator;
 
-},{"ce09bc6c20ec913e":"iSqiB"}],"3ThJM":[function(require,module,exports) {
+},{"65a80abf8d82a9f":"iSqiB"}],"3ThJM":[function(require,module,exports) {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.Connection = void 0;
-const providers_1 = require("11299112313fb074");
-const signer_1 = require("94f2898ac50f8237");
+const providers_1 = require("bef94ac9e15775ad");
+const signer_1 = require("95dd858c203ebc0c");
 /**
  * @param config Contains connection info details
  * @returns {Provider}
@@ -40125,7 +47466,7 @@ const signer_1 = require("94f2898ac50f8237");
 }
 exports.Connection = Connection;
 
-},{"11299112313fb074":"gtL2a","94f2898ac50f8237":"a6bzI"}],"a6bzI":[function(require,module,exports) {
+},{"bef94ac9e15775ad":"gtL2a","95dd858c203ebc0c":"a6bzI"}],"a6bzI":[function(require,module,exports) {
 "use strict";
 var __awaiter = this && this.__awaiter || function(thisArg, _arguments, P, generator) {
     function adopt(value) {
@@ -40163,9 +47504,9 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.InMemorySigner = exports.Signer = void 0;
-const js_sha256_1 = __importDefault(require("7b3a2d051950e770"));
-const key_pair_1 = require("e7792325a3309dbc");
-const in_memory_key_store_1 = require("dadc0dfc531e7b29");
+const js_sha256_1 = __importDefault(require("c59b423be060ffa6"));
+const key_pair_1 = require("6460be3541b9ea29");
+const in_memory_key_store_1 = require("aaff831f63a9fc2f");
 /**
  * General signing interface, can be used for in memory signing, RPC singing, external wallet, HSM, etc.
  */ class Signer {
@@ -40237,7 +47578,7 @@ exports.Signer = Signer;
 }
 exports.InMemorySigner = InMemorySigner;
 
-},{"7b3a2d051950e770":"ahVaM","e7792325a3309dbc":"kBQFP","dadc0dfc531e7b29":"fTfs7"}],"guo0T":[function(require,module,exports) {
+},{"c59b423be060ffa6":"ahVaM","6460be3541b9ea29":"kBQFP","aaff831f63a9fc2f":"fTfs7"}],"guo0T":[function(require,module,exports) {
 "use strict";
 var __awaiter = this && this.__awaiter || function(thisArg, _arguments, P, generator) {
     function adopt(value) {
@@ -40275,10 +47616,10 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.Contract = void 0;
-const bn_js_1 = __importDefault(require("9b111ee96e129e06"));
-const depd_1 = __importDefault(require("3bd4b25056a1315a"));
-const providers_1 = require("c7c9e4297f9fd3f4");
-const errors_1 = require("8cc325bcb44bc04a");
+const bn_js_1 = __importDefault(require("34f1a814dcaa3932"));
+const depd_1 = __importDefault(require("e1150eb789b5df81"));
+const providers_1 = require("98c186d3720240e5");
+const errors_1 = require("46bc51f132b121a8");
 // Makes `function.name` return given name
 function nameFunction(name, body) {
     return ({
@@ -40396,7 +47737,7 @@ exports.Contract = Contract;
     }
 }
 
-},{"9b111ee96e129e06":"VopIn","3bd4b25056a1315a":"2jGeI","c7c9e4297f9fd3f4":"gtL2a","8cc325bcb44bc04a":"btMYy"}],"9Ying":[function(require,module,exports) {
+},{"34f1a814dcaa3932":"VopIn","e1150eb789b5df81":"2jGeI","98c186d3720240e5":"gtL2a","46bc51f132b121a8":"btMYy"}],"9Ying":[function(require,module,exports) {
 "use strict";
 var __awaiter = this && this.__awaiter || function(thisArg, _arguments, P, generator) {
     function adopt(value) {
@@ -40442,10 +47783,10 @@ exports.Near = void 0;
  * @see [https://docs.near.org/tools/near-api-js/quick-reference#account](https://docs.near.org/tools/near-api-js/quick-reference#account)
  *
  * @module near
- */ const bn_js_1 = __importDefault(require("30dae3c4c0702d41"));
-const account_1 = require("2b0fe78c90054604");
-const connection_1 = require("a35b6ae1690c631d");
-const account_creator_1 = require("cead74aef31b4e17");
+ */ const bn_js_1 = __importDefault(require("10d82f0f417eb786"));
+const account_1 = require("f9bdbaa3fbcebebb");
+const connection_1 = require("fb81ee7a6e803684");
+const account_creator_1 = require("624146e68d7f51b4");
 /**
  * This is the main class developers should use to interact with NEAR.
  * @example
@@ -40504,8 +47845,8 @@ const account_creator_1 = require("cead74aef31b4e17");
 }
 exports.Near = Near;
 
-},{"30dae3c4c0702d41":"VopIn","2b0fe78c90054604":"hxSQV","a35b6ae1690c631d":"3ThJM","cead74aef31b4e17":"aQbxV"}],"dHM3Z":[function(require,module,exports) {
-var Buffer = require("71d1fbf62087d157").Buffer;
+},{"10d82f0f417eb786":"VopIn","f9bdbaa3fbcebebb":"hxSQV","fb81ee7a6e803684":"3ThJM","624146e68d7f51b4":"aQbxV"}],"dHM3Z":[function(require,module,exports) {
+var Buffer = require("4ef1e2148eb1d98d").Buffer;
 "use strict";
 var __awaiter = this && this.__awaiter || function(thisArg, _arguments, P, generator) {
     function adopt(value) {
@@ -40550,12 +47891,12 @@ exports.ConnectedWalletAccount = exports.WalletConnection = void 0;
  * * {@link ConnectedWalletAccount} is an {@link account!Account} implementation that uses {@link WalletConnection} to get keys
  *
  * @module walletAccount
- */ const account_1 = require("4cafaf6a302a43d7");
-const transaction_1 = require("bad46b7f4b3c3101");
-const utils_1 = require("f7f5359767a15b1e");
-const borsh_1 = require("a9603b3cc7de36bf");
-const borsh_2 = require("a9603b3cc7de36bf");
-const bn_js_1 = __importDefault(require("8a662ca929a10ab4"));
+ */ const account_1 = require("2be42bc724e3366c");
+const transaction_1 = require("96beddcab44a4a74");
+const utils_1 = require("fb9b6252d907597b");
+const borsh_1 = require("2f57b54475c5af6b");
+const borsh_2 = require("2f57b54475c5af6b");
+const bn_js_1 = __importDefault(require("d31e682b907251c6"));
 const LOGIN_WALLET_URL_SUFFIX = "/login/";
 const MULTISIG_HAS_METHOD = "add_request_and_confirm";
 const LOCAL_STORAGE_KEY_SUFFIX = "_wallet_auth_key";
@@ -40838,7 +48179,7 @@ exports.WalletConnection = WalletConnection;
 }
 exports.ConnectedWalletAccount = ConnectedWalletAccount;
 
-},{"71d1fbf62087d157":"fCgem","4cafaf6a302a43d7":"hxSQV","bad46b7f4b3c3101":"jJQ5a","f7f5359767a15b1e":"jOCMH","a9603b3cc7de36bf":"4JCmN","8a662ca929a10ab4":"VopIn"}],"7yTE6":[function(require,module,exports) {
+},{"4ef1e2148eb1d98d":"fCgem","2be42bc724e3366c":"hxSQV","96beddcab44a4a74":"jJQ5a","fb9b6252d907597b":"jOCMH","2f57b54475c5af6b":"4JCmN","d31e682b907251c6":"VopIn"}],"7yTE6":[function(require,module,exports) {
 "use strict";
 var __awaiter = this && this.__awaiter || function(thisArg, _arguments, P, generator) {
     function adopt(value) {
@@ -40892,7 +48233,7 @@ exports.connect = void 0;
  * ```
  *
  * @module browserConnect
- */ const near_1 = require("9c593f55d47224ce");
+ */ const near_1 = require("3dd3409732be30cb");
 /**
  * Initialize connection to Near network.
  */ function connect(config) {
@@ -40902,27 +48243,27 @@ exports.connect = void 0;
 }
 exports.connect = connect;
 
-},{"9c593f55d47224ce":"9Ying"}],"2YFhR":[function(require,module,exports) {
-module.exports = require("c67101cea15e9d52");
+},{"3dd3409732be30cb":"9Ying"}],"2YFhR":[function(require,module,exports) {
+module.exports = require("b7984eaedb4745f4");
 
-},{"c67101cea15e9d52":"hDD9L"}],"hDD9L":[function(require,module,exports) {
-require("b0e8335610c9fd75");
-var capability = require("62d7293c1afd25c3");
+},{"b7984eaedb4745f4":"hDD9L"}],"hDD9L":[function(require,module,exports) {
+require("555e3e11bfc2efdf");
+var capability = require("5efad0ec36c938a4");
 var polyfill;
-if (capability("Error.captureStackTrace")) polyfill = require("9627afda6d3dc7c5");
-else if (capability("Error.prototype.stack")) polyfill = require("a46f88e1e829774f");
-else polyfill = require("67e8d67a061925c9");
+if (capability("Error.captureStackTrace")) polyfill = require("f3f9c56f46043762");
+else if (capability("Error.prototype.stack")) polyfill = require("87b767bc2b5f134d");
+else polyfill = require("4dbd324a76db0225");
 module.exports = polyfill();
 
-},{"b0e8335610c9fd75":"5bger","62d7293c1afd25c3":"45xjX","9627afda6d3dc7c5":"a0VmX","a46f88e1e829774f":"dx0bf","67e8d67a061925c9":"75e5c"}],"5bger":[function(require,module,exports) {
-require("c591c219e3aec4eb").check("es5");
+},{"555e3e11bfc2efdf":"5bger","5efad0ec36c938a4":"45xjX","f3f9c56f46043762":"a0VmX","87b767bc2b5f134d":"dx0bf","4dbd324a76db0225":"75e5c"}],"5bger":[function(require,module,exports) {
+require("200213e65914d11b").check("es5");
 
-},{"c591c219e3aec4eb":"45xjX"}],"45xjX":[function(require,module,exports) {
-require("6554ed6c70d0c4cc");
-module.exports = require("6c433d81380c9a9c");
+},{"200213e65914d11b":"45xjX"}],"45xjX":[function(require,module,exports) {
+require("2e78284a4ed19f");
+module.exports = require("213cc300eb7ebce2");
 
-},{"6554ed6c70d0c4cc":"k0u9C","6c433d81380c9a9c":"4EqFb"}],"k0u9C":[function(require,module,exports) {
-var capability = require("71d3e94447a3efd8"), define = capability.define, test = capability.test;
+},{"2e78284a4ed19f":"k0u9C","213cc300eb7ebce2":"4EqFb"}],"k0u9C":[function(require,module,exports) {
+var capability = require("b1750f60db54f903"), define = capability.define, test = capability.test;
 define("strict mode", function() {
     return this === undefined;
 });
@@ -40970,8 +48311,8 @@ define("Error.prototype.stack", function() {
     }
 });
 
-},{"71d3e94447a3efd8":"4EqFb"}],"4EqFb":[function(require,module,exports) {
-var CapabilityDetector = require("fe93c192719d5242");
+},{"b1750f60db54f903":"4EqFb"}],"4EqFb":[function(require,module,exports) {
+var CapabilityDetector = require("7093e66b14d28bb9");
 var detector = new CapabilityDetector();
 var capability = function(name) {
     return detector.test(name);
@@ -40985,7 +48326,7 @@ capability.check = function(name) {
 capability.test = capability;
 module.exports = capability;
 
-},{"fe93c192719d5242":"csHRg"}],"csHRg":[function(require,module,exports) {
+},{"7093e66b14d28bb9":"csHRg"}],"csHRg":[function(require,module,exports) {
 var CapabilityDetector = function() {
     this.tests = {};
     this.cache = {};
@@ -41011,7 +48352,7 @@ CapabilityDetector.prototype = {
 module.exports = CapabilityDetector;
 
 },{}],"a0VmX":[function(require,module,exports) {
-var prepareStackTrace = require("8fca4a3eb6105570");
+var prepareStackTrace = require("4130bfdde39a0d2c");
 module.exports = function() {
     Error.getStackTrace = function(throwable) {
         return throwable.stack;
@@ -41021,7 +48362,7 @@ module.exports = function() {
     };
 };
 
-},{"8fca4a3eb6105570":"85RZD"}],"85RZD":[function(require,module,exports) {
+},{"4130bfdde39a0d2c":"85RZD"}],"85RZD":[function(require,module,exports) {
 var prepareStackTrace = function(throwable, frames, warnings) {
     var string = "";
     string += throwable.name || "Error";
@@ -41039,7 +48380,7 @@ var prepareStackTrace = function(throwable, frames, warnings) {
 module.exports = prepareStackTrace;
 
 },{}],"dx0bf":[function(require,module,exports) {
-var FrameStringSource = require("7f02e7e9d1fa6cb1"), FrameStringParser = require("ea731a095d2fcc5"), cache = require("bbb7a2899a61b8df").cache, prepareStackTrace = require("adb672378b1431d7");
+var FrameStringSource = require("2410e07e621bc751"), FrameStringParser = require("9b01cfaa0e174aba"), cache = require("8db47d896a2ee56a").cache, prepareStackTrace = require("4a770d39994385f1");
 module.exports = function() {
     Error.captureStackTrace = function captureStackTrace(throwable, terminator) {
         var warnings;
@@ -41097,8 +48438,8 @@ module.exports = function() {
     };
 };
 
-},{"7f02e7e9d1fa6cb1":"8enMo","ea731a095d2fcc5":"kqj4M","bbb7a2899a61b8df":"dIyaj","adb672378b1431d7":"85RZD"}],"8enMo":[function(require,module,exports) {
-var Class = require("777baa10374504cb").Class, abstractMethod = require("777baa10374504cb").abstractMethod, eachCombination = require("977c4ed2281a447a").eachCombination, cache = require("977c4ed2281a447a").cache, capability = require("d3da7c7b8a5c7bf5");
+},{"2410e07e621bc751":"8enMo","9b01cfaa0e174aba":"kqj4M","8db47d896a2ee56a":"dIyaj","4a770d39994385f1":"85RZD"}],"8enMo":[function(require,module,exports) {
+var Class = require("9af2a2a740de3c7e").Class, abstractMethod = require("9af2a2a740de3c7e").abstractMethod, eachCombination = require("dbae2e4809a9bd81").eachCombination, cache = require("dbae2e4809a9bd81").cache, capability = require("42bec5d53d155421");
 var AbstractFrameStringSource = Class(Object, {
     prototype: {
         captureFrameStrings: function(frameShifts) {
@@ -41214,17 +48555,17 @@ module.exports = {
     })
 };
 
-},{"777baa10374504cb":"gP4B7","977c4ed2281a447a":"dIyaj","d3da7c7b8a5c7bf5":"45xjX"}],"gP4B7":[function(require,module,exports) {
-require("8774774139538435");
-module.exports = require("d78780a383197678");
+},{"9af2a2a740de3c7e":"gP4B7","dbae2e4809a9bd81":"dIyaj","42bec5d53d155421":"45xjX"}],"gP4B7":[function(require,module,exports) {
+require("440850609f37f82c");
+module.exports = require("fc5f62235918c2ca");
 
-},{"8774774139538435":"5bger","d78780a383197678":"eoeZx"}],"eoeZx":[function(require,module,exports) {
+},{"440850609f37f82c":"5bger","fc5f62235918c2ca":"eoeZx"}],"eoeZx":[function(require,module,exports) {
 module.exports = {
-    Class: require("cb68dda2aa5c11fc"),
-    abstractMethod: require("21f89c21cd4735dd")
+    Class: require("4fe5dc1278903c2d"),
+    abstractMethod: require("46753e8117dec888")
 };
 
-},{"cb68dda2aa5c11fc":"k4Z0U","21f89c21cd4735dd":"d1LMy"}],"k4Z0U":[function(require,module,exports) {
+},{"4fe5dc1278903c2d":"k4Z0U","46753e8117dec888":"d1LMy"}],"k4Z0U":[function(require,module,exports) {
 var Class = function() {
     var options = Object.create({
         Source: Object,
@@ -41322,15 +48663,15 @@ module.exports = function() {
 };
 
 },{}],"dIyaj":[function(require,module,exports) {
-module.exports = require("6ee012bcf67cdae3");
+module.exports = require("d8535c4b9c304b09");
 
-},{"6ee012bcf67cdae3":"9JH8M"}],"9JH8M":[function(require,module,exports) {
+},{"d8535c4b9c304b09":"9JH8M"}],"9JH8M":[function(require,module,exports) {
 module.exports = {
-    cache: require("a8a41456d5fd43f4"),
-    eachCombination: require("8fad25137d55f2f1")
+    cache: require("c8d88bb6a1db36ba"),
+    eachCombination: require("c26a24f889bfd22a")
 };
 
-},{"a8a41456d5fd43f4":"3mu2N","8fad25137d55f2f1":"i1liH"}],"3mu2N":[function(require,module,exports) {
+},{"c8d88bb6a1db36ba":"3mu2N","c26a24f889bfd22a":"i1liH"}],"3mu2N":[function(require,module,exports) {
 var cache = function(fn) {
     var called = false, store;
     if (!(fn instanceof Function)) {
@@ -41363,7 +48704,7 @@ module.exports = function eachCombination(alternativesByDimension, callback, com
 };
 
 },{}],"kqj4M":[function(require,module,exports) {
-var Class = require("5c76de029bf2bf14").Class, Frame = require("960f61edee9ade61"), cache = require("59051b4a624d2fa5").cache;
+var Class = require("a589b7e3cf3f14ef").Class, Frame = require("6d15e408bd764c34"), cache = require("91adb65029accd95").cache;
 var FrameStringParser = Class(Object, {
     prototype: {
         stackParser: null,
@@ -41397,8 +48738,8 @@ module.exports = {
     })
 };
 
-},{"5c76de029bf2bf14":"gP4B7","960f61edee9ade61":"gHN0E","59051b4a624d2fa5":"dIyaj"}],"gHN0E":[function(require,module,exports) {
-var Class = require("dd042428927d81e1").Class, abstractMethod = require("dd042428927d81e1").abstractMethod;
+},{"a589b7e3cf3f14ef":"gP4B7","6d15e408bd764c34":"gHN0E","91adb65029accd95":"dIyaj"}],"gHN0E":[function(require,module,exports) {
+var Class = require("26b6133abdafb062").Class, abstractMethod = require("26b6133abdafb062").abstractMethod;
 var Frame = Class(Object, {
     prototype: {
         init: Class.prototype.merge,
@@ -41426,8 +48767,8 @@ var Frame = Class(Object, {
 });
 module.exports = Frame;
 
-},{"dd042428927d81e1":"gP4B7"}],"75e5c":[function(require,module,exports) {
-var cache = require("75dae4f592d2af99").cache, prepareStackTrace = require("547f289329f5dc4b");
+},{"26b6133abdafb062":"gP4B7"}],"75e5c":[function(require,module,exports) {
+var cache = require("af15b0ee1f96324e").cache, prepareStackTrace = require("d46084aaca797074");
 module.exports = function() {
     Error.captureStackTrace = function(throwable, terminator) {
         Object.defineProperties(throwable, {
@@ -41471,7 +48812,7 @@ module.exports = function() {
     };
 };
 
-},{"75dae4f592d2af99":"dIyaj","547f289329f5dc4b":"85RZD"}],"b4TAP":[function() {},{}],"1nDKo":[function(require,module,exports) {
+},{"af15b0ee1f96324e":"dIyaj","d46084aaca797074":"85RZD"}],"b4TAP":[function() {},{}],"1nDKo":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "setupModal", ()=>setupModal);
@@ -46393,9 +53734,9 @@ const setupModal = (selector, options)=>{
 
 },{"react/jsx-runtime":"6AEwr","react-dom/client":"lOjBx","react":"21dqq","@near-wallet-selector/core":"eEY3a","qrcode":"lB7MY","copy-to-clipboard":"fLPFI","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6AEwr":[function(require,module,exports) {
 "use strict";
-module.exports = require("69f9049748154fa4");
+module.exports = require("7c0de61d28cec54d");
 
-},{"69f9049748154fa4":"kujY4"}],"kujY4":[function(require,module,exports) {
+},{"7c0de61d28cec54d":"kujY4"}],"kujY4":[function(require,module,exports) {
 /**
  * @license React
  * react-jsx-runtime.development.js
@@ -46407,7 +53748,7 @@ module.exports = require("69f9049748154fa4");
  */ "use strict";
 (function() {
     "use strict";
-    var React = require("c1c9583d1267f735");
+    var React = require("4fe0a449990cbb39");
     // ATTENTION
     // When adding new symbols to this file,
     // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
@@ -47238,7 +54579,7 @@ module.exports = require("69f9049748154fa4");
     exports.jsxs = jsxs;
 })();
 
-},{"c1c9583d1267f735":"21dqq"}],"eEY3a":[function(require,module,exports) {
+},{"4fe0a449990cbb39":"21dqq"}],"eEY3a":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "EventEmitter", ()=>EventEmitter);
@@ -53415,37 +60756,7 @@ exports.default = {
     __classPrivateFieldIn
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
-
-},{}],"dEyyK":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dEyyK":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "isFunction", ()=>isFunction);
@@ -54089,10 +61400,10 @@ var OperatorSubscriber = function(_super) {
 }((0, _subscriber.Subscriber));
 
 },{"tslib":"99ylF","../Subscriber":"1VFFQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lB7MY":[function(require,module,exports) {
-const canPromise = require("2e17055c5f60453a");
-const QRCode = require("f08414391f97732c");
-const CanvasRenderer = require("8c094a5b41f00a31");
-const SvgRenderer = require("2dd6921cdeb2e9d2");
+const canPromise = require("bbd0cbf57bea06be");
+const QRCode = require("a60752e2ba410d38");
+const CanvasRenderer = require("6abd63ea734f962c");
+const SvgRenderer = require("6bc630c0e4669d37");
 function renderCanvas(renderFunc, canvas, text, opts, cb) {
     const args = [].slice.call(arguments, 1);
     const argsNum = args.length;
@@ -54149,7 +61460,7 @@ exports.toString = renderCanvas.bind(null, function(data, _, opts) {
     return SvgRenderer.render(data, opts);
 });
 
-},{"2e17055c5f60453a":"9FrZa","f08414391f97732c":"20hbG","8c094a5b41f00a31":"2oGFV","2dd6921cdeb2e9d2":"7Akrj"}],"9FrZa":[function(require,module,exports) {
+},{"bbd0cbf57bea06be":"9FrZa","a60752e2ba410d38":"20hbG","6abd63ea734f962c":"2oGFV","6bc630c0e4669d37":"7Akrj"}],"9FrZa":[function(require,module,exports) {
 // can-promise has a crash in some versions of react native that dont have
 // standard global objects
 // https://github.com/soldair/node-qrcode/issues/157
@@ -54158,19 +61469,19 @@ module.exports = function() {
 };
 
 },{}],"20hbG":[function(require,module,exports) {
-const Utils = require("11f201e8787d10d5");
-const ECLevel = require("71a54e950bbc04e7");
-const BitBuffer = require("ee23db3e8168b2f4");
-const BitMatrix = require("65602408319c7425");
-const AlignmentPattern = require("81ce37e8341b1914");
-const FinderPattern = require("2f2425412cb6b165");
-const MaskPattern = require("f8d43b926c1d50cf");
-const ECCode = require("e7cab58e5336abb9");
-const ReedSolomonEncoder = require("7730280698e63435");
-const Version = require("11710886bfe104d9");
-const FormatInfo = require("3846f49537ce75fd");
-const Mode = require("42c031853f8ef519");
-const Segments = require("d672f3ad07b3210f");
+const Utils = require("dfb20f24d77c2d32");
+const ECLevel = require("df3d1abf0a6c1694");
+const BitBuffer = require("acc5c6e0a040c043");
+const BitMatrix = require("9f7a802398faa61a");
+const AlignmentPattern = require("b23b5d040bd74466");
+const FinderPattern = require("3c77390524d0b88");
+const MaskPattern = require("3b88c1f4b3a3aec0");
+const ECCode = require("180dd9e8a6e21835");
+const ReedSolomonEncoder = require("b478f03db938b124");
+const Version = require("808f3ccabe2ad57f");
+const FormatInfo = require("67d338edd8ae06a8");
+const Mode = require("4fcc93adeed448f5");
+const Segments = require("4889b687363d1024");
 /**
  * QRCode for JavaScript
  *
@@ -54506,7 +61817,7 @@ const Segments = require("d672f3ad07b3210f");
     return createSymbol(data, version, errorCorrectionLevel, mask);
 };
 
-},{"11f201e8787d10d5":"iXLHI","71a54e950bbc04e7":"kbPwo","ee23db3e8168b2f4":"kiPfj","65602408319c7425":"fTjkX","81ce37e8341b1914":"1o9KB","2f2425412cb6b165":"dc6Ma","f8d43b926c1d50cf":"fyimH","e7cab58e5336abb9":"5yWYH","7730280698e63435":"47Qq0","11710886bfe104d9":"a8ag2","3846f49537ce75fd":"iThdR","42c031853f8ef519":"f1e9A","d672f3ad07b3210f":"4tKki"}],"iXLHI":[function(require,module,exports) {
+},{"dfb20f24d77c2d32":"iXLHI","df3d1abf0a6c1694":"kbPwo","acc5c6e0a040c043":"kiPfj","9f7a802398faa61a":"fTjkX","b23b5d040bd74466":"1o9KB","3c77390524d0b88":"dc6Ma","3b88c1f4b3a3aec0":"fyimH","180dd9e8a6e21835":"5yWYH","b478f03db938b124":"47Qq0","808f3ccabe2ad57f":"a8ag2","67d338edd8ae06a8":"iThdR","4fcc93adeed448f5":"f1e9A","4889b687363d1024":"4tKki"}],"iXLHI":[function(require,module,exports) {
 let toSJISFunction;
 const CODEWORDS_COUNT = [
     0,
@@ -54726,7 +62037,7 @@ module.exports = BitMatrix;
  *
  * Alignment patterns are present only in QR Code symbols of version 2 or larger
  * and their number depends on the symbol version.
- */ const getSymbolSize = require("b0d4bcafed572ea6").getSymbolSize;
+ */ const getSymbolSize = require("b5b3a14e28b52506").getSymbolSize;
 /**
  * Calculate the row/column coordinates of the center module of each alignment pattern
  * for the specified QR Code version.
@@ -54790,8 +62101,8 @@ module.exports = BitMatrix;
     return coords;
 };
 
-},{"b0d4bcafed572ea6":"iXLHI"}],"dc6Ma":[function(require,module,exports) {
-const getSymbolSize = require("785cfe1b3aa2ed29").getSymbolSize;
+},{"b5b3a14e28b52506":"iXLHI"}],"dc6Ma":[function(require,module,exports) {
+const getSymbolSize = require("4f7f122babde8630").getSymbolSize;
 const FINDER_PATTERN_SIZE = 7;
 /**
  * Returns an array containing the positions of each finder pattern.
@@ -54820,7 +62131,7 @@ const FINDER_PATTERN_SIZE = 7;
     ];
 };
 
-},{"785cfe1b3aa2ed29":"iXLHI"}],"fyimH":[function(require,module,exports) {
+},{"4f7f122babde8630":"iXLHI"}],"fyimH":[function(require,module,exports) {
 /**
  * Data mask pattern reference
  * @type {Object}
@@ -55011,7 +62322,7 @@ const FINDER_PATTERN_SIZE = 7;
 };
 
 },{}],"5yWYH":[function(require,module,exports) {
-const ECLevel = require("fab5965d8bbf4022");
+const ECLevel = require("4538ccce0ff21e3c");
 const EC_BLOCKS_TABLE = [
     // L  M  Q  H
     1,
@@ -55381,8 +62692,8 @@ const EC_CODEWORDS_TABLE = [
     }
 };
 
-},{"fab5965d8bbf4022":"kbPwo"}],"47Qq0":[function(require,module,exports) {
-const Polynomial = require("88122db464024a69");
+},{"4538ccce0ff21e3c":"kbPwo"}],"47Qq0":[function(require,module,exports) {
+const Polynomial = require("854fc7682cf308a0");
 function ReedSolomonEncoder(degree) {
     this.genPoly = undefined;
     this.degree = degree;
@@ -55425,8 +62736,8 @@ function ReedSolomonEncoder(degree) {
 };
 module.exports = ReedSolomonEncoder;
 
-},{"88122db464024a69":"dxhHI"}],"dxhHI":[function(require,module,exports) {
-const GF = require("d52174a6bbc91258");
+},{"854fc7682cf308a0":"dxhHI"}],"dxhHI":[function(require,module,exports) {
+const GF = require("686c3577db75ae16");
 /**
  * Multiplies two polynomials inside Galois Field
  *
@@ -55473,7 +62784,7 @@ const GF = require("d52174a6bbc91258");
     return poly;
 };
 
-},{"d52174a6bbc91258":"2JC5s"}],"2JC5s":[function(require,module,exports) {
+},{"686c3577db75ae16":"2JC5s"}],"2JC5s":[function(require,module,exports) {
 const EXP_TABLE = new Uint8Array(512);
 const LOG_TABLE = new Uint8Array(256) /**
  * Precompute the log and anti-log tables for faster computation later
@@ -55531,11 +62842,11 @@ const LOG_TABLE = new Uint8Array(256) /**
 };
 
 },{}],"a8ag2":[function(require,module,exports) {
-const Utils = require("1414097e1e8d4d9");
-const ECCode = require("f172bf03e43e6401");
-const ECLevel = require("87eb2ac911a75614");
-const Mode = require("50e8273d19088ecb");
-const VersionCheck = require("9bac2aa2d11c8b8b");
+const Utils = require("25c6f49b0d94cc6");
+const ECCode = require("f5570ff26dcf996a");
+const ECLevel = require("f05c639145615063");
+const Mode = require("ff365c1165905aa2");
+const VersionCheck = require("d4d5c268797191d2");
 // Generator polynomial used to encode version information
 const G18 = 7973;
 const G18_BCH = Utils.getBCHDigit(G18);
@@ -55641,9 +62952,9 @@ function getBestVersionForMixedData(segments, errorCorrectionLevel) {
     return version << 12 | d;
 };
 
-},{"1414097e1e8d4d9":"iXLHI","f172bf03e43e6401":"5yWYH","87eb2ac911a75614":"kbPwo","50e8273d19088ecb":"f1e9A","9bac2aa2d11c8b8b":"enfTX"}],"f1e9A":[function(require,module,exports) {
-const VersionCheck = require("845bceed02163602");
-const Regex = require("cf424ed2e978a05d");
+},{"25c6f49b0d94cc6":"iXLHI","f5570ff26dcf996a":"5yWYH","f05c639145615063":"kbPwo","ff365c1165905aa2":"f1e9A","d4d5c268797191d2":"enfTX"}],"f1e9A":[function(require,module,exports) {
+const VersionCheck = require("c53aacc183cf20a4");
+const Regex = require("7d8f4b52dd6e5bb2");
 /**
  * Numeric mode encodes data from the decimal digit set (0 - 9)
  * (byte values 30HEX to 39HEX).
@@ -55793,7 +63104,7 @@ const Regex = require("cf424ed2e978a05d");
     }
 };
 
-},{"845bceed02163602":"enfTX","cf424ed2e978a05d":"3Bqru"}],"enfTX":[function(require,module,exports) {
+},{"c53aacc183cf20a4":"enfTX","7d8f4b52dd6e5bb2":"3Bqru"}],"enfTX":[function(require,module,exports) {
 /**
  * Check if QR Code version is valid
  *
@@ -55828,7 +63139,7 @@ exports.testAlphanumeric = function testAlphanumeric(str) {
 };
 
 },{}],"iThdR":[function(require,module,exports) {
-const Utils = require("9fce8dea16acc6ed");
+const Utils = require("a9e16102cddfea99");
 const G15 = 1335;
 const G15_MASK = 21522;
 const G15_BCH = Utils.getBCHDigit(G15);
@@ -55851,15 +63162,15 @@ const G15_BCH = Utils.getBCHDigit(G15);
     return (data << 10 | d) ^ G15_MASK;
 };
 
-},{"9fce8dea16acc6ed":"iXLHI"}],"4tKki":[function(require,module,exports) {
-const Mode = require("25638ed030f506b3");
-const NumericData = require("6309af767830f30b");
-const AlphanumericData = require("7821acf9d2f107bb");
-const ByteData = require("e2ce4196fdf26dfb");
-const KanjiData = require("15065176621d7cdf");
-const Regex = require("db0295629c5a0847");
-const Utils = require("3857e55310be2b59");
-const dijkstra = require("4b9ba325173d9dea");
+},{"a9e16102cddfea99":"iXLHI"}],"4tKki":[function(require,module,exports) {
+const Mode = require("5e9adae57826650f");
+const NumericData = require("83a4e4f1b3657f4f");
+const AlphanumericData = require("d2405336bb7c4299");
+const ByteData = require("216ab2dbd01e966c");
+const KanjiData = require("f746057b6e49fefa");
+const Regex = require("bde636f4ab23ca64");
+const Utils = require("b3e842ecc7eccadf");
+const dijkstra = require("e1b69c955a6b1e6a");
 /**
  * Returns UTF8 byte length
  *
@@ -56144,8 +63455,8 @@ const dijkstra = require("4b9ba325173d9dea");
     return exports.fromArray(getSegmentsFromString(data, Utils.isKanjiModeEnabled()));
 };
 
-},{"25638ed030f506b3":"f1e9A","6309af767830f30b":"c44F8","7821acf9d2f107bb":"cdBOf","e2ce4196fdf26dfb":"ediQ9","15065176621d7cdf":"gphIw","db0295629c5a0847":"3Bqru","3857e55310be2b59":"iXLHI","4b9ba325173d9dea":"lDJz9"}],"c44F8":[function(require,module,exports) {
-const Mode = require("37aebe23dfadced5");
+},{"5e9adae57826650f":"f1e9A","83a4e4f1b3657f4f":"c44F8","d2405336bb7c4299":"cdBOf","216ab2dbd01e966c":"ediQ9","f746057b6e49fefa":"gphIw","bde636f4ab23ca64":"3Bqru","b3e842ecc7eccadf":"iXLHI","e1b69c955a6b1e6a":"lDJz9"}],"c44F8":[function(require,module,exports) {
+const Mode = require("3da102db66d745a2");
 function NumericData(data) {
     this.mode = Mode.NUMERIC;
     this.data = data.toString();
@@ -56179,8 +63490,8 @@ NumericData.prototype.write = function write(bitBuffer) {
 };
 module.exports = NumericData;
 
-},{"37aebe23dfadced5":"f1e9A"}],"cdBOf":[function(require,module,exports) {
-const Mode = require("1b169112eddbd8b2");
+},{"3da102db66d745a2":"f1e9A"}],"cdBOf":[function(require,module,exports) {
+const Mode = require("b3f26329ab6e405b");
 /**
  * Array of characters available in alphanumeric mode
  *
@@ -56267,9 +63578,9 @@ AlphanumericData.prototype.write = function write(bitBuffer) {
 };
 module.exports = AlphanumericData;
 
-},{"1b169112eddbd8b2":"f1e9A"}],"ediQ9":[function(require,module,exports) {
-const encodeUtf8 = require("8b07ae894d5a3067");
-const Mode = require("b31e64c569c6abd7");
+},{"b3f26329ab6e405b":"f1e9A"}],"ediQ9":[function(require,module,exports) {
+const encodeUtf8 = require("61eeeaff7d9b63b2");
+const Mode = require("e4eacc45df954a9c");
 function ByteData(data) {
     this.mode = Mode.BYTE;
     if (typeof data === "string") data = encodeUtf8(data);
@@ -56289,7 +63600,7 @@ ByteData.prototype.write = function(bitBuffer) {
 };
 module.exports = ByteData;
 
-},{"8b07ae894d5a3067":"3UdK6","b31e64c569c6abd7":"f1e9A"}],"3UdK6":[function(require,module,exports) {
+},{"61eeeaff7d9b63b2":"3UdK6","e4eacc45df954a9c":"f1e9A"}],"3UdK6":[function(require,module,exports) {
 "use strict";
 module.exports = function encodeUtf8(input) {
     var result = [];
@@ -56337,8 +63648,8 @@ module.exports = function encodeUtf8(input) {
 };
 
 },{}],"gphIw":[function(require,module,exports) {
-const Mode = require("79e1513d2ff75fd9");
-const Utils = require("4bd1da5ed61181ff");
+const Mode = require("cc99ddba771954ff");
+const Utils = require("3f1801b81205704a");
 function KanjiData(data) {
     this.mode = Mode.KANJI;
     this.data = data;
@@ -56374,7 +63685,7 @@ KanjiData.prototype.write = function(bitBuffer) {
 };
 module.exports = KanjiData;
 
-},{"79e1513d2ff75fd9":"f1e9A","4bd1da5ed61181ff":"iXLHI"}],"lDJz9":[function(require,module,exports) {
+},{"cc99ddba771954ff":"f1e9A","3f1801b81205704a":"iXLHI"}],"lDJz9":[function(require,module,exports) {
 "use strict";
 /******************************************************************************
  * Created 2008-08-19.
@@ -56509,7 +63820,7 @@ module.exports = KanjiData;
 module.exports = dijkstra;
 
 },{}],"2oGFV":[function(require,module,exports) {
-const Utils = require("6b94124dbfae81ca");
+const Utils = require("54f92c0cafb81eca");
 function clearCanvas(ctx, canvas, size) {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     if (!canvas.style) canvas.style = {};
@@ -56555,7 +63866,7 @@ exports.renderToDataURL = function renderToDataURL(qrData, canvas, options) {
     return canvasEl.toDataURL(type, rendererOpts.quality);
 };
 
-},{"6b94124dbfae81ca":"6rMWz"}],"6rMWz":[function(require,module,exports) {
+},{"54f92c0cafb81eca":"6rMWz"}],"6rMWz":[function(require,module,exports) {
 function hex2rgba(hex) {
     if (typeof hex === "number") hex = hex.toString();
     if (typeof hex !== "string") throw new Error("Color should be defined as hex string");
@@ -56630,7 +63941,7 @@ exports.qrToImageData = function qrToImageData(imgData, qr, opts) {
 };
 
 },{}],"7Akrj":[function(require,module,exports) {
-const Utils = require("3250db30037fbbed");
+const Utils = require("53c1a1ba33968d80");
 function getColorAttrib(color, attrib) {
     const alpha = color.a / 255;
     const str = attrib + '="' + color.hex + '"';
@@ -56679,9 +63990,9 @@ exports.render = function render(qrData, options, cb) {
     return svgTag;
 };
 
-},{"3250db30037fbbed":"6rMWz"}],"fLPFI":[function(require,module,exports) {
+},{"53c1a1ba33968d80":"6rMWz"}],"fLPFI":[function(require,module,exports) {
 "use strict";
-var deselectCurrent = require("1a230f45a25fb2bd");
+var deselectCurrent = require("e8f20a29535292e");
 var clipboardToIE11Formatting = {
     "text/plain": "Text",
     "text/html": "Url",
@@ -56768,7 +64079,7 @@ function copy(text, options) {
 }
 module.exports = copy;
 
-},{"1a230f45a25fb2bd":"jmaua"}],"jmaua":[function(require,module,exports) {
+},{"e8f20a29535292e":"jmaua"}],"jmaua":[function(require,module,exports) {
 module.exports = function() {
     var selection = document.getSelection();
     if (!selection.rangeCount) return function() {};
@@ -56795,9 +64106,9 @@ module.exports = function() {
 };
 
 },{}],"dGAA6":[function(require,module,exports) {
-module.exports = require("61c5ef5becceed8b").getBundleURL("UckoE") + "ledger-icon.a0186cc1.png" + "?" + Date.now();
+module.exports = require("ee96b06930b36882").getBundleURL("UckoE") + "ledger-icon.a0186cc1.png" + "?" + Date.now();
 
-},{"61c5ef5becceed8b":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+},{"ee96b06930b36882":"lgJ39"}],"lgJ39":[function(require,module,exports) {
 "use strict";
 var bundleURL = {};
 function getBundleURLCached(id) {
@@ -56832,9 +64143,9 @@ exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
 },{}],"aTHwi":[function(require,module,exports) {
-module.exports = require("20fad5cd032b8121").getBundleURL("UckoE") + "my-near-wallet-icon.ebfed669.png" + "?" + Date.now();
+module.exports = require("2782badde2ed0234").getBundleURL("UckoE") + "my-near-wallet-icon.ebfed669.png" + "?" + Date.now();
 
-},{"20fad5cd032b8121":"lgJ39"}],"9enQf":[function(require,module,exports) {
+},{"2782badde2ed0234":"lgJ39"}],"9enQf":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "setupLedger", ()=>setupLedger);
@@ -56844,8 +64155,8 @@ var _core = require("@near-wallet-selector/core");
 var _hwTransportWebhid = require("@ledgerhq/hw-transport-webhid");
 var _hwTransportWebhidDefault = parcelHelpers.interopDefault(_hwTransportWebhid);
 var _nearApiJs = require("near-api-js");
+var Buffer = require("920d14e65c0cb91f").Buffer;
 var global = arguments[3];
-var Buffer = require("b51aaad72dce2d21").Buffer;
 /******************************************************************************
 Copyright (c) Microsoft Corporation.
 
@@ -59103,7 +66414,7 @@ function setupLedger({ iconUrl =icon , deprecated =false  } = {}) {
         });
 }
 
-},{"b51aaad72dce2d21":"fCgem","is-mobile":"2AVrM","@near-wallet-selector/wallet-utils":"5gEB8","@near-wallet-selector/core":"eEY3a","@ledgerhq/hw-transport-webhid":"8O295","near-api-js":"ohc3m","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2AVrM":[function(require,module,exports) {
+},{"920d14e65c0cb91f":"fCgem","is-mobile":"2AVrM","@near-wallet-selector/wallet-utils":"5gEB8","@near-wallet-selector/core":"eEY3a","@ledgerhq/hw-transport-webhid":"8O295","near-api-js":"ohc3m","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2AVrM":[function(require,module,exports) {
 "use strict";
 module.exports = isMobile;
 module.exports.isMobile = isMobile;
@@ -61566,7 +68877,7 @@ var _hidFramingDefault = parcelHelpers.interopDefault(_hidFraming);
 var _devices = require("@ledgerhq/devices");
 var _logs = require("@ledgerhq/logs");
 var _errors = require("@ledgerhq/errors");
-var Buffer = require("2b0b1f5d8de3115e").Buffer;
+var Buffer = require("7990d6111acd31ec").Buffer;
 var __extends = undefined && undefined.__extends || function() {
     var extendStatics = function(d, b) {
         extendStatics = Object.setPrototypeOf || ({
@@ -62092,7 +69403,7 @@ function getFirstLedgerDevice() {
 }((0, _hwTransportDefault.default));
 exports.default = TransportWebHID;
 
-},{"2b0b1f5d8de3115e":"fCgem","@ledgerhq/hw-transport":"59Ey9","@ledgerhq/devices/lib/hid-framing":"fvgJh","@ledgerhq/devices":"fnHxP","@ledgerhq/logs":"i4OI0","@ledgerhq/errors":"EVZMy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"59Ey9":[function(require,module,exports) {
+},{"7990d6111acd31ec":"fCgem","@ledgerhq/hw-transport":"59Ey9","@ledgerhq/devices/lib/hid-framing":"fvgJh","@ledgerhq/devices":"fnHxP","@ledgerhq/logs":"i4OI0","@ledgerhq/errors":"EVZMy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"59Ey9":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "TransportError", ()=>(0, _errors.TransportError));
@@ -62102,7 +69413,7 @@ parcelHelpers.export(exports, "getAltStatusMessage", ()=>(0, _errors.getAltStatu
 var _events = require("events");
 var _eventsDefault = parcelHelpers.interopDefault(_events);
 var _errors = require("@ledgerhq/errors");
-var Buffer = require("33f18e99a6838cf3").Buffer;
+var Buffer = require("163c36989557f5f3").Buffer;
 var __awaiter = undefined && undefined.__awaiter || function(thisArg, _arguments, P, generator) {
     function adopt(value) {
         return value instanceof P ? value : new P(function(resolve) {
@@ -62541,7 +69852,7 @@ var __values = undefined && undefined.__values || function(o) {
 }();
 exports.default = Transport;
 
-},{"33f18e99a6838cf3":"fCgem","events":"1VQLm","@ledgerhq/errors":"EVZMy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1VQLm":[function(require,module,exports) {
+},{"163c36989557f5f3":"fCgem","events":"1VQLm","@ledgerhq/errors":"EVZMy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1VQLm":[function(require,module,exports) {
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -63341,10 +70652,10 @@ function destroyCircular(from, seen) {
 }
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fvgJh":[function(require,module,exports) {
-var Buffer = require("57f3d8c94202d695").Buffer;
+var Buffer = require("aa8fb24b76365cdf").Buffer;
 "use strict";
 exports.__esModule = true;
-var errors_1 = require("9cf3a94f510e2ac6");
+var errors_1 = require("dfbca3b07323d01c");
 var Tag = 0x05;
 function asUInt16BE(value) {
     var b = Buffer.alloc(2);
@@ -63411,7 +70722,7 @@ var initialAcc = {
 };
 exports["default"] = createHIDframing;
 
-},{"57f3d8c94202d695":"fCgem","9cf3a94f510e2ac6":"EVZMy"}],"fnHxP":[function(require,module,exports) {
+},{"aa8fb24b76365cdf":"fCgem","dfbca3b07323d01c":"EVZMy"}],"fnHxP":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "IIGenericHID", ()=>IIGenericHID);
@@ -63599,47 +70910,47 @@ var getInfosForServiceUuid = function(uuid) {
 
 },{"semver":"1bOrY","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1bOrY":[function(require,module,exports) {
 // just pre-load all the stuff that index.js lazily exports
-const internalRe = require("9bdee4cbebce0ca0");
-const constants = require("5979a534ecda6af5");
-const SemVer = require("f02c2d3060762f9a");
-const identifiers = require("deb062c1e895b497");
-const parse = require("25a50ad78d619717");
-const valid = require("5b9e3e671bf8822c");
-const clean = require("722d6303e90e4f0");
-const inc = require("12dedba572d436dc");
-const diff = require("a6e6f1563d04a588");
-const major = require("ca6815d55a0e475e");
-const minor = require("ddde4c5020c972b5");
-const patch = require("6a0fc365da8a3ec9");
-const prerelease = require("8146407d6d74d3c1");
-const compare = require("d227dfe6400adb35");
-const rcompare = require("42a3c18fa732bf93");
-const compareLoose = require("a8331fcab0034d53");
-const compareBuild = require("468e87a20734931b");
-const sort = require("c95892d39d965534");
-const rsort = require("5f4db87a7ef33c74");
-const gt = require("3bbadc760b5f3b6a");
-const lt = require("529d257f321728c9");
-const eq = require("a6fa98b6c1d2e8a6");
-const neq = require("6407fbb5539a9877");
-const gte = require("6db9ad0b888ff656");
-const lte = require("4a52220669315605");
-const cmp = require("ca34ca73a3ab1b96");
-const coerce = require("1e99fd07f8baf686");
-const Comparator = require("ffaa4de55350ae5d");
-const Range = require("6c5d6705b3f2561");
-const satisfies = require("5b989b857b62c36f");
-const toComparators = require("62c1f8a763475f3a");
-const maxSatisfying = require("fb68e77a255ae6ce");
-const minSatisfying = require("93b438eb1e7bbb94");
-const minVersion = require("5b3d7df5772aa285");
-const validRange = require("81d6f1da5a85a558");
-const outside = require("4aa696012174baed");
-const gtr = require("ccd58372c93d2fc4");
-const ltr = require("870344f2da8c95fb");
-const intersects = require("be8938d2d0758434");
-const simplifyRange = require("e639f71ce88a4b48");
-const subset = require("8980a0cad16ca15c");
+const internalRe = require("cb488f414fbbe299");
+const constants = require("6436bb7bf784a561");
+const SemVer = require("6ccbb841925b3815");
+const identifiers = require("3259b33a627cf325");
+const parse = require("e5950745f8c0971b");
+const valid = require("c41636d9ff7c213b");
+const clean = require("e297839dcecdf86");
+const inc = require("72d11237d9d2148f");
+const diff = require("7401dd1770f49d33");
+const major = require("ff53c652a0e4e514");
+const minor = require("32d8e9f23335a874");
+const patch = require("54d0a17003337506");
+const prerelease = require("844cc6adeae5d53a");
+const compare = require("52f0877f57a8243");
+const rcompare = require("d96270dcd109632b");
+const compareLoose = require("2c78bc533f6b3d19");
+const compareBuild = require("28ab23995490652");
+const sort = require("754dd8799c8b2839");
+const rsort = require("5f004fa52fdc7153");
+const gt = require("7d9c1a1a068138b3");
+const lt = require("83576f6d780da590");
+const eq = require("6b1047f81e1f0532");
+const neq = require("20e5b6a00dab4283");
+const gte = require("a9476e34b7dfa990");
+const lte = require("5aebf44f20a3fa7c");
+const cmp = require("a647b2e9dbc1ce2c");
+const coerce = require("ee11f57a9eaa47f8");
+const Comparator = require("4c6062310900c635");
+const Range = require("1e80f1b011b12417");
+const satisfies = require("1171efd931b3640f");
+const toComparators = require("3843f8580f0d7e8a");
+const maxSatisfying = require("43c574ba6ffbfdd");
+const minSatisfying = require("317d8a2dd1afda80");
+const minVersion = require("dc1b0764f0b721d3");
+const validRange = require("8838332a3a6aaf1d");
+const outside = require("87b87979046801ba");
+const gtr = require("cb490468030afdc7");
+const ltr = require("469877ca62c89d1c");
+const intersects = require("37db648f1fff7542");
+const simplifyRange = require("7e7dc5213f347151");
+const subset = require("6a07d9271972afe3");
 module.exports = {
     parse,
     valid,
@@ -63688,9 +70999,9 @@ module.exports = {
     rcompareIdentifiers: identifiers.rcompareIdentifiers
 };
 
-},{"9bdee4cbebce0ca0":"fM3gb","5979a534ecda6af5":"36kox","f02c2d3060762f9a":"kgTdE","deb062c1e895b497":"gfu2O","25a50ad78d619717":"gcpPf","5b9e3e671bf8822c":"gWiRZ","722d6303e90e4f0":"aiTKa","12dedba572d436dc":"aJfKw","a6e6f1563d04a588":"4hrxk","ca6815d55a0e475e":"8P6hj","ddde4c5020c972b5":"jpEiD","6a0fc365da8a3ec9":"9pRhW","8146407d6d74d3c1":"luzbM","d227dfe6400adb35":"1VfgV","42a3c18fa732bf93":"cgrtc","a8331fcab0034d53":"Q3pnc","468e87a20734931b":"eYE5A","c95892d39d965534":"8TvEb","5f4db87a7ef33c74":"4isEq","3bbadc760b5f3b6a":"h68v7","529d257f321728c9":"6ucE6","a6fa98b6c1d2e8a6":"k1aRj","6407fbb5539a9877":"7Y3tc","6db9ad0b888ff656":"ehmrd","4a52220669315605":"2J3QH","ca34ca73a3ab1b96":"1k1O9","1e99fd07f8baf686":"iXNTl","ffaa4de55350ae5d":"5Yodu","6c5d6705b3f2561":"f4j9g","5b989b857b62c36f":"7OcsV","62c1f8a763475f3a":"iR5Mh","fb68e77a255ae6ce":"jPYT1","93b438eb1e7bbb94":"juckF","5b3d7df5772aa285":"5VviM","81d6f1da5a85a558":"d8BN4","4aa696012174baed":"jz7Jf","ccd58372c93d2fc4":"kboF2","870344f2da8c95fb":"4bUsl","be8938d2d0758434":"hpFPQ","e639f71ce88a4b48":"kb0TI","8980a0cad16ca15c":"lNExW"}],"fM3gb":[function(require,module,exports) {
-const { MAX_SAFE_COMPONENT_LENGTH  } = require("35ebf5466ad7aef3");
-const debug = require("3124b0ae69eb6d01");
+},{"cb488f414fbbe299":"fM3gb","6436bb7bf784a561":"36kox","6ccbb841925b3815":"kgTdE","3259b33a627cf325":"gfu2O","e5950745f8c0971b":"gcpPf","c41636d9ff7c213b":"gWiRZ","e297839dcecdf86":"aiTKa","72d11237d9d2148f":"aJfKw","7401dd1770f49d33":"4hrxk","ff53c652a0e4e514":"8P6hj","32d8e9f23335a874":"jpEiD","54d0a17003337506":"9pRhW","844cc6adeae5d53a":"luzbM","52f0877f57a8243":"1VfgV","d96270dcd109632b":"cgrtc","2c78bc533f6b3d19":"Q3pnc","28ab23995490652":"eYE5A","754dd8799c8b2839":"8TvEb","5f004fa52fdc7153":"4isEq","7d9c1a1a068138b3":"h68v7","83576f6d780da590":"6ucE6","6b1047f81e1f0532":"k1aRj","20e5b6a00dab4283":"7Y3tc","a9476e34b7dfa990":"ehmrd","5aebf44f20a3fa7c":"2J3QH","a647b2e9dbc1ce2c":"1k1O9","ee11f57a9eaa47f8":"iXNTl","4c6062310900c635":"5Yodu","1e80f1b011b12417":"f4j9g","1171efd931b3640f":"7OcsV","3843f8580f0d7e8a":"iR5Mh","43c574ba6ffbfdd":"jPYT1","317d8a2dd1afda80":"juckF","dc1b0764f0b721d3":"5VviM","8838332a3a6aaf1d":"d8BN4","87b87979046801ba":"jz7Jf","cb490468030afdc7":"kboF2","469877ca62c89d1c":"4bUsl","37db648f1fff7542":"hpFPQ","7e7dc5213f347151":"kb0TI","6a07d9271972afe3":"lNExW"}],"fM3gb":[function(require,module,exports) {
+const { MAX_SAFE_COMPONENT_LENGTH  } = require("2e903ee5be3576c2");
+const debug = require("2fa220f72e574089");
 exports = module.exports = {};
 // The actual regexps go on exports.re
 const re = exports.re = [];
@@ -63795,7 +71106,7 @@ createToken("STAR", "(<|>)?=?\\s*\\*");
 createToken("GTE0", "^\\s*>=\\s*0\\.0\\.0\\s*$");
 createToken("GTE0PRE", "^\\s*>=\\s*0\\.0\\.0-0\\s*$");
 
-},{"35ebf5466ad7aef3":"36kox","3124b0ae69eb6d01":"5sQBx"}],"36kox":[function(require,module,exports) {
+},{"2e903ee5be3576c2":"36kox","2fa220f72e574089":"5sQBx"}],"36kox":[function(require,module,exports) {
 // Note: this is the semver.org version of the spec that it implements
 // Not necessarily the package version of this code.
 const SEMVER_SPEC_VERSION = "2.0.0";
@@ -63823,16 +71134,16 @@ module.exports = {
 };
 
 },{}],"5sQBx":[function(require,module,exports) {
-var process = require("ebfeb91075cc648d");
+var process = require("aaeeed4fd39dbdc1");
 const debug = (typeof process === "object" && process.env && undefined, ()=>{});
 module.exports = debug;
 
-},{"ebfeb91075cc648d":"d5jf4"}],"kgTdE":[function(require,module,exports) {
-const debug = require("1e19a57e2f59eb81");
-const { MAX_LENGTH , MAX_SAFE_INTEGER  } = require("7e85679250f7493e");
-const { re , t  } = require("c1e26f5446f8c15");
-const parseOptions = require("e092536b28ef1846");
-const { compareIdentifiers  } = require("52d76f5fe589ba53");
+},{"aaeeed4fd39dbdc1":"d5jf4"}],"kgTdE":[function(require,module,exports) {
+const debug = require("74e6e0d44b67550");
+const { MAX_LENGTH , MAX_SAFE_INTEGER  } = require("e8d24f47053e5958");
+const { re , t  } = require("8ac096d5fde00c01");
+const parseOptions = require("ddeffe10c75e8210");
+const { compareIdentifiers  } = require("4ed0ce1d95803a85");
 class SemVer {
     constructor(version, options){
         options = parseOptions(options);
@@ -64027,7 +71338,7 @@ class SemVer {
 }
 module.exports = SemVer;
 
-},{"1e19a57e2f59eb81":"5sQBx","7e85679250f7493e":"36kox","c1e26f5446f8c15":"fM3gb","e092536b28ef1846":"aIQkG","52d76f5fe589ba53":"gfu2O"}],"aIQkG":[function(require,module,exports) {
+},{"74e6e0d44b67550":"5sQBx","e8d24f47053e5958":"36kox","8ac096d5fde00c01":"fM3gb","ddeffe10c75e8210":"aIQkG","4ed0ce1d95803a85":"gfu2O"}],"aIQkG":[function(require,module,exports) {
 // parse out just the options we care about
 const looseOption = Object.freeze({
     loose: true
@@ -64058,7 +71369,7 @@ module.exports = {
 };
 
 },{}],"gcpPf":[function(require,module,exports) {
-const SemVer = require("47a7a2a4caa18c94");
+const SemVer = require("c3ecc8514c3ea43b");
 const parse = (version, options, throwErrors = false)=>{
     if (version instanceof SemVer) return version;
     try {
@@ -64070,24 +71381,24 @@ const parse = (version, options, throwErrors = false)=>{
 };
 module.exports = parse;
 
-},{"47a7a2a4caa18c94":"kgTdE"}],"gWiRZ":[function(require,module,exports) {
-const parse = require("cffd8361ea93b487");
+},{"c3ecc8514c3ea43b":"kgTdE"}],"gWiRZ":[function(require,module,exports) {
+const parse = require("69cbe1cf3e9f390c");
 const valid = (version, options)=>{
     const v = parse(version, options);
     return v ? v.version : null;
 };
 module.exports = valid;
 
-},{"cffd8361ea93b487":"gcpPf"}],"aiTKa":[function(require,module,exports) {
-const parse = require("5687189824129925");
+},{"69cbe1cf3e9f390c":"gcpPf"}],"aiTKa":[function(require,module,exports) {
+const parse = require("efbffc235f13d90c");
 const clean = (version, options)=>{
     const s = parse(version.trim().replace(/^[=v]+/, ""), options);
     return s ? s.version : null;
 };
 module.exports = clean;
 
-},{"5687189824129925":"gcpPf"}],"aJfKw":[function(require,module,exports) {
-const SemVer = require("dac66208e5db7f1d");
+},{"efbffc235f13d90c":"gcpPf"}],"aJfKw":[function(require,module,exports) {
+const SemVer = require("32db927cd5cc6a91");
 const inc = (version, release, options, identifier, identifierBase)=>{
     if (typeof options === "string") {
         identifierBase = identifier;
@@ -64102,8 +71413,8 @@ const inc = (version, release, options, identifier, identifierBase)=>{
 };
 module.exports = inc;
 
-},{"dac66208e5db7f1d":"kgTdE"}],"4hrxk":[function(require,module,exports) {
-const parse = require("e5fdf8ce250eda0");
+},{"32db927cd5cc6a91":"kgTdE"}],"4hrxk":[function(require,module,exports) {
+const parse = require("5bb0580f4a32f72b");
 const diff = (version1, version2)=>{
     const v1 = parse(version1, null, true);
     const v2 = parse(version2, null, true);
@@ -64131,46 +71442,46 @@ const diff = (version1, version2)=>{
 };
 module.exports = diff;
 
-},{"e5fdf8ce250eda0":"gcpPf"}],"8P6hj":[function(require,module,exports) {
-const SemVer = require("bd63abcf6b1a40b5");
+},{"5bb0580f4a32f72b":"gcpPf"}],"8P6hj":[function(require,module,exports) {
+const SemVer = require("186809597effa742");
 const major = (a, loose)=>new SemVer(a, loose).major;
 module.exports = major;
 
-},{"bd63abcf6b1a40b5":"kgTdE"}],"jpEiD":[function(require,module,exports) {
-const SemVer = require("9f8585624da6d9");
+},{"186809597effa742":"kgTdE"}],"jpEiD":[function(require,module,exports) {
+const SemVer = require("cc6c72be322af80b");
 const minor = (a, loose)=>new SemVer(a, loose).minor;
 module.exports = minor;
 
-},{"9f8585624da6d9":"kgTdE"}],"9pRhW":[function(require,module,exports) {
-const SemVer = require("9354a4656479e750");
+},{"cc6c72be322af80b":"kgTdE"}],"9pRhW":[function(require,module,exports) {
+const SemVer = require("770f0ae070c953f9");
 const patch = (a, loose)=>new SemVer(a, loose).patch;
 module.exports = patch;
 
-},{"9354a4656479e750":"kgTdE"}],"luzbM":[function(require,module,exports) {
-const parse = require("de90d402d944cd71");
+},{"770f0ae070c953f9":"kgTdE"}],"luzbM":[function(require,module,exports) {
+const parse = require("ecd26608a6dc67f5");
 const prerelease = (version, options)=>{
     const parsed = parse(version, options);
     return parsed && parsed.prerelease.length ? parsed.prerelease : null;
 };
 module.exports = prerelease;
 
-},{"de90d402d944cd71":"gcpPf"}],"1VfgV":[function(require,module,exports) {
-const SemVer = require("5f6bbfa1dc382728");
+},{"ecd26608a6dc67f5":"gcpPf"}],"1VfgV":[function(require,module,exports) {
+const SemVer = require("687a6555ee51110");
 const compare = (a, b, loose)=>new SemVer(a, loose).compare(new SemVer(b, loose));
 module.exports = compare;
 
-},{"5f6bbfa1dc382728":"kgTdE"}],"cgrtc":[function(require,module,exports) {
-const compare = require("c166acf8480ff617");
+},{"687a6555ee51110":"kgTdE"}],"cgrtc":[function(require,module,exports) {
+const compare = require("1b0fed6d61cf52bd");
 const rcompare = (a, b, loose)=>compare(b, a, loose);
 module.exports = rcompare;
 
-},{"c166acf8480ff617":"1VfgV"}],"Q3pnc":[function(require,module,exports) {
-const compare = require("91de94d749b3ae9d");
+},{"1b0fed6d61cf52bd":"1VfgV"}],"Q3pnc":[function(require,module,exports) {
+const compare = require("27737e381abe509f");
 const compareLoose = (a, b)=>compare(a, b, true);
 module.exports = compareLoose;
 
-},{"91de94d749b3ae9d":"1VfgV"}],"eYE5A":[function(require,module,exports) {
-const SemVer = require("8472a64197f1e6db");
+},{"27737e381abe509f":"1VfgV"}],"eYE5A":[function(require,module,exports) {
+const SemVer = require("12d508f34e3f07e");
 const compareBuild = (a, b, loose)=>{
     const versionA = new SemVer(a, loose);
     const versionB = new SemVer(b, loose);
@@ -64178,53 +71489,53 @@ const compareBuild = (a, b, loose)=>{
 };
 module.exports = compareBuild;
 
-},{"8472a64197f1e6db":"kgTdE"}],"8TvEb":[function(require,module,exports) {
-const compareBuild = require("4cf35b5c2ded2091");
+},{"12d508f34e3f07e":"kgTdE"}],"8TvEb":[function(require,module,exports) {
+const compareBuild = require("94c4439fdee0575f");
 const sort = (list, loose)=>list.sort((a, b)=>compareBuild(a, b, loose));
 module.exports = sort;
 
-},{"4cf35b5c2ded2091":"eYE5A"}],"4isEq":[function(require,module,exports) {
-const compareBuild = require("79df0bd6c764ddfc");
+},{"94c4439fdee0575f":"eYE5A"}],"4isEq":[function(require,module,exports) {
+const compareBuild = require("8cb5379ff6c9a25f");
 const rsort = (list, loose)=>list.sort((a, b)=>compareBuild(b, a, loose));
 module.exports = rsort;
 
-},{"79df0bd6c764ddfc":"eYE5A"}],"h68v7":[function(require,module,exports) {
-const compare = require("60f8f61efe56469e");
+},{"8cb5379ff6c9a25f":"eYE5A"}],"h68v7":[function(require,module,exports) {
+const compare = require("81adc7afb3d93ab5");
 const gt = (a, b, loose)=>compare(a, b, loose) > 0;
 module.exports = gt;
 
-},{"60f8f61efe56469e":"1VfgV"}],"6ucE6":[function(require,module,exports) {
-const compare = require("671090bcb8f86ec3");
+},{"81adc7afb3d93ab5":"1VfgV"}],"6ucE6":[function(require,module,exports) {
+const compare = require("a415cb8c5b67be98");
 const lt = (a, b, loose)=>compare(a, b, loose) < 0;
 module.exports = lt;
 
-},{"671090bcb8f86ec3":"1VfgV"}],"k1aRj":[function(require,module,exports) {
-const compare = require("c5c0cf6b8faf6865");
+},{"a415cb8c5b67be98":"1VfgV"}],"k1aRj":[function(require,module,exports) {
+const compare = require("3cf450b2ed12f293");
 const eq = (a, b, loose)=>compare(a, b, loose) === 0;
 module.exports = eq;
 
-},{"c5c0cf6b8faf6865":"1VfgV"}],"7Y3tc":[function(require,module,exports) {
-const compare = require("a94d51c7f4428a11");
+},{"3cf450b2ed12f293":"1VfgV"}],"7Y3tc":[function(require,module,exports) {
+const compare = require("5caf227769247ba2");
 const neq = (a, b, loose)=>compare(a, b, loose) !== 0;
 module.exports = neq;
 
-},{"a94d51c7f4428a11":"1VfgV"}],"ehmrd":[function(require,module,exports) {
-const compare = require("7de6b860f238130e");
+},{"5caf227769247ba2":"1VfgV"}],"ehmrd":[function(require,module,exports) {
+const compare = require("c406ff457c014945");
 const gte = (a, b, loose)=>compare(a, b, loose) >= 0;
 module.exports = gte;
 
-},{"7de6b860f238130e":"1VfgV"}],"2J3QH":[function(require,module,exports) {
-const compare = require("a049c206e9c16160");
+},{"c406ff457c014945":"1VfgV"}],"2J3QH":[function(require,module,exports) {
+const compare = require("39f45e359a1d971c");
 const lte = (a, b, loose)=>compare(a, b, loose) <= 0;
 module.exports = lte;
 
-},{"a049c206e9c16160":"1VfgV"}],"1k1O9":[function(require,module,exports) {
-const eq = require("ef5d8479b1041a05");
-const neq = require("63f7ffde31147f5a");
-const gt = require("d90fdfe6b81c5feb");
-const gte = require("a56189781fe58b4a");
-const lt = require("2694706f43ce6cf1");
-const lte = require("75a3717e3ac6a714");
+},{"39f45e359a1d971c":"1VfgV"}],"1k1O9":[function(require,module,exports) {
+const eq = require("af7c24a5a4c5b519");
+const neq = require("ffab3dd7415ea5ca");
+const gt = require("c529994c7e5b5d27");
+const gte = require("fc3e8a99b9b04b7");
+const lt = require("47ceb47034ba58bc");
+const lte = require("f9658239685dae3e");
 const cmp = (a, op, b, loose)=>{
     switch(op){
         case "===":
@@ -64255,10 +71566,10 @@ const cmp = (a, op, b, loose)=>{
 };
 module.exports = cmp;
 
-},{"ef5d8479b1041a05":"k1aRj","63f7ffde31147f5a":"7Y3tc","d90fdfe6b81c5feb":"h68v7","a56189781fe58b4a":"ehmrd","2694706f43ce6cf1":"6ucE6","75a3717e3ac6a714":"2J3QH"}],"iXNTl":[function(require,module,exports) {
-const SemVer = require("df780df130f174b8");
-const parse = require("d9287e8eb6dbf45a");
-const { re , t  } = require("69283b4c3a116c89");
+},{"af7c24a5a4c5b519":"k1aRj","ffab3dd7415ea5ca":"7Y3tc","c529994c7e5b5d27":"h68v7","fc3e8a99b9b04b7":"ehmrd","47ceb47034ba58bc":"6ucE6","f9658239685dae3e":"2J3QH"}],"iXNTl":[function(require,module,exports) {
+const SemVer = require("79910e481fc65a5a");
+const parse = require("cea0d4504c6b69d5");
+const { re , t  } = require("f1a4cf061d503f1d");
 const coerce = (version, options)=>{
     if (version instanceof SemVer) return version;
     if (typeof version === "number") version = String(version);
@@ -64288,7 +71599,7 @@ const coerce = (version, options)=>{
 };
 module.exports = coerce;
 
-},{"df780df130f174b8":"kgTdE","d9287e8eb6dbf45a":"gcpPf","69283b4c3a116c89":"fM3gb"}],"5Yodu":[function(require,module,exports) {
+},{"79910e481fc65a5a":"kgTdE","cea0d4504c6b69d5":"gcpPf","f1a4cf061d503f1d":"fM3gb"}],"5Yodu":[function(require,module,exports) {
 const ANY = Symbol("SemVer ANY");
 // hoisted class for cyclic dependency
 class Comparator {
@@ -64359,14 +71670,14 @@ class Comparator {
     }
 }
 module.exports = Comparator;
-const parseOptions = require("483f858f5417e556");
-const { re , t  } = require("ed57a3ab0915484a");
-const cmp = require("5a916b357d7f36f6");
-const debug = require("b989140d117b79ef");
-const SemVer = require("d21d7aae9c16a5e3");
-const Range = require("f47856b669665690");
+const parseOptions = require("f3195fe83e954ea1");
+const { re , t  } = require("70be565317a6ed92");
+const cmp = require("149e494a9cad3c06");
+const debug = require("8f28d42945d77170");
+const SemVer = require("8ad0fb6f56545eca");
+const Range = require("8349f7c7d64fcc07");
 
-},{"483f858f5417e556":"aIQkG","ed57a3ab0915484a":"fM3gb","5a916b357d7f36f6":"1k1O9","b989140d117b79ef":"5sQBx","d21d7aae9c16a5e3":"kgTdE","f47856b669665690":"f4j9g"}],"f4j9g":[function(require,module,exports) {
+},{"f3195fe83e954ea1":"aIQkG","70be565317a6ed92":"fM3gb","149e494a9cad3c06":"1k1O9","8f28d42945d77170":"5sQBx","8ad0fb6f56545eca":"kgTdE","8349f7c7d64fcc07":"f4j9g"}],"f4j9g":[function(require,module,exports) {
 // hoisted class for cyclic dependency
 class Range {
     constructor(range, options){
@@ -64503,16 +71814,16 @@ class Range {
     }
 }
 module.exports = Range;
-const LRU = require("911d54084809b20a");
+const LRU = require("513414dc838de215");
 const cache = new LRU({
     max: 1000
 });
-const parseOptions = require("e109bfa8426168ab");
-const Comparator = require("382dc2336c17391b");
-const debug = require("613f87a9746fb56b");
-const SemVer = require("762769ad493e4051");
-const { re , t , comparatorTrimReplace , tildeTrimReplace , caretTrimReplace  } = require("894c779176da7445");
-const { FLAG_INCLUDE_PRERELEASE , FLAG_LOOSE  } = require("6320fbceaba4e01c");
+const parseOptions = require("7e29968c67a15b3e");
+const Comparator = require("ab955a7da274ec94");
+const debug = require("f7c64d8f3d5c50d7");
+const SemVer = require("720ba261a75bed6e");
+const { re , t , comparatorTrimReplace , tildeTrimReplace , caretTrimReplace  } = require("c634f83ae5dd0e03");
+const { FLAG_INCLUDE_PRERELEASE , FLAG_LOOSE  } = require("5227b6d5d84df7fb");
 const isNullSet = (c)=>c.value === "<0.0.0-0";
 const isAny = (c)=>c.value === "";
 // take a set of comparators and determine whether there
@@ -64723,10 +72034,10 @@ const testSet = (set, version, options)=>{
     return true;
 };
 
-},{"911d54084809b20a":"JVw6S","e109bfa8426168ab":"aIQkG","382dc2336c17391b":"5Yodu","613f87a9746fb56b":"5sQBx","762769ad493e4051":"kgTdE","894c779176da7445":"fM3gb","6320fbceaba4e01c":"36kox"}],"JVw6S":[function(require,module,exports) {
+},{"513414dc838de215":"JVw6S","7e29968c67a15b3e":"aIQkG","ab955a7da274ec94":"5Yodu","f7c64d8f3d5c50d7":"5sQBx","720ba261a75bed6e":"kgTdE","c634f83ae5dd0e03":"fM3gb","5227b6d5d84df7fb":"36kox"}],"JVw6S":[function(require,module,exports) {
 "use strict";
 // A linked list to keep track of recently-used-ness
-const Yallist = require("1f123182d945e957");
+const Yallist = require("c5f7daf3972d63cf");
 const MAX = Symbol("max");
 const LENGTH = Symbol("length");
 const LENGTH_CALCULATOR = Symbol("lengthCalculator");
@@ -64987,7 +72298,7 @@ const forEachStep = (self, fn, node, thisp)=>{
 };
 module.exports = LRUCache;
 
-},{"1f123182d945e957":"d9kUa"}],"d9kUa":[function(require,module,exports) {
+},{"c5f7daf3972d63cf":"d9kUa"}],"d9kUa":[function(require,module,exports) {
 "use strict";
 module.exports = Yallist;
 Yallist.Node = Node;
@@ -65236,10 +72547,10 @@ function Node(value, prev, next, list) {
 }
 try {
     // add if support for Symbol.iterator is present
-    require("2f8139c993ad99cc")(Yallist);
+    require("52d41489d350cb97")(Yallist);
 } catch (er) {}
 
-},{"2f8139c993ad99cc":"9psHD"}],"9psHD":[function(require,module,exports) {
+},{"52d41489d350cb97":"9psHD"}],"9psHD":[function(require,module,exports) {
 "use strict";
 module.exports = function(Yallist) {
     Yallist.prototype[Symbol.iterator] = function*() {
@@ -65248,7 +72559,7 @@ module.exports = function(Yallist) {
 };
 
 },{}],"7OcsV":[function(require,module,exports) {
-const Range = require("48784b48bcdc4d72");
+const Range = require("20c11db4005349ae");
 const satisfies = (version, range, options)=>{
     try {
         range = new Range(range, options);
@@ -65259,15 +72570,15 @@ const satisfies = (version, range, options)=>{
 };
 module.exports = satisfies;
 
-},{"48784b48bcdc4d72":"f4j9g"}],"iR5Mh":[function(require,module,exports) {
-const Range = require("37f8bdd76debc6ca");
+},{"20c11db4005349ae":"f4j9g"}],"iR5Mh":[function(require,module,exports) {
+const Range = require("4ef60e69655df30d");
 // Mostly just for testing and legacy API reasons
 const toComparators = (range, options)=>new Range(range, options).set.map((comp)=>comp.map((c)=>c.value).join(" ").trim().split(" "));
 module.exports = toComparators;
 
-},{"37f8bdd76debc6ca":"f4j9g"}],"jPYT1":[function(require,module,exports) {
-const SemVer = require("caa64125bb4ecda0");
-const Range = require("5b6f1eff9821fb34");
+},{"4ef60e69655df30d":"f4j9g"}],"jPYT1":[function(require,module,exports) {
+const SemVer = require("9386f8652fc63070");
+const Range = require("3004327f03f37f81");
 const maxSatisfying = (versions, range, options)=>{
     let max = null;
     let maxSV = null;
@@ -65291,9 +72602,9 @@ const maxSatisfying = (versions, range, options)=>{
 };
 module.exports = maxSatisfying;
 
-},{"caa64125bb4ecda0":"kgTdE","5b6f1eff9821fb34":"f4j9g"}],"juckF":[function(require,module,exports) {
-const SemVer = require("4524226d78c0b8a7");
-const Range = require("be9e1ce819eb7e8e");
+},{"9386f8652fc63070":"kgTdE","3004327f03f37f81":"f4j9g"}],"juckF":[function(require,module,exports) {
+const SemVer = require("1235a3be28d66648");
+const Range = require("9c7148c0b56c737f");
 const minSatisfying = (versions, range, options)=>{
     let min = null;
     let minSV = null;
@@ -65317,10 +72628,10 @@ const minSatisfying = (versions, range, options)=>{
 };
 module.exports = minSatisfying;
 
-},{"4524226d78c0b8a7":"kgTdE","be9e1ce819eb7e8e":"f4j9g"}],"5VviM":[function(require,module,exports) {
-const SemVer = require("609e64377f3af3e3");
-const Range = require("a712dfb8f7ccadd");
-const gt = require("4bb7c20cafd31afb");
+},{"1235a3be28d66648":"kgTdE","9c7148c0b56c737f":"f4j9g"}],"5VviM":[function(require,module,exports) {
+const SemVer = require("8e3c1dd5de4abf8d");
+const Range = require("a7a94560f9e015d8");
+const gt = require("e06c1692692faaac");
 const minVersion = (range, loose)=>{
     range = new Range(range, loose);
     let minver = new SemVer("0.0.0");
@@ -65357,8 +72668,8 @@ const minVersion = (range, loose)=>{
 };
 module.exports = minVersion;
 
-},{"609e64377f3af3e3":"kgTdE","a712dfb8f7ccadd":"f4j9g","4bb7c20cafd31afb":"h68v7"}],"d8BN4":[function(require,module,exports) {
-const Range = require("f265e20e2fc4e62b");
+},{"8e3c1dd5de4abf8d":"kgTdE","a7a94560f9e015d8":"f4j9g","e06c1692692faaac":"h68v7"}],"d8BN4":[function(require,module,exports) {
+const Range = require("2dea0c472fe39cab");
 const validRange = (range, options)=>{
     try {
         // Return '*' instead of '' so that truthiness works.
@@ -65370,16 +72681,16 @@ const validRange = (range, options)=>{
 };
 module.exports = validRange;
 
-},{"f265e20e2fc4e62b":"f4j9g"}],"jz7Jf":[function(require,module,exports) {
-const SemVer = require("710fdefffeba5481");
-const Comparator = require("88dd79a909b8685c");
+},{"2dea0c472fe39cab":"f4j9g"}],"jz7Jf":[function(require,module,exports) {
+const SemVer = require("93f8dcdefccb400e");
+const Comparator = require("fe6b54696ecc2ccf");
 const { ANY  } = Comparator;
-const Range = require("e0d611a5382d3051");
-const satisfies = require("c2c00108e51f654b");
-const gt = require("2b25409d5272c627");
-const lt = require("d62fe4d1522735cd");
-const lte = require("7781439656210ce7");
-const gte = require("2f43fe3c435df1a4");
+const Range = require("a3155e28141e9427");
+const satisfies = require("e39ad7849a6991a9");
+const gt = require("f739428f125f3509");
+const lt = require("aa31bef703d4b5e9");
+const lte = require("36bc005e9b9c74dd");
+const gte = require("1d1abb632a5de463");
 const outside = (version, range, hilo, options)=>{
     version = new SemVer(version, options);
     range = new Range(range, options);
@@ -65429,20 +72740,20 @@ const outside = (version, range, hilo, options)=>{
 };
 module.exports = outside;
 
-},{"710fdefffeba5481":"kgTdE","88dd79a909b8685c":"5Yodu","e0d611a5382d3051":"f4j9g","c2c00108e51f654b":"7OcsV","2b25409d5272c627":"h68v7","d62fe4d1522735cd":"6ucE6","7781439656210ce7":"2J3QH","2f43fe3c435df1a4":"ehmrd"}],"kboF2":[function(require,module,exports) {
+},{"93f8dcdefccb400e":"kgTdE","fe6b54696ecc2ccf":"5Yodu","a3155e28141e9427":"f4j9g","e39ad7849a6991a9":"7OcsV","f739428f125f3509":"h68v7","aa31bef703d4b5e9":"6ucE6","36bc005e9b9c74dd":"2J3QH","1d1abb632a5de463":"ehmrd"}],"kboF2":[function(require,module,exports) {
 // Determine if version is greater than all the versions possible in the range.
-const outside = require("c40a4c4c5b401148");
+const outside = require("53b51aaed0bb424e");
 const gtr = (version, range, options)=>outside(version, range, ">", options);
 module.exports = gtr;
 
-},{"c40a4c4c5b401148":"jz7Jf"}],"4bUsl":[function(require,module,exports) {
-const outside = require("2c1708fe88c3247b");
+},{"53b51aaed0bb424e":"jz7Jf"}],"4bUsl":[function(require,module,exports) {
+const outside = require("d3efedd6f7c137ba");
 // Determine if version is less than all the versions possible in the range
 const ltr = (version, range, options)=>outside(version, range, "<", options);
 module.exports = ltr;
 
-},{"2c1708fe88c3247b":"jz7Jf"}],"hpFPQ":[function(require,module,exports) {
-const Range = require("c6ee0ddf3ac9bb4");
+},{"d3efedd6f7c137ba":"jz7Jf"}],"hpFPQ":[function(require,module,exports) {
+const Range = require("b5435d1c480d0393");
 const intersects = (r1, r2, options)=>{
     r1 = new Range(r1, options);
     r2 = new Range(r2, options);
@@ -65450,12 +72761,12 @@ const intersects = (r1, r2, options)=>{
 };
 module.exports = intersects;
 
-},{"c6ee0ddf3ac9bb4":"f4j9g"}],"kb0TI":[function(require,module,exports) {
+},{"b5435d1c480d0393":"f4j9g"}],"kb0TI":[function(require,module,exports) {
 // given a set of versions and a range, create a "simplified" range
 // that includes the same versions that the original range does
 // If the original range is shorter than the simplified one, return that.
-const satisfies = require("fc54df62526d1af4");
-const compare = require("df9b63066fb2b3d9");
+const satisfies = require("15fb9b3b15bec52e");
+const compare = require("77587cf82fe3ae37");
 module.exports = (versions, range, options)=>{
     const set = [];
     let first = null;
@@ -65492,12 +72803,12 @@ module.exports = (versions, range, options)=>{
     return simplified.length < original.length ? simplified : range;
 };
 
-},{"fc54df62526d1af4":"7OcsV","df9b63066fb2b3d9":"1VfgV"}],"lNExW":[function(require,module,exports) {
-const Range = require("32f147f510bba103");
-const Comparator = require("9d51f39d9068494b");
+},{"15fb9b3b15bec52e":"7OcsV","77587cf82fe3ae37":"1VfgV"}],"lNExW":[function(require,module,exports) {
+const Range = require("5edf7879a2f1eb10");
+const Comparator = require("e7e3d24ba82386ad");
 const { ANY  } = Comparator;
-const satisfies = require("a7cd77c993c347f3");
-const compare = require("5b7def643fcb7f51");
+const satisfies = require("6e23e432314bdf40");
+const compare = require("d05f774db0cba266");
 // Complex range `r1 || r2 || ...` is a subset of `R1 || R2 || ...` iff:
 // - Every simple range `r1, r2, ...` is a null set, OR
 // - Every simple range `r1, r2, ...` which is not a null set is a subset of
@@ -65648,7 +72959,7 @@ const lowerLT = (a, b, options)=>{
 };
 module.exports = subset;
 
-},{"32f147f510bba103":"f4j9g","9d51f39d9068494b":"5Yodu","a7cd77c993c347f3":"7OcsV","5b7def643fcb7f51":"1VfgV"}],"i4OI0":[function(require,module,exports) {
+},{"5edf7879a2f1eb10":"f4j9g","e7e3d24ba82386ad":"5Yodu","6e23e432314bdf40":"7OcsV","d05f774db0cba266":"1VfgV"}],"i4OI0":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "log", ()=>log);
@@ -68691,7214 +76002,6 @@ function setupMyNearWallet({ walletUrl , iconUrl =icon , deprecated =false , suc
         });
 }
 
-},{"near-api-js":"ohc3m","@near-wallet-selector/wallet-utils":"5gEB8","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"km3Ru":[function(require,module,exports) {
-"use strict";
-var Refresh = require("2d827f7e2d1d1c20");
-function debounce(func, delay) {
-    {
-        let timeout = undefined;
-        let lastTime = 0;
-        return function(args) {
-            // Call immediately if last call was more than the delay ago.
-            // Otherwise, set a timeout. This means the first call is fast
-            // (for the common case of a single update), and subsequent updates
-            // are batched.
-            let now = Date.now();
-            if (now - lastTime > delay) {
-                lastTime = now;
-                func.call(null, args);
-            } else {
-                clearTimeout(timeout);
-                timeout = setTimeout(function() {
-                    timeout = undefined;
-                    lastTime = Date.now();
-                    func.call(null, args);
-                }, delay);
-            }
-        };
-    }
-}
-var enqueueUpdate = debounce(function() {
-    Refresh.performReactRefresh();
-}, 30); // Everthing below is either adapted or copied from
-// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
-// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
-module.exports.prelude = function(module1) {
-    window.$RefreshReg$ = function(type, id) {
-        Refresh.register(type, module1.id + " " + id);
-    };
-    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
-};
-module.exports.postlude = function(module1) {
-    if (isReactRefreshBoundary(module1.exports)) {
-        registerExportsForReactRefresh(module1);
-        if (module1.hot) {
-            module1.hot.dispose(function(data) {
-                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
-                data.prevExports = module1.exports;
-            });
-            module1.hot.accept(function(getParents) {
-                var prevExports = module1.hot.data.prevExports;
-                var nextExports = module1.exports; // Since we just executed the code for it, it's possible
-                // that the new exports make it ineligible for being a boundary.
-                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports); // It can also become ineligible if its exports are incompatible
-                // with the previous exports.
-                // For example, if you add/remove/change exports, we'll want
-                // to re-execute the importing modules, and force those components
-                // to re-render. Similarly, if you convert a class component
-                // to a function, we want to invalidate the boundary.
-                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
-                if (isNoLongerABoundary || didInvalidate) {
-                    // We'll be conservative. The only case in which we won't do a full
-                    // reload is if all parent modules are also refresh boundaries.
-                    // In that case we'll add them to the current queue.
-                    var parents = getParents();
-                    if (parents.length === 0) {
-                        // Looks like we bubbled to the root. Can't recover from that.
-                        window.location.reload();
-                        return;
-                    }
-                    return parents;
-                }
-                enqueueUpdate();
-            });
-        }
-    }
-};
-function isReactRefreshBoundary(exports) {
-    if (Refresh.isLikelyComponentType(exports)) return true;
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    return false;
-    var hasExports = false;
-    var areAllExportsComponents = true;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        hasExports = true;
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
-        return false;
-        var exportValue = exports[key];
-        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
-    }
-    return hasExports && areAllExportsComponents;
-}
-function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
-    var prevSignature = getRefreshBoundarySignature(prevExports);
-    var nextSignature = getRefreshBoundarySignature(nextExports);
-    if (prevSignature.length !== nextSignature.length) return true;
-    for(var i = 0; i < nextSignature.length; i++){
-        if (prevSignature[i] !== nextSignature[i]) return true;
-    }
-    return false;
-} // When this signature changes, it's unsafe to stop at this refresh boundary.
-function getRefreshBoundarySignature(exports) {
-    var signature = [];
-    signature.push(Refresh.getFamilyByType(exports));
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return signature;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        signature.push(key);
-        signature.push(Refresh.getFamilyByType(exportValue));
-    }
-    return signature;
-}
-function registerExportsForReactRefresh(module1) {
-    var exports = module1.exports, id = module1.id;
-    Refresh.register(exports, id + " %exports%");
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        Refresh.register(exportValue, id + " %exports% " + key);
-    }
-}
-
-},{"2d827f7e2d1d1c20":"786KC"}],"2Ew96":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$c1db = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$c1db.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _runtime = require("regenerator-runtime/runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _globalCss = require("./assets/global.css");
-var _hello = require("./components/Hello");
-var _chatGPT = require("./components/ChatGPT");
-var _nav = require("./components/Nav");
-var _reactRouterDom = require("react-router-dom");
-var _signIn = require("./components/SignIn");
-var _signOut = require("./components/SignOut");
-var _medicalForm = require("./components/MedicalForm");
-var _button = require("./components/Button");
-var _optional = require("./components/Optional");
-var _final = require("./components/Final");
-var _sidebar = require("./components/Sidebar");
-function App({ isSignedIn , contractId , wallet  }) {
-    /// If user not signed-in with wallet - show prompt
-    if (!isSignedIn) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _signIn.SignIn), {
-        onClick: ()=>wallet.signIn()
-    }, void 0, false, {
-        fileName: "App.js",
-        lineNumber: 22,
-        columnNumber: 12
-    }, this);
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _nav.Nav), {}, void 0, false, {
-                fileName: "App.js",
-                lineNumber: 26,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _signOut.SignOut), {
-                accountId: wallet.accountId,
-                onClick: ()=>wallet.signOut()
-            }, void 0, false, {
-                fileName: "App.js",
-                lineNumber: 27,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Routes), {
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                            exact: true,
-                            path: "/",
-                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _hello.Hello), {}, void 0, false, void 0, void 0)
-                        }, void 0, false, {
-                            fileName: "App.js",
-                            lineNumber: 30,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                            path: "first-aid",
-                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _chatGPT.ChatGPT), {}, void 0, false, void 0, void 0)
-                        }, void 0, false, {
-                            fileName: "App.js",
-                            lineNumber: 31,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                            path: "medical-history",
-                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _medicalForm.MedicalForm), {}, void 0, false, void 0, void 0)
-                        }, void 0, false, {
-                            fileName: "App.js",
-                            lineNumber: 32,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                            path: "button",
-                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _button.Button), {}, void 0, false, void 0, void 0)
-                        }, void 0, false, {
-                            fileName: "App.js",
-                            lineNumber: 33,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                            path: "optional",
-                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _optional.Optional), {}, void 0, false, void 0, void 0)
-                        }, void 0, false, {
-                            fileName: "App.js",
-                            lineNumber: 34,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                            path: "final",
-                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _final.Final), {}, void 0, false, void 0, void 0)
-                        }, void 0, false, {
-                            fileName: "App.js",
-                            lineNumber: 35,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                            path: "sidebar",
-                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sidebar.Sidebar), {}, void 0, false, void 0, void 0)
-                        }, void 0, false, {
-                            fileName: "App.js",
-                            lineNumber: 36,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "App.js",
-                    lineNumber: 29,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "App.js",
-                lineNumber: 28,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true);
-}
-exports.default = App;
-_c = App;
-var _c;
-$RefreshReg$(_c, "App");
-
-  $parcel$ReactRefreshHelpers$c1db.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","regenerator-runtime/runtime":"dXNgZ","react":"21dqq","./assets/global.css":"1hP5v","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/Hello":"fZlyE","./components/ChatGPT":"41oow","./components/Nav":"bk2KG","react-router-dom":"9xmpe","./components/SignIn":"dXcMu","./components/SignOut":"f6LUR","./components/MedicalForm":"8hL4H","./components/Button":"9A4fb","./components/Optional":"h9n8f","./components/Final":"h2iZR","./components/Sidebar":"1tpOb"}],"dXNgZ":[function(require,module,exports) {
-/**
- * Copyright (c) 2014-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */ var runtime = function(exports) {
-    "use strict";
-    var Op = Object.prototype;
-    var hasOwn = Op.hasOwnProperty;
-    var defineProperty = Object.defineProperty || function(obj, key, desc) {
-        obj[key] = desc.value;
-    };
-    var undefined; // More compressible than void 0.
-    var $Symbol = typeof Symbol === "function" ? Symbol : {};
-    var iteratorSymbol = $Symbol.iterator || "@@iterator";
-    var asyncIteratorSymbol = $Symbol.asyncIterator || "@@asyncIterator";
-    var toStringTagSymbol = $Symbol.toStringTag || "@@toStringTag";
-    function define(obj, key, value) {
-        Object.defineProperty(obj, key, {
-            value: value,
-            enumerable: true,
-            configurable: true,
-            writable: true
-        });
-        return obj[key];
-    }
-    try {
-        // IE 8 has a broken Object.defineProperty that only works on DOM objects.
-        define({}, "");
-    } catch (err) {
-        define = function(obj, key, value) {
-            return obj[key] = value;
-        };
-    }
-    function wrap(innerFn, outerFn, self, tryLocsList) {
-        // If outerFn provided and outerFn.prototype is a Generator, then outerFn.prototype instanceof Generator.
-        var protoGenerator = outerFn && outerFn.prototype instanceof Generator ? outerFn : Generator;
-        var generator = Object.create(protoGenerator.prototype);
-        var context = new Context(tryLocsList || []);
-        // The ._invoke method unifies the implementations of the .next,
-        // .throw, and .return methods.
-        defineProperty(generator, "_invoke", {
-            value: makeInvokeMethod(innerFn, self, context)
-        });
-        return generator;
-    }
-    exports.wrap = wrap;
-    // Try/catch helper to minimize deoptimizations. Returns a completion
-    // record like context.tryEntries[i].completion. This interface could
-    // have been (and was previously) designed to take a closure to be
-    // invoked without arguments, but in all the cases we care about we
-    // already have an existing method we want to call, so there's no need
-    // to create a new function object. We can even get away with assuming
-    // the method takes exactly one argument, since that happens to be true
-    // in every case, so we don't have to touch the arguments object. The
-    // only additional allocation required is the completion record, which
-    // has a stable shape and so hopefully should be cheap to allocate.
-    function tryCatch(fn, obj, arg) {
-        try {
-            return {
-                type: "normal",
-                arg: fn.call(obj, arg)
-            };
-        } catch (err) {
-            return {
-                type: "throw",
-                arg: err
-            };
-        }
-    }
-    var GenStateSuspendedStart = "suspendedStart";
-    var GenStateSuspendedYield = "suspendedYield";
-    var GenStateExecuting = "executing";
-    var GenStateCompleted = "completed";
-    // Returning this object from the innerFn has the same effect as
-    // breaking out of the dispatch switch statement.
-    var ContinueSentinel = {};
-    // Dummy constructor functions that we use as the .constructor and
-    // .constructor.prototype properties for functions that return Generator
-    // objects. For full spec compliance, you may wish to configure your
-    // minifier not to mangle the names of these two functions.
-    function Generator() {}
-    function GeneratorFunction() {}
-    function GeneratorFunctionPrototype() {}
-    // This is a polyfill for %IteratorPrototype% for environments that
-    // don't natively support it.
-    var IteratorPrototype = {};
-    define(IteratorPrototype, iteratorSymbol, function() {
-        return this;
-    });
-    var getProto = Object.getPrototypeOf;
-    var NativeIteratorPrototype = getProto && getProto(getProto(values([])));
-    if (NativeIteratorPrototype && NativeIteratorPrototype !== Op && hasOwn.call(NativeIteratorPrototype, iteratorSymbol)) // This environment has a native %IteratorPrototype%; use it instead
-    // of the polyfill.
-    IteratorPrototype = NativeIteratorPrototype;
-    var Gp = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(IteratorPrototype);
-    GeneratorFunction.prototype = GeneratorFunctionPrototype;
-    defineProperty(Gp, "constructor", {
-        value: GeneratorFunctionPrototype,
-        configurable: true
-    });
-    defineProperty(GeneratorFunctionPrototype, "constructor", {
-        value: GeneratorFunction,
-        configurable: true
-    });
-    GeneratorFunction.displayName = define(GeneratorFunctionPrototype, toStringTagSymbol, "GeneratorFunction");
-    // Helper for defining the .next, .throw, and .return methods of the
-    // Iterator interface in terms of a single ._invoke method.
-    function defineIteratorMethods(prototype) {
-        [
-            "next",
-            "throw",
-            "return"
-        ].forEach(function(method) {
-            define(prototype, method, function(arg) {
-                return this._invoke(method, arg);
-            });
-        });
-    }
-    exports.isGeneratorFunction = function(genFun) {
-        var ctor = typeof genFun === "function" && genFun.constructor;
-        return ctor ? ctor === GeneratorFunction || // For the native GeneratorFunction constructor, the best we can
-        // do is to check its .name property.
-        (ctor.displayName || ctor.name) === "GeneratorFunction" : false;
-    };
-    exports.mark = function(genFun) {
-        if (Object.setPrototypeOf) Object.setPrototypeOf(genFun, GeneratorFunctionPrototype);
-        else {
-            genFun.__proto__ = GeneratorFunctionPrototype;
-            define(genFun, toStringTagSymbol, "GeneratorFunction");
-        }
-        genFun.prototype = Object.create(Gp);
-        return genFun;
-    };
-    // Within the body of any async function, `await x` is transformed to
-    // `yield regeneratorRuntime.awrap(x)`, so that the runtime can test
-    // `hasOwn.call(value, "__await")` to determine if the yielded value is
-    // meant to be awaited.
-    exports.awrap = function(arg) {
-        return {
-            __await: arg
-        };
-    };
-    function AsyncIterator(generator, PromiseImpl) {
-        function invoke(method, arg, resolve, reject) {
-            var record = tryCatch(generator[method], generator, arg);
-            if (record.type === "throw") reject(record.arg);
-            else {
-                var result = record.arg;
-                var value = result.value;
-                if (value && typeof value === "object" && hasOwn.call(value, "__await")) return PromiseImpl.resolve(value.__await).then(function(value) {
-                    invoke("next", value, resolve, reject);
-                }, function(err) {
-                    invoke("throw", err, resolve, reject);
-                });
-                return PromiseImpl.resolve(value).then(function(unwrapped) {
-                    // When a yielded Promise is resolved, its final value becomes
-                    // the .value of the Promise<{value,done}> result for the
-                    // current iteration.
-                    result.value = unwrapped;
-                    resolve(result);
-                }, function(error) {
-                    // If a rejected Promise was yielded, throw the rejection back
-                    // into the async generator function so it can be handled there.
-                    return invoke("throw", error, resolve, reject);
-                });
-            }
-        }
-        var previousPromise;
-        function enqueue(method, arg) {
-            function callInvokeWithMethodAndArg() {
-                return new PromiseImpl(function(resolve, reject) {
-                    invoke(method, arg, resolve, reject);
-                });
-            }
-            return previousPromise = // If enqueue has been called before, then we want to wait until
-            // all previous Promises have been resolved before calling invoke,
-            // so that results are always delivered in the correct order. If
-            // enqueue has not been called before, then it is important to
-            // call invoke immediately, without waiting on a callback to fire,
-            // so that the async generator function has the opportunity to do
-            // any necessary setup in a predictable way. This predictability
-            // is why the Promise constructor synchronously invokes its
-            // executor callback, and why async functions synchronously
-            // execute code before the first await. Since we implement simple
-            // async functions in terms of async generators, it is especially
-            // important to get this right, even though it requires care.
-            previousPromise ? previousPromise.then(callInvokeWithMethodAndArg, // Avoid propagating failures to Promises returned by later
-            // invocations of the iterator.
-            callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg();
-        }
-        // Define the unified helper method that is used to implement .next,
-        // .throw, and .return (see defineIteratorMethods).
-        defineProperty(this, "_invoke", {
-            value: enqueue
-        });
-    }
-    defineIteratorMethods(AsyncIterator.prototype);
-    define(AsyncIterator.prototype, asyncIteratorSymbol, function() {
-        return this;
-    });
-    exports.AsyncIterator = AsyncIterator;
-    // Note that simple async functions are implemented on top of
-    // AsyncIterator objects; they just return a Promise for the value of
-    // the final result produced by the iterator.
-    exports.async = function(innerFn, outerFn, self, tryLocsList, PromiseImpl) {
-        if (PromiseImpl === void 0) PromiseImpl = Promise;
-        var iter = new AsyncIterator(wrap(innerFn, outerFn, self, tryLocsList), PromiseImpl);
-        return exports.isGeneratorFunction(outerFn) ? iter // If outerFn is a generator, return the full iterator.
-         : iter.next().then(function(result) {
-            return result.done ? result.value : iter.next();
-        });
-    };
-    function makeInvokeMethod(innerFn, self, context) {
-        var state = GenStateSuspendedStart;
-        return function invoke(method, arg) {
-            if (state === GenStateExecuting) throw new Error("Generator is already running");
-            if (state === GenStateCompleted) {
-                if (method === "throw") throw arg;
-                // Be forgiving, per 25.3.3.3.3 of the spec:
-                // https://people.mozilla.org/~jorendorff/es6-draft.html#sec-generatorresume
-                return doneResult();
-            }
-            context.method = method;
-            context.arg = arg;
-            while(true){
-                var delegate = context.delegate;
-                if (delegate) {
-                    var delegateResult = maybeInvokeDelegate(delegate, context);
-                    if (delegateResult) {
-                        if (delegateResult === ContinueSentinel) continue;
-                        return delegateResult;
-                    }
-                }
-                if (context.method === "next") // Setting context._sent for legacy support of Babel's
-                // function.sent implementation.
-                context.sent = context._sent = context.arg;
-                else if (context.method === "throw") {
-                    if (state === GenStateSuspendedStart) {
-                        state = GenStateCompleted;
-                        throw context.arg;
-                    }
-                    context.dispatchException(context.arg);
-                } else if (context.method === "return") context.abrupt("return", context.arg);
-                state = GenStateExecuting;
-                var record = tryCatch(innerFn, self, context);
-                if (record.type === "normal") {
-                    // If an exception is thrown from innerFn, we leave state ===
-                    // GenStateExecuting and loop back for another invocation.
-                    state = context.done ? GenStateCompleted : GenStateSuspendedYield;
-                    if (record.arg === ContinueSentinel) continue;
-                    return {
-                        value: record.arg,
-                        done: context.done
-                    };
-                } else if (record.type === "throw") {
-                    state = GenStateCompleted;
-                    // Dispatch the exception by looping back around to the
-                    // context.dispatchException(context.arg) call above.
-                    context.method = "throw";
-                    context.arg = record.arg;
-                }
-            }
-        };
-    }
-    // Call delegate.iterator[context.method](context.arg) and handle the
-    // result, either by returning a { value, done } result from the
-    // delegate iterator, or by modifying context.method and context.arg,
-    // setting context.delegate to null, and returning the ContinueSentinel.
-    function maybeInvokeDelegate(delegate, context) {
-        var methodName = context.method;
-        var method = delegate.iterator[methodName];
-        if (method === undefined) {
-            // A .throw or .return when the delegate iterator has no .throw
-            // method, or a missing .next mehtod, always terminate the
-            // yield* loop.
-            context.delegate = null;
-            // Note: ["return"] must be used for ES3 parsing compatibility.
-            if (methodName === "throw" && delegate.iterator["return"]) {
-                // If the delegate iterator has a return method, give it a
-                // chance to clean up.
-                context.method = "return";
-                context.arg = undefined;
-                maybeInvokeDelegate(delegate, context);
-                if (context.method === "throw") // If maybeInvokeDelegate(context) changed context.method from
-                // "return" to "throw", let that override the TypeError below.
-                return ContinueSentinel;
-            }
-            if (methodName !== "return") {
-                context.method = "throw";
-                context.arg = new TypeError("The iterator does not provide a '" + methodName + "' method");
-            }
-            return ContinueSentinel;
-        }
-        var record = tryCatch(method, delegate.iterator, context.arg);
-        if (record.type === "throw") {
-            context.method = "throw";
-            context.arg = record.arg;
-            context.delegate = null;
-            return ContinueSentinel;
-        }
-        var info = record.arg;
-        if (!info) {
-            context.method = "throw";
-            context.arg = new TypeError("iterator result is not an object");
-            context.delegate = null;
-            return ContinueSentinel;
-        }
-        if (info.done) {
-            // Assign the result of the finished delegate to the temporary
-            // variable specified by delegate.resultName (see delegateYield).
-            context[delegate.resultName] = info.value;
-            // Resume execution at the desired location (see delegateYield).
-            context.next = delegate.nextLoc;
-            // If context.method was "throw" but the delegate handled the
-            // exception, let the outer generator proceed normally. If
-            // context.method was "next", forget context.arg since it has been
-            // "consumed" by the delegate iterator. If context.method was
-            // "return", allow the original .return call to continue in the
-            // outer generator.
-            if (context.method !== "return") {
-                context.method = "next";
-                context.arg = undefined;
-            }
-        } else // Re-yield the result returned by the delegate method.
-        return info;
-        // The delegate iterator is finished, so forget it and continue with
-        // the outer generator.
-        context.delegate = null;
-        return ContinueSentinel;
-    }
-    // Define Generator.prototype.{next,throw,return} in terms of the
-    // unified ._invoke helper method.
-    defineIteratorMethods(Gp);
-    define(Gp, toStringTagSymbol, "Generator");
-    // A Generator should always return itself as the iterator object when the
-    // @@iterator function is called on it. Some browsers' implementations of the
-    // iterator prototype chain incorrectly implement this, causing the Generator
-    // object to not be returned from this call. This ensures that doesn't happen.
-    // See https://github.com/facebook/regenerator/issues/274 for more details.
-    define(Gp, iteratorSymbol, function() {
-        return this;
-    });
-    define(Gp, "toString", function() {
-        return "[object Generator]";
-    });
-    function pushTryEntry(locs) {
-        var entry = {
-            tryLoc: locs[0]
-        };
-        if (1 in locs) entry.catchLoc = locs[1];
-        if (2 in locs) {
-            entry.finallyLoc = locs[2];
-            entry.afterLoc = locs[3];
-        }
-        this.tryEntries.push(entry);
-    }
-    function resetTryEntry(entry) {
-        var record = entry.completion || {};
-        record.type = "normal";
-        delete record.arg;
-        entry.completion = record;
-    }
-    function Context(tryLocsList) {
-        // The root entry object (effectively a try statement without a catch
-        // or a finally block) gives us a place to store values thrown from
-        // locations where there is no enclosing try statement.
-        this.tryEntries = [
-            {
-                tryLoc: "root"
-            }
-        ];
-        tryLocsList.forEach(pushTryEntry, this);
-        this.reset(true);
-    }
-    exports.keys = function(val) {
-        var object = Object(val);
-        var keys = [];
-        for(var key in object)keys.push(key);
-        keys.reverse();
-        // Rather than returning an object with a next method, we keep
-        // things simple and return the next function itself.
-        return function next() {
-            while(keys.length){
-                var key = keys.pop();
-                if (key in object) {
-                    next.value = key;
-                    next.done = false;
-                    return next;
-                }
-            }
-            // To avoid creating an additional object, we just hang the .value
-            // and .done properties off the next function object itself. This
-            // also ensures that the minifier will not anonymize the function.
-            next.done = true;
-            return next;
-        };
-    };
-    function values(iterable) {
-        if (iterable) {
-            var iteratorMethod = iterable[iteratorSymbol];
-            if (iteratorMethod) return iteratorMethod.call(iterable);
-            if (typeof iterable.next === "function") return iterable;
-            if (!isNaN(iterable.length)) {
-                var i = -1, next = function next() {
-                    while(++i < iterable.length)if (hasOwn.call(iterable, i)) {
-                        next.value = iterable[i];
-                        next.done = false;
-                        return next;
-                    }
-                    next.value = undefined;
-                    next.done = true;
-                    return next;
-                };
-                return next.next = next;
-            }
-        }
-        // Return an iterator with no values.
-        return {
-            next: doneResult
-        };
-    }
-    exports.values = values;
-    function doneResult() {
-        return {
-            value: undefined,
-            done: true
-        };
-    }
-    Context.prototype = {
-        constructor: Context,
-        reset: function(skipTempReset) {
-            this.prev = 0;
-            this.next = 0;
-            // Resetting context._sent for legacy support of Babel's
-            // function.sent implementation.
-            this.sent = this._sent = undefined;
-            this.done = false;
-            this.delegate = null;
-            this.method = "next";
-            this.arg = undefined;
-            this.tryEntries.forEach(resetTryEntry);
-            if (!skipTempReset) {
-                for(var name in this)// Not sure about the optimal order of these conditions:
-                if (name.charAt(0) === "t" && hasOwn.call(this, name) && !isNaN(+name.slice(1))) this[name] = undefined;
-            }
-        },
-        stop: function() {
-            this.done = true;
-            var rootEntry = this.tryEntries[0];
-            var rootRecord = rootEntry.completion;
-            if (rootRecord.type === "throw") throw rootRecord.arg;
-            return this.rval;
-        },
-        dispatchException: function(exception) {
-            if (this.done) throw exception;
-            var context = this;
-            function handle(loc, caught) {
-                record.type = "throw";
-                record.arg = exception;
-                context.next = loc;
-                if (caught) {
-                    // If the dispatched exception was caught by a catch block,
-                    // then let that catch block handle the exception normally.
-                    context.method = "next";
-                    context.arg = undefined;
-                }
-                return !!caught;
-            }
-            for(var i = this.tryEntries.length - 1; i >= 0; --i){
-                var entry = this.tryEntries[i];
-                var record = entry.completion;
-                if (entry.tryLoc === "root") // Exception thrown outside of any try block that could handle
-                // it, so set the completion value of the entire function to
-                // throw the exception.
-                return handle("end");
-                if (entry.tryLoc <= this.prev) {
-                    var hasCatch = hasOwn.call(entry, "catchLoc");
-                    var hasFinally = hasOwn.call(entry, "finallyLoc");
-                    if (hasCatch && hasFinally) {
-                        if (this.prev < entry.catchLoc) return handle(entry.catchLoc, true);
-                        else if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc);
-                    } else if (hasCatch) {
-                        if (this.prev < entry.catchLoc) return handle(entry.catchLoc, true);
-                    } else if (hasFinally) {
-                        if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc);
-                    } else throw new Error("try statement without catch or finally");
-                }
-            }
-        },
-        abrupt: function(type, arg) {
-            for(var i = this.tryEntries.length - 1; i >= 0; --i){
-                var entry = this.tryEntries[i];
-                if (entry.tryLoc <= this.prev && hasOwn.call(entry, "finallyLoc") && this.prev < entry.finallyLoc) {
-                    var finallyEntry = entry;
-                    break;
-                }
-            }
-            if (finallyEntry && (type === "break" || type === "continue") && finallyEntry.tryLoc <= arg && arg <= finallyEntry.finallyLoc) // Ignore the finally entry if control is not jumping to a
-            // location outside the try/catch block.
-            finallyEntry = null;
-            var record = finallyEntry ? finallyEntry.completion : {};
-            record.type = type;
-            record.arg = arg;
-            if (finallyEntry) {
-                this.method = "next";
-                this.next = finallyEntry.finallyLoc;
-                return ContinueSentinel;
-            }
-            return this.complete(record);
-        },
-        complete: function(record, afterLoc) {
-            if (record.type === "throw") throw record.arg;
-            if (record.type === "break" || record.type === "continue") this.next = record.arg;
-            else if (record.type === "return") {
-                this.rval = this.arg = record.arg;
-                this.method = "return";
-                this.next = "end";
-            } else if (record.type === "normal" && afterLoc) this.next = afterLoc;
-            return ContinueSentinel;
-        },
-        finish: function(finallyLoc) {
-            for(var i = this.tryEntries.length - 1; i >= 0; --i){
-                var entry = this.tryEntries[i];
-                if (entry.finallyLoc === finallyLoc) {
-                    this.complete(entry.completion, entry.afterLoc);
-                    resetTryEntry(entry);
-                    return ContinueSentinel;
-                }
-            }
-        },
-        "catch": function(tryLoc) {
-            for(var i = this.tryEntries.length - 1; i >= 0; --i){
-                var entry = this.tryEntries[i];
-                if (entry.tryLoc === tryLoc) {
-                    var record = entry.completion;
-                    if (record.type === "throw") {
-                        var thrown = record.arg;
-                        resetTryEntry(entry);
-                    }
-                    return thrown;
-                }
-            }
-            // The context.catch method must only be called with a location
-            // argument that corresponds to a known catch block.
-            throw new Error("illegal catch attempt");
-        },
-        delegateYield: function(iterable, resultName, nextLoc) {
-            this.delegate = {
-                iterator: values(iterable),
-                resultName: resultName,
-                nextLoc: nextLoc
-            };
-            if (this.method === "next") // Deliberately forget the last sent value so that we don't
-            // accidentally pass it on to the delegate.
-            this.arg = undefined;
-            return ContinueSentinel;
-        }
-    };
-    // Regardless of whether this script is executing as a CommonJS module
-    // or not, return the runtime object so that we can declare the variable
-    // regeneratorRuntime in the outer scope, which allows this module to be
-    // injected easily by `bin/regenerator --include-runtime script.js`.
-    return exports;
-}(// If this script is executing as a CommonJS module, use module.exports
-// as the regeneratorRuntime namespace. Otherwise create a new empty
-// object. Either way, the resulting object will be used to initialize
-// the regeneratorRuntime variable at the top of this file.
-(0, module.exports));
-try {
-    regeneratorRuntime = runtime;
-} catch (accidentalStrictMode) {
-    // This module should not be running in strict mode, so the above
-    // assignment should always work unless something is misconfigured. Just
-    // in case runtime.js accidentally runs in strict mode, in modern engines
-    // we can explicitly access globalThis. In older engines we can escape
-    // strict mode using a global Function call. This could conceivably fail
-    // if a Content Security Policy forbids using Function, but in that case
-    // the proper solution is to fix the accidental strict mode problem. If
-    // you've misconfigured your bundler to force strict mode and applied a
-    // CSP to forbid Function, and you're not willing to fix either of those
-    // problems, please detail your unique predicament in a GitHub issue.
-    if (typeof globalThis === "object") globalThis.regeneratorRuntime = runtime;
-    else Function("r", "regeneratorRuntime = r")(runtime);
-}
-
-},{}],"1hP5v":[function() {},{}],"fZlyE":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$1bc3 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$1bc3.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "Hello", ()=>Hello);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-const Hello = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: "Hello"
-    }, void 0, false, {
-        fileName: "components/Hello.jsx",
-        lineNumber: 5,
-        columnNumber: 5
-    }, undefined);
-};
-_c = Hello;
-var _c;
-$RefreshReg$(_c, "Hello");
-
-  $parcel$ReactRefreshHelpers$1bc3.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"41oow":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$4e25 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$4e25.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "ChatGPT", ()=>ChatGPT);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _s = $RefreshSig$();
-const ChatGPT = ()=>{
-    _s();
-    const [response, setResponse] = (0, _react.useState)(null);
-    const [mess, setMess] = (0, _react.useState)("");
-    const [cont, setCont] = (0, _react.useState)([]);
-    const [answer, setAnswer] = (0, _react.useState)("");
-    const handleSubmit = async (e)=>{
-        e.preventDefault();
-        try {
-            const res = await fetch("http://localhost:4000/first-aid", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify({
-                    message: mess,
-                    context: cont
-                })
-            });
-            const responseData = await res.json();
-            setResponse(responseData);
-            setAnswer(responseData.context);
-            setCont(responseData.context);
-            console.log("DONEEEeeeeeeeeee");
-        } catch (error) {
-            console.error(error);
-        }
-    };
-    (0, _react.useEffect)(()=>{
-        console.log("answer");
-        console.log(answer);
-    }, [
-        answer
-    ]);
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: [
-            "ChatGPT",
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
-                onSubmit: handleSubmit,
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                        children: [
-                            "Message: ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                type: "text",
-                                onChange: (e)=>setMess(e.target.value)
-                            }, void 0, false, {
-                                fileName: "components/ChatGPT.jsx",
-                                lineNumber: 43,
-                                columnNumber: 29
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/ChatGPT.jsx",
-                        lineNumber: 43,
-                        columnNumber: 13
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        type: "submit",
-                        children: "submit"
-                    }, void 0, false, {
-                        fileName: "components/ChatGPT.jsx",
-                        lineNumber: 44,
-                        columnNumber: 13
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "components/ChatGPT.jsx",
-                lineNumber: 42,
-                columnNumber: 9
-            }, undefined),
-            response ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                children: [
-                    "Done",
-                    answer.map((item, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                    children: [
-                                        "Person: ",
-                                        item.role
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "components/ChatGPT.jsx",
-                                    lineNumber: 51,
-                                    columnNumber: 21
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    className: "text-red-500",
-                                    children: item.message
-                                }, void 0, false, {
-                                    fileName: "components/ChatGPT.jsx",
-                                    lineNumber: 52,
-                                    columnNumber: 21
-                                }, undefined)
-                            ]
-                        }, index, true, {
-                            fileName: "components/ChatGPT.jsx",
-                            lineNumber: 50,
-                            columnNumber: 21
-                        }, undefined))
-                ]
-            }, void 0, true, {
-                fileName: "components/ChatGPT.jsx",
-                lineNumber: 47,
-                columnNumber: 13
-            }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                children: "Loading..."
-            }, void 0, false, {
-                fileName: "components/ChatGPT.jsx",
-                lineNumber: 57,
-                columnNumber: 13
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "components/ChatGPT.jsx",
-        lineNumber: 40,
-        columnNumber: 5
-    }, undefined);
-};
-_s(ChatGPT, "gRCVC9mhURT35lwoysdyqMFV8sE=");
-_c = ChatGPT;
-var _c;
-$RefreshReg$(_c, "ChatGPT");
-
-  $parcel$ReactRefreshHelpers$4e25.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bk2KG":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$0313 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$0313.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "Nav", ()=>Nav);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _navCss = require("/Nav.css");
-const Nav = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
-        className: "navbar",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "navbar-container",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                    className: "navbar-logo",
-                    children: "Your App"
-                }, void 0, false, {
-                    fileName: "components/Nav.jsx",
-                    lineNumber: 8,
-                    columnNumber: 13
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                    className: "nav-menu",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            className: "nav-item",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "#",
-                                className: "nav-link",
-                                children: "Home"
-                            }, void 0, false, {
-                                fileName: "components/Nav.jsx",
-                                lineNumber: 11,
-                                columnNumber: 17
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "components/Nav.jsx",
-                            lineNumber: 10,
-                            columnNumber: 15
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            className: "nav-item",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "#",
-                                className: "nav-link",
-                                children: "About"
-                            }, void 0, false, {
-                                fileName: "components/Nav.jsx",
-                                lineNumber: 14,
-                                columnNumber: 17
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "components/Nav.jsx",
-                            lineNumber: 13,
-                            columnNumber: 15
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            className: "nav-item",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "#",
-                                className: "nav-link",
-                                children: "Services"
-                            }, void 0, false, {
-                                fileName: "components/Nav.jsx",
-                                lineNumber: 17,
-                                columnNumber: 17
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "components/Nav.jsx",
-                            lineNumber: 16,
-                            columnNumber: 15
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            className: "nav-item",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "#",
-                                className: "nav-link",
-                                children: "Contact"
-                            }, void 0, false, {
-                                fileName: "components/Nav.jsx",
-                                lineNumber: 20,
-                                columnNumber: 17
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "components/Nav.jsx",
-                            lineNumber: 19,
-                            columnNumber: 15
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/Nav.jsx",
-                    lineNumber: 9,
-                    columnNumber: 13
-                }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "components/Nav.jsx",
-            lineNumber: 7,
-            columnNumber: 11
-        }, undefined)
-    }, void 0, false, {
-        fileName: "components/Nav.jsx",
-        lineNumber: 6,
-        columnNumber: 9
-    }, undefined);
-};
-_c = Nav;
-var _c;
-$RefreshReg$(_c, "Nav");
-
-  $parcel$ReactRefreshHelpers$0313.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","/Nav.css":"8vMCX"}],"8vMCX":[function() {},{}],"9xmpe":[function(require,module,exports) {
-/**
- * React Router DOM v6.11.2
- *
- * Copyright (c) Remix Software Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.md file in the root directory of this source tree.
- *
- * @license MIT
- */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "AbortedDeferredError", ()=>(0, _reactRouter.AbortedDeferredError));
-parcelHelpers.export(exports, "Await", ()=>(0, _reactRouter.Await));
-parcelHelpers.export(exports, "MemoryRouter", ()=>(0, _reactRouter.MemoryRouter));
-parcelHelpers.export(exports, "Navigate", ()=>(0, _reactRouter.Navigate));
-parcelHelpers.export(exports, "NavigationType", ()=>(0, _reactRouter.NavigationType));
-parcelHelpers.export(exports, "Outlet", ()=>(0, _reactRouter.Outlet));
-parcelHelpers.export(exports, "Route", ()=>(0, _reactRouter.Route));
-parcelHelpers.export(exports, "Router", ()=>(0, _reactRouter.Router));
-parcelHelpers.export(exports, "RouterProvider", ()=>(0, _reactRouter.RouterProvider));
-parcelHelpers.export(exports, "Routes", ()=>(0, _reactRouter.Routes));
-parcelHelpers.export(exports, "UNSAFE_DataRouterContext", ()=>(0, _reactRouter.UNSAFE_DataRouterContext));
-parcelHelpers.export(exports, "UNSAFE_DataRouterStateContext", ()=>(0, _reactRouter.UNSAFE_DataRouterStateContext));
-parcelHelpers.export(exports, "UNSAFE_LocationContext", ()=>(0, _reactRouter.UNSAFE_LocationContext));
-parcelHelpers.export(exports, "UNSAFE_NavigationContext", ()=>(0, _reactRouter.UNSAFE_NavigationContext));
-parcelHelpers.export(exports, "UNSAFE_RouteContext", ()=>(0, _reactRouter.UNSAFE_RouteContext));
-parcelHelpers.export(exports, "UNSAFE_useRouteId", ()=>(0, _reactRouter.UNSAFE_useRouteId));
-parcelHelpers.export(exports, "createMemoryRouter", ()=>(0, _reactRouter.createMemoryRouter));
-parcelHelpers.export(exports, "createPath", ()=>(0, _reactRouter.createPath));
-parcelHelpers.export(exports, "createRoutesFromChildren", ()=>(0, _reactRouter.createRoutesFromChildren));
-parcelHelpers.export(exports, "createRoutesFromElements", ()=>(0, _reactRouter.createRoutesFromElements));
-parcelHelpers.export(exports, "defer", ()=>(0, _reactRouter.defer));
-parcelHelpers.export(exports, "generatePath", ()=>(0, _reactRouter.generatePath));
-parcelHelpers.export(exports, "isRouteErrorResponse", ()=>(0, _reactRouter.isRouteErrorResponse));
-parcelHelpers.export(exports, "json", ()=>(0, _reactRouter.json));
-parcelHelpers.export(exports, "matchPath", ()=>(0, _reactRouter.matchPath));
-parcelHelpers.export(exports, "matchRoutes", ()=>(0, _reactRouter.matchRoutes));
-parcelHelpers.export(exports, "parsePath", ()=>(0, _reactRouter.parsePath));
-parcelHelpers.export(exports, "redirect", ()=>(0, _reactRouter.redirect));
-parcelHelpers.export(exports, "renderMatches", ()=>(0, _reactRouter.renderMatches));
-parcelHelpers.export(exports, "resolvePath", ()=>(0, _reactRouter.resolvePath));
-parcelHelpers.export(exports, "unstable_useBlocker", ()=>(0, _reactRouter.unstable_useBlocker));
-parcelHelpers.export(exports, "useActionData", ()=>(0, _reactRouter.useActionData));
-parcelHelpers.export(exports, "useAsyncError", ()=>(0, _reactRouter.useAsyncError));
-parcelHelpers.export(exports, "useAsyncValue", ()=>(0, _reactRouter.useAsyncValue));
-parcelHelpers.export(exports, "useHref", ()=>(0, _reactRouter.useHref));
-parcelHelpers.export(exports, "useInRouterContext", ()=>(0, _reactRouter.useInRouterContext));
-parcelHelpers.export(exports, "useLoaderData", ()=>(0, _reactRouter.useLoaderData));
-parcelHelpers.export(exports, "useLocation", ()=>(0, _reactRouter.useLocation));
-parcelHelpers.export(exports, "useMatch", ()=>(0, _reactRouter.useMatch));
-parcelHelpers.export(exports, "useMatches", ()=>(0, _reactRouter.useMatches));
-parcelHelpers.export(exports, "useNavigate", ()=>(0, _reactRouter.useNavigate));
-parcelHelpers.export(exports, "useNavigation", ()=>(0, _reactRouter.useNavigation));
-parcelHelpers.export(exports, "useNavigationType", ()=>(0, _reactRouter.useNavigationType));
-parcelHelpers.export(exports, "useOutlet", ()=>(0, _reactRouter.useOutlet));
-parcelHelpers.export(exports, "useOutletContext", ()=>(0, _reactRouter.useOutletContext));
-parcelHelpers.export(exports, "useParams", ()=>(0, _reactRouter.useParams));
-parcelHelpers.export(exports, "useResolvedPath", ()=>(0, _reactRouter.useResolvedPath));
-parcelHelpers.export(exports, "useRevalidator", ()=>(0, _reactRouter.useRevalidator));
-parcelHelpers.export(exports, "useRouteError", ()=>(0, _reactRouter.useRouteError));
-parcelHelpers.export(exports, "useRouteLoaderData", ()=>(0, _reactRouter.useRouteLoaderData));
-parcelHelpers.export(exports, "useRoutes", ()=>(0, _reactRouter.useRoutes));
-//#endregion
-parcelHelpers.export(exports, "BrowserRouter", ()=>BrowserRouter);
-parcelHelpers.export(exports, "Form", ()=>Form);
-parcelHelpers.export(exports, "HashRouter", ()=>HashRouter);
-parcelHelpers.export(exports, "Link", ()=>Link);
-parcelHelpers.export(exports, "NavLink", ()=>NavLink);
-parcelHelpers.export(exports, "ScrollRestoration", ()=>ScrollRestoration);
-parcelHelpers.export(exports, "UNSAFE_useScrollRestoration", ()=>useScrollRestoration);
-parcelHelpers.export(exports, "createBrowserRouter", ()=>createBrowserRouter);
-parcelHelpers.export(exports, "createHashRouter", ()=>createHashRouter);
-parcelHelpers.export(exports, "createSearchParams", ()=>createSearchParams);
-parcelHelpers.export(exports, "unstable_HistoryRouter", ()=>HistoryRouter);
-parcelHelpers.export(exports, "unstable_usePrompt", ()=>usePrompt);
-parcelHelpers.export(exports, "useBeforeUnload", ()=>useBeforeUnload);
-parcelHelpers.export(exports, "useFetcher", ()=>useFetcher);
-parcelHelpers.export(exports, "useFetchers", ()=>useFetchers);
-parcelHelpers.export(exports, "useFormAction", ()=>useFormAction);
-parcelHelpers.export(exports, "useLinkClickHandler", ()=>useLinkClickHandler);
-parcelHelpers.export(exports, "useSearchParams", ()=>useSearchParams);
-parcelHelpers.export(exports, "useSubmit", ()=>useSubmit);
-var _react = require("react");
-var _reactRouter = require("react-router");
-var _router = require("@remix-run/router");
-function _extends() {
-    _extends = Object.assign ? Object.assign.bind() : function(target) {
-        for(var i = 1; i < arguments.length; i++){
-            var source = arguments[i];
-            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
-        }
-        return target;
-    };
-    return _extends.apply(this, arguments);
-}
-function _objectWithoutPropertiesLoose(source, excluded) {
-    if (source == null) return {};
-    var target = {};
-    var sourceKeys = Object.keys(source);
-    var key, i;
-    for(i = 0; i < sourceKeys.length; i++){
-        key = sourceKeys[i];
-        if (excluded.indexOf(key) >= 0) continue;
-        target[key] = source[key];
-    }
-    return target;
-}
-const defaultMethod = "get";
-const defaultEncType = "application/x-www-form-urlencoded";
-function isHtmlElement(object) {
-    return object != null && typeof object.tagName === "string";
-}
-function isButtonElement(object) {
-    return isHtmlElement(object) && object.tagName.toLowerCase() === "button";
-}
-function isFormElement(object) {
-    return isHtmlElement(object) && object.tagName.toLowerCase() === "form";
-}
-function isInputElement(object) {
-    return isHtmlElement(object) && object.tagName.toLowerCase() === "input";
-}
-function isModifiedEvent(event) {
-    return !!(event.metaKey || event.altKey || event.ctrlKey || event.shiftKey);
-}
-function shouldProcessLinkClick(event, target) {
-    return event.button === 0 && (!target || target === "_self") && // Let browser handle "target=_blank" etc.
-    !isModifiedEvent(event) // Ignore clicks with modifier keys
-    ;
-}
-/**
- * Creates a URLSearchParams object using the given initializer.
- *
- * This is identical to `new URLSearchParams(init)` except it also
- * supports arrays as values in the object form of the initializer
- * instead of just strings. This is convenient when you need multiple
- * values for a given key, but don't want to use an array initializer.
- *
- * For example, instead of:
- *
- *   let searchParams = new URLSearchParams([
- *     ['sort', 'name'],
- *     ['sort', 'price']
- *   ]);
- *
- * you can do:
- *
- *   let searchParams = createSearchParams({
- *     sort: ['name', 'price']
- *   });
- */ function createSearchParams(init) {
-    if (init === void 0) init = "";
-    return new URLSearchParams(typeof init === "string" || Array.isArray(init) || init instanceof URLSearchParams ? init : Object.keys(init).reduce((memo, key)=>{
-        let value = init[key];
-        return memo.concat(Array.isArray(value) ? value.map((v)=>[
-                key,
-                v
-            ]) : [
-            [
-                key,
-                value
-            ]
-        ]);
-    }, []));
-}
-function getSearchParamsForLocation(locationSearch, defaultSearchParams) {
-    let searchParams = createSearchParams(locationSearch);
-    if (defaultSearchParams) {
-        for (let key of defaultSearchParams.keys())if (!searchParams.has(key)) defaultSearchParams.getAll(key).forEach((value)=>{
-            searchParams.append(key, value);
-        });
-    }
-    return searchParams;
-}
-function getFormSubmissionInfo(target, options, basename) {
-    let method;
-    let action = null;
-    let encType;
-    let formData;
-    if (isFormElement(target)) {
-        let submissionTrigger = options.submissionTrigger;
-        if (options.action) action = options.action;
-        else {
-            // When grabbing the action from the element, it will have had the basename
-            // prefixed to ensure non-JS scenarios work, so strip it since we'll
-            // re-prefix in the router
-            let attr = target.getAttribute("action");
-            action = attr ? (0, _router.stripBasename)(attr, basename) : null;
-        }
-        method = options.method || target.getAttribute("method") || defaultMethod;
-        encType = options.encType || target.getAttribute("enctype") || defaultEncType;
-        formData = new FormData(target);
-        if (submissionTrigger && submissionTrigger.name) formData.append(submissionTrigger.name, submissionTrigger.value);
-    } else if (isButtonElement(target) || isInputElement(target) && (target.type === "submit" || target.type === "image")) {
-        let form = target.form;
-        if (form == null) throw new Error('Cannot submit a <button> or <input type="submit"> without a <form>');
-         // <button>/<input type="submit"> may override attributes of <form>
-        if (options.action) action = options.action;
-        else {
-            // When grabbing the action from the element, it will have had the basename
-            // prefixed to ensure non-JS scenarios work, so strip it since we'll
-            // re-prefix in the router
-            let attr = target.getAttribute("formaction") || form.getAttribute("action");
-            action = attr ? (0, _router.stripBasename)(attr, basename) : null;
-        }
-        method = options.method || target.getAttribute("formmethod") || form.getAttribute("method") || defaultMethod;
-        encType = options.encType || target.getAttribute("formenctype") || form.getAttribute("enctype") || defaultEncType;
-        formData = new FormData(form); // Include name + value from a <button>, appending in case the button name
-        // matches an existing input name
-        if (target.name) formData.append(target.name, target.value);
-    } else if (isHtmlElement(target)) throw new Error('Cannot submit element that is not <form>, <button>, or <input type="submit|image">');
-    else {
-        method = options.method || defaultMethod;
-        action = options.action || null;
-        encType = options.encType || defaultEncType;
-        if (target instanceof FormData) formData = target;
-        else {
-            formData = new FormData();
-            if (target instanceof URLSearchParams) for (let [name, value] of target)formData.append(name, value);
-            else if (target != null) for (let name of Object.keys(target))formData.append(name, target[name]);
-        }
-    }
-    return {
-        action,
-        method: method.toLowerCase(),
-        encType,
-        formData
-    };
-}
-const _excluded = [
-    "onClick",
-    "relative",
-    "reloadDocument",
-    "replace",
-    "state",
-    "target",
-    "to",
-    "preventScrollReset"
-], _excluded2 = [
-    "aria-current",
-    "caseSensitive",
-    "className",
-    "end",
-    "style",
-    "to",
-    "children"
-], _excluded3 = [
-    "reloadDocument",
-    "replace",
-    "method",
-    "action",
-    "onSubmit",
-    "fetcherKey",
-    "routeId",
-    "relative",
-    "preventScrollReset"
-];
-function createBrowserRouter(routes, opts) {
-    return (0, _router.createRouter)({
-        basename: opts == null ? void 0 : opts.basename,
-        future: _extends({}, opts == null ? void 0 : opts.future, {
-            v7_prependBasename: true
-        }),
-        history: (0, _router.createBrowserHistory)({
-            window: opts == null ? void 0 : opts.window
-        }),
-        hydrationData: (opts == null ? void 0 : opts.hydrationData) || parseHydrationData(),
-        routes,
-        mapRouteProperties: (0, _reactRouter.UNSAFE_mapRouteProperties)
-    }).initialize();
-}
-function createHashRouter(routes, opts) {
-    return (0, _router.createRouter)({
-        basename: opts == null ? void 0 : opts.basename,
-        future: _extends({}, opts == null ? void 0 : opts.future, {
-            v7_prependBasename: true
-        }),
-        history: (0, _router.createHashHistory)({
-            window: opts == null ? void 0 : opts.window
-        }),
-        hydrationData: (opts == null ? void 0 : opts.hydrationData) || parseHydrationData(),
-        routes,
-        mapRouteProperties: (0, _reactRouter.UNSAFE_mapRouteProperties)
-    }).initialize();
-}
-function parseHydrationData() {
-    var _window;
-    let state = (_window = window) == null ? void 0 : _window.__staticRouterHydrationData;
-    if (state && state.errors) state = _extends({}, state, {
-        errors: deserializeErrors(state.errors)
-    });
-    return state;
-}
-function deserializeErrors(errors) {
-    if (!errors) return null;
-    let entries = Object.entries(errors);
-    let serialized = {};
-    for (let [key, val] of entries){
-        // Hey you!  If you change this, please change the corresponding logic in
-        // serializeErrors in react-router-dom/server.tsx :)
-        if (val && val.__type === "RouteErrorResponse") serialized[key] = new (0, _router.ErrorResponse)(val.status, val.statusText, val.data, val.internal === true);
-        else if (val && val.__type === "Error") {
-            let error = new Error(val.message); // Wipe away the client-side stack trace.  Nothing to fill it in with
-            // because we don't serialize SSR stack traces for security reasons
-            error.stack = "";
-            serialized[key] = error;
-        } else serialized[key] = val;
-    }
-    return serialized;
-}
-/**
- * A `<Router>` for use in web browsers. Provides the cleanest URLs.
- */ function BrowserRouter(_ref) {
-    let { basename , children , window: window1  } = _ref;
-    let historyRef = _react.useRef();
-    if (historyRef.current == null) historyRef.current = (0, _router.createBrowserHistory)({
-        window: window1,
-        v5Compat: true
-    });
-    let history = historyRef.current;
-    let [state, setState] = _react.useState({
-        action: history.action,
-        location: history.location
-    });
-    _react.useLayoutEffect(()=>history.listen(setState), [
-        history
-    ]);
-    return /*#__PURE__*/ _react.createElement((0, _reactRouter.Router), {
-        basename: basename,
-        children: children,
-        location: state.location,
-        navigationType: state.action,
-        navigator: history
-    });
-}
-/**
- * A `<Router>` for use in web browsers. Stores the location in the hash
- * portion of the URL so it is not sent to the server.
- */ function HashRouter(_ref2) {
-    let { basename , children , window: window1  } = _ref2;
-    let historyRef = _react.useRef();
-    if (historyRef.current == null) historyRef.current = (0, _router.createHashHistory)({
-        window: window1,
-        v5Compat: true
-    });
-    let history = historyRef.current;
-    let [state, setState] = _react.useState({
-        action: history.action,
-        location: history.location
-    });
-    _react.useLayoutEffect(()=>history.listen(setState), [
-        history
-    ]);
-    return /*#__PURE__*/ _react.createElement((0, _reactRouter.Router), {
-        basename: basename,
-        children: children,
-        location: state.location,
-        navigationType: state.action,
-        navigator: history
-    });
-}
-/**
- * A `<Router>` that accepts a pre-instantiated history object. It's important
- * to note that using your own history object is highly discouraged and may add
- * two versions of the history library to your bundles unless you use the same
- * version of the history library that React Router uses internally.
- */ function HistoryRouter(_ref3) {
-    let { basename , children , history  } = _ref3;
-    const [state, setState] = _react.useState({
-        action: history.action,
-        location: history.location
-    });
-    _react.useLayoutEffect(()=>history.listen(setState), [
-        history
-    ]);
-    return /*#__PURE__*/ _react.createElement((0, _reactRouter.Router), {
-        basename: basename,
-        children: children,
-        location: state.location,
-        navigationType: state.action,
-        navigator: history
-    });
-}
-HistoryRouter.displayName = "unstable_HistoryRouter";
-const isBrowser = typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined";
-const ABSOLUTE_URL_REGEX = /^(?:[a-z][a-z0-9+.-]*:|\/\/)/i;
-/**
- * The public API for rendering a history-aware <a>.
- */ const Link = /*#__PURE__*/ _react.forwardRef(function LinkWithRef(_ref4, ref) {
-    let { onClick , relative , reloadDocument , replace , state , target , to , preventScrollReset  } = _ref4, rest = _objectWithoutPropertiesLoose(_ref4, _excluded);
-    let { basename  } = _react.useContext((0, _reactRouter.UNSAFE_NavigationContext)); // Rendered into <a href> for absolute URLs
-    let absoluteHref;
-    let isExternal = false;
-    if (typeof to === "string" && ABSOLUTE_URL_REGEX.test(to)) {
-        // Render the absolute href server- and client-side
-        absoluteHref = to; // Only check for external origins client-side
-        if (isBrowser) try {
-            let currentUrl = new URL(window.location.href);
-            let targetUrl = to.startsWith("//") ? new URL(currentUrl.protocol + to) : new URL(to);
-            let path = (0, _router.stripBasename)(targetUrl.pathname, basename);
-            if (targetUrl.origin === currentUrl.origin && path != null) // Strip the protocol/origin/basename for same-origin absolute URLs
-            to = path + targetUrl.search + targetUrl.hash;
-            else isExternal = true;
-        } catch (e) {
-            (0, _router.UNSAFE_warning)(false, '<Link to="' + to + '"> contains an invalid URL which will probably break ' + "when clicked - please update to a valid URL path.");
-        }
-    } // Rendered into <a href> for relative URLs
-    let href = (0, _reactRouter.useHref)(to, {
-        relative
-    });
-    let internalOnClick = useLinkClickHandler(to, {
-        replace,
-        state,
-        target,
-        preventScrollReset,
-        relative
-    });
-    function handleClick(event) {
-        if (onClick) onClick(event);
-        if (!event.defaultPrevented) internalOnClick(event);
-    }
-    return(/*#__PURE__*/ // eslint-disable-next-line jsx-a11y/anchor-has-content
-    _react.createElement("a", _extends({}, rest, {
-        href: absoluteHref || href,
-        onClick: isExternal || reloadDocument ? onClick : handleClick,
-        ref: ref,
-        target: target
-    })));
-});
-Link.displayName = "Link";
-/**
- * A <Link> wrapper that knows if it's "active" or not.
- */ const NavLink = /*#__PURE__*/ _react.forwardRef(function NavLinkWithRef(_ref5, ref) {
-    let { "aria-current": ariaCurrentProp = "page" , caseSensitive =false , className: classNameProp = "" , end =false , style: styleProp , to , children  } = _ref5, rest = _objectWithoutPropertiesLoose(_ref5, _excluded2);
-    let path = (0, _reactRouter.useResolvedPath)(to, {
-        relative: rest.relative
-    });
-    let location = (0, _reactRouter.useLocation)();
-    let routerState = _react.useContext((0, _reactRouter.UNSAFE_DataRouterStateContext));
-    let { navigator  } = _react.useContext((0, _reactRouter.UNSAFE_NavigationContext));
-    let toPathname = navigator.encodeLocation ? navigator.encodeLocation(path).pathname : path.pathname;
-    let locationPathname = location.pathname;
-    let nextLocationPathname = routerState && routerState.navigation && routerState.navigation.location ? routerState.navigation.location.pathname : null;
-    if (!caseSensitive) {
-        locationPathname = locationPathname.toLowerCase();
-        nextLocationPathname = nextLocationPathname ? nextLocationPathname.toLowerCase() : null;
-        toPathname = toPathname.toLowerCase();
-    }
-    let isActive = locationPathname === toPathname || !end && locationPathname.startsWith(toPathname) && locationPathname.charAt(toPathname.length) === "/";
-    let isPending = nextLocationPathname != null && (nextLocationPathname === toPathname || !end && nextLocationPathname.startsWith(toPathname) && nextLocationPathname.charAt(toPathname.length) === "/");
-    let ariaCurrent = isActive ? ariaCurrentProp : undefined;
-    let className;
-    if (typeof classNameProp === "function") className = classNameProp({
-        isActive,
-        isPending
-    });
-    else // If the className prop is not a function, we use a default `active`
-    // class for <NavLink />s that are active. In v5 `active` was the default
-    // value for `activeClassName`, but we are removing that API and can still
-    // use the old default behavior for a cleaner upgrade path and keep the
-    // simple styling rules working as they currently do.
-    className = [
-        classNameProp,
-        isActive ? "active" : null,
-        isPending ? "pending" : null
-    ].filter(Boolean).join(" ");
-    let style = typeof styleProp === "function" ? styleProp({
-        isActive,
-        isPending
-    }) : styleProp;
-    return /*#__PURE__*/ _react.createElement(Link, _extends({}, rest, {
-        "aria-current": ariaCurrent,
-        className: className,
-        ref: ref,
-        style: style,
-        to: to
-    }), typeof children === "function" ? children({
-        isActive,
-        isPending
-    }) : children);
-});
-NavLink.displayName = "NavLink";
-/**
- * A `@remix-run/router`-aware `<form>`. It behaves like a normal form except
- * that the interaction with the server is with `fetch` instead of new document
- * requests, allowing components to add nicer UX to the page as the form is
- * submitted and returns with data.
- */ const Form = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
-    return /*#__PURE__*/ _react.createElement(FormImpl, _extends({}, props, {
-        ref: ref
-    }));
-});
-Form.displayName = "Form";
-const FormImpl = /*#__PURE__*/ _react.forwardRef((_ref6, forwardedRef)=>{
-    let { reloadDocument , replace , method =defaultMethod , action , onSubmit , fetcherKey , routeId , relative , preventScrollReset  } = _ref6, props = _objectWithoutPropertiesLoose(_ref6, _excluded3);
-    let submit = useSubmitImpl(fetcherKey, routeId);
-    let formMethod = method.toLowerCase() === "get" ? "get" : "post";
-    let formAction = useFormAction(action, {
-        relative
-    });
-    let submitHandler = (event)=>{
-        onSubmit && onSubmit(event);
-        if (event.defaultPrevented) return;
-        event.preventDefault();
-        let submitter = event.nativeEvent.submitter;
-        let submitMethod = (submitter == null ? void 0 : submitter.getAttribute("formmethod")) || method;
-        submit(submitter || event.currentTarget, {
-            method: submitMethod,
-            replace,
-            relative,
-            preventScrollReset
-        });
-    };
-    return /*#__PURE__*/ _react.createElement("form", _extends({
-        ref: forwardedRef,
-        method: formMethod,
-        action: formAction,
-        onSubmit: reloadDocument ? onSubmit : submitHandler
-    }, props));
-});
-FormImpl.displayName = "FormImpl";
-/**
- * This component will emulate the browser's scroll restoration on location
- * changes.
- */ function ScrollRestoration(_ref7) {
-    let { getKey , storageKey  } = _ref7;
-    useScrollRestoration({
-        getKey,
-        storageKey
-    });
-    return null;
-}
-ScrollRestoration.displayName = "ScrollRestoration";
-////////////////////////////////////////////////////////////////////////////////
-//#region Hooks
-////////////////////////////////////////////////////////////////////////////////
-var DataRouterHook;
-(function(DataRouterHook) {
-    DataRouterHook["UseScrollRestoration"] = "useScrollRestoration";
-    DataRouterHook["UseSubmitImpl"] = "useSubmitImpl";
-    DataRouterHook["UseFetcher"] = "useFetcher";
-})(DataRouterHook || (DataRouterHook = {}));
-var DataRouterStateHook;
-(function(DataRouterStateHook) {
-    DataRouterStateHook["UseFetchers"] = "useFetchers";
-    DataRouterStateHook["UseScrollRestoration"] = "useScrollRestoration";
-})(DataRouterStateHook || (DataRouterStateHook = {}));
-function getDataRouterConsoleError(hookName) {
-    return hookName + " must be used within a data router.  See https://reactrouter.com/routers/picking-a-router.";
-}
-function useDataRouterContext(hookName) {
-    let ctx = _react.useContext((0, _reactRouter.UNSAFE_DataRouterContext));
-    !ctx && (0, _router.UNSAFE_invariant)(false, getDataRouterConsoleError(hookName));
-    return ctx;
-}
-function useDataRouterState(hookName) {
-    let state = _react.useContext((0, _reactRouter.UNSAFE_DataRouterStateContext));
-    !state && (0, _router.UNSAFE_invariant)(false, getDataRouterConsoleError(hookName));
-    return state;
-}
-/**
- * Handles the click behavior for router `<Link>` components. This is useful if
- * you need to create custom `<Link>` components with the same click behavior we
- * use in our exported `<Link>`.
- */ function useLinkClickHandler(to, _temp) {
-    let { target , replace: replaceProp , state , preventScrollReset , relative  } = _temp === void 0 ? {} : _temp;
-    let navigate = (0, _reactRouter.useNavigate)();
-    let location = (0, _reactRouter.useLocation)();
-    let path = (0, _reactRouter.useResolvedPath)(to, {
-        relative
-    });
-    return _react.useCallback((event)=>{
-        if (shouldProcessLinkClick(event, target)) {
-            event.preventDefault(); // If the URL hasn't changed, a regular <a> will do a replace instead of
-            // a push, so do the same here unless the replace prop is explicitly set
-            let replace = replaceProp !== undefined ? replaceProp : (0, _reactRouter.createPath)(location) === (0, _reactRouter.createPath)(path);
-            navigate(to, {
-                replace,
-                state,
-                preventScrollReset,
-                relative
-            });
-        }
-    }, [
-        location,
-        navigate,
-        path,
-        replaceProp,
-        state,
-        target,
-        to,
-        preventScrollReset,
-        relative
-    ]);
-}
-/**
- * A convenient wrapper for reading and writing search parameters via the
- * URLSearchParams interface.
- */ function useSearchParams(defaultInit) {
-    (0, _router.UNSAFE_warning)(typeof URLSearchParams !== "undefined", "You cannot use the `useSearchParams` hook in a browser that does not support the URLSearchParams API. If you need to support Internet Explorer 11, we recommend you load a polyfill such as https://github.com/ungap/url-search-params\n\nIf you're unsure how to load polyfills, we recommend you check out https://polyfill.io/v3/ which provides some recommendations about how to load polyfills only for users that need them, instead of for every user.");
-    let defaultSearchParamsRef = _react.useRef(createSearchParams(defaultInit));
-    let hasSetSearchParamsRef = _react.useRef(false);
-    let location = (0, _reactRouter.useLocation)();
-    let searchParams = _react.useMemo(()=>// Once we call that we want those to take precedence, otherwise you can't
-        // remove a param with setSearchParams({}) if it has an initial value
-        getSearchParamsForLocation(location.search, hasSetSearchParamsRef.current ? null : defaultSearchParamsRef.current), [
-        location.search
-    ]);
-    let navigate = (0, _reactRouter.useNavigate)();
-    let setSearchParams = _react.useCallback((nextInit, navigateOptions)=>{
-        const newSearchParams = createSearchParams(typeof nextInit === "function" ? nextInit(searchParams) : nextInit);
-        hasSetSearchParamsRef.current = true;
-        navigate("?" + newSearchParams, navigateOptions);
-    }, [
-        navigate,
-        searchParams
-    ]);
-    return [
-        searchParams,
-        setSearchParams
-    ];
-}
-/**
- * Returns a function that may be used to programmatically submit a form (or
- * some arbitrary data) to the server.
- */ function useSubmit() {
-    return useSubmitImpl();
-}
-function useSubmitImpl(fetcherKey, fetcherRouteId) {
-    let { router  } = useDataRouterContext(DataRouterHook.UseSubmitImpl);
-    let { basename  } = _react.useContext((0, _reactRouter.UNSAFE_NavigationContext));
-    let currentRouteId = (0, _reactRouter.UNSAFE_useRouteId)();
-    return _react.useCallback(function(target, options) {
-        if (options === void 0) options = {};
-        if (typeof document === "undefined") throw new Error("You are calling submit during the server render. Try calling submit within a `useEffect` or callback instead.");
-        let { action , method , encType , formData  } = getFormSubmissionInfo(target, options, basename); // Base options shared between fetch() and navigate()
-        let opts = {
-            preventScrollReset: options.preventScrollReset,
-            formData,
-            formMethod: method,
-            formEncType: encType
-        };
-        if (fetcherKey) {
-            !(fetcherRouteId != null) && (0, _router.UNSAFE_invariant)(false, "No routeId available for useFetcher()");
-            router.fetch(fetcherKey, fetcherRouteId, action, opts);
-        } else router.navigate(action, _extends({}, opts, {
-            replace: options.replace,
-            fromRouteId: currentRouteId
-        }));
-    }, [
-        router,
-        basename,
-        fetcherKey,
-        fetcherRouteId,
-        currentRouteId
-    ]);
-} // v7: Eventually we should deprecate this entirely in favor of using the
-// router method directly?
-function useFormAction(action, _temp2) {
-    let { relative  } = _temp2 === void 0 ? {} : _temp2;
-    let { basename  } = _react.useContext((0, _reactRouter.UNSAFE_NavigationContext));
-    let routeContext = _react.useContext((0, _reactRouter.UNSAFE_RouteContext));
-    !routeContext && (0, _router.UNSAFE_invariant)(false, "useFormAction must be used inside a RouteContext");
-    let [match] = routeContext.matches.slice(-1); // Shallow clone path so we can modify it below, otherwise we modify the
-    // object referenced by useMemo inside useResolvedPath
-    let path = _extends({}, (0, _reactRouter.useResolvedPath)(action ? action : ".", {
-        relative
-    })); // Previously we set the default action to ".". The problem with this is that
-    // `useResolvedPath(".")` excludes search params and the hash of the resolved
-    // URL. This is the intended behavior of when "." is specifically provided as
-    // the form action, but inconsistent w/ browsers when the action is omitted.
-    // https://github.com/remix-run/remix/issues/927
-    let location = (0, _reactRouter.useLocation)();
-    if (action == null) {
-        // Safe to write to these directly here since if action was undefined, we
-        // would have called useResolvedPath(".") which will never include a search
-        // or hash
-        path.search = location.search;
-        path.hash = location.hash; // When grabbing search params from the URL, remove the automatically
-        // inserted ?index param so we match the useResolvedPath search behavior
-        // which would not include ?index
-        if (match.route.index) {
-            let params = new URLSearchParams(path.search);
-            params.delete("index");
-            path.search = params.toString() ? "?" + params.toString() : "";
-        }
-    }
-    if ((!action || action === ".") && match.route.index) path.search = path.search ? path.search.replace(/^\?/, "?index&") : "?index";
-     // If we're operating within a basename, prepend it to the pathname prior
-    // to creating the form action.  If this is a root navigation, then just use
-    // the raw basename which allows the basename to have full control over the
-    // presence of a trailing slash on root actions
-    if (basename !== "/") path.pathname = path.pathname === "/" ? basename : (0, _router.joinPaths)([
-        basename,
-        path.pathname
-    ]);
-    return (0, _reactRouter.createPath)(path);
-}
-function createFetcherForm(fetcherKey, routeId) {
-    let FetcherForm = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
-        return /*#__PURE__*/ _react.createElement(FormImpl, _extends({}, props, {
-            ref: ref,
-            fetcherKey: fetcherKey,
-            routeId: routeId
-        }));
-    });
-    FetcherForm.displayName = "fetcher.Form";
-    return FetcherForm;
-}
-let fetcherId = 0;
-/**
- * Interacts with route loaders and actions without causing a navigation. Great
- * for any interaction that stays on the same page.
- */ function useFetcher() {
-    var _route$matches;
-    let { router  } = useDataRouterContext(DataRouterHook.UseFetcher);
-    let route = _react.useContext((0, _reactRouter.UNSAFE_RouteContext));
-    !route && (0, _router.UNSAFE_invariant)(false, "useFetcher must be used inside a RouteContext");
-    let routeId = (_route$matches = route.matches[route.matches.length - 1]) == null ? void 0 : _route$matches.route.id;
-    !(routeId != null) && (0, _router.UNSAFE_invariant)(false, 'useFetcher can only be used on routes that contain a unique "id"');
-    let [fetcherKey] = _react.useState(()=>String(++fetcherId));
-    let [Form] = _react.useState(()=>{
-        !routeId && (0, _router.UNSAFE_invariant)(false, "No routeId available for fetcher.Form()");
-        return createFetcherForm(fetcherKey, routeId);
-    });
-    let [load] = _react.useState(()=>(href)=>{
-            !router && (0, _router.UNSAFE_invariant)(false, "No router available for fetcher.load()");
-            !routeId && (0, _router.UNSAFE_invariant)(false, "No routeId available for fetcher.load()");
-            router.fetch(fetcherKey, routeId, href);
-        });
-    let submit = useSubmitImpl(fetcherKey, routeId);
-    let fetcher = router.getFetcher(fetcherKey);
-    let fetcherWithComponents = _react.useMemo(()=>_extends({
-            Form,
-            submit,
-            load
-        }, fetcher), [
-        fetcher,
-        Form,
-        submit,
-        load
-    ]);
-    _react.useEffect(()=>{
-        // Is this busted when the React team gets real weird and calls effects
-        // twice on mount?  We really just need to garbage collect here when this
-        // fetcher is no longer around.
-        return ()=>{
-            if (!router) {
-                console.warn("No router available to clean up from useFetcher()");
-                return;
-            }
-            router.deleteFetcher(fetcherKey);
-        };
-    }, [
-        router,
-        fetcherKey
-    ]);
-    return fetcherWithComponents;
-}
-/**
- * Provides all fetchers currently on the page. Useful for layouts and parent
- * routes that need to provide pending/optimistic UI regarding the fetch.
- */ function useFetchers() {
-    let state = useDataRouterState(DataRouterStateHook.UseFetchers);
-    return [
-        ...state.fetchers.values()
-    ];
-}
-const SCROLL_RESTORATION_STORAGE_KEY = "react-router-scroll-positions";
-let savedScrollPositions = {};
-/**
- * When rendered inside a RouterProvider, will restore scroll positions on navigations
- */ function useScrollRestoration(_temp3) {
-    let { getKey , storageKey  } = _temp3 === void 0 ? {} : _temp3;
-    let { router  } = useDataRouterContext(DataRouterHook.UseScrollRestoration);
-    let { restoreScrollPosition , preventScrollReset  } = useDataRouterState(DataRouterStateHook.UseScrollRestoration);
-    let location = (0, _reactRouter.useLocation)();
-    let matches = (0, _reactRouter.useMatches)();
-    let navigation = (0, _reactRouter.useNavigation)(); // Trigger manual scroll restoration while we're active
-    _react.useEffect(()=>{
-        window.history.scrollRestoration = "manual";
-        return ()=>{
-            window.history.scrollRestoration = "auto";
-        };
-    }, []); // Save positions on pagehide
-    usePageHide(_react.useCallback(()=>{
-        if (navigation.state === "idle") {
-            let key = (getKey ? getKey(location, matches) : null) || location.key;
-            savedScrollPositions[key] = window.scrollY;
-        }
-        sessionStorage.setItem(storageKey || SCROLL_RESTORATION_STORAGE_KEY, JSON.stringify(savedScrollPositions));
-        window.history.scrollRestoration = "auto";
-    }, [
-        storageKey,
-        getKey,
-        navigation.state,
-        location,
-        matches
-    ])); // Read in any saved scroll locations
-    if (typeof document !== "undefined") {
-        // eslint-disable-next-line react-hooks/rules-of-hooks
-        _react.useLayoutEffect(()=>{
-            try {
-                let sessionPositions = sessionStorage.getItem(storageKey || SCROLL_RESTORATION_STORAGE_KEY);
-                if (sessionPositions) savedScrollPositions = JSON.parse(sessionPositions);
-            } catch (e) {}
-        }, [
-            storageKey
-        ]); // Enable scroll restoration in the router
-        // eslint-disable-next-line react-hooks/rules-of-hooks
-        _react.useLayoutEffect(()=>{
-            let disableScrollRestoration = router == null ? void 0 : router.enableScrollRestoration(savedScrollPositions, ()=>window.scrollY, getKey);
-            return ()=>disableScrollRestoration && disableScrollRestoration();
-        }, [
-            router,
-            getKey
-        ]); // Restore scrolling when state.restoreScrollPosition changes
-        // eslint-disable-next-line react-hooks/rules-of-hooks
-        _react.useLayoutEffect(()=>{
-            // Explicit false means don't do anything (used for submissions)
-            if (restoreScrollPosition === false) return;
-             // been here before, scroll to it
-            if (typeof restoreScrollPosition === "number") {
-                window.scrollTo(0, restoreScrollPosition);
-                return;
-            } // try to scroll to the hash
-            if (location.hash) {
-                let el = document.getElementById(location.hash.slice(1));
-                if (el) {
-                    el.scrollIntoView();
-                    return;
-                }
-            } // Don't reset if this navigation opted out
-            if (preventScrollReset === true) return;
-             // otherwise go to the top on new locations
-            window.scrollTo(0, 0);
-        }, [
-            location,
-            restoreScrollPosition,
-            preventScrollReset
-        ]);
-    }
-}
-/**
- * Setup a callback to be fired on the window's `beforeunload` event. This is
- * useful for saving some data to `window.localStorage` just before the page
- * refreshes.
- *
- * Note: The `callback` argument should be a function created with
- * `React.useCallback()`.
- */ function useBeforeUnload(callback, options) {
-    let { capture  } = options || {};
-    _react.useEffect(()=>{
-        let opts = capture != null ? {
-            capture
-        } : undefined;
-        window.addEventListener("beforeunload", callback, opts);
-        return ()=>{
-            window.removeEventListener("beforeunload", callback, opts);
-        };
-    }, [
-        callback,
-        capture
-    ]);
-}
-/**
- * Setup a callback to be fired on the window's `pagehide` event. This is
- * useful for saving some data to `window.localStorage` just before the page
- * refreshes.  This event is better supported than beforeunload across browsers.
- *
- * Note: The `callback` argument should be a function created with
- * `React.useCallback()`.
- */ function usePageHide(callback, options) {
-    let { capture  } = options || {};
-    _react.useEffect(()=>{
-        let opts = capture != null ? {
-            capture
-        } : undefined;
-        window.addEventListener("pagehide", callback, opts);
-        return ()=>{
-            window.removeEventListener("pagehide", callback, opts);
-        };
-    }, [
-        callback,
-        capture
-    ]);
-}
-/**
- * Wrapper around useBlocker to show a window.confirm prompt to users instead
- * of building a custom UI with useBlocker.
- *
- * Warning: This has *a lot of rough edges* and behaves very differently (and
- * very incorrectly in some cases) across browsers if user click addition
- * back/forward navigations while the confirm is open.  Use at your own risk.
- */ function usePrompt(_ref8) {
-    let { when , message  } = _ref8;
-    let blocker = (0, _reactRouter.unstable_useBlocker)(when);
-    _react.useEffect(()=>{
-        if (blocker.state === "blocked" && !when) blocker.reset();
-    }, [
-        blocker,
-        when
-    ]);
-    _react.useEffect(()=>{
-        if (blocker.state === "blocked") {
-            let proceed = window.confirm(message);
-            if (proceed) setTimeout(blocker.proceed, 0);
-            else blocker.reset();
-        }
-    }, [
-        blocker,
-        message
-    ]);
-}
-
-},{"react":"21dqq","react-router":"dbWyW","@remix-run/router":"5ncDG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dbWyW":[function(require,module,exports) {
-/**
- * React Router v6.11.2
- *
- * Copyright (c) Remix Software Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.md file in the root directory of this source tree.
- *
- * @license MIT
- */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "AbortedDeferredError", ()=>(0, _router.AbortedDeferredError));
-parcelHelpers.export(exports, "NavigationType", ()=>(0, _router.Action));
-parcelHelpers.export(exports, "createPath", ()=>(0, _router.createPath));
-parcelHelpers.export(exports, "defer", ()=>(0, _router.defer));
-parcelHelpers.export(exports, "generatePath", ()=>(0, _router.generatePath));
-parcelHelpers.export(exports, "isRouteErrorResponse", ()=>(0, _router.isRouteErrorResponse));
-parcelHelpers.export(exports, "json", ()=>(0, _router.json));
-parcelHelpers.export(exports, "matchPath", ()=>(0, _router.matchPath));
-parcelHelpers.export(exports, "matchRoutes", ()=>(0, _router.matchRoutes));
-parcelHelpers.export(exports, "parsePath", ()=>(0, _router.parsePath));
-parcelHelpers.export(exports, "redirect", ()=>(0, _router.redirect));
-parcelHelpers.export(exports, "resolvePath", ()=>(0, _router.resolvePath));
-parcelHelpers.export(exports, "Await", ()=>Await);
-parcelHelpers.export(exports, "MemoryRouter", ()=>MemoryRouter);
-parcelHelpers.export(exports, "Navigate", ()=>Navigate);
-parcelHelpers.export(exports, "Outlet", ()=>Outlet);
-parcelHelpers.export(exports, "Route", ()=>Route);
-parcelHelpers.export(exports, "Router", ()=>Router);
-parcelHelpers.export(exports, "RouterProvider", ()=>RouterProvider);
-parcelHelpers.export(exports, "Routes", ()=>Routes);
-parcelHelpers.export(exports, "UNSAFE_DataRouterContext", ()=>DataRouterContext);
-parcelHelpers.export(exports, "UNSAFE_DataRouterStateContext", ()=>DataRouterStateContext);
-parcelHelpers.export(exports, "UNSAFE_LocationContext", ()=>LocationContext);
-parcelHelpers.export(exports, "UNSAFE_NavigationContext", ()=>NavigationContext);
-parcelHelpers.export(exports, "UNSAFE_RouteContext", ()=>RouteContext);
-parcelHelpers.export(exports, "UNSAFE_mapRouteProperties", ()=>mapRouteProperties);
-parcelHelpers.export(exports, "UNSAFE_useRouteId", ()=>useRouteId);
-parcelHelpers.export(exports, "UNSAFE_useRoutesImpl", ()=>useRoutesImpl);
-parcelHelpers.export(exports, "createMemoryRouter", ()=>createMemoryRouter);
-parcelHelpers.export(exports, "createRoutesFromChildren", ()=>createRoutesFromChildren);
-parcelHelpers.export(exports, "createRoutesFromElements", ()=>createRoutesFromChildren);
-parcelHelpers.export(exports, "renderMatches", ()=>renderMatches);
-parcelHelpers.export(exports, "unstable_useBlocker", ()=>useBlocker);
-parcelHelpers.export(exports, "useActionData", ()=>useActionData);
-parcelHelpers.export(exports, "useAsyncError", ()=>useAsyncError);
-parcelHelpers.export(exports, "useAsyncValue", ()=>useAsyncValue);
-parcelHelpers.export(exports, "useHref", ()=>useHref);
-parcelHelpers.export(exports, "useInRouterContext", ()=>useInRouterContext);
-parcelHelpers.export(exports, "useLoaderData", ()=>useLoaderData);
-parcelHelpers.export(exports, "useLocation", ()=>useLocation);
-parcelHelpers.export(exports, "useMatch", ()=>useMatch);
-parcelHelpers.export(exports, "useMatches", ()=>useMatches);
-parcelHelpers.export(exports, "useNavigate", ()=>useNavigate);
-parcelHelpers.export(exports, "useNavigation", ()=>useNavigation);
-parcelHelpers.export(exports, "useNavigationType", ()=>useNavigationType);
-parcelHelpers.export(exports, "useOutlet", ()=>useOutlet);
-parcelHelpers.export(exports, "useOutletContext", ()=>useOutletContext);
-parcelHelpers.export(exports, "useParams", ()=>useParams);
-parcelHelpers.export(exports, "useResolvedPath", ()=>useResolvedPath);
-parcelHelpers.export(exports, "useRevalidator", ()=>useRevalidator);
-parcelHelpers.export(exports, "useRouteError", ()=>useRouteError);
-parcelHelpers.export(exports, "useRouteLoaderData", ()=>useRouteLoaderData);
-parcelHelpers.export(exports, "useRoutes", ()=>useRoutes);
-var _react = require("react");
-var _router = require("@remix-run/router");
-function _extends() {
-    _extends = Object.assign ? Object.assign.bind() : function(target) {
-        for(var i = 1; i < arguments.length; i++){
-            var source = arguments[i];
-            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
-        }
-        return target;
-    };
-    return _extends.apply(this, arguments);
-}
-const DataRouterContext = /*#__PURE__*/ _react.createContext(null);
-DataRouterContext.displayName = "DataRouter";
-const DataRouterStateContext = /*#__PURE__*/ _react.createContext(null);
-DataRouterStateContext.displayName = "DataRouterState";
-const AwaitContext = /*#__PURE__*/ _react.createContext(null);
-AwaitContext.displayName = "Await";
-const NavigationContext = /*#__PURE__*/ _react.createContext(null);
-NavigationContext.displayName = "Navigation";
-const LocationContext = /*#__PURE__*/ _react.createContext(null);
-LocationContext.displayName = "Location";
-const RouteContext = /*#__PURE__*/ _react.createContext({
-    outlet: null,
-    matches: [],
-    isDataRoute: false
-});
-RouteContext.displayName = "Route";
-const RouteErrorContext = /*#__PURE__*/ _react.createContext(null);
-RouteErrorContext.displayName = "RouteError";
-/**
- * Returns the full href for the given "to" value. This is useful for building
- * custom links that are also accessible and preserve right-click behavior.
- *
- * @see https://reactrouter.com/hooks/use-href
- */ function useHref(to, _temp) {
-    let { relative  } = _temp === void 0 ? {} : _temp;
-    !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // router loaded. We can help them understand how to avoid that.
-    "useHref() may be used only in the context of a <Router> component.");
-    let { basename , navigator  } = _react.useContext(NavigationContext);
-    let { hash , pathname , search  } = useResolvedPath(to, {
-        relative
-    });
-    let joinedPathname = pathname; // If we're operating within a basename, prepend it to the pathname prior
-    // to creating the href.  If this is a root navigation, then just use the raw
-    // basename which allows the basename to have full control over the presence
-    // of a trailing slash on root links
-    if (basename !== "/") joinedPathname = pathname === "/" ? basename : (0, _router.joinPaths)([
-        basename,
-        pathname
-    ]);
-    return navigator.createHref({
-        pathname: joinedPathname,
-        search,
-        hash
-    });
-}
-/**
- * Returns true if this component is a descendant of a <Router>.
- *
- * @see https://reactrouter.com/hooks/use-in-router-context
- */ function useInRouterContext() {
-    return _react.useContext(LocationContext) != null;
-}
-/**
- * Returns the current location object, which represents the current URL in web
- * browsers.
- *
- * Note: If you're using this it may mean you're doing some of your own
- * "routing" in your app, and we'd like to know what your use case is. We may
- * be able to provide something higher-level to better suit your needs.
- *
- * @see https://reactrouter.com/hooks/use-location
- */ function useLocation() {
-    !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // router loaded. We can help them understand how to avoid that.
-    "useLocation() may be used only in the context of a <Router> component.");
-    return _react.useContext(LocationContext).location;
-}
-/**
- * Returns the current navigation action which describes how the router came to
- * the current location, either by a pop, push, or replace on the history stack.
- *
- * @see https://reactrouter.com/hooks/use-navigation-type
- */ function useNavigationType() {
-    return _react.useContext(LocationContext).navigationType;
-}
-/**
- * Returns a PathMatch object if the given pattern matches the current URL.
- * This is useful for components that need to know "active" state, e.g.
- * <NavLink>.
- *
- * @see https://reactrouter.com/hooks/use-match
- */ function useMatch(pattern) {
-    !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // router loaded. We can help them understand how to avoid that.
-    "useMatch() may be used only in the context of a <Router> component.");
-    let { pathname  } = useLocation();
-    return _react.useMemo(()=>(0, _router.matchPath)(pattern, pathname), [
-        pathname,
-        pattern
-    ]);
-}
-/**
- * The interface for the navigate() function returned from useNavigate().
- */ const navigateEffectWarning = "You should call navigate() in a React.useEffect(), not when your component is first rendered."; // Mute warnings for calls to useNavigate in SSR environments
-function useIsomorphicLayoutEffect(cb) {
-    let isStatic = _react.useContext(NavigationContext).static;
-    if (!isStatic) // We should be able to get rid of this once react 18.3 is released
-    // See: https://github.com/facebook/react/pull/26395
-    // eslint-disable-next-line react-hooks/rules-of-hooks
-    _react.useLayoutEffect(cb);
-}
-/**
- * Returns an imperative method for changing the location. Used by <Link>s, but
- * may also be used by other elements to change the location.
- *
- * @see https://reactrouter.com/hooks/use-navigate
- */ function useNavigate() {
-    let { isDataRoute  } = _react.useContext(RouteContext); // Conditional usage is OK here because the usage of a data router is static
-    // eslint-disable-next-line react-hooks/rules-of-hooks
-    return isDataRoute ? useNavigateStable() : useNavigateUnstable();
-}
-function useNavigateUnstable() {
-    !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // router loaded. We can help them understand how to avoid that.
-    "useNavigate() may be used only in the context of a <Router> component.");
-    let dataRouterContext = _react.useContext(DataRouterContext);
-    let { basename , navigator  } = _react.useContext(NavigationContext);
-    let { matches  } = _react.useContext(RouteContext);
-    let { pathname: locationPathname  } = useLocation();
-    let routePathnamesJson = JSON.stringify((0, _router.UNSAFE_getPathContributingMatches)(matches).map((match)=>match.pathnameBase));
-    let activeRef = _react.useRef(false);
-    useIsomorphicLayoutEffect(()=>{
-        activeRef.current = true;
-    });
-    let navigate = _react.useCallback(function(to, options) {
-        if (options === void 0) options = {};
-        (0, _router.UNSAFE_warning)(activeRef.current, navigateEffectWarning); // Short circuit here since if this happens on first render the navigate
-        // is useless because we haven't wired up our history listener yet
-        if (!activeRef.current) return;
-        if (typeof to === "number") {
-            navigator.go(to);
-            return;
-        }
-        let path = (0, _router.resolveTo)(to, JSON.parse(routePathnamesJson), locationPathname, options.relative === "path"); // If we're operating within a basename, prepend it to the pathname prior
-        // to handing off to history (but only if we're not in a data router,
-        // otherwise it'll prepend the basename inside of the router).
-        // If this is a root navigation, then we navigate to the raw basename
-        // which allows the basename to have full control over the presence of a
-        // trailing slash on root links
-        if (dataRouterContext == null && basename !== "/") path.pathname = path.pathname === "/" ? basename : (0, _router.joinPaths)([
-            basename,
-            path.pathname
-        ]);
-        (!!options.replace ? navigator.replace : navigator.push)(path, options.state, options);
-    }, [
-        basename,
-        navigator,
-        routePathnamesJson,
-        locationPathname,
-        dataRouterContext
-    ]);
-    return navigate;
-}
-const OutletContext = /*#__PURE__*/ _react.createContext(null);
-/**
- * Returns the context (if provided) for the child route at this level of the route
- * hierarchy.
- * @see https://reactrouter.com/hooks/use-outlet-context
- */ function useOutletContext() {
-    return _react.useContext(OutletContext);
-}
-/**
- * Returns the element for the child route at this level of the route
- * hierarchy. Used internally by <Outlet> to render child routes.
- *
- * @see https://reactrouter.com/hooks/use-outlet
- */ function useOutlet(context) {
-    let outlet = _react.useContext(RouteContext).outlet;
-    if (outlet) return /*#__PURE__*/ _react.createElement(OutletContext.Provider, {
-        value: context
-    }, outlet);
-    return outlet;
-}
-/**
- * Returns an object of key/value pairs of the dynamic params from the current
- * URL that were matched by the route path.
- *
- * @see https://reactrouter.com/hooks/use-params
- */ function useParams() {
-    let { matches  } = _react.useContext(RouteContext);
-    let routeMatch = matches[matches.length - 1];
-    return routeMatch ? routeMatch.params : {};
-}
-/**
- * Resolves the pathname of the given `to` value against the current location.
- *
- * @see https://reactrouter.com/hooks/use-resolved-path
- */ function useResolvedPath(to, _temp2) {
-    let { relative  } = _temp2 === void 0 ? {} : _temp2;
-    let { matches  } = _react.useContext(RouteContext);
-    let { pathname: locationPathname  } = useLocation();
-    let routePathnamesJson = JSON.stringify((0, _router.UNSAFE_getPathContributingMatches)(matches).map((match)=>match.pathnameBase));
-    return _react.useMemo(()=>(0, _router.resolveTo)(to, JSON.parse(routePathnamesJson), locationPathname, relative === "path"), [
-        to,
-        routePathnamesJson,
-        locationPathname,
-        relative
-    ]);
-}
-/**
- * Returns the element of the route that matched the current location, prepared
- * with the correct context to render the remainder of the route tree. Route
- * elements in the tree must render an <Outlet> to render their child route's
- * element.
- *
- * @see https://reactrouter.com/hooks/use-routes
- */ function useRoutes(routes, locationArg) {
-    return useRoutesImpl(routes, locationArg);
-} // Internal implementation with accept optional param for RouterProvider usage
-function useRoutesImpl(routes, locationArg, dataRouterState) {
-    !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // router loaded. We can help them understand how to avoid that.
-    "useRoutes() may be used only in the context of a <Router> component.");
-    let { navigator  } = _react.useContext(NavigationContext);
-    let { matches: parentMatches  } = _react.useContext(RouteContext);
-    let routeMatch = parentMatches[parentMatches.length - 1];
-    let parentParams = routeMatch ? routeMatch.params : {};
-    let parentPathname = routeMatch ? routeMatch.pathname : "/";
-    let parentPathnameBase = routeMatch ? routeMatch.pathnameBase : "/";
-    let parentRoute = routeMatch && routeMatch.route;
-    {
-        // You won't get a warning about 2 different <Routes> under a <Route>
-        // without a trailing *, but this is a best-effort warning anyway since we
-        // cannot even give the warning unless they land at the parent route.
-        //
-        // Example:
-        //
-        // <Routes>
-        //   {/* This route path MUST end with /* because otherwise
-        //       it will never match /blog/post/123 */}
-        //   <Route path="blog" element={<Blog />} />
-        //   <Route path="blog/feed" element={<BlogFeed />} />
-        // </Routes>
-        //
-        // function Blog() {
-        //   return (
-        //     <Routes>
-        //       <Route path="post/:id" element={<Post />} />
-        //     </Routes>
-        //   );
-        // }
-        let parentPath = parentRoute && parentRoute.path || "";
-        warningOnce(parentPathname, !parentRoute || parentPath.endsWith("*"), "You rendered descendant <Routes> (or called `useRoutes()`) at " + ('"' + parentPathname + '" (under <Route path="' + parentPath + '">) but the ') + 'parent route path has no trailing "*". This means if you navigate ' + "deeper, the parent won't match anymore and therefore the child " + "routes will never render.\n\n" + ('Please change the parent <Route path="' + parentPath + '"> to <Route ') + ('path="' + (parentPath === "/" ? "*" : parentPath + "/*") + '">.'));
-    }
-    let locationFromContext = useLocation();
-    let location;
-    if (locationArg) {
-        var _parsedLocationArg$pa;
-        let parsedLocationArg = typeof locationArg === "string" ? (0, _router.parsePath)(locationArg) : locationArg;
-        !(parentPathnameBase === "/" || ((_parsedLocationArg$pa = parsedLocationArg.pathname) == null ? void 0 : _parsedLocationArg$pa.startsWith(parentPathnameBase))) && (0, _router.UNSAFE_invariant)(false, "When overriding the location using `<Routes location>` or `useRoutes(routes, location)`, the location pathname must begin with the portion of the URL pathname that was " + ('matched by all parent routes. The current pathname base is "' + parentPathnameBase + '" ') + ('but pathname "' + parsedLocationArg.pathname + '" was given in the `location` prop.'));
-        location = parsedLocationArg;
-    } else location = locationFromContext;
-    let pathname = location.pathname || "/";
-    let remainingPathname = parentPathnameBase === "/" ? pathname : pathname.slice(parentPathnameBase.length) || "/";
-    let matches = (0, _router.matchRoutes)(routes, {
-        pathname: remainingPathname
-    });
-    (0, _router.UNSAFE_warning)(parentRoute || matches != null, 'No routes matched location "' + location.pathname + location.search + location.hash + '" ');
-    (0, _router.UNSAFE_warning)(matches == null || matches[matches.length - 1].route.element !== undefined || matches[matches.length - 1].route.Component !== undefined, 'Matched leaf route at location "' + location.pathname + location.search + location.hash + '" ' + "does not have an element or Component. This means it will render an <Outlet /> with a " + 'null value by default resulting in an "empty" page.');
-    let renderedMatches = _renderMatches(matches && matches.map((match)=>Object.assign({}, match, {
-            params: Object.assign({}, parentParams, match.params),
-            pathname: (0, _router.joinPaths)([
-                parentPathnameBase,
-                navigator.encodeLocation ? navigator.encodeLocation(match.pathname).pathname : match.pathname
-            ]),
-            pathnameBase: match.pathnameBase === "/" ? parentPathnameBase : (0, _router.joinPaths)([
-                parentPathnameBase,
-                navigator.encodeLocation ? navigator.encodeLocation(match.pathnameBase).pathname : match.pathnameBase
-            ])
-        })), parentMatches, dataRouterState); // When a user passes in a `locationArg`, the associated routes need to
-    // be wrapped in a new `LocationContext.Provider` in order for `useLocation`
-    // to use the scoped location instead of the global location.
-    if (locationArg && renderedMatches) return /*#__PURE__*/ _react.createElement(LocationContext.Provider, {
-        value: {
-            location: _extends({
-                pathname: "/",
-                search: "",
-                hash: "",
-                state: null,
-                key: "default"
-            }, location),
-            navigationType: (0, _router.Action).Pop
-        }
-    }, renderedMatches);
-    return renderedMatches;
-}
-function DefaultErrorComponent() {
-    let error = useRouteError();
-    let message = (0, _router.isRouteErrorResponse)(error) ? error.status + " " + error.statusText : error instanceof Error ? error.message : JSON.stringify(error);
-    let stack = error instanceof Error ? error.stack : null;
-    let lightgrey = "rgba(200,200,200, 0.5)";
-    let preStyles = {
-        padding: "0.5rem",
-        backgroundColor: lightgrey
-    };
-    let codeStyles = {
-        padding: "2px 4px",
-        backgroundColor: lightgrey
-    };
-    let devInfo = null;
-    console.error("Error handled by React Router default ErrorBoundary:", error);
-    devInfo = /*#__PURE__*/ _react.createElement(_react.Fragment, null, /*#__PURE__*/ _react.createElement("p", null, "\uD83D\uDCBF Hey developer \uD83D\uDC4B"), /*#__PURE__*/ _react.createElement("p", null, "You can provide a way better UX than this when your app throws errors by providing your own ", /*#__PURE__*/ _react.createElement("code", {
-        style: codeStyles
-    }, "ErrorBoundary"), " or", " ", /*#__PURE__*/ _react.createElement("code", {
-        style: codeStyles
-    }, "errorElement"), " prop on your route."));
-    return /*#__PURE__*/ _react.createElement(_react.Fragment, null, /*#__PURE__*/ _react.createElement("h2", null, "Unexpected Application Error!"), /*#__PURE__*/ _react.createElement("h3", {
-        style: {
-            fontStyle: "italic"
-        }
-    }, message), stack ? /*#__PURE__*/ _react.createElement("pre", {
-        style: preStyles
-    }, stack) : null, devInfo);
-}
-const defaultErrorElement = /*#__PURE__*/ _react.createElement(DefaultErrorComponent, null);
-class RenderErrorBoundary extends _react.Component {
-    constructor(props){
-        super(props);
-        this.state = {
-            location: props.location,
-            revalidation: props.revalidation,
-            error: props.error
-        };
-    }
-    static getDerivedStateFromError(error) {
-        return {
-            error: error
-        };
-    }
-    static getDerivedStateFromProps(props, state) {
-        // When we get into an error state, the user will likely click "back" to the
-        // previous page that didn't have an error. Because this wraps the entire
-        // application, that will have no effect--the error page continues to display.
-        // This gives us a mechanism to recover from the error when the location changes.
-        //
-        // Whether we're in an error state or not, we update the location in state
-        // so that when we are in an error state, it gets reset when a new location
-        // comes in and the user recovers from the error.
-        if (state.location !== props.location || state.revalidation !== "idle" && props.revalidation === "idle") return {
-            error: props.error,
-            location: props.location,
-            revalidation: props.revalidation
-        };
-         // If we're not changing locations, preserve the location but still surface
-        // any new errors that may come through. We retain the existing error, we do
-        // this because the error provided from the app state may be cleared without
-        // the location changing.
-        return {
-            error: props.error || state.error,
-            location: state.location,
-            revalidation: props.revalidation || state.revalidation
-        };
-    }
-    componentDidCatch(error, errorInfo) {
-        console.error("React Router caught the following error during render", error, errorInfo);
-    }
-    render() {
-        return this.state.error ? /*#__PURE__*/ _react.createElement(RouteContext.Provider, {
-            value: this.props.routeContext
-        }, /*#__PURE__*/ _react.createElement(RouteErrorContext.Provider, {
-            value: this.state.error,
-            children: this.props.component
-        })) : this.props.children;
-    }
-}
-function RenderedRoute(_ref) {
-    let { routeContext , match , children  } = _ref;
-    let dataRouterContext = _react.useContext(DataRouterContext); // Track how deep we got in our render pass to emulate SSR componentDidCatch
-    // in a DataStaticRouter
-    if (dataRouterContext && dataRouterContext.static && dataRouterContext.staticContext && (match.route.errorElement || match.route.ErrorBoundary)) dataRouterContext.staticContext._deepestRenderedBoundaryId = match.route.id;
-    return /*#__PURE__*/ _react.createElement(RouteContext.Provider, {
-        value: routeContext
-    }, children);
-}
-function _renderMatches(matches, parentMatches, dataRouterState) {
-    var _dataRouterState2;
-    if (parentMatches === void 0) parentMatches = [];
-    if (dataRouterState === void 0) dataRouterState = null;
-    if (matches == null) {
-        var _dataRouterState;
-        if ((_dataRouterState = dataRouterState) != null && _dataRouterState.errors) // Don't bail if we have data router errors so we can render them in the
-        // boundary.  Use the pre-matched (or shimmed) matches
-        matches = dataRouterState.matches;
-        else return null;
-    }
-    let renderedMatches = matches; // If we have data errors, trim matches to the highest error boundary
-    let errors = (_dataRouterState2 = dataRouterState) == null ? void 0 : _dataRouterState2.errors;
-    if (errors != null) {
-        let errorIndex = renderedMatches.findIndex((m)=>m.route.id && (errors == null ? void 0 : errors[m.route.id]));
-        !(errorIndex >= 0) && (0, _router.UNSAFE_invariant)(false, "Could not find a matching route for errors on route IDs: " + Object.keys(errors).join(","));
-        renderedMatches = renderedMatches.slice(0, Math.min(renderedMatches.length, errorIndex + 1));
-    }
-    return renderedMatches.reduceRight((outlet, match, index)=>{
-        let error = match.route.id ? errors == null ? void 0 : errors[match.route.id] : null; // Only data routers handle errors
-        let errorElement = null;
-        if (dataRouterState) errorElement = match.route.errorElement || defaultErrorElement;
-        let matches = parentMatches.concat(renderedMatches.slice(0, index + 1));
-        let getChildren = ()=>{
-            let children;
-            if (error) children = errorElement;
-            else if (match.route.Component) // Note: This is a de-optimized path since React won't re-use the
-            // ReactElement since it's identity changes with each new
-            // React.createElement call.  We keep this so folks can use
-            // `<Route Component={...}>` in `<Routes>` but generally `Component`
-            // usage is only advised in `RouterProvider` when we can convert it to
-            // `element` ahead of time.
-            children = /*#__PURE__*/ _react.createElement(match.route.Component, null);
-            else if (match.route.element) children = match.route.element;
-            else children = outlet;
-            return /*#__PURE__*/ _react.createElement(RenderedRoute, {
-                match: match,
-                routeContext: {
-                    outlet,
-                    matches,
-                    isDataRoute: dataRouterState != null
-                },
-                children: children
-            });
-        }; // Only wrap in an error boundary within data router usages when we have an
-        // ErrorBoundary/errorElement on this route.  Otherwise let it bubble up to
-        // an ancestor ErrorBoundary/errorElement
-        return dataRouterState && (match.route.ErrorBoundary || match.route.errorElement || index === 0) ? /*#__PURE__*/ _react.createElement(RenderErrorBoundary, {
-            location: dataRouterState.location,
-            revalidation: dataRouterState.revalidation,
-            component: errorElement,
-            error: error,
-            children: getChildren(),
-            routeContext: {
-                outlet: null,
-                matches,
-                isDataRoute: true
-            }
-        }) : getChildren();
-    }, null);
-}
-var DataRouterHook;
-(function(DataRouterHook) {
-    DataRouterHook["UseBlocker"] = "useBlocker";
-    DataRouterHook["UseRevalidator"] = "useRevalidator";
-    DataRouterHook["UseNavigateStable"] = "useNavigate";
-})(DataRouterHook || (DataRouterHook = {}));
-var DataRouterStateHook;
-(function(DataRouterStateHook) {
-    DataRouterStateHook["UseBlocker"] = "useBlocker";
-    DataRouterStateHook["UseLoaderData"] = "useLoaderData";
-    DataRouterStateHook["UseActionData"] = "useActionData";
-    DataRouterStateHook["UseRouteError"] = "useRouteError";
-    DataRouterStateHook["UseNavigation"] = "useNavigation";
-    DataRouterStateHook["UseRouteLoaderData"] = "useRouteLoaderData";
-    DataRouterStateHook["UseMatches"] = "useMatches";
-    DataRouterStateHook["UseRevalidator"] = "useRevalidator";
-    DataRouterStateHook["UseNavigateStable"] = "useNavigate";
-    DataRouterStateHook["UseRouteId"] = "useRouteId";
-})(DataRouterStateHook || (DataRouterStateHook = {}));
-function getDataRouterConsoleError(hookName) {
-    return hookName + " must be used within a data router.  See https://reactrouter.com/routers/picking-a-router.";
-}
-function useDataRouterContext(hookName) {
-    let ctx = _react.useContext(DataRouterContext);
-    !ctx && (0, _router.UNSAFE_invariant)(false, getDataRouterConsoleError(hookName));
-    return ctx;
-}
-function useDataRouterState(hookName) {
-    let state = _react.useContext(DataRouterStateContext);
-    !state && (0, _router.UNSAFE_invariant)(false, getDataRouterConsoleError(hookName));
-    return state;
-}
-function useRouteContext(hookName) {
-    let route = _react.useContext(RouteContext);
-    !route && (0, _router.UNSAFE_invariant)(false, getDataRouterConsoleError(hookName));
-    return route;
-} // Internal version with hookName-aware debugging
-function useCurrentRouteId(hookName) {
-    let route = useRouteContext(hookName);
-    let thisRoute = route.matches[route.matches.length - 1];
-    !thisRoute.route.id && (0, _router.UNSAFE_invariant)(false, hookName + ' can only be used on routes that contain a unique "id"');
-    return thisRoute.route.id;
-}
-/**
- * Returns the ID for the nearest contextual route
- */ function useRouteId() {
-    return useCurrentRouteId(DataRouterStateHook.UseRouteId);
-}
-/**
- * Returns the current navigation, defaulting to an "idle" navigation when
- * no navigation is in progress
- */ function useNavigation() {
-    let state = useDataRouterState(DataRouterStateHook.UseNavigation);
-    return state.navigation;
-}
-/**
- * Returns a revalidate function for manually triggering revalidation, as well
- * as the current state of any manual revalidations
- */ function useRevalidator() {
-    let dataRouterContext = useDataRouterContext(DataRouterHook.UseRevalidator);
-    let state = useDataRouterState(DataRouterStateHook.UseRevalidator);
-    return {
-        revalidate: dataRouterContext.router.revalidate,
-        state: state.revalidation
-    };
-}
-/**
- * Returns the active route matches, useful for accessing loaderData for
- * parent/child routes or the route "handle" property
- */ function useMatches() {
-    let { matches , loaderData  } = useDataRouterState(DataRouterStateHook.UseMatches);
-    return _react.useMemo(()=>matches.map((match)=>{
-            let { pathname , params  } = match; // Note: This structure matches that created by createUseMatchesMatch
-            // in the @remix-run/router , so if you change this please also change
-            // that :)  Eventually we'll DRY this up
-            return {
-                id: match.route.id,
-                pathname,
-                params,
-                data: loaderData[match.route.id],
-                handle: match.route.handle
-            };
-        }), [
-        matches,
-        loaderData
-    ]);
-}
-/**
- * Returns the loader data for the nearest ancestor Route loader
- */ function useLoaderData() {
-    let state = useDataRouterState(DataRouterStateHook.UseLoaderData);
-    let routeId = useCurrentRouteId(DataRouterStateHook.UseLoaderData);
-    if (state.errors && state.errors[routeId] != null) {
-        console.error("You cannot `useLoaderData` in an errorElement (routeId: " + routeId + ")");
-        return undefined;
-    }
-    return state.loaderData[routeId];
-}
-/**
- * Returns the loaderData for the given routeId
- */ function useRouteLoaderData(routeId) {
-    let state = useDataRouterState(DataRouterStateHook.UseRouteLoaderData);
-    return state.loaderData[routeId];
-}
-/**
- * Returns the action data for the nearest ancestor Route action
- */ function useActionData() {
-    let state = useDataRouterState(DataRouterStateHook.UseActionData);
-    let route = _react.useContext(RouteContext);
-    !route && (0, _router.UNSAFE_invariant)(false, "useActionData must be used inside a RouteContext");
-    return Object.values((state == null ? void 0 : state.actionData) || {})[0];
-}
-/**
- * Returns the nearest ancestor Route error, which could be a loader/action
- * error or a render error.  This is intended to be called from your
- * ErrorBoundary/errorElement to display a proper error message.
- */ function useRouteError() {
-    var _state$errors;
-    let error = _react.useContext(RouteErrorContext);
-    let state = useDataRouterState(DataRouterStateHook.UseRouteError);
-    let routeId = useCurrentRouteId(DataRouterStateHook.UseRouteError); // If this was a render error, we put it in a RouteError context inside
-    // of RenderErrorBoundary
-    if (error) return error;
-     // Otherwise look for errors from our data router state
-    return (_state$errors = state.errors) == null ? void 0 : _state$errors[routeId];
-}
-/**
- * Returns the happy-path data from the nearest ancestor <Await /> value
- */ function useAsyncValue() {
-    let value = _react.useContext(AwaitContext);
-    return value == null ? void 0 : value._data;
-}
-/**
- * Returns the error from the nearest ancestor <Await /> value
- */ function useAsyncError() {
-    let value = _react.useContext(AwaitContext);
-    return value == null ? void 0 : value._error;
-}
-let blockerId = 0;
-/**
- * Allow the application to block navigations within the SPA and present the
- * user a confirmation dialog to confirm the navigation.  Mostly used to avoid
- * using half-filled form data.  This does not handle hard-reloads or
- * cross-origin navigations.
- */ function useBlocker(shouldBlock) {
-    let { router  } = useDataRouterContext(DataRouterHook.UseBlocker);
-    let state = useDataRouterState(DataRouterStateHook.UseBlocker);
-    let [blockerKey] = _react.useState(()=>String(++blockerId));
-    let blockerFunction = _react.useCallback((args)=>{
-        return typeof shouldBlock === "function" ? !!shouldBlock(args) : !!shouldBlock;
-    }, [
-        shouldBlock
-    ]);
-    let blocker = router.getBlocker(blockerKey, blockerFunction); // Cleanup on unmount
-    _react.useEffect(()=>()=>router.deleteBlocker(blockerKey), [
-        router,
-        blockerKey
-    ]); // Prefer the blocker from state since DataRouterContext is memoized so this
-    // ensures we update on blocker state updates
-    return state.blockers.get(blockerKey) || blocker;
-}
-/**
- * Stable version of useNavigate that is used when we are in the context of
- * a RouterProvider.
- */ function useNavigateStable() {
-    let { router  } = useDataRouterContext(DataRouterHook.UseNavigateStable);
-    let id = useCurrentRouteId(DataRouterStateHook.UseNavigateStable);
-    let activeRef = _react.useRef(false);
-    useIsomorphicLayoutEffect(()=>{
-        activeRef.current = true;
-    });
-    let navigate = _react.useCallback(function(to, options) {
-        if (options === void 0) options = {};
-        (0, _router.UNSAFE_warning)(activeRef.current, navigateEffectWarning); // Short circuit here since if this happens on first render the navigate
-        // is useless because we haven't wired up our router subscriber yet
-        if (!activeRef.current) return;
-        if (typeof to === "number") router.navigate(to);
-        else router.navigate(to, _extends({
-            fromRouteId: id
-        }, options));
-    }, [
-        router,
-        id
-    ]);
-    return navigate;
-}
-const alreadyWarned = {};
-function warningOnce(key, cond, message) {
-    if (!cond && !alreadyWarned[key]) {
-        alreadyWarned[key] = true;
-        (0, _router.UNSAFE_warning)(false, message);
-    }
-}
-/**
- * Given a Remix Router instance, render the appropriate UI
- */ function RouterProvider(_ref) {
-    let { fallbackElement , router  } = _ref;
-    // Need to use a layout effect here so we are subscribed early enough to
-    // pick up on any render-driven redirects/navigations (useEffect/<Navigate>)
-    let [state, setState] = _react.useState(router.state);
-    _react.useLayoutEffect(()=>router.subscribe(setState), [
-        router,
-        setState
-    ]);
-    let navigator = _react.useMemo(()=>{
-        return {
-            createHref: router.createHref,
-            encodeLocation: router.encodeLocation,
-            go: (n)=>router.navigate(n),
-            push: (to, state, opts)=>router.navigate(to, {
-                    state,
-                    preventScrollReset: opts == null ? void 0 : opts.preventScrollReset
-                }),
-            replace: (to, state, opts)=>router.navigate(to, {
-                    replace: true,
-                    state,
-                    preventScrollReset: opts == null ? void 0 : opts.preventScrollReset
-                })
-        };
-    }, [
-        router
-    ]);
-    let basename = router.basename || "/";
-    let dataRouterContext = _react.useMemo(()=>({
-            router,
-            navigator,
-            static: false,
-            basename
-        }), [
-        router,
-        navigator,
-        basename
-    ]); // The fragment and {null} here are important!  We need them to keep React 18's
-    // useId happy when we are server-rendering since we may have a <script> here
-    // containing the hydrated server-side staticContext (from StaticRouterProvider).
-    // useId relies on the component tree structure to generate deterministic id's
-    // so we need to ensure it remains the same on the client even though
-    // we don't need the <script> tag
-    return /*#__PURE__*/ _react.createElement(_react.Fragment, null, /*#__PURE__*/ _react.createElement(DataRouterContext.Provider, {
-        value: dataRouterContext
-    }, /*#__PURE__*/ _react.createElement(DataRouterStateContext.Provider, {
-        value: state
-    }, /*#__PURE__*/ _react.createElement(Router, {
-        basename: router.basename,
-        location: router.state.location,
-        navigationType: router.state.historyAction,
-        navigator: navigator
-    }, router.state.initialized ? /*#__PURE__*/ _react.createElement(DataRoutes, {
-        routes: router.routes,
-        state: state
-    }) : fallbackElement))), null);
-}
-function DataRoutes(_ref2) {
-    let { routes , state  } = _ref2;
-    return useRoutesImpl(routes, undefined, state);
-}
-/**
- * A <Router> that stores all entries in memory.
- *
- * @see https://reactrouter.com/router-components/memory-router
- */ function MemoryRouter(_ref3) {
-    let { basename , children , initialEntries , initialIndex  } = _ref3;
-    let historyRef = _react.useRef();
-    if (historyRef.current == null) historyRef.current = (0, _router.createMemoryHistory)({
-        initialEntries,
-        initialIndex,
-        v5Compat: true
-    });
-    let history = historyRef.current;
-    let [state, setState] = _react.useState({
-        action: history.action,
-        location: history.location
-    });
-    _react.useLayoutEffect(()=>history.listen(setState), [
-        history
-    ]);
-    return /*#__PURE__*/ _react.createElement(Router, {
-        basename: basename,
-        children: children,
-        location: state.location,
-        navigationType: state.action,
-        navigator: history
-    });
-}
-/**
- * Changes the current location.
- *
- * Note: This API is mostly useful in React.Component subclasses that are not
- * able to use hooks. In functional components, we recommend you use the
- * `useNavigate` hook instead.
- *
- * @see https://reactrouter.com/components/navigate
- */ function Navigate(_ref4) {
-    let { to , replace , state , relative  } = _ref4;
-    !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // the router loaded. We can help them understand how to avoid that.
-    "<Navigate> may be used only in the context of a <Router> component.");
-    (0, _router.UNSAFE_warning)(!_react.useContext(NavigationContext).static, "<Navigate> must not be used on the initial render in a <StaticRouter>. This is a no-op, but you should modify your code so the <Navigate> is only ever rendered in response to some user interaction or state change.");
-    let { matches  } = _react.useContext(RouteContext);
-    let { pathname: locationPathname  } = useLocation();
-    let navigate = useNavigate(); // Resolve the path outside of the effect so that when effects run twice in
-    // StrictMode they navigate to the same place
-    let path = (0, _router.resolveTo)(to, (0, _router.UNSAFE_getPathContributingMatches)(matches).map((match)=>match.pathnameBase), locationPathname, relative === "path");
-    let jsonPath = JSON.stringify(path);
-    _react.useEffect(()=>navigate(JSON.parse(jsonPath), {
-            replace,
-            state,
-            relative
-        }), [
-        navigate,
-        jsonPath,
-        relative,
-        replace,
-        state
-    ]);
-    return null;
-}
-/**
- * Renders the child route's element, if there is one.
- *
- * @see https://reactrouter.com/components/outlet
- */ function Outlet(props) {
-    return useOutlet(props.context);
-}
-/**
- * Declares an element that should be rendered at a certain URL path.
- *
- * @see https://reactrouter.com/components/route
- */ function Route(_props) {
-    (0, _router.UNSAFE_invariant)(false, "A <Route> is only ever to be used as the child of <Routes> element, never rendered directly. Please wrap your <Route> in a <Routes>.");
-}
-/**
- * Provides location context for the rest of the app.
- *
- * Note: You usually won't render a <Router> directly. Instead, you'll render a
- * router that is more specific to your environment such as a <BrowserRouter>
- * in web browsers or a <StaticRouter> for server rendering.
- *
- * @see https://reactrouter.com/router-components/router
- */ function Router(_ref5) {
-    let { basename: basenameProp = "/" , children =null , location: locationProp , navigationType =(0, _router.Action).Pop , navigator , static: staticProp = false  } = _ref5;
-    !!useInRouterContext() && (0, _router.UNSAFE_invariant)(false, "You cannot render a <Router> inside another <Router>. You should never have more than one in your app."); // Preserve trailing slashes on basename, so we can let the user control
-    // the enforcement of trailing slashes throughout the app
-    let basename = basenameProp.replace(/^\/*/, "/");
-    let navigationContext = _react.useMemo(()=>({
-            basename,
-            navigator,
-            static: staticProp
-        }), [
-        basename,
-        navigator,
-        staticProp
-    ]);
-    if (typeof locationProp === "string") locationProp = (0, _router.parsePath)(locationProp);
-    let { pathname ="/" , search ="" , hash ="" , state =null , key ="default"  } = locationProp;
-    let locationContext = _react.useMemo(()=>{
-        let trailingPathname = (0, _router.stripBasename)(pathname, basename);
-        if (trailingPathname == null) return null;
-        return {
-            location: {
-                pathname: trailingPathname,
-                search,
-                hash,
-                state,
-                key
-            },
-            navigationType
-        };
-    }, [
-        basename,
-        pathname,
-        search,
-        hash,
-        state,
-        key,
-        navigationType
-    ]);
-    (0, _router.UNSAFE_warning)(locationContext != null, '<Router basename="' + basename + '"> is not able to match the URL ' + ('"' + pathname + search + hash + '" because it does not start with the ') + "basename, so the <Router> won't render anything.");
-    if (locationContext == null) return null;
-    return /*#__PURE__*/ _react.createElement(NavigationContext.Provider, {
-        value: navigationContext
-    }, /*#__PURE__*/ _react.createElement(LocationContext.Provider, {
-        children: children,
-        value: locationContext
-    }));
-}
-/**
- * A container for a nested tree of <Route> elements that renders the branch
- * that best matches the current location.
- *
- * @see https://reactrouter.com/components/routes
- */ function Routes(_ref6) {
-    let { children , location  } = _ref6;
-    return useRoutes(createRoutesFromChildren(children), location);
-}
-/**
- * Component to use for rendering lazily loaded data from returning defer()
- * in a loader function
- */ function Await(_ref7) {
-    let { children , errorElement , resolve  } = _ref7;
-    return /*#__PURE__*/ _react.createElement(AwaitErrorBoundary, {
-        resolve: resolve,
-        errorElement: errorElement
-    }, /*#__PURE__*/ _react.createElement(ResolveAwait, null, children));
-}
-var AwaitRenderStatus;
-(function(AwaitRenderStatus) {
-    AwaitRenderStatus[AwaitRenderStatus["pending"] = 0] = "pending";
-    AwaitRenderStatus[AwaitRenderStatus["success"] = 1] = "success";
-    AwaitRenderStatus[AwaitRenderStatus["error"] = 2] = "error";
-})(AwaitRenderStatus || (AwaitRenderStatus = {}));
-const neverSettledPromise = new Promise(()=>{});
-class AwaitErrorBoundary extends _react.Component {
-    constructor(props){
-        super(props);
-        this.state = {
-            error: null
-        };
-    }
-    static getDerivedStateFromError(error) {
-        return {
-            error
-        };
-    }
-    componentDidCatch(error, errorInfo) {
-        console.error("<Await> caught the following error during render", error, errorInfo);
-    }
-    render() {
-        let { children , errorElement , resolve  } = this.props;
-        let promise = null;
-        let status = AwaitRenderStatus.pending;
-        if (!(resolve instanceof Promise)) {
-            // Didn't get a promise - provide as a resolved promise
-            status = AwaitRenderStatus.success;
-            promise = Promise.resolve();
-            Object.defineProperty(promise, "_tracked", {
-                get: ()=>true
-            });
-            Object.defineProperty(promise, "_data", {
-                get: ()=>resolve
-            });
-        } else if (this.state.error) {
-            // Caught a render error, provide it as a rejected promise
-            status = AwaitRenderStatus.error;
-            let renderError = this.state.error;
-            promise = Promise.reject().catch(()=>{}); // Avoid unhandled rejection warnings
-            Object.defineProperty(promise, "_tracked", {
-                get: ()=>true
-            });
-            Object.defineProperty(promise, "_error", {
-                get: ()=>renderError
-            });
-        } else if (resolve._tracked) {
-            // Already tracked promise - check contents
-            promise = resolve;
-            status = promise._error !== undefined ? AwaitRenderStatus.error : promise._data !== undefined ? AwaitRenderStatus.success : AwaitRenderStatus.pending;
-        } else {
-            // Raw (untracked) promise - track it
-            status = AwaitRenderStatus.pending;
-            Object.defineProperty(resolve, "_tracked", {
-                get: ()=>true
-            });
-            promise = resolve.then((data)=>Object.defineProperty(resolve, "_data", {
-                    get: ()=>data
-                }), (error)=>Object.defineProperty(resolve, "_error", {
-                    get: ()=>error
-                }));
-        }
-        if (status === AwaitRenderStatus.error && promise._error instanceof (0, _router.AbortedDeferredError)) // Freeze the UI by throwing a never resolved promise
-        throw neverSettledPromise;
-        if (status === AwaitRenderStatus.error && !errorElement) // No errorElement, throw to the nearest route-level error boundary
-        throw promise._error;
-        if (status === AwaitRenderStatus.error) // Render via our errorElement
-        return /*#__PURE__*/ _react.createElement(AwaitContext.Provider, {
-            value: promise,
-            children: errorElement
-        });
-        if (status === AwaitRenderStatus.success) // Render children with resolved value
-        return /*#__PURE__*/ _react.createElement(AwaitContext.Provider, {
-            value: promise,
-            children: children
-        });
-         // Throw to the suspense boundary
-        throw promise;
-    }
-}
-/**
- * @private
- * Indirection to leverage useAsyncValue for a render-prop API on <Await>
- */ function ResolveAwait(_ref8) {
-    let { children  } = _ref8;
-    let data = useAsyncValue();
-    let toRender = typeof children === "function" ? children(data) : children;
-    return /*#__PURE__*/ _react.createElement(_react.Fragment, null, toRender);
-} ///////////////////////////////////////////////////////////////////////////////
-// UTILS
-///////////////////////////////////////////////////////////////////////////////
-/**
- * Creates a route config from a React "children" object, which is usually
- * either a `<Route>` element or an array of them. Used internally by
- * `<Routes>` to create a route config from its children.
- *
- * @see https://reactrouter.com/utils/create-routes-from-children
- */ function createRoutesFromChildren(children, parentPath) {
-    if (parentPath === void 0) parentPath = [];
-    let routes = [];
-    _react.Children.forEach(children, (element, index)=>{
-        if (!/*#__PURE__*/ _react.isValidElement(element)) // Ignore non-elements. This allows people to more easily inline
-        // conditionals in their route config.
-        return;
-        let treePath = [
-            ...parentPath,
-            index
-        ];
-        if (element.type === _react.Fragment) {
-            // Transparently support React.Fragment and its children.
-            routes.push.apply(routes, createRoutesFromChildren(element.props.children, treePath));
-            return;
-        }
-        !(element.type === Route) && (0, _router.UNSAFE_invariant)(false, "[" + (typeof element.type === "string" ? element.type : element.type.name) + "] is not a <Route> component. All component children of <Routes> must be a <Route> or <React.Fragment>");
-        !(!element.props.index || !element.props.children) && (0, _router.UNSAFE_invariant)(false, "An index route cannot have child routes.");
-        let route = {
-            id: element.props.id || treePath.join("-"),
-            caseSensitive: element.props.caseSensitive,
-            element: element.props.element,
-            Component: element.props.Component,
-            index: element.props.index,
-            path: element.props.path,
-            loader: element.props.loader,
-            action: element.props.action,
-            errorElement: element.props.errorElement,
-            ErrorBoundary: element.props.ErrorBoundary,
-            hasErrorBoundary: element.props.ErrorBoundary != null || element.props.errorElement != null,
-            shouldRevalidate: element.props.shouldRevalidate,
-            handle: element.props.handle,
-            lazy: element.props.lazy
-        };
-        if (element.props.children) route.children = createRoutesFromChildren(element.props.children, treePath);
-        routes.push(route);
-    });
-    return routes;
-}
-/**
- * Renders the result of `matchRoutes()` into a React element.
- */ function renderMatches(matches) {
-    return _renderMatches(matches);
-}
-function mapRouteProperties(route) {
-    let updates = {
-        // Note: this check also occurs in createRoutesFromChildren so update
-        // there if you change this -- please and thank you!
-        hasErrorBoundary: route.ErrorBoundary != null || route.errorElement != null
-    };
-    if (route.Component) {
-        if (route.element) (0, _router.UNSAFE_warning)(false, "You should not include both `Component` and `element` on your route - `Component` will be used.");
-        Object.assign(updates, {
-            element: /*#__PURE__*/ _react.createElement(route.Component),
-            Component: undefined
-        });
-    }
-    if (route.ErrorBoundary) {
-        if (route.errorElement) (0, _router.UNSAFE_warning)(false, "You should not include both `ErrorBoundary` and `errorElement` on your route - `ErrorBoundary` will be used.");
-        Object.assign(updates, {
-            errorElement: /*#__PURE__*/ _react.createElement(route.ErrorBoundary),
-            ErrorBoundary: undefined
-        });
-    }
-    return updates;
-}
-function createMemoryRouter(routes, opts) {
-    return (0, _router.createRouter)({
-        basename: opts == null ? void 0 : opts.basename,
-        future: _extends({}, opts == null ? void 0 : opts.future, {
-            v7_prependBasename: true
-        }),
-        history: (0, _router.createMemoryHistory)({
-            initialEntries: opts == null ? void 0 : opts.initialEntries,
-            initialIndex: opts == null ? void 0 : opts.initialIndex
-        }),
-        hydrationData: opts == null ? void 0 : opts.hydrationData,
-        routes,
-        mapRouteProperties
-    }).initialize();
-} ///////////////////////////////////////////////////////////////////////////////
-
-},{"react":"21dqq","@remix-run/router":"5ncDG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5ncDG":[function(require,module,exports) {
-/**
- * @remix-run/router v1.6.2
- *
- * Copyright (c) Remix Software Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.md file in the root directory of this source tree.
- *
- * @license MIT
- */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "AbortedDeferredError", ()=>AbortedDeferredError);
-parcelHelpers.export(exports, "Action", ()=>Action);
-parcelHelpers.export(exports, "ErrorResponse", ()=>ErrorResponse);
-parcelHelpers.export(exports, "IDLE_BLOCKER", ()=>IDLE_BLOCKER);
-parcelHelpers.export(exports, "IDLE_FETCHER", ()=>IDLE_FETCHER);
-parcelHelpers.export(exports, "IDLE_NAVIGATION", ()=>IDLE_NAVIGATION);
-parcelHelpers.export(exports, "UNSAFE_DEFERRED_SYMBOL", ()=>UNSAFE_DEFERRED_SYMBOL);
-parcelHelpers.export(exports, "UNSAFE_DeferredData", ()=>DeferredData);
-parcelHelpers.export(exports, "UNSAFE_convertRoutesToDataRoutes", ()=>convertRoutesToDataRoutes);
-parcelHelpers.export(exports, "UNSAFE_getPathContributingMatches", ()=>getPathContributingMatches);
-parcelHelpers.export(exports, "UNSAFE_invariant", ()=>invariant);
-parcelHelpers.export(exports, "UNSAFE_warning", ()=>warning);
-parcelHelpers.export(exports, "createBrowserHistory", ()=>createBrowserHistory);
-parcelHelpers.export(exports, "createHashHistory", ()=>createHashHistory);
-parcelHelpers.export(exports, "createMemoryHistory", ()=>createMemoryHistory);
-parcelHelpers.export(exports, "createPath", ()=>createPath);
-parcelHelpers.export(exports, "createRouter", ()=>createRouter);
-parcelHelpers.export(exports, "createStaticHandler", ()=>createStaticHandler);
-parcelHelpers.export(exports, "defer", ()=>defer);
-parcelHelpers.export(exports, "generatePath", ()=>generatePath);
-parcelHelpers.export(exports, "getStaticContextFromError", ()=>getStaticContextFromError);
-parcelHelpers.export(exports, "getToPathname", ()=>getToPathname);
-parcelHelpers.export(exports, "isDeferredData", ()=>isDeferredData);
-parcelHelpers.export(exports, "isRouteErrorResponse", ()=>isRouteErrorResponse);
-parcelHelpers.export(exports, "joinPaths", ()=>joinPaths);
-parcelHelpers.export(exports, "json", ()=>json);
-parcelHelpers.export(exports, "matchPath", ()=>matchPath);
-parcelHelpers.export(exports, "matchRoutes", ()=>matchRoutes);
-parcelHelpers.export(exports, "normalizePathname", ()=>normalizePathname);
-parcelHelpers.export(exports, "parsePath", ()=>parsePath);
-parcelHelpers.export(exports, "redirect", ()=>redirect);
-parcelHelpers.export(exports, "resolvePath", ()=>resolvePath);
-parcelHelpers.export(exports, "resolveTo", ()=>resolveTo);
-parcelHelpers.export(exports, "stripBasename", ()=>stripBasename);
-function _extends() {
-    _extends = Object.assign ? Object.assign.bind() : function(target) {
-        for(var i = 1; i < arguments.length; i++){
-            var source = arguments[i];
-            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
-        }
-        return target;
-    };
-    return _extends.apply(this, arguments);
-}
-////////////////////////////////////////////////////////////////////////////////
-//#region Types and Constants
-////////////////////////////////////////////////////////////////////////////////
-/**
- * Actions represent the type of change to a location value.
- */ var Action;
-(function(Action) {
-    /**
-   * A POP indicates a change to an arbitrary index in the history stack, such
-   * as a back or forward navigation. It does not describe the direction of the
-   * navigation, only that the current index changed.
-   *
-   * Note: This is the default action for newly created history objects.
-   */ Action["Pop"] = "POP";
-    /**
-   * A PUSH indicates a new entry being added to the history stack, such as when
-   * a link is clicked and a new page loads. When this happens, all subsequent
-   * entries in the stack are lost.
-   */ Action["Push"] = "PUSH";
-    /**
-   * A REPLACE indicates the entry at the current index in the history stack
-   * being replaced by a new one.
-   */ Action["Replace"] = "REPLACE";
-})(Action || (Action = {}));
-const PopStateEventType = "popstate";
-/**
- * Memory history stores the current location in memory. It is designed for use
- * in stateful non-browser environments like tests and React Native.
- */ function createMemoryHistory(options) {
-    if (options === void 0) options = {};
-    let { initialEntries =[
-        "/"
-    ] , initialIndex , v5Compat =false  } = options;
-    let entries; // Declare so we can access from createMemoryLocation
-    entries = initialEntries.map((entry, index)=>createMemoryLocation(entry, typeof entry === "string" ? null : entry.state, index === 0 ? "default" : undefined));
-    let index = clampIndex(initialIndex == null ? entries.length - 1 : initialIndex);
-    let action = Action.Pop;
-    let listener = null;
-    function clampIndex(n) {
-        return Math.min(Math.max(n, 0), entries.length - 1);
-    }
-    function getCurrentLocation() {
-        return entries[index];
-    }
-    function createMemoryLocation(to, state, key) {
-        if (state === void 0) state = null;
-        let location = createLocation(entries ? getCurrentLocation().pathname : "/", to, state, key);
-        warning(location.pathname.charAt(0) === "/", "relative pathnames are not supported in memory history: " + JSON.stringify(to));
-        return location;
-    }
-    function createHref(to) {
-        return typeof to === "string" ? to : createPath(to);
-    }
-    let history = {
-        get index () {
-            return index;
-        },
-        get action () {
-            return action;
-        },
-        get location () {
-            return getCurrentLocation();
-        },
-        createHref,
-        createURL (to) {
-            return new URL(createHref(to), "http://localhost");
-        },
-        encodeLocation (to) {
-            let path = typeof to === "string" ? parsePath(to) : to;
-            return {
-                pathname: path.pathname || "",
-                search: path.search || "",
-                hash: path.hash || ""
-            };
-        },
-        push (to, state) {
-            action = Action.Push;
-            let nextLocation = createMemoryLocation(to, state);
-            index += 1;
-            entries.splice(index, entries.length, nextLocation);
-            if (v5Compat && listener) listener({
-                action,
-                location: nextLocation,
-                delta: 1
-            });
-        },
-        replace (to, state) {
-            action = Action.Replace;
-            let nextLocation = createMemoryLocation(to, state);
-            entries[index] = nextLocation;
-            if (v5Compat && listener) listener({
-                action,
-                location: nextLocation,
-                delta: 0
-            });
-        },
-        go (delta) {
-            action = Action.Pop;
-            let nextIndex = clampIndex(index + delta);
-            let nextLocation = entries[nextIndex];
-            index = nextIndex;
-            if (listener) listener({
-                action,
-                location: nextLocation,
-                delta
-            });
-        },
-        listen (fn) {
-            listener = fn;
-            return ()=>{
-                listener = null;
-            };
-        }
-    };
-    return history;
-}
-/**
- * Browser history stores the location in regular URLs. This is the standard for
- * most web apps, but it requires some configuration on the server to ensure you
- * serve the same app at multiple URLs.
- *
- * @see https://github.com/remix-run/history/tree/main/docs/api-reference.md#createbrowserhistory
- */ function createBrowserHistory(options) {
-    if (options === void 0) options = {};
-    function createBrowserLocation(window1, globalHistory) {
-        let { pathname , search , hash  } = window1.location;
-        return createLocation("", {
-            pathname,
-            search,
-            hash
-        }, globalHistory.state && globalHistory.state.usr || null, globalHistory.state && globalHistory.state.key || "default");
-    }
-    function createBrowserHref(window1, to) {
-        return typeof to === "string" ? to : createPath(to);
-    }
-    return getUrlBasedHistory(createBrowserLocation, createBrowserHref, null, options);
-}
-/**
- * Hash history stores the location in window.location.hash. This makes it ideal
- * for situations where you don't want to send the location to the server for
- * some reason, either because you do cannot configure it or the URL space is
- * reserved for something else.
- *
- * @see https://github.com/remix-run/history/tree/main/docs/api-reference.md#createhashhistory
- */ function createHashHistory(options) {
-    if (options === void 0) options = {};
-    function createHashLocation(window1, globalHistory) {
-        let { pathname ="/" , search ="" , hash =""  } = parsePath(window1.location.hash.substr(1));
-        return createLocation("", {
-            pathname,
-            search,
-            hash
-        }, globalHistory.state && globalHistory.state.usr || null, globalHistory.state && globalHistory.state.key || "default");
-    }
-    function createHashHref(window1, to) {
-        let base = window1.document.querySelector("base");
-        let href = "";
-        if (base && base.getAttribute("href")) {
-            let url = window1.location.href;
-            let hashIndex = url.indexOf("#");
-            href = hashIndex === -1 ? url : url.slice(0, hashIndex);
-        }
-        return href + "#" + (typeof to === "string" ? to : createPath(to));
-    }
-    function validateHashLocation(location, to) {
-        warning(location.pathname.charAt(0) === "/", "relative pathnames are not supported in hash history.push(" + JSON.stringify(to) + ")");
-    }
-    return getUrlBasedHistory(createHashLocation, createHashHref, validateHashLocation, options);
-}
-function invariant(value, message) {
-    if (value === false || value === null || typeof value === "undefined") throw new Error(message);
-}
-function warning(cond, message) {
-    if (!cond) {
-        // eslint-disable-next-line no-console
-        if (typeof console !== "undefined") console.warn(message);
-        try {
-            // Welcome to debugging history!
-            //
-            // This error is thrown as a convenience so you can more easily
-            // find the source for a warning that appears in the console by
-            // enabling "pause on exceptions" in your JavaScript debugger.
-            throw new Error(message); // eslint-disable-next-line no-empty
-        } catch (e) {}
-    }
-}
-function createKey() {
-    return Math.random().toString(36).substr(2, 8);
-}
-/**
- * For browser-based histories, we combine the state and key into an object
- */ function getHistoryState(location, index) {
-    return {
-        usr: location.state,
-        key: location.key,
-        idx: index
-    };
-}
-/**
- * Creates a Location object with a unique key from the given Path
- */ function createLocation(current, to, state, key) {
-    if (state === void 0) state = null;
-    let location = _extends({
-        pathname: typeof current === "string" ? current : current.pathname,
-        search: "",
-        hash: ""
-    }, typeof to === "string" ? parsePath(to) : to, {
-        state,
-        // TODO: This could be cleaned up.  push/replace should probably just take
-        // full Locations now and avoid the need to run through this flow at all
-        // But that's a pretty big refactor to the current test suite so going to
-        // keep as is for the time being and just let any incoming keys take precedence
-        key: to && to.key || key || createKey()
-    });
-    return location;
-}
-/**
- * Creates a string URL path from the given pathname, search, and hash components.
- */ function createPath(_ref) {
-    let { pathname ="/" , search ="" , hash =""  } = _ref;
-    if (search && search !== "?") pathname += search.charAt(0) === "?" ? search : "?" + search;
-    if (hash && hash !== "#") pathname += hash.charAt(0) === "#" ? hash : "#" + hash;
-    return pathname;
-}
-/**
- * Parses a string URL path into its separate pathname, search, and hash components.
- */ function parsePath(path) {
-    let parsedPath = {};
-    if (path) {
-        let hashIndex = path.indexOf("#");
-        if (hashIndex >= 0) {
-            parsedPath.hash = path.substr(hashIndex);
-            path = path.substr(0, hashIndex);
-        }
-        let searchIndex = path.indexOf("?");
-        if (searchIndex >= 0) {
-            parsedPath.search = path.substr(searchIndex);
-            path = path.substr(0, searchIndex);
-        }
-        if (path) parsedPath.pathname = path;
-    }
-    return parsedPath;
-}
-function getUrlBasedHistory(getLocation, createHref, validateLocation, options) {
-    if (options === void 0) options = {};
-    let { window: window1 = document.defaultView , v5Compat =false  } = options;
-    let globalHistory = window1.history;
-    let action = Action.Pop;
-    let listener = null;
-    let index = getIndex(); // Index should only be null when we initialize. If not, it's because the
-    // user called history.pushState or history.replaceState directly, in which
-    // case we should log a warning as it will result in bugs.
-    if (index == null) {
-        index = 0;
-        globalHistory.replaceState(_extends({}, globalHistory.state, {
-            idx: index
-        }), "");
-    }
-    function getIndex() {
-        let state = globalHistory.state || {
-            idx: null
-        };
-        return state.idx;
-    }
-    function handlePop() {
-        action = Action.Pop;
-        let nextIndex = getIndex();
-        let delta = nextIndex == null ? null : nextIndex - index;
-        index = nextIndex;
-        if (listener) listener({
-            action,
-            location: history.location,
-            delta
-        });
-    }
-    function push(to, state) {
-        action = Action.Push;
-        let location = createLocation(history.location, to, state);
-        if (validateLocation) validateLocation(location, to);
-        index = getIndex() + 1;
-        let historyState = getHistoryState(location, index);
-        let url = history.createHref(location); // try...catch because iOS limits us to 100 pushState calls :/
-        try {
-            globalHistory.pushState(historyState, "", url);
-        } catch (error) {
-            // They are going to lose state here, but there is no real
-            // way to warn them about it since the page will refresh...
-            window1.location.assign(url);
-        }
-        if (v5Compat && listener) listener({
-            action,
-            location: history.location,
-            delta: 1
-        });
-    }
-    function replace(to, state) {
-        action = Action.Replace;
-        let location = createLocation(history.location, to, state);
-        if (validateLocation) validateLocation(location, to);
-        index = getIndex();
-        let historyState = getHistoryState(location, index);
-        let url = history.createHref(location);
-        globalHistory.replaceState(historyState, "", url);
-        if (v5Compat && listener) listener({
-            action,
-            location: history.location,
-            delta: 0
-        });
-    }
-    function createURL(to) {
-        // window.location.origin is "null" (the literal string value) in Firefox
-        // under certain conditions, notably when serving from a local HTML file
-        // See https://bugzilla.mozilla.org/show_bug.cgi?id=878297
-        let base = window1.location.origin !== "null" ? window1.location.origin : window1.location.href;
-        let href = typeof to === "string" ? to : createPath(to);
-        invariant(base, "No window.location.(origin|href) available to create URL for href: " + href);
-        return new URL(href, base);
-    }
-    let history = {
-        get action () {
-            return action;
-        },
-        get location () {
-            return getLocation(window1, globalHistory);
-        },
-        listen (fn) {
-            if (listener) throw new Error("A history only accepts one active listener");
-            window1.addEventListener(PopStateEventType, handlePop);
-            listener = fn;
-            return ()=>{
-                window1.removeEventListener(PopStateEventType, handlePop);
-                listener = null;
-            };
-        },
-        createHref (to) {
-            return createHref(window1, to);
-        },
-        createURL,
-        encodeLocation (to) {
-            // Encode a Location the same way window.location would
-            let url = createURL(to);
-            return {
-                pathname: url.pathname,
-                search: url.search,
-                hash: url.hash
-            };
-        },
-        push,
-        replace,
-        go (n) {
-            return globalHistory.go(n);
-        }
-    };
-    return history;
-} //#endregion
-var ResultType;
-(function(ResultType) {
-    ResultType["data"] = "data";
-    ResultType["deferred"] = "deferred";
-    ResultType["redirect"] = "redirect";
-    ResultType["error"] = "error";
-})(ResultType || (ResultType = {}));
-const immutableRouteKeys = new Set([
-    "lazy",
-    "caseSensitive",
-    "path",
-    "id",
-    "index",
-    "children"
-]);
-function isIndexRoute(route) {
-    return route.index === true;
-} // Walk the route tree generating unique IDs where necessary so we are working
-// solely with AgnosticDataRouteObject's within the Router
-function convertRoutesToDataRoutes(routes, mapRouteProperties, parentPath, manifest) {
-    if (parentPath === void 0) parentPath = [];
-    if (manifest === void 0) manifest = {};
-    return routes.map((route, index)=>{
-        let treePath = [
-            ...parentPath,
-            index
-        ];
-        let id = typeof route.id === "string" ? route.id : treePath.join("-");
-        invariant(route.index !== true || !route.children, "Cannot specify children on an index route");
-        invariant(!manifest[id], 'Found a route id collision on id "' + id + '".  Route ' + "id's must be globally unique within Data Router usages");
-        if (isIndexRoute(route)) {
-            let indexRoute = _extends({}, route, mapRouteProperties(route), {
-                id
-            });
-            manifest[id] = indexRoute;
-            return indexRoute;
-        } else {
-            let pathOrLayoutRoute = _extends({}, route, mapRouteProperties(route), {
-                id,
-                children: undefined
-            });
-            manifest[id] = pathOrLayoutRoute;
-            if (route.children) pathOrLayoutRoute.children = convertRoutesToDataRoutes(route.children, mapRouteProperties, treePath, manifest);
-            return pathOrLayoutRoute;
-        }
-    });
-}
-/**
- * Matches the given routes to a location and returns the match data.
- *
- * @see https://reactrouter.com/utils/match-routes
- */ function matchRoutes(routes, locationArg, basename) {
-    if (basename === void 0) basename = "/";
-    let location = typeof locationArg === "string" ? parsePath(locationArg) : locationArg;
-    let pathname = stripBasename(location.pathname || "/", basename);
-    if (pathname == null) return null;
-    let branches = flattenRoutes(routes);
-    rankRouteBranches(branches);
-    let matches = null;
-    for(let i = 0; matches == null && i < branches.length; ++i)matches = matchRouteBranch(branches[i], // or from router.navigate, but we want to match against the unencoded
-    // paths in the route definitions.  Memory router locations won't be
-    // encoded here but there also shouldn't be anything to decode so this
-    // should be a safe operation.  This avoids needing matchRoutes to be
-    // history-aware.
-    safelyDecodeURI(pathname));
-    return matches;
-}
-function flattenRoutes(routes, branches, parentsMeta, parentPath) {
-    if (branches === void 0) branches = [];
-    if (parentsMeta === void 0) parentsMeta = [];
-    if (parentPath === void 0) parentPath = "";
-    let flattenRoute = (route, index, relativePath)=>{
-        let meta = {
-            relativePath: relativePath === undefined ? route.path || "" : relativePath,
-            caseSensitive: route.caseSensitive === true,
-            childrenIndex: index,
-            route
-        };
-        if (meta.relativePath.startsWith("/")) {
-            invariant(meta.relativePath.startsWith(parentPath), 'Absolute route path "' + meta.relativePath + '" nested under path ' + ('"' + parentPath + '" is not valid. An absolute child route path ') + "must start with the combined path of all its parent routes.");
-            meta.relativePath = meta.relativePath.slice(parentPath.length);
-        }
-        let path = joinPaths([
-            parentPath,
-            meta.relativePath
-        ]);
-        let routesMeta = parentsMeta.concat(meta); // Add the children before adding this route to the array so we traverse the
-        // route tree depth-first and child routes appear before their parents in
-        // the "flattened" version.
-        if (route.children && route.children.length > 0) {
-            invariant(// @ts-expect-error
-            route.index !== true, "Index routes must not have child routes. Please remove " + ('all child routes from route path "' + path + '".'));
-            flattenRoutes(route.children, branches, routesMeta, path);
-        } // Routes without a path shouldn't ever match by themselves unless they are
-        // index routes, so don't add them to the list of possible branches.
-        if (route.path == null && !route.index) return;
-        branches.push({
-            path,
-            score: computeScore(path, route.index),
-            routesMeta
-        });
-    };
-    routes.forEach((route, index)=>{
-        var _route$path;
-        // coarse-grain check for optional params
-        if (route.path === "" || !((_route$path = route.path) != null && _route$path.includes("?"))) flattenRoute(route, index);
-        else for (let exploded of explodeOptionalSegments(route.path))flattenRoute(route, index, exploded);
-    });
-    return branches;
-}
-/**
- * Computes all combinations of optional path segments for a given path,
- * excluding combinations that are ambiguous and of lower priority.
- *
- * For example, `/one/:two?/three/:four?/:five?` explodes to:
- * - `/one/three`
- * - `/one/:two/three`
- * - `/one/three/:four`
- * - `/one/three/:five`
- * - `/one/:two/three/:four`
- * - `/one/:two/three/:five`
- * - `/one/three/:four/:five`
- * - `/one/:two/three/:four/:five`
- */ function explodeOptionalSegments(path) {
-    let segments = path.split("/");
-    if (segments.length === 0) return [];
-    let [first, ...rest] = segments; // Optional path segments are denoted by a trailing `?`
-    let isOptional = first.endsWith("?"); // Compute the corresponding required segment: `foo?` -> `foo`
-    let required = first.replace(/\?$/, "");
-    if (rest.length === 0) // Intepret empty string as omitting an optional segment
-    // `["one", "", "three"]` corresponds to omitting `:two` from `/one/:two?/three` -> `/one/three`
-    return isOptional ? [
-        required,
-        ""
-    ] : [
-        required
-    ];
-    let restExploded = explodeOptionalSegments(rest.join("/"));
-    let result = []; // All child paths with the prefix.  Do this for all children before the
-    // optional version for all children so we get consistent ordering where the
-    // parent optional aspect is preferred as required.  Otherwise, we can get
-    // child sections interspersed where deeper optional segments are higher than
-    // parent optional segments, where for example, /:two would explodes _earlier_
-    // then /:one.  By always including the parent as required _for all children_
-    // first, we avoid this issue
-    result.push(...restExploded.map((subpath)=>subpath === "" ? required : [
-            required,
-            subpath
-        ].join("/"))); // Then if this is an optional value, add all child versions without
-    if (isOptional) result.push(...restExploded);
-     // for absolute paths, ensure `/` instead of empty segment
-    return result.map((exploded)=>path.startsWith("/") && exploded === "" ? "/" : exploded);
-}
-function rankRouteBranches(branches) {
-    branches.sort((a, b)=>a.score !== b.score ? b.score - a.score // Higher score first
-         : compareIndexes(a.routesMeta.map((meta)=>meta.childrenIndex), b.routesMeta.map((meta)=>meta.childrenIndex)));
-}
-const paramRe = /^:\w+$/;
-const dynamicSegmentValue = 3;
-const indexRouteValue = 2;
-const emptySegmentValue = 1;
-const staticSegmentValue = 10;
-const splatPenalty = -2;
-const isSplat = (s)=>s === "*";
-function computeScore(path, index) {
-    let segments = path.split("/");
-    let initialScore = segments.length;
-    if (segments.some(isSplat)) initialScore += splatPenalty;
-    if (index) initialScore += indexRouteValue;
-    return segments.filter((s)=>!isSplat(s)).reduce((score, segment)=>score + (paramRe.test(segment) ? dynamicSegmentValue : segment === "" ? emptySegmentValue : staticSegmentValue), initialScore);
-}
-function compareIndexes(a, b) {
-    let siblings = a.length === b.length && a.slice(0, -1).every((n, i)=>n === b[i]);
-    return siblings ? // first. This allows people to have fine-grained control over the matching
-    // behavior by simply putting routes with identical paths in the order they
-    // want them tried.
-    a[a.length - 1] - b[b.length - 1] : // so they sort equally.
-    0;
-}
-function matchRouteBranch(branch, pathname) {
-    let { routesMeta  } = branch;
-    let matchedParams = {};
-    let matchedPathname = "/";
-    let matches = [];
-    for(let i = 0; i < routesMeta.length; ++i){
-        let meta = routesMeta[i];
-        let end = i === routesMeta.length - 1;
-        let remainingPathname = matchedPathname === "/" ? pathname : pathname.slice(matchedPathname.length) || "/";
-        let match = matchPath({
-            path: meta.relativePath,
-            caseSensitive: meta.caseSensitive,
-            end
-        }, remainingPathname);
-        if (!match) return null;
-        Object.assign(matchedParams, match.params);
-        let route = meta.route;
-        matches.push({
-            // TODO: Can this as be avoided?
-            params: matchedParams,
-            pathname: joinPaths([
-                matchedPathname,
-                match.pathname
-            ]),
-            pathnameBase: normalizePathname(joinPaths([
-                matchedPathname,
-                match.pathnameBase
-            ])),
-            route
-        });
-        if (match.pathnameBase !== "/") matchedPathname = joinPaths([
-            matchedPathname,
-            match.pathnameBase
-        ]);
-    }
-    return matches;
-}
-/**
- * Returns a path with params interpolated.
- *
- * @see https://reactrouter.com/utils/generate-path
- */ function generatePath(originalPath, params) {
-    if (params === void 0) params = {};
-    let path = originalPath;
-    if (path.endsWith("*") && path !== "*" && !path.endsWith("/*")) {
-        warning(false, 'Route path "' + path + '" will be treated as if it were ' + ('"' + path.replace(/\*$/, "/*") + '" because the `*` character must ') + "always follow a `/` in the pattern. To get rid of this warning, " + ('please change the route path to "' + path.replace(/\*$/, "/*") + '".'));
-        path = path.replace(/\*$/, "/*");
-    } // ensure `/` is added at the beginning if the path is absolute
-    const prefix = path.startsWith("/") ? "/" : "";
-    const segments = path.split(/\/+/).map((segment, index, array)=>{
-        const isLastSegment = index === array.length - 1; // only apply the splat if it's the last segment
-        if (isLastSegment && segment === "*") {
-            const star = "*";
-            const starParam = params[star]; // Apply the splat
-            return starParam;
-        }
-        const keyMatch = segment.match(/^:(\w+)(\??)$/);
-        if (keyMatch) {
-            const [, key, optional] = keyMatch;
-            let param = params[key];
-            if (optional === "?") return param == null ? "" : param;
-            if (param == null) invariant(false, 'Missing ":' + key + '" param');
-            return param;
-        } // Remove any optional markers from optional static segments
-        return segment.replace(/\?$/g, "");
-    }) // Remove empty segments
-    .filter((segment)=>!!segment);
-    return prefix + segments.join("/");
-}
-/**
- * Performs pattern matching on a URL pathname and returns information about
- * the match.
- *
- * @see https://reactrouter.com/utils/match-path
- */ function matchPath(pattern, pathname) {
-    if (typeof pattern === "string") pattern = {
-        path: pattern,
-        caseSensitive: false,
-        end: true
-    };
-    let [matcher, paramNames] = compilePath(pattern.path, pattern.caseSensitive, pattern.end);
-    let match = pathname.match(matcher);
-    if (!match) return null;
-    let matchedPathname = match[0];
-    let pathnameBase = matchedPathname.replace(/(.)\/+$/, "$1");
-    let captureGroups = match.slice(1);
-    let params = paramNames.reduce((memo, paramName, index)=>{
-        // We need to compute the pathnameBase here using the raw splat value
-        // instead of using params["*"] later because it will be decoded then
-        if (paramName === "*") {
-            let splatValue = captureGroups[index] || "";
-            pathnameBase = matchedPathname.slice(0, matchedPathname.length - splatValue.length).replace(/(.)\/+$/, "$1");
-        }
-        memo[paramName] = safelyDecodeURIComponent(captureGroups[index] || "", paramName);
-        return memo;
-    }, {});
-    return {
-        params,
-        pathname: matchedPathname,
-        pathnameBase,
-        pattern
-    };
-}
-function compilePath(path, caseSensitive, end) {
-    if (caseSensitive === void 0) caseSensitive = false;
-    if (end === void 0) end = true;
-    warning(path === "*" || !path.endsWith("*") || path.endsWith("/*"), 'Route path "' + path + '" will be treated as if it were ' + ('"' + path.replace(/\*$/, "/*") + '" because the `*` character must ') + "always follow a `/` in the pattern. To get rid of this warning, " + ('please change the route path to "' + path.replace(/\*$/, "/*") + '".'));
-    let paramNames = [];
-    let regexpSource = "^" + path.replace(/\/*\*?$/, "") // Ignore trailing / and /*, we'll handle it below
-    .replace(/^\/*/, "/") // Make sure it has a leading /
-    .replace(/[\\.*+^$?{}|()[\]]/g, "\\$&") // Escape special regex chars
-    .replace(/\/:(\w+)/g, (_, paramName)=>{
-        paramNames.push(paramName);
-        return "/([^\\/]+)";
-    });
-    if (path.endsWith("*")) {
-        paramNames.push("*");
-        regexpSource += path === "*" || path === "/*" ? "(.*)$" // Already matched the initial /, just match the rest
-         : "(?:\\/(.+)|\\/*)$"; // Don't include the / in params["*"]
-    } else if (end) // When matching to the end, ignore trailing slashes
-    regexpSource += "\\/*$";
-    else if (path !== "" && path !== "/") // If our path is non-empty and contains anything beyond an initial slash,
-    // then we have _some_ form of path in our regex so we should expect to
-    // match only if we find the end of this path segment.  Look for an optional
-    // non-captured trailing slash (to match a portion of the URL) or the end
-    // of the path (if we've matched to the end).  We used to do this with a
-    // word boundary but that gives false positives on routes like
-    // /user-preferences since `-` counts as a word boundary.
-    regexpSource += "(?:(?=\\/|$))";
-    let matcher = new RegExp(regexpSource, caseSensitive ? undefined : "i");
-    return [
-        matcher,
-        paramNames
-    ];
-}
-function safelyDecodeURI(value) {
-    try {
-        return decodeURI(value);
-    } catch (error) {
-        warning(false, 'The URL path "' + value + '" could not be decoded because it is is a ' + "malformed URL segment. This is probably due to a bad percent " + ("encoding (" + error + ")."));
-        return value;
-    }
-}
-function safelyDecodeURIComponent(value, paramName) {
-    try {
-        return decodeURIComponent(value);
-    } catch (error) {
-        warning(false, 'The value for the URL param "' + paramName + '" will not be decoded because' + (' the string "' + value + '" is a malformed URL segment. This is probably') + (" due to a bad percent encoding (" + error + ")."));
-        return value;
-    }
-}
-/**
- * @private
- */ function stripBasename(pathname, basename) {
-    if (basename === "/") return pathname;
-    if (!pathname.toLowerCase().startsWith(basename.toLowerCase())) return null;
-     // We want to leave trailing slash behavior in the user's control, so if they
-    // specify a basename with a trailing slash, we should support it
-    let startIndex = basename.endsWith("/") ? basename.length - 1 : basename.length;
-    let nextChar = pathname.charAt(startIndex);
-    if (nextChar && nextChar !== "/") // pathname does not start with basename/
-    return null;
-    return pathname.slice(startIndex) || "/";
-}
-/**
- * Returns a resolved path object relative to the given pathname.
- *
- * @see https://reactrouter.com/utils/resolve-path
- */ function resolvePath(to, fromPathname) {
-    if (fromPathname === void 0) fromPathname = "/";
-    let { pathname: toPathname , search ="" , hash =""  } = typeof to === "string" ? parsePath(to) : to;
-    let pathname = toPathname ? toPathname.startsWith("/") ? toPathname : resolvePathname(toPathname, fromPathname) : fromPathname;
-    return {
-        pathname,
-        search: normalizeSearch(search),
-        hash: normalizeHash(hash)
-    };
-}
-function resolvePathname(relativePath, fromPathname) {
-    let segments = fromPathname.replace(/\/+$/, "").split("/");
-    let relativeSegments = relativePath.split("/");
-    relativeSegments.forEach((segment)=>{
-        if (segment === "..") // Keep the root "" segment so the pathname starts at /
-        {
-            if (segments.length > 1) segments.pop();
-        } else if (segment !== ".") segments.push(segment);
-    });
-    return segments.length > 1 ? segments.join("/") : "/";
-}
-function getInvalidPathError(char, field, dest, path) {
-    return "Cannot include a '" + char + "' character in a manually specified " + ("`to." + field + "` field [" + JSON.stringify(path) + "].  Please separate it out to the ") + ("`to." + dest + "` field. Alternatively you may provide the full path as ") + 'a string in <Link to="..."> and the router will parse it for you.';
-}
-/**
- * @private
- *
- * When processing relative navigation we want to ignore ancestor routes that
- * do not contribute to the path, such that index/pathless layout routes don't
- * interfere.
- *
- * For example, when moving a route element into an index route and/or a
- * pathless layout route, relative link behavior contained within should stay
- * the same.  Both of the following examples should link back to the root:
- *
- *   <Route path="/">
- *     <Route path="accounts" element={<Link to=".."}>
- *   </Route>
- *
- *   <Route path="/">
- *     <Route path="accounts">
- *       <Route element={<AccountsLayout />}>       // <-- Does not contribute
- *         <Route index element={<Link to=".."} />  // <-- Does not contribute
- *       </Route
- *     </Route>
- *   </Route>
- */ function getPathContributingMatches(matches) {
-    return matches.filter((match, index)=>index === 0 || match.route.path && match.route.path.length > 0);
-}
-/**
- * @private
- */ function resolveTo(toArg, routePathnames, locationPathname, isPathRelative) {
-    if (isPathRelative === void 0) isPathRelative = false;
-    let to;
-    if (typeof toArg === "string") to = parsePath(toArg);
-    else {
-        to = _extends({}, toArg);
-        invariant(!to.pathname || !to.pathname.includes("?"), getInvalidPathError("?", "pathname", "search", to));
-        invariant(!to.pathname || !to.pathname.includes("#"), getInvalidPathError("#", "pathname", "hash", to));
-        invariant(!to.search || !to.search.includes("#"), getInvalidPathError("#", "search", "hash", to));
-    }
-    let isEmptyPath = toArg === "" || to.pathname === "";
-    let toPathname = isEmptyPath ? "/" : to.pathname;
-    let from; // Routing is relative to the current pathname if explicitly requested.
-    //
-    // If a pathname is explicitly provided in `to`, it should be relative to the
-    // route context. This is explained in `Note on `<Link to>` values` in our
-    // migration guide from v5 as a means of disambiguation between `to` values
-    // that begin with `/` and those that do not. However, this is problematic for
-    // `to` values that do not provide a pathname. `to` can simply be a search or
-    // hash string, in which case we should assume that the navigation is relative
-    // to the current location's pathname and *not* the route pathname.
-    if (isPathRelative || toPathname == null) from = locationPathname;
-    else {
-        let routePathnameIndex = routePathnames.length - 1;
-        if (toPathname.startsWith("..")) {
-            let toSegments = toPathname.split("/"); // Each leading .. segment means "go up one route" instead of "go up one
-            // URL segment".  This is a key difference from how <a href> works and a
-            // major reason we call this a "to" value instead of a "href".
-            while(toSegments[0] === ".."){
-                toSegments.shift();
-                routePathnameIndex -= 1;
-            }
-            to.pathname = toSegments.join("/");
-        } // If there are more ".." segments than parent routes, resolve relative to
-        // the root / URL.
-        from = routePathnameIndex >= 0 ? routePathnames[routePathnameIndex] : "/";
-    }
-    let path = resolvePath(to, from); // Ensure the pathname has a trailing slash if the original "to" had one
-    let hasExplicitTrailingSlash = toPathname && toPathname !== "/" && toPathname.endsWith("/"); // Or if this was a link to the current path which has a trailing slash
-    let hasCurrentTrailingSlash = (isEmptyPath || toPathname === ".") && locationPathname.endsWith("/");
-    if (!path.pathname.endsWith("/") && (hasExplicitTrailingSlash || hasCurrentTrailingSlash)) path.pathname += "/";
-    return path;
-}
-/**
- * @private
- */ function getToPathname(to) {
-    // Empty strings should be treated the same as / paths
-    return to === "" || to.pathname === "" ? "/" : typeof to === "string" ? parsePath(to).pathname : to.pathname;
-}
-/**
- * @private
- */ const joinPaths = (paths)=>paths.join("/").replace(/\/\/+/g, "/");
-/**
- * @private
- */ const normalizePathname = (pathname)=>pathname.replace(/\/+$/, "").replace(/^\/*/, "/");
-/**
- * @private
- */ const normalizeSearch = (search)=>!search || search === "?" ? "" : search.startsWith("?") ? search : "?" + search;
-/**
- * @private
- */ const normalizeHash = (hash)=>!hash || hash === "#" ? "" : hash.startsWith("#") ? hash : "#" + hash;
-/**
- * This is a shortcut for creating `application/json` responses. Converts `data`
- * to JSON and sets the `Content-Type` header.
- */ const json = function json(data, init) {
-    if (init === void 0) init = {};
-    let responseInit = typeof init === "number" ? {
-        status: init
-    } : init;
-    let headers = new Headers(responseInit.headers);
-    if (!headers.has("Content-Type")) headers.set("Content-Type", "application/json; charset=utf-8");
-    return new Response(JSON.stringify(data), _extends({}, responseInit, {
-        headers
-    }));
-};
-class AbortedDeferredError extends Error {
-}
-class DeferredData {
-    constructor(data, responseInit){
-        this.pendingKeysSet = new Set();
-        this.subscribers = new Set();
-        this.deferredKeys = [];
-        invariant(data && typeof data === "object" && !Array.isArray(data), "defer() only accepts plain objects"); // Set up an AbortController + Promise we can race against to exit early
-        // cancellation
-        let reject;
-        this.abortPromise = new Promise((_, r)=>reject = r);
-        this.controller = new AbortController();
-        let onAbort = ()=>reject(new AbortedDeferredError("Deferred data aborted"));
-        this.unlistenAbortSignal = ()=>this.controller.signal.removeEventListener("abort", onAbort);
-        this.controller.signal.addEventListener("abort", onAbort);
-        this.data = Object.entries(data).reduce((acc, _ref)=>{
-            let [key, value] = _ref;
-            return Object.assign(acc, {
-                [key]: this.trackPromise(key, value)
-            });
-        }, {});
-        if (this.done) // All incoming values were resolved
-        this.unlistenAbortSignal();
-        this.init = responseInit;
-    }
-    trackPromise(key, value) {
-        if (!(value instanceof Promise)) return value;
-        this.deferredKeys.push(key);
-        this.pendingKeysSet.add(key); // We store a little wrapper promise that will be extended with
-        // _data/_error props upon resolve/reject
-        let promise = Promise.race([
-            value,
-            this.abortPromise
-        ]).then((data)=>this.onSettle(promise, key, null, data), (error)=>this.onSettle(promise, key, error)); // Register rejection listeners to avoid uncaught promise rejections on
-        // errors or aborted deferred values
-        promise.catch(()=>{});
-        Object.defineProperty(promise, "_tracked", {
-            get: ()=>true
-        });
-        return promise;
-    }
-    onSettle(promise, key, error, data) {
-        if (this.controller.signal.aborted && error instanceof AbortedDeferredError) {
-            this.unlistenAbortSignal();
-            Object.defineProperty(promise, "_error", {
-                get: ()=>error
-            });
-            return Promise.reject(error);
-        }
-        this.pendingKeysSet.delete(key);
-        if (this.done) // Nothing left to abort!
-        this.unlistenAbortSignal();
-        if (error) {
-            Object.defineProperty(promise, "_error", {
-                get: ()=>error
-            });
-            this.emit(false, key);
-            return Promise.reject(error);
-        }
-        Object.defineProperty(promise, "_data", {
-            get: ()=>data
-        });
-        this.emit(false, key);
-        return data;
-    }
-    emit(aborted, settledKey) {
-        this.subscribers.forEach((subscriber)=>subscriber(aborted, settledKey));
-    }
-    subscribe(fn) {
-        this.subscribers.add(fn);
-        return ()=>this.subscribers.delete(fn);
-    }
-    cancel() {
-        this.controller.abort();
-        this.pendingKeysSet.forEach((v, k)=>this.pendingKeysSet.delete(k));
-        this.emit(true);
-    }
-    async resolveData(signal) {
-        let aborted = false;
-        if (!this.done) {
-            let onAbort = ()=>this.cancel();
-            signal.addEventListener("abort", onAbort);
-            aborted = await new Promise((resolve)=>{
-                this.subscribe((aborted)=>{
-                    signal.removeEventListener("abort", onAbort);
-                    if (aborted || this.done) resolve(aborted);
-                });
-            });
-        }
-        return aborted;
-    }
-    get done() {
-        return this.pendingKeysSet.size === 0;
-    }
-    get unwrappedData() {
-        invariant(this.data !== null && this.done, "Can only unwrap data on initialized and settled deferreds");
-        return Object.entries(this.data).reduce((acc, _ref2)=>{
-            let [key, value] = _ref2;
-            return Object.assign(acc, {
-                [key]: unwrapTrackedPromise(value)
-            });
-        }, {});
-    }
-    get pendingKeys() {
-        return Array.from(this.pendingKeysSet);
-    }
-}
-function isTrackedPromise(value) {
-    return value instanceof Promise && value._tracked === true;
-}
-function unwrapTrackedPromise(value) {
-    if (!isTrackedPromise(value)) return value;
-    if (value._error) throw value._error;
-    return value._data;
-}
-const defer = function defer(data, init) {
-    if (init === void 0) init = {};
-    let responseInit = typeof init === "number" ? {
-        status: init
-    } : init;
-    return new DeferredData(data, responseInit);
-};
-/**
- * A redirect response. Sets the status code and the `Location` header.
- * Defaults to "302 Found".
- */ const redirect = function redirect(url, init) {
-    if (init === void 0) init = 302;
-    let responseInit = init;
-    if (typeof responseInit === "number") responseInit = {
-        status: responseInit
-    };
-    else if (typeof responseInit.status === "undefined") responseInit.status = 302;
-    let headers = new Headers(responseInit.headers);
-    headers.set("Location", url);
-    return new Response(null, _extends({}, responseInit, {
-        headers
-    }));
-};
-/**
- * @private
- * Utility class we use to hold auto-unwrapped 4xx/5xx Response bodies
- */ class ErrorResponse {
-    constructor(status, statusText, data, internal){
-        if (internal === void 0) internal = false;
-        this.status = status;
-        this.statusText = statusText || "";
-        this.internal = internal;
-        if (data instanceof Error) {
-            this.data = data.toString();
-            this.error = data;
-        } else this.data = data;
-    }
-}
-/**
- * Check if the given error is an ErrorResponse generated from a 4xx/5xx
- * Response thrown from an action/loader
- */ function isRouteErrorResponse(error) {
-    return error != null && typeof error.status === "number" && typeof error.statusText === "string" && typeof error.internal === "boolean" && "data" in error;
-}
-const validMutationMethodsArr = [
-    "post",
-    "put",
-    "patch",
-    "delete"
-];
-const validMutationMethods = new Set(validMutationMethodsArr);
-const validRequestMethodsArr = [
-    "get",
-    ...validMutationMethodsArr
-];
-const validRequestMethods = new Set(validRequestMethodsArr);
-const redirectStatusCodes = new Set([
-    301,
-    302,
-    303,
-    307,
-    308
-]);
-const redirectPreserveMethodStatusCodes = new Set([
-    307,
-    308
-]);
-const IDLE_NAVIGATION = {
-    state: "idle",
-    location: undefined,
-    formMethod: undefined,
-    formAction: undefined,
-    formEncType: undefined,
-    formData: undefined
-};
-const IDLE_FETCHER = {
-    state: "idle",
-    data: undefined,
-    formMethod: undefined,
-    formAction: undefined,
-    formEncType: undefined,
-    formData: undefined
-};
-const IDLE_BLOCKER = {
-    state: "unblocked",
-    proceed: undefined,
-    reset: undefined,
-    location: undefined
-};
-const ABSOLUTE_URL_REGEX = /^(?:[a-z][a-z0-9+.-]*:|\/\/)/i;
-const isBrowser = typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined";
-const isServer = !isBrowser;
-const defaultMapRouteProperties = (route)=>({
-        hasErrorBoundary: Boolean(route.hasErrorBoundary)
-    }); //#endregion
-////////////////////////////////////////////////////////////////////////////////
-//#region createRouter
-////////////////////////////////////////////////////////////////////////////////
-/**
- * Create a router and listen to history POP navigations
- */ function createRouter(init) {
-    invariant(init.routes.length > 0, "You must provide a non-empty routes array to createRouter");
-    let mapRouteProperties;
-    if (init.mapRouteProperties) mapRouteProperties = init.mapRouteProperties;
-    else if (init.detectErrorBoundary) {
-        // If they are still using the deprecated version, wrap it with the new API
-        let detectErrorBoundary = init.detectErrorBoundary;
-        mapRouteProperties = (route)=>({
-                hasErrorBoundary: detectErrorBoundary(route)
-            });
-    } else mapRouteProperties = defaultMapRouteProperties;
-     // Routes keyed by ID
-    let manifest = {}; // Routes in tree format for matching
-    let dataRoutes = convertRoutesToDataRoutes(init.routes, mapRouteProperties, undefined, manifest);
-    let inFlightDataRoutes;
-    let basename = init.basename || "/"; // Config driven behavior flags
-    let future = _extends({
-        v7_normalizeFormMethod: false,
-        v7_prependBasename: false
-    }, init.future); // Cleanup function for history
-    let unlistenHistory = null; // Externally-provided functions to call on all state changes
-    let subscribers = new Set(); // Externally-provided object to hold scroll restoration locations during routing
-    let savedScrollPositions = null; // Externally-provided function to get scroll restoration keys
-    let getScrollRestorationKey = null; // Externally-provided function to get current scroll position
-    let getScrollPosition = null; // One-time flag to control the initial hydration scroll restoration.  Because
-    // we don't get the saved positions from <ScrollRestoration /> until _after_
-    // the initial render, we need to manually trigger a separate updateState to
-    // send along the restoreScrollPosition
-    // Set to true if we have `hydrationData` since we assume we were SSR'd and that
-    // SSR did the initial scroll restoration.
-    let initialScrollRestored = init.hydrationData != null;
-    let initialMatches = matchRoutes(dataRoutes, init.history.location, basename);
-    let initialErrors = null;
-    if (initialMatches == null) {
-        // If we do not match a user-provided-route, fall back to the root
-        // to allow the error boundary to take over
-        let error = getInternalRouterError(404, {
-            pathname: init.history.location.pathname
-        });
-        let { matches , route  } = getShortCircuitMatches(dataRoutes);
-        initialMatches = matches;
-        initialErrors = {
-            [route.id]: error
-        };
-    }
-    let initialized = // functions around still then we'll need to run them in initialize()
-    !initialMatches.some((m)=>m.route.lazy) && (!initialMatches.some((m)=>m.route.loader) || init.hydrationData != null);
-    let router;
-    let state = {
-        historyAction: init.history.action,
-        location: init.history.location,
-        matches: initialMatches,
-        initialized,
-        navigation: IDLE_NAVIGATION,
-        // Don't restore on initial updateState() if we were SSR'd
-        restoreScrollPosition: init.hydrationData != null ? false : null,
-        preventScrollReset: false,
-        revalidation: "idle",
-        loaderData: init.hydrationData && init.hydrationData.loaderData || {},
-        actionData: init.hydrationData && init.hydrationData.actionData || null,
-        errors: init.hydrationData && init.hydrationData.errors || initialErrors,
-        fetchers: new Map(),
-        blockers: new Map()
-    }; // -- Stateful internal variables to manage navigations --
-    // Current navigation in progress (to be committed in completeNavigation)
-    let pendingAction = Action.Pop; // Should the current navigation prevent the scroll reset if scroll cannot
-    // be restored?
-    let pendingPreventScrollReset = false; // AbortController for the active navigation
-    let pendingNavigationController; // We use this to avoid touching history in completeNavigation if a
-    // revalidation is entirely uninterrupted
-    let isUninterruptedRevalidation = false; // Use this internal flag to force revalidation of all loaders:
-    //  - submissions (completed or interrupted)
-    //  - useRevalidator()
-    //  - X-Remix-Revalidate (from redirect)
-    let isRevalidationRequired = false; // Use this internal array to capture routes that require revalidation due
-    // to a cancelled deferred on action submission
-    let cancelledDeferredRoutes = []; // Use this internal array to capture fetcher loads that were cancelled by an
-    // action navigation and require revalidation
-    let cancelledFetcherLoads = []; // AbortControllers for any in-flight fetchers
-    let fetchControllers = new Map(); // Track loads based on the order in which they started
-    let incrementingLoadId = 0; // Track the outstanding pending navigation data load to be compared against
-    // the globally incrementing load when a fetcher load lands after a completed
-    // navigation
-    let pendingNavigationLoadId = -1; // Fetchers that triggered data reloads as a result of their actions
-    let fetchReloadIds = new Map(); // Fetchers that triggered redirect navigations
-    let fetchRedirectIds = new Set(); // Most recent href/match for fetcher.load calls for fetchers
-    let fetchLoadMatches = new Map(); // Store DeferredData instances for active route matches.  When a
-    // route loader returns defer() we stick one in here.  Then, when a nested
-    // promise resolves we update loaderData.  If a new navigation starts we
-    // cancel active deferreds for eliminated routes.
-    let activeDeferreds = new Map(); // Store blocker functions in a separate Map outside of router state since
-    // we don't need to update UI state if they change
-    let blockerFunctions = new Map(); // Flag to ignore the next history update, so we can revert the URL change on
-    // a POP navigation that was blocked by the user without touching router state
-    let ignoreNextHistoryUpdate = false; // Initialize the router, all side effects should be kicked off from here.
-    // Implemented as a Fluent API for ease of:
-    //   let router = createRouter(init).initialize();
-    function initialize() {
-        // If history informs us of a POP navigation, start the navigation but do not update
-        // state.  We'll update our own state once the navigation completes
-        unlistenHistory = init.history.listen((_ref)=>{
-            let { action: historyAction , location , delta  } = _ref;
-            // Ignore this event if it was just us resetting the URL from a
-            // blocked POP navigation
-            if (ignoreNextHistoryUpdate) {
-                ignoreNextHistoryUpdate = false;
-                return;
-            }
-            warning(blockerFunctions.size === 0 || delta != null, "You are trying to use a blocker on a POP navigation to a location that was not created by @remix-run/router. This will fail silently in production. This can happen if you are navigating outside the router via `window.history.pushState`/`window.location.hash` instead of using router navigation APIs.  This can also happen if you are using createHashRouter and the user manually changes the URL.");
-            let blockerKey = shouldBlockNavigation({
-                currentLocation: state.location,
-                nextLocation: location,
-                historyAction
-            });
-            if (blockerKey && delta != null) {
-                // Restore the URL to match the current UI, but don't update router state
-                ignoreNextHistoryUpdate = true;
-                init.history.go(delta * -1); // Put the blocker into a blocked state
-                updateBlocker(blockerKey, {
-                    state: "blocked",
-                    location,
-                    proceed () {
-                        updateBlocker(blockerKey, {
-                            state: "proceeding",
-                            proceed: undefined,
-                            reset: undefined,
-                            location
-                        }); // Re-do the same POP navigation we just blocked
-                        init.history.go(delta);
-                    },
-                    reset () {
-                        deleteBlocker(blockerKey);
-                        updateState({
-                            blockers: new Map(router.state.blockers)
-                        });
-                    }
-                });
-                return;
-            }
-            return startNavigation(historyAction, location);
-        }); // Kick off initial data load if needed.  Use Pop to avoid modifying history
-        // Note we don't do any handling of lazy here.  For SPA's it'll get handled
-        // in the normal navigation flow.  For SSR it's expected that lazy modules are
-        // resolved prior to router creation since we can't go into a fallbackElement
-        // UI for SSR'd apps
-        if (!state.initialized) startNavigation(Action.Pop, state.location);
-        return router;
-    } // Clean up a router and it's side effects
-    function dispose() {
-        if (unlistenHistory) unlistenHistory();
-        subscribers.clear();
-        pendingNavigationController && pendingNavigationController.abort();
-        state.fetchers.forEach((_, key)=>deleteFetcher(key));
-        state.blockers.forEach((_, key)=>deleteBlocker(key));
-    } // Subscribe to state updates for the router
-    function subscribe(fn) {
-        subscribers.add(fn);
-        return ()=>subscribers.delete(fn);
-    } // Update our state and notify the calling context of the change
-    function updateState(newState) {
-        state = _extends({}, state, newState);
-        subscribers.forEach((subscriber)=>subscriber(state));
-    } // Complete a navigation returning the state.navigation back to the IDLE_NAVIGATION
-    // and setting state.[historyAction/location/matches] to the new route.
-    // - Location is a required param
-    // - Navigation will always be set to IDLE_NAVIGATION
-    // - Can pass any other state in newState
-    function completeNavigation(location, newState) {
-        var _location$state, _location$state2;
-        // Deduce if we're in a loading/actionReload state:
-        // - We have committed actionData in the store
-        // - The current navigation was a mutation submission
-        // - We're past the submitting state and into the loading state
-        // - The location being loaded is not the result of a redirect
-        let isActionReload = state.actionData != null && state.navigation.formMethod != null && isMutationMethod(state.navigation.formMethod) && state.navigation.state === "loading" && ((_location$state = location.state) == null ? void 0 : _location$state._isRedirect) !== true;
-        let actionData;
-        if (newState.actionData) {
-            if (Object.keys(newState.actionData).length > 0) actionData = newState.actionData;
-            else // Empty actionData -> clear prior actionData due to an action error
-            actionData = null;
-        } else if (isActionReload) // Keep the current data if we're wrapping up the action reload
-        actionData = state.actionData;
-        else // Clear actionData on any other completed navigations
-        actionData = null;
-         // Always preserve any existing loaderData from re-used routes
-        let loaderData = newState.loaderData ? mergeLoaderData(state.loaderData, newState.loaderData, newState.matches || [], newState.errors) : state.loaderData; // On a successful navigation we can assume we got through all blockers
-        // so we can start fresh
-        for (let [key] of blockerFunctions)deleteBlocker(key);
-         // Always respect the user flag.  Otherwise don't reset on mutation
-        // submission navigations unless they redirect
-        let preventScrollReset = pendingPreventScrollReset === true || state.navigation.formMethod != null && isMutationMethod(state.navigation.formMethod) && ((_location$state2 = location.state) == null ? void 0 : _location$state2._isRedirect) !== true;
-        if (inFlightDataRoutes) {
-            dataRoutes = inFlightDataRoutes;
-            inFlightDataRoutes = undefined;
-        }
-        updateState(_extends({}, newState, {
-            actionData,
-            loaderData,
-            historyAction: pendingAction,
-            location,
-            initialized: true,
-            navigation: IDLE_NAVIGATION,
-            revalidation: "idle",
-            restoreScrollPosition: getSavedScrollPosition(location, newState.matches || state.matches),
-            preventScrollReset,
-            blockers: new Map(state.blockers)
-        }));
-        if (isUninterruptedRevalidation) ;
-        else if (pendingAction === Action.Pop) ;
-        else if (pendingAction === Action.Push) init.history.push(location, location.state);
-        else if (pendingAction === Action.Replace) init.history.replace(location, location.state);
-         // Reset stateful navigation vars
-        pendingAction = Action.Pop;
-        pendingPreventScrollReset = false;
-        isUninterruptedRevalidation = false;
-        isRevalidationRequired = false;
-        cancelledDeferredRoutes = [];
-        cancelledFetcherLoads = [];
-    } // Trigger a navigation event, which can either be a numerical POP or a PUSH
-    // replace with an optional submission
-    async function navigate(to, opts) {
-        if (typeof to === "number") {
-            init.history.go(to);
-            return;
-        }
-        let normalizedPath = normalizeTo(state.location, state.matches, basename, future.v7_prependBasename, to, opts == null ? void 0 : opts.fromRouteId, opts == null ? void 0 : opts.relative);
-        let { path , submission , error  } = normalizeNavigateOptions(future.v7_normalizeFormMethod, false, normalizedPath, opts);
-        let currentLocation = state.location;
-        let nextLocation = createLocation(state.location, path, opts && opts.state); // When using navigate as a PUSH/REPLACE we aren't reading an already-encoded
-        // URL from window.location, so we need to encode it here so the behavior
-        // remains the same as POP and non-data-router usages.  new URL() does all
-        // the same encoding we'd get from a history.pushState/window.location read
-        // without having to touch history
-        nextLocation = _extends({}, nextLocation, init.history.encodeLocation(nextLocation));
-        let userReplace = opts && opts.replace != null ? opts.replace : undefined;
-        let historyAction = Action.Push;
-        if (userReplace === true) historyAction = Action.Replace;
-        else if (userReplace === false) ;
-        else if (submission != null && isMutationMethod(submission.formMethod) && submission.formAction === state.location.pathname + state.location.search) // By default on submissions to the current location we REPLACE so that
-        // users don't have to double-click the back button to get to the prior
-        // location.  If the user redirects to a different location from the
-        // action/loader this will be ignored and the redirect will be a PUSH
-        historyAction = Action.Replace;
-        let preventScrollReset = opts && "preventScrollReset" in opts ? opts.preventScrollReset === true : undefined;
-        let blockerKey = shouldBlockNavigation({
-            currentLocation,
-            nextLocation,
-            historyAction
-        });
-        if (blockerKey) {
-            // Put the blocker into a blocked state
-            updateBlocker(blockerKey, {
-                state: "blocked",
-                location: nextLocation,
-                proceed () {
-                    updateBlocker(blockerKey, {
-                        state: "proceeding",
-                        proceed: undefined,
-                        reset: undefined,
-                        location: nextLocation
-                    }); // Send the same navigation through
-                    navigate(to, opts);
-                },
-                reset () {
-                    deleteBlocker(blockerKey);
-                    updateState({
-                        blockers: new Map(state.blockers)
-                    });
-                }
-            });
-            return;
-        }
-        return await startNavigation(historyAction, nextLocation, {
-            submission,
-            // Send through the formData serialization error if we have one so we can
-            // render at the right error boundary after we match routes
-            pendingError: error,
-            preventScrollReset,
-            replace: opts && opts.replace
-        });
-    } // Revalidate all current loaders.  If a navigation is in progress or if this
-    // is interrupted by a navigation, allow this to "succeed" by calling all
-    // loaders during the next loader round
-    function revalidate() {
-        interruptActiveLoads();
-        updateState({
-            revalidation: "loading"
-        }); // If we're currently submitting an action, we don't need to start a new
-        // navigation, we'll just let the follow up loader execution call all loaders
-        if (state.navigation.state === "submitting") return;
-         // If we're currently in an idle state, start a new navigation for the current
-        // action/location and mark it as uninterrupted, which will skip the history
-        // update in completeNavigation
-        if (state.navigation.state === "idle") {
-            startNavigation(state.historyAction, state.location, {
-                startUninterruptedRevalidation: true
-            });
-            return;
-        } // Otherwise, if we're currently in a loading state, just start a new
-        // navigation to the navigation.location but do not trigger an uninterrupted
-        // revalidation so that history correctly updates once the navigation completes
-        startNavigation(pendingAction || state.historyAction, state.navigation.location, {
-            overrideNavigation: state.navigation
-        });
-    } // Start a navigation to the given action/location.  Can optionally provide a
-    // overrideNavigation which will override the normalLoad in the case of a redirect
-    // navigation
-    async function startNavigation(historyAction, location, opts) {
-        // Abort any in-progress navigations and start a new one. Unset any ongoing
-        // uninterrupted revalidations unless told otherwise, since we want this
-        // new navigation to update history normally
-        pendingNavigationController && pendingNavigationController.abort();
-        pendingNavigationController = null;
-        pendingAction = historyAction;
-        isUninterruptedRevalidation = (opts && opts.startUninterruptedRevalidation) === true; // Save the current scroll position every time we start a new navigation,
-        // and track whether we should reset scroll on completion
-        saveScrollPosition(state.location, state.matches);
-        pendingPreventScrollReset = (opts && opts.preventScrollReset) === true;
-        let routesToUse = inFlightDataRoutes || dataRoutes;
-        let loadingNavigation = opts && opts.overrideNavigation;
-        let matches = matchRoutes(routesToUse, location, basename); // Short circuit with a 404 on the root error boundary if we match nothing
-        if (!matches) {
-            let error = getInternalRouterError(404, {
-                pathname: location.pathname
-            });
-            let { matches: notFoundMatches , route  } = getShortCircuitMatches(routesToUse); // Cancel all pending deferred on 404s since we don't keep any routes
-            cancelActiveDeferreds();
-            completeNavigation(location, {
-                matches: notFoundMatches,
-                loaderData: {},
-                errors: {
-                    [route.id]: error
-                }
-            });
-            return;
-        } // Short circuit if it's only a hash change and not a mutation submission.
-        // Ignore on initial page loads because since the initial load will always
-        // be "same hash".
-        // For example, on /page#hash and submit a <Form method="post"> which will
-        // default to a navigation to /page
-        if (state.initialized && isHashChangeOnly(state.location, location) && !(opts && opts.submission && isMutationMethod(opts.submission.formMethod))) {
-            completeNavigation(location, {
-                matches
-            });
-            return;
-        } // Create a controller/Request for this navigation
-        pendingNavigationController = new AbortController();
-        let request = createClientSideRequest(init.history, location, pendingNavigationController.signal, opts && opts.submission);
-        let pendingActionData;
-        let pendingError;
-        if (opts && opts.pendingError) // If we have a pendingError, it means the user attempted a GET submission
-        // with binary FormData so assign here and skip to handleLoaders.  That
-        // way we handle calling loaders above the boundary etc.  It's not really
-        // different from an actionError in that sense.
-        pendingError = {
-            [findNearestBoundary(matches).route.id]: opts.pendingError
-        };
-        else if (opts && opts.submission && isMutationMethod(opts.submission.formMethod)) {
-            // Call action if we received an action submission
-            let actionOutput = await handleAction(request, location, opts.submission, matches, {
-                replace: opts.replace
-            });
-            if (actionOutput.shortCircuited) return;
-            pendingActionData = actionOutput.pendingActionData;
-            pendingError = actionOutput.pendingActionError;
-            let navigation = _extends({
-                state: "loading",
-                location
-            }, opts.submission);
-            loadingNavigation = navigation; // Create a GET request for the loaders
-            request = new Request(request.url, {
-                signal: request.signal
-            });
-        } // Call loaders
-        let { shortCircuited , loaderData , errors  } = await handleLoaders(request, location, matches, loadingNavigation, opts && opts.submission, opts && opts.fetcherSubmission, opts && opts.replace, pendingActionData, pendingError);
-        if (shortCircuited) return;
-         // Clean up now that the action/loaders have completed.  Don't clean up if
-        // we short circuited because pendingNavigationController will have already
-        // been assigned to a new controller for the next navigation
-        pendingNavigationController = null;
-        completeNavigation(location, _extends({
-            matches
-        }, pendingActionData ? {
-            actionData: pendingActionData
-        } : {}, {
-            loaderData,
-            errors
-        }));
-    } // Call the action matched by the leaf route for this navigation and handle
-    // redirects/errors
-    async function handleAction(request, location, submission, matches, opts) {
-        interruptActiveLoads(); // Put us in a submitting state
-        let navigation = _extends({
-            state: "submitting",
-            location
-        }, submission);
-        updateState({
-            navigation
-        }); // Call our action and get the result
-        let result;
-        let actionMatch = getTargetMatch(matches, location);
-        if (!actionMatch.route.action && !actionMatch.route.lazy) result = {
-            type: ResultType.error,
-            error: getInternalRouterError(405, {
-                method: request.method,
-                pathname: location.pathname,
-                routeId: actionMatch.route.id
-            })
-        };
-        else {
-            result = await callLoaderOrAction("action", request, actionMatch, matches, manifest, mapRouteProperties, basename);
-            if (request.signal.aborted) return {
-                shortCircuited: true
-            };
-        }
-        if (isRedirectResult(result)) {
-            let replace;
-            if (opts && opts.replace != null) replace = opts.replace;
-            else // If the user didn't explicity indicate replace behavior, replace if
-            // we redirected to the exact same location we're currently at to avoid
-            // double back-buttons
-            replace = result.location === state.location.pathname + state.location.search;
-            await startRedirectNavigation(state, result, {
-                submission,
-                replace
-            });
-            return {
-                shortCircuited: true
-            };
-        }
-        if (isErrorResult(result)) {
-            // Store off the pending error - we use it to determine which loaders
-            // to call and will commit it when we complete the navigation
-            let boundaryMatch = findNearestBoundary(matches, actionMatch.route.id); // By default, all submissions are REPLACE navigations, but if the
-            // action threw an error that'll be rendered in an errorElement, we fall
-            // back to PUSH so that the user can use the back button to get back to
-            // the pre-submission form location to try again
-            if ((opts && opts.replace) !== true) pendingAction = Action.Push;
-            return {
-                // Send back an empty object we can use to clear out any prior actionData
-                pendingActionData: {},
-                pendingActionError: {
-                    [boundaryMatch.route.id]: result.error
-                }
-            };
-        }
-        if (isDeferredResult(result)) throw getInternalRouterError(400, {
-            type: "defer-action"
-        });
-        return {
-            pendingActionData: {
-                [actionMatch.route.id]: result.data
-            }
-        };
-    } // Call all applicable loaders for the given matches, handling redirects,
-    // errors, etc.
-    async function handleLoaders(request, location, matches, overrideNavigation, submission, fetcherSubmission, replace, pendingActionData, pendingError) {
-        // Figure out the right navigation we want to use for data loading
-        let loadingNavigation = overrideNavigation;
-        if (!loadingNavigation) {
-            let navigation = _extends({
-                state: "loading",
-                location,
-                formMethod: undefined,
-                formAction: undefined,
-                formEncType: undefined,
-                formData: undefined
-            }, submission);
-            loadingNavigation = navigation;
-        } // If this was a redirect from an action we don't have a "submission" but
-        // we have it on the loading navigation so use that if available
-        let activeSubmission = submission || fetcherSubmission ? submission || fetcherSubmission : loadingNavigation.formMethod && loadingNavigation.formAction && loadingNavigation.formData && loadingNavigation.formEncType ? {
-            formMethod: loadingNavigation.formMethod,
-            formAction: loadingNavigation.formAction,
-            formData: loadingNavigation.formData,
-            formEncType: loadingNavigation.formEncType
-        } : undefined;
-        let routesToUse = inFlightDataRoutes || dataRoutes;
-        let [matchesToLoad, revalidatingFetchers] = getMatchesToLoad(init.history, state, matches, activeSubmission, location, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, fetchLoadMatches, routesToUse, basename, pendingActionData, pendingError); // Cancel pending deferreds for no-longer-matched routes or routes we're
-        // about to reload.  Note that if this is an action reload we would have
-        // already cancelled all pending deferreds so this would be a no-op
-        cancelActiveDeferreds((routeId)=>!(matches && matches.some((m)=>m.route.id === routeId)) || matchesToLoad && matchesToLoad.some((m)=>m.route.id === routeId)); // Short circuit if we have no loaders to run
-        if (matchesToLoad.length === 0 && revalidatingFetchers.length === 0) {
-            let updatedFetchers = markFetchRedirectsDone();
-            completeNavigation(location, _extends({
-                matches,
-                loaderData: {},
-                // Commit pending error if we're short circuiting
-                errors: pendingError || null
-            }, pendingActionData ? {
-                actionData: pendingActionData
-            } : {}, updatedFetchers ? {
-                fetchers: new Map(state.fetchers)
-            } : {}));
-            return {
-                shortCircuited: true
-            };
-        } // If this is an uninterrupted revalidation, we remain in our current idle
-        // state.  If not, we need to switch to our loading state and load data,
-        // preserving any new action data or existing action data (in the case of
-        // a revalidation interrupting an actionReload)
-        if (!isUninterruptedRevalidation) {
-            revalidatingFetchers.forEach((rf)=>{
-                let fetcher = state.fetchers.get(rf.key);
-                let revalidatingFetcher = {
-                    state: "loading",
-                    data: fetcher && fetcher.data,
-                    formMethod: undefined,
-                    formAction: undefined,
-                    formEncType: undefined,
-                    formData: undefined,
-                    " _hasFetcherDoneAnything ": true
-                };
-                state.fetchers.set(rf.key, revalidatingFetcher);
-            });
-            let actionData = pendingActionData || state.actionData;
-            updateState(_extends({
-                navigation: loadingNavigation
-            }, actionData ? Object.keys(actionData).length === 0 ? {
-                actionData: null
-            } : {
-                actionData
-            } : {}, revalidatingFetchers.length > 0 ? {
-                fetchers: new Map(state.fetchers)
-            } : {}));
-        }
-        pendingNavigationLoadId = ++incrementingLoadId;
-        revalidatingFetchers.forEach((rf)=>{
-            if (rf.controller) // Fetchers use an independent AbortController so that aborting a fetcher
-            // (via deleteFetcher) does not abort the triggering navigation that
-            // triggered the revalidation
-            fetchControllers.set(rf.key, rf.controller);
-        }); // Proxy navigation abort through to revalidation fetchers
-        let abortPendingFetchRevalidations = ()=>revalidatingFetchers.forEach((f)=>abortFetcher(f.key));
-        if (pendingNavigationController) pendingNavigationController.signal.addEventListener("abort", abortPendingFetchRevalidations);
-        let { results , loaderResults , fetcherResults  } = await callLoadersAndMaybeResolveData(state.matches, matches, matchesToLoad, revalidatingFetchers, request);
-        if (request.signal.aborted) return {
-            shortCircuited: true
-        };
-         // Clean up _after_ loaders have completed.  Don't clean up if we short
-        // circuited because fetchControllers would have been aborted and
-        // reassigned to new controllers for the next navigation
-        if (pendingNavigationController) pendingNavigationController.signal.removeEventListener("abort", abortPendingFetchRevalidations);
-        revalidatingFetchers.forEach((rf)=>fetchControllers.delete(rf.key)); // If any loaders returned a redirect Response, start a new REPLACE navigation
-        let redirect = findRedirect(results);
-        if (redirect) {
-            await startRedirectNavigation(state, redirect, {
-                replace
-            });
-            return {
-                shortCircuited: true
-            };
-        } // Process and commit output from loaders
-        let { loaderData , errors  } = processLoaderData(state, matches, matchesToLoad, loaderResults, pendingError, revalidatingFetchers, fetcherResults, activeDeferreds); // Wire up subscribers to update loaderData as promises settle
-        activeDeferreds.forEach((deferredData, routeId)=>{
-            deferredData.subscribe((aborted)=>{
-                // Note: No need to updateState here since the TrackedPromise on
-                // loaderData is stable across resolve/reject
-                // Remove this instance if we were aborted or if promises have settled
-                if (aborted || deferredData.done) activeDeferreds.delete(routeId);
-            });
-        });
-        let updatedFetchers = markFetchRedirectsDone();
-        let didAbortFetchLoads = abortStaleFetchLoads(pendingNavigationLoadId);
-        let shouldUpdateFetchers = updatedFetchers || didAbortFetchLoads || revalidatingFetchers.length > 0;
-        return _extends({
-            loaderData,
-            errors
-        }, shouldUpdateFetchers ? {
-            fetchers: new Map(state.fetchers)
-        } : {});
-    }
-    function getFetcher(key) {
-        return state.fetchers.get(key) || IDLE_FETCHER;
-    } // Trigger a fetcher load/submit for the given fetcher key
-    function fetch(key, routeId, href, opts) {
-        if (isServer) throw new Error("router.fetch() was called during the server render, but it shouldn't be. You are likely calling a useFetcher() method in the body of your component. Try moving it to a useEffect or a callback.");
-        if (fetchControllers.has(key)) abortFetcher(key);
-        let routesToUse = inFlightDataRoutes || dataRoutes;
-        let normalizedPath = normalizeTo(state.location, state.matches, basename, future.v7_prependBasename, href, routeId, opts == null ? void 0 : opts.relative);
-        let matches = matchRoutes(routesToUse, normalizedPath, basename);
-        if (!matches) {
-            setFetcherError(key, routeId, getInternalRouterError(404, {
-                pathname: normalizedPath
-            }));
-            return;
-        }
-        let { path , submission  } = normalizeNavigateOptions(future.v7_normalizeFormMethod, true, normalizedPath, opts);
-        let match = getTargetMatch(matches, path);
-        pendingPreventScrollReset = (opts && opts.preventScrollReset) === true;
-        if (submission && isMutationMethod(submission.formMethod)) {
-            handleFetcherAction(key, routeId, path, match, matches, submission);
-            return;
-        } // Store off the match so we can call it's shouldRevalidate on subsequent
-        // revalidations
-        fetchLoadMatches.set(key, {
-            routeId,
-            path
-        });
-        handleFetcherLoader(key, routeId, path, match, matches, submission);
-    } // Call the action for the matched fetcher.submit(), and then handle redirects,
-    // errors, and revalidation
-    async function handleFetcherAction(key, routeId, path, match, requestMatches, submission) {
-        interruptActiveLoads();
-        fetchLoadMatches.delete(key);
-        if (!match.route.action && !match.route.lazy) {
-            let error = getInternalRouterError(405, {
-                method: submission.formMethod,
-                pathname: path,
-                routeId: routeId
-            });
-            setFetcherError(key, routeId, error);
-            return;
-        } // Put this fetcher into it's submitting state
-        let existingFetcher = state.fetchers.get(key);
-        let fetcher = _extends({
-            state: "submitting"
-        }, submission, {
-            data: existingFetcher && existingFetcher.data,
-            " _hasFetcherDoneAnything ": true
-        });
-        state.fetchers.set(key, fetcher);
-        updateState({
-            fetchers: new Map(state.fetchers)
-        }); // Call the action for the fetcher
-        let abortController = new AbortController();
-        let fetchRequest = createClientSideRequest(init.history, path, abortController.signal, submission);
-        fetchControllers.set(key, abortController);
-        let actionResult = await callLoaderOrAction("action", fetchRequest, match, requestMatches, manifest, mapRouteProperties, basename);
-        if (fetchRequest.signal.aborted) {
-            // We can delete this so long as we weren't aborted by ou our own fetcher
-            // re-submit which would have put _new_ controller is in fetchControllers
-            if (fetchControllers.get(key) === abortController) fetchControllers.delete(key);
-            return;
-        }
-        if (isRedirectResult(actionResult)) {
-            fetchControllers.delete(key);
-            fetchRedirectIds.add(key);
-            let loadingFetcher = _extends({
-                state: "loading"
-            }, submission, {
-                data: undefined,
-                " _hasFetcherDoneAnything ": true
-            });
-            state.fetchers.set(key, loadingFetcher);
-            updateState({
-                fetchers: new Map(state.fetchers)
-            });
-            return startRedirectNavigation(state, actionResult, {
-                submission,
-                isFetchActionRedirect: true
-            });
-        } // Process any non-redirect errors thrown
-        if (isErrorResult(actionResult)) {
-            setFetcherError(key, routeId, actionResult.error);
-            return;
-        }
-        if (isDeferredResult(actionResult)) throw getInternalRouterError(400, {
-            type: "defer-action"
-        });
-         // Start the data load for current matches, or the next location if we're
-        // in the middle of a navigation
-        let nextLocation = state.navigation.location || state.location;
-        let revalidationRequest = createClientSideRequest(init.history, nextLocation, abortController.signal);
-        let routesToUse = inFlightDataRoutes || dataRoutes;
-        let matches = state.navigation.state !== "idle" ? matchRoutes(routesToUse, state.navigation.location, basename) : state.matches;
-        invariant(matches, "Didn't find any matches after fetcher action");
-        let loadId = ++incrementingLoadId;
-        fetchReloadIds.set(key, loadId);
-        let loadFetcher = _extends({
-            state: "loading",
-            data: actionResult.data
-        }, submission, {
-            " _hasFetcherDoneAnything ": true
-        });
-        state.fetchers.set(key, loadFetcher);
-        let [matchesToLoad, revalidatingFetchers] = getMatchesToLoad(init.history, state, matches, submission, nextLocation, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, fetchLoadMatches, routesToUse, basename, {
-            [match.route.id]: actionResult.data
-        }, undefined // No need to send through errors since we short circuit above
-        ); // Put all revalidating fetchers into the loading state, except for the
-        // current fetcher which we want to keep in it's current loading state which
-        // contains it's action submission info + action data
-        revalidatingFetchers.filter((rf)=>rf.key !== key).forEach((rf)=>{
-            let staleKey = rf.key;
-            let existingFetcher = state.fetchers.get(staleKey);
-            let revalidatingFetcher = {
-                state: "loading",
-                data: existingFetcher && existingFetcher.data,
-                formMethod: undefined,
-                formAction: undefined,
-                formEncType: undefined,
-                formData: undefined,
-                " _hasFetcherDoneAnything ": true
-            };
-            state.fetchers.set(staleKey, revalidatingFetcher);
-            if (rf.controller) fetchControllers.set(staleKey, rf.controller);
-        });
-        updateState({
-            fetchers: new Map(state.fetchers)
-        });
-        let abortPendingFetchRevalidations = ()=>revalidatingFetchers.forEach((rf)=>abortFetcher(rf.key));
-        abortController.signal.addEventListener("abort", abortPendingFetchRevalidations);
-        let { results , loaderResults , fetcherResults  } = await callLoadersAndMaybeResolveData(state.matches, matches, matchesToLoad, revalidatingFetchers, revalidationRequest);
-        if (abortController.signal.aborted) return;
-        abortController.signal.removeEventListener("abort", abortPendingFetchRevalidations);
-        fetchReloadIds.delete(key);
-        fetchControllers.delete(key);
-        revalidatingFetchers.forEach((r)=>fetchControllers.delete(r.key));
-        let redirect = findRedirect(results);
-        if (redirect) return startRedirectNavigation(state, redirect);
-         // Process and commit output from loaders
-        let { loaderData , errors  } = processLoaderData(state, state.matches, matchesToLoad, loaderResults, undefined, revalidatingFetchers, fetcherResults, activeDeferreds);
-        let doneFetcher = {
-            state: "idle",
-            data: actionResult.data,
-            formMethod: undefined,
-            formAction: undefined,
-            formEncType: undefined,
-            formData: undefined,
-            " _hasFetcherDoneAnything ": true
-        };
-        state.fetchers.set(key, doneFetcher);
-        let didAbortFetchLoads = abortStaleFetchLoads(loadId); // If we are currently in a navigation loading state and this fetcher is
-        // more recent than the navigation, we want the newer data so abort the
-        // navigation and complete it with the fetcher data
-        if (state.navigation.state === "loading" && loadId > pendingNavigationLoadId) {
-            invariant(pendingAction, "Expected pending action");
-            pendingNavigationController && pendingNavigationController.abort();
-            completeNavigation(state.navigation.location, {
-                matches,
-                loaderData,
-                errors,
-                fetchers: new Map(state.fetchers)
-            });
-        } else {
-            // otherwise just update with the fetcher data, preserving any existing
-            // loaderData for loaders that did not need to reload.  We have to
-            // manually merge here since we aren't going through completeNavigation
-            updateState(_extends({
-                errors,
-                loaderData: mergeLoaderData(state.loaderData, loaderData, matches, errors)
-            }, didAbortFetchLoads ? {
-                fetchers: new Map(state.fetchers)
-            } : {}));
-            isRevalidationRequired = false;
-        }
-    } // Call the matched loader for fetcher.load(), handling redirects, errors, etc.
-    async function handleFetcherLoader(key, routeId, path, match, matches, submission) {
-        let existingFetcher = state.fetchers.get(key); // Put this fetcher into it's loading state
-        let loadingFetcher = _extends({
-            state: "loading",
-            formMethod: undefined,
-            formAction: undefined,
-            formEncType: undefined,
-            formData: undefined
-        }, submission, {
-            data: existingFetcher && existingFetcher.data,
-            " _hasFetcherDoneAnything ": true
-        });
-        state.fetchers.set(key, loadingFetcher);
-        updateState({
-            fetchers: new Map(state.fetchers)
-        }); // Call the loader for this fetcher route match
-        let abortController = new AbortController();
-        let fetchRequest = createClientSideRequest(init.history, path, abortController.signal);
-        fetchControllers.set(key, abortController);
-        let result = await callLoaderOrAction("loader", fetchRequest, match, matches, manifest, mapRouteProperties, basename); // Deferred isn't supported for fetcher loads, await everything and treat it
-        // as a normal load.  resolveDeferredData will return undefined if this
-        // fetcher gets aborted, so we just leave result untouched and short circuit
-        // below if that happens
-        if (isDeferredResult(result)) result = await resolveDeferredData(result, fetchRequest.signal, true) || result;
-         // We can delete this so long as we weren't aborted by our our own fetcher
-        // re-load which would have put _new_ controller is in fetchControllers
-        if (fetchControllers.get(key) === abortController) fetchControllers.delete(key);
-        if (fetchRequest.signal.aborted) return;
-         // If the loader threw a redirect Response, start a new REPLACE navigation
-        if (isRedirectResult(result)) {
-            fetchRedirectIds.add(key);
-            await startRedirectNavigation(state, result);
-            return;
-        } // Process any non-redirect errors thrown
-        if (isErrorResult(result)) {
-            let boundaryMatch = findNearestBoundary(state.matches, routeId);
-            state.fetchers.delete(key); // TODO: In remix, this would reset to IDLE_NAVIGATION if it was a catch -
-            // do we need to behave any differently with our non-redirect errors?
-            // What if it was a non-redirect Response?
-            updateState({
-                fetchers: new Map(state.fetchers),
-                errors: {
-                    [boundaryMatch.route.id]: result.error
-                }
-            });
-            return;
-        }
-        invariant(!isDeferredResult(result), "Unhandled fetcher deferred data"); // Put the fetcher back into an idle state
-        let doneFetcher = {
-            state: "idle",
-            data: result.data,
-            formMethod: undefined,
-            formAction: undefined,
-            formEncType: undefined,
-            formData: undefined,
-            " _hasFetcherDoneAnything ": true
-        };
-        state.fetchers.set(key, doneFetcher);
-        updateState({
-            fetchers: new Map(state.fetchers)
-        });
-    }
-    /**
-   * Utility function to handle redirects returned from an action or loader.
-   * Normally, a redirect "replaces" the navigation that triggered it.  So, for
-   * example:
-   *
-   *  - user is on /a
-   *  - user clicks a link to /b
-   *  - loader for /b redirects to /c
-   *
-   * In a non-JS app the browser would track the in-flight navigation to /b and
-   * then replace it with /c when it encountered the redirect response.  In
-   * the end it would only ever update the URL bar with /c.
-   *
-   * In client-side routing using pushState/replaceState, we aim to emulate
-   * this behavior and we also do not update history until the end of the
-   * navigation (including processed redirects).  This means that we never
-   * actually touch history until we've processed redirects, so we just use
-   * the history action from the original navigation (PUSH or REPLACE).
-   */ async function startRedirectNavigation(state, redirect, _temp) {
-        var _window;
-        let { submission , replace , isFetchActionRedirect  } = _temp === void 0 ? {} : _temp;
-        if (redirect.revalidate) isRevalidationRequired = true;
-        let redirectLocation = createLocation(state.location, redirect.location, _extends({
-            _isRedirect: true
-        }, isFetchActionRedirect ? {
-            _isFetchActionRedirect: true
-        } : {}));
-        invariant(redirectLocation, "Expected a location on the redirect navigation"); // Check if this an absolute external redirect that goes to a new origin
-        if (ABSOLUTE_URL_REGEX.test(redirect.location) && isBrowser && typeof ((_window = window) == null ? void 0 : _window.location) !== "undefined") {
-            let url = init.history.createURL(redirect.location);
-            let isDifferentBasename = stripBasename(url.pathname, basename) == null;
-            if (window.location.origin !== url.origin || isDifferentBasename) {
-                if (replace) window.location.replace(redirect.location);
-                else window.location.assign(redirect.location);
-                return;
-            }
-        } // There's no need to abort on redirects, since we don't detect the
-        // redirect until the action/loaders have settled
-        pendingNavigationController = null;
-        let redirectHistoryAction = replace === true ? Action.Replace : Action.Push; // Use the incoming submission if provided, fallback on the active one in
-        // state.navigation
-        let { formMethod , formAction , formEncType , formData  } = state.navigation;
-        if (!submission && formMethod && formAction && formData && formEncType) submission = {
-            formMethod,
-            formAction,
-            formEncType,
-            formData
-        };
-         // If this was a 307/308 submission we want to preserve the HTTP method and
-        // re-submit the GET/POST/PUT/PATCH/DELETE as a submission navigation to the
-        // redirected location
-        if (redirectPreserveMethodStatusCodes.has(redirect.status) && submission && isMutationMethod(submission.formMethod)) await startNavigation(redirectHistoryAction, redirectLocation, {
-            submission: _extends({}, submission, {
-                formAction: redirect.location
-            }),
-            // Preserve this flag across redirects
-            preventScrollReset: pendingPreventScrollReset
-        });
-        else if (isFetchActionRedirect) // For a fetch action redirect, we kick off a new loading navigation
-        // without the fetcher submission, but we send it along for shouldRevalidate
-        await startNavigation(redirectHistoryAction, redirectLocation, {
-            overrideNavigation: {
-                state: "loading",
-                location: redirectLocation,
-                formMethod: undefined,
-                formAction: undefined,
-                formEncType: undefined,
-                formData: undefined
-            },
-            fetcherSubmission: submission,
-            // Preserve this flag across redirects
-            preventScrollReset: pendingPreventScrollReset
-        });
-        else // Otherwise, we kick off a new loading navigation, preserving the
-        // submission info for the duration of this navigation
-        await startNavigation(redirectHistoryAction, redirectLocation, {
-            overrideNavigation: {
-                state: "loading",
-                location: redirectLocation,
-                formMethod: submission ? submission.formMethod : undefined,
-                formAction: submission ? submission.formAction : undefined,
-                formEncType: submission ? submission.formEncType : undefined,
-                formData: submission ? submission.formData : undefined
-            },
-            // Preserve this flag across redirects
-            preventScrollReset: pendingPreventScrollReset
-        });
-    }
-    async function callLoadersAndMaybeResolveData(currentMatches, matches, matchesToLoad, fetchersToLoad, request) {
-        // Call all navigation loaders and revalidating fetcher loaders in parallel,
-        // then slice off the results into separate arrays so we can handle them
-        // accordingly
-        let results = await Promise.all([
-            ...matchesToLoad.map((match)=>callLoaderOrAction("loader", request, match, matches, manifest, mapRouteProperties, basename)),
-            ...fetchersToLoad.map((f)=>{
-                if (f.matches && f.match && f.controller) return callLoaderOrAction("loader", createClientSideRequest(init.history, f.path, f.controller.signal), f.match, f.matches, manifest, mapRouteProperties, basename);
-                else {
-                    let error = {
-                        type: ResultType.error,
-                        error: getInternalRouterError(404, {
-                            pathname: f.path
-                        })
-                    };
-                    return error;
-                }
-            })
-        ]);
-        let loaderResults = results.slice(0, matchesToLoad.length);
-        let fetcherResults = results.slice(matchesToLoad.length);
-        await Promise.all([
-            resolveDeferredResults(currentMatches, matchesToLoad, loaderResults, loaderResults.map(()=>request.signal), false, state.loaderData),
-            resolveDeferredResults(currentMatches, fetchersToLoad.map((f)=>f.match), fetcherResults, fetchersToLoad.map((f)=>f.controller ? f.controller.signal : null), true)
-        ]);
-        return {
-            results,
-            loaderResults,
-            fetcherResults
-        };
-    }
-    function interruptActiveLoads() {
-        // Every interruption triggers a revalidation
-        isRevalidationRequired = true; // Cancel pending route-level deferreds and mark cancelled routes for
-        // revalidation
-        cancelledDeferredRoutes.push(...cancelActiveDeferreds()); // Abort in-flight fetcher loads
-        fetchLoadMatches.forEach((_, key)=>{
-            if (fetchControllers.has(key)) {
-                cancelledFetcherLoads.push(key);
-                abortFetcher(key);
-            }
-        });
-    }
-    function setFetcherError(key, routeId, error) {
-        let boundaryMatch = findNearestBoundary(state.matches, routeId);
-        deleteFetcher(key);
-        updateState({
-            errors: {
-                [boundaryMatch.route.id]: error
-            },
-            fetchers: new Map(state.fetchers)
-        });
-    }
-    function deleteFetcher(key) {
-        if (fetchControllers.has(key)) abortFetcher(key);
-        fetchLoadMatches.delete(key);
-        fetchReloadIds.delete(key);
-        fetchRedirectIds.delete(key);
-        state.fetchers.delete(key);
-    }
-    function abortFetcher(key) {
-        let controller = fetchControllers.get(key);
-        invariant(controller, "Expected fetch controller: " + key);
-        controller.abort();
-        fetchControllers.delete(key);
-    }
-    function markFetchersDone(keys) {
-        for (let key of keys){
-            let fetcher = getFetcher(key);
-            let doneFetcher = {
-                state: "idle",
-                data: fetcher.data,
-                formMethod: undefined,
-                formAction: undefined,
-                formEncType: undefined,
-                formData: undefined,
-                " _hasFetcherDoneAnything ": true
-            };
-            state.fetchers.set(key, doneFetcher);
-        }
-    }
-    function markFetchRedirectsDone() {
-        let doneKeys = [];
-        let updatedFetchers = false;
-        for (let key of fetchRedirectIds){
-            let fetcher = state.fetchers.get(key);
-            invariant(fetcher, "Expected fetcher: " + key);
-            if (fetcher.state === "loading") {
-                fetchRedirectIds.delete(key);
-                doneKeys.push(key);
-                updatedFetchers = true;
-            }
-        }
-        markFetchersDone(doneKeys);
-        return updatedFetchers;
-    }
-    function abortStaleFetchLoads(landedId) {
-        let yeetedKeys = [];
-        for (let [key, id] of fetchReloadIds)if (id < landedId) {
-            let fetcher = state.fetchers.get(key);
-            invariant(fetcher, "Expected fetcher: " + key);
-            if (fetcher.state === "loading") {
-                abortFetcher(key);
-                fetchReloadIds.delete(key);
-                yeetedKeys.push(key);
-            }
-        }
-        markFetchersDone(yeetedKeys);
-        return yeetedKeys.length > 0;
-    }
-    function getBlocker(key, fn) {
-        let blocker = state.blockers.get(key) || IDLE_BLOCKER;
-        if (blockerFunctions.get(key) !== fn) blockerFunctions.set(key, fn);
-        return blocker;
-    }
-    function deleteBlocker(key) {
-        state.blockers.delete(key);
-        blockerFunctions.delete(key);
-    } // Utility function to update blockers, ensuring valid state transitions
-    function updateBlocker(key, newBlocker) {
-        let blocker = state.blockers.get(key) || IDLE_BLOCKER; // Poor mans state machine :)
-        // https://mermaid.live/edit#pako:eNqVkc9OwzAMxl8l8nnjAYrEtDIOHEBIgwvKJTReGy3_lDpIqO27k6awMG0XcrLlnz87nwdonESogKXXBuE79rq75XZO3-yHds0RJVuv70YrPlUrCEe2HfrORS3rubqZfuhtpg5C9wk5tZ4VKcRUq88q9Z8RS0-48cE1iHJkL0ugbHuFLus9L6spZy8nX9MP2CNdomVaposqu3fGayT8T8-jJQwhepo_UtpgBQaDEUom04dZhAN1aJBDlUKJBxE1ceB2Smj0Mln-IBW5AFU2dwUiktt_2Qaq2dBfaKdEup85UV7Yd-dKjlnkabl2Pvr0DTkTreM
-        invariant(blocker.state === "unblocked" && newBlocker.state === "blocked" || blocker.state === "blocked" && newBlocker.state === "blocked" || blocker.state === "blocked" && newBlocker.state === "proceeding" || blocker.state === "blocked" && newBlocker.state === "unblocked" || blocker.state === "proceeding" && newBlocker.state === "unblocked", "Invalid blocker state transition: " + blocker.state + " -> " + newBlocker.state);
-        state.blockers.set(key, newBlocker);
-        updateState({
-            blockers: new Map(state.blockers)
-        });
-    }
-    function shouldBlockNavigation(_ref2) {
-        let { currentLocation , nextLocation , historyAction  } = _ref2;
-        if (blockerFunctions.size === 0) return;
-         // We ony support a single active blocker at the moment since we don't have
-        // any compelling use cases for multi-blocker yet
-        if (blockerFunctions.size > 1) warning(false, "A router only supports one blocker at a time");
-        let entries = Array.from(blockerFunctions.entries());
-        let [blockerKey, blockerFunction] = entries[entries.length - 1];
-        let blocker = state.blockers.get(blockerKey);
-        if (blocker && blocker.state === "proceeding") // If the blocker is currently proceeding, we don't need to re-check
-        // it and can let this navigation continue
-        return;
-         // At this point, we know we're unblocked/blocked so we need to check the
-        // user-provided blocker function
-        if (blockerFunction({
-            currentLocation,
-            nextLocation,
-            historyAction
-        })) return blockerKey;
-    }
-    function cancelActiveDeferreds(predicate) {
-        let cancelledRouteIds = [];
-        activeDeferreds.forEach((dfd, routeId)=>{
-            if (!predicate || predicate(routeId)) {
-                // Cancel the deferred - but do not remove from activeDeferreds here -
-                // we rely on the subscribers to do that so our tests can assert proper
-                // cleanup via _internalActiveDeferreds
-                dfd.cancel();
-                cancelledRouteIds.push(routeId);
-                activeDeferreds.delete(routeId);
-            }
-        });
-        return cancelledRouteIds;
-    } // Opt in to capturing and reporting scroll positions during navigations,
-    // used by the <ScrollRestoration> component
-    function enableScrollRestoration(positions, getPosition, getKey) {
-        savedScrollPositions = positions;
-        getScrollPosition = getPosition;
-        getScrollRestorationKey = getKey || ((location)=>location.key); // Perform initial hydration scroll restoration, since we miss the boat on
-        // the initial updateState() because we've not yet rendered <ScrollRestoration/>
-        // and therefore have no savedScrollPositions available
-        if (!initialScrollRestored && state.navigation === IDLE_NAVIGATION) {
-            initialScrollRestored = true;
-            let y = getSavedScrollPosition(state.location, state.matches);
-            if (y != null) updateState({
-                restoreScrollPosition: y
-            });
-        }
-        return ()=>{
-            savedScrollPositions = null;
-            getScrollPosition = null;
-            getScrollRestorationKey = null;
-        };
-    }
-    function saveScrollPosition(location, matches) {
-        if (savedScrollPositions && getScrollRestorationKey && getScrollPosition) {
-            let userMatches = matches.map((m)=>createUseMatchesMatch(m, state.loaderData));
-            let key = getScrollRestorationKey(location, userMatches) || location.key;
-            savedScrollPositions[key] = getScrollPosition();
-        }
-    }
-    function getSavedScrollPosition(location, matches) {
-        if (savedScrollPositions && getScrollRestorationKey && getScrollPosition) {
-            let userMatches = matches.map((m)=>createUseMatchesMatch(m, state.loaderData));
-            let key = getScrollRestorationKey(location, userMatches) || location.key;
-            let y = savedScrollPositions[key];
-            if (typeof y === "number") return y;
-        }
-        return null;
-    }
-    function _internalSetRoutes(newRoutes) {
-        manifest = {};
-        inFlightDataRoutes = convertRoutesToDataRoutes(newRoutes, mapRouteProperties, undefined, manifest);
-    }
-    router = {
-        get basename () {
-            return basename;
-        },
-        get state () {
-            return state;
-        },
-        get routes () {
-            return dataRoutes;
-        },
-        initialize,
-        subscribe,
-        enableScrollRestoration,
-        navigate,
-        fetch,
-        revalidate,
-        // Passthrough to history-aware createHref used by useHref so we get proper
-        // hash-aware URLs in DOM paths
-        createHref: (to)=>init.history.createHref(to),
-        encodeLocation: (to)=>init.history.encodeLocation(to),
-        getFetcher,
-        deleteFetcher,
-        dispose,
-        getBlocker,
-        deleteBlocker,
-        _internalFetchControllers: fetchControllers,
-        _internalActiveDeferreds: activeDeferreds,
-        // TODO: Remove setRoutes, it's temporary to avoid dealing with
-        // updating the tree while validating the update algorithm.
-        _internalSetRoutes
-    };
-    return router;
-} //#endregion
-////////////////////////////////////////////////////////////////////////////////
-//#region createStaticHandler
-////////////////////////////////////////////////////////////////////////////////
-const UNSAFE_DEFERRED_SYMBOL = Symbol("deferred");
-function createStaticHandler(routes, opts) {
-    invariant(routes.length > 0, "You must provide a non-empty routes array to createStaticHandler");
-    let manifest = {};
-    let basename = (opts ? opts.basename : null) || "/";
-    let mapRouteProperties;
-    if (opts != null && opts.mapRouteProperties) mapRouteProperties = opts.mapRouteProperties;
-    else if (opts != null && opts.detectErrorBoundary) {
-        // If they are still using the deprecated version, wrap it with the new API
-        let detectErrorBoundary = opts.detectErrorBoundary;
-        mapRouteProperties = (route)=>({
-                hasErrorBoundary: detectErrorBoundary(route)
-            });
-    } else mapRouteProperties = defaultMapRouteProperties;
-    let dataRoutes = convertRoutesToDataRoutes(routes, mapRouteProperties, undefined, manifest);
-    /**
-   * The query() method is intended for document requests, in which we want to
-   * call an optional action and potentially multiple loaders for all nested
-   * routes.  It returns a StaticHandlerContext object, which is very similar
-   * to the router state (location, loaderData, actionData, errors, etc.) and
-   * also adds SSR-specific information such as the statusCode and headers
-   * from action/loaders Responses.
-   *
-   * It _should_ never throw and should report all errors through the
-   * returned context.errors object, properly associating errors to their error
-   * boundary.  Additionally, it tracks _deepestRenderedBoundaryId which can be
-   * used to emulate React error boundaries during SSr by performing a second
-   * pass only down to the boundaryId.
-   *
-   * The one exception where we do not return a StaticHandlerContext is when a
-   * redirect response is returned or thrown from any action/loader.  We
-   * propagate that out and return the raw Response so the HTTP server can
-   * return it directly.
-   */ async function query(request, _temp2) {
-        let { requestContext  } = _temp2 === void 0 ? {} : _temp2;
-        let url = new URL(request.url);
-        let method = request.method;
-        let location = createLocation("", createPath(url), null, "default");
-        let matches = matchRoutes(dataRoutes, location, basename); // SSR supports HEAD requests while SPA doesn't
-        if (!isValidMethod(method) && method !== "HEAD") {
-            let error = getInternalRouterError(405, {
-                method
-            });
-            let { matches: methodNotAllowedMatches , route  } = getShortCircuitMatches(dataRoutes);
-            return {
-                basename,
-                location,
-                matches: methodNotAllowedMatches,
-                loaderData: {},
-                actionData: null,
-                errors: {
-                    [route.id]: error
-                },
-                statusCode: error.status,
-                loaderHeaders: {},
-                actionHeaders: {},
-                activeDeferreds: null
-            };
-        } else if (!matches) {
-            let error = getInternalRouterError(404, {
-                pathname: location.pathname
-            });
-            let { matches: notFoundMatches , route  } = getShortCircuitMatches(dataRoutes);
-            return {
-                basename,
-                location,
-                matches: notFoundMatches,
-                loaderData: {},
-                actionData: null,
-                errors: {
-                    [route.id]: error
-                },
-                statusCode: error.status,
-                loaderHeaders: {},
-                actionHeaders: {},
-                activeDeferreds: null
-            };
-        }
-        let result = await queryImpl(request, location, matches, requestContext);
-        if (isResponse(result)) return result;
-         // When returning StaticHandlerContext, we patch back in the location here
-        // since we need it for React Context.  But this helps keep our submit and
-        // loadRouteData operating on a Request instead of a Location
-        return _extends({
-            location,
-            basename
-        }, result);
-    }
-    /**
-   * The queryRoute() method is intended for targeted route requests, either
-   * for fetch ?_data requests or resource route requests.  In this case, we
-   * are only ever calling a single action or loader, and we are returning the
-   * returned value directly.  In most cases, this will be a Response returned
-   * from the action/loader, but it may be a primitive or other value as well -
-   * and in such cases the calling context should handle that accordingly.
-   *
-   * We do respect the throw/return differentiation, so if an action/loader
-   * throws, then this method will throw the value.  This is important so we
-   * can do proper boundary identification in Remix where a thrown Response
-   * must go to the Catch Boundary but a returned Response is happy-path.
-   *
-   * One thing to note is that any Router-initiated Errors that make sense
-   * to associate with a status code will be thrown as an ErrorResponse
-   * instance which include the raw Error, such that the calling context can
-   * serialize the error as they see fit while including the proper response
-   * code.  Examples here are 404 and 405 errors that occur prior to reaching
-   * any user-defined loaders.
-   */ async function queryRoute(request, _temp3) {
-        let { routeId , requestContext  } = _temp3 === void 0 ? {} : _temp3;
-        let url = new URL(request.url);
-        let method = request.method;
-        let location = createLocation("", createPath(url), null, "default");
-        let matches = matchRoutes(dataRoutes, location, basename); // SSR supports HEAD requests while SPA doesn't
-        if (!isValidMethod(method) && method !== "HEAD" && method !== "OPTIONS") throw getInternalRouterError(405, {
-            method
-        });
-        else if (!matches) throw getInternalRouterError(404, {
-            pathname: location.pathname
-        });
-        let match = routeId ? matches.find((m)=>m.route.id === routeId) : getTargetMatch(matches, location);
-        if (routeId && !match) throw getInternalRouterError(403, {
-            pathname: location.pathname,
-            routeId
-        });
-        else if (!match) // This should never hit I don't think?
-        throw getInternalRouterError(404, {
-            pathname: location.pathname
-        });
-        let result = await queryImpl(request, location, matches, requestContext, match);
-        if (isResponse(result)) return result;
-        let error = result.errors ? Object.values(result.errors)[0] : undefined;
-        if (error !== undefined) // If we got back result.errors, that means the loader/action threw
-        // _something_ that wasn't a Response, but it's not guaranteed/required
-        // to be an `instanceof Error` either, so we have to use throw here to
-        // preserve the "error" state outside of queryImpl.
-        throw error;
-         // Pick off the right state value to return
-        if (result.actionData) return Object.values(result.actionData)[0];
-        if (result.loaderData) {
-            var _result$activeDeferre;
-            let data = Object.values(result.loaderData)[0];
-            if ((_result$activeDeferre = result.activeDeferreds) != null && _result$activeDeferre[match.route.id]) data[UNSAFE_DEFERRED_SYMBOL] = result.activeDeferreds[match.route.id];
-            return data;
-        }
-        return undefined;
-    }
-    async function queryImpl(request, location, matches, requestContext, routeMatch) {
-        invariant(request.signal, "query()/queryRoute() requests must contain an AbortController signal");
-        try {
-            if (isMutationMethod(request.method.toLowerCase())) {
-                let result = await submit(request, matches, routeMatch || getTargetMatch(matches, location), requestContext, routeMatch != null);
-                return result;
-            }
-            let result = await loadRouteData(request, matches, requestContext, routeMatch);
-            return isResponse(result) ? result : _extends({}, result, {
-                actionData: null,
-                actionHeaders: {}
-            });
-        } catch (e) {
-            // If the user threw/returned a Response in callLoaderOrAction, we throw
-            // it to bail out and then return or throw here based on whether the user
-            // returned or threw
-            if (isQueryRouteResponse(e)) {
-                if (e.type === ResultType.error && !isRedirectResponse(e.response)) throw e.response;
-                return e.response;
-            } // Redirects are always returned since they don't propagate to catch
-            // boundaries
-            if (isRedirectResponse(e)) return e;
-            throw e;
-        }
-    }
-    async function submit(request, matches, actionMatch, requestContext, isRouteRequest) {
-        let result;
-        if (!actionMatch.route.action && !actionMatch.route.lazy) {
-            let error = getInternalRouterError(405, {
-                method: request.method,
-                pathname: new URL(request.url).pathname,
-                routeId: actionMatch.route.id
-            });
-            if (isRouteRequest) throw error;
-            result = {
-                type: ResultType.error,
-                error
-            };
-        } else {
-            result = await callLoaderOrAction("action", request, actionMatch, matches, manifest, mapRouteProperties, basename, true, isRouteRequest, requestContext);
-            if (request.signal.aborted) {
-                let method = isRouteRequest ? "queryRoute" : "query";
-                throw new Error(method + "() call aborted");
-            }
-        }
-        if (isRedirectResult(result)) // Uhhhh - this should never happen, we should always throw these from
-        // callLoaderOrAction, but the type narrowing here keeps TS happy and we
-        // can get back on the "throw all redirect responses" train here should
-        // this ever happen :/
-        throw new Response(null, {
-            status: result.status,
-            headers: {
-                Location: result.location
-            }
-        });
-        if (isDeferredResult(result)) {
-            let error = getInternalRouterError(400, {
-                type: "defer-action"
-            });
-            if (isRouteRequest) throw error;
-            result = {
-                type: ResultType.error,
-                error
-            };
-        }
-        if (isRouteRequest) {
-            // Note: This should only be non-Response values if we get here, since
-            // isRouteRequest should throw any Response received in callLoaderOrAction
-            if (isErrorResult(result)) throw result.error;
-            return {
-                matches: [
-                    actionMatch
-                ],
-                loaderData: {},
-                actionData: {
-                    [actionMatch.route.id]: result.data
-                },
-                errors: null,
-                // Note: statusCode + headers are unused here since queryRoute will
-                // return the raw Response or value
-                statusCode: 200,
-                loaderHeaders: {},
-                actionHeaders: {},
-                activeDeferreds: null
-            };
-        }
-        if (isErrorResult(result)) {
-            // Store off the pending error - we use it to determine which loaders
-            // to call and will commit it when we complete the navigation
-            let boundaryMatch = findNearestBoundary(matches, actionMatch.route.id);
-            let context = await loadRouteData(request, matches, requestContext, undefined, {
-                [boundaryMatch.route.id]: result.error
-            }); // action status codes take precedence over loader status codes
-            return _extends({}, context, {
-                statusCode: isRouteErrorResponse(result.error) ? result.error.status : 500,
-                actionData: null,
-                actionHeaders: _extends({}, result.headers ? {
-                    [actionMatch.route.id]: result.headers
-                } : {})
-            });
-        } // Create a GET request for the loaders
-        let loaderRequest = new Request(request.url, {
-            headers: request.headers,
-            redirect: request.redirect,
-            signal: request.signal
-        });
-        let context = await loadRouteData(loaderRequest, matches, requestContext);
-        return _extends({}, context, result.statusCode ? {
-            statusCode: result.statusCode
-        } : {}, {
-            actionData: {
-                [actionMatch.route.id]: result.data
-            },
-            actionHeaders: _extends({}, result.headers ? {
-                [actionMatch.route.id]: result.headers
-            } : {})
-        });
-    }
-    async function loadRouteData(request, matches, requestContext, routeMatch, pendingActionError) {
-        let isRouteRequest = routeMatch != null; // Short circuit if we have no loaders to run (queryRoute())
-        if (isRouteRequest && !(routeMatch != null && routeMatch.route.loader) && !(routeMatch != null && routeMatch.route.lazy)) throw getInternalRouterError(400, {
-            method: request.method,
-            pathname: new URL(request.url).pathname,
-            routeId: routeMatch == null ? void 0 : routeMatch.route.id
-        });
-        let requestMatches = routeMatch ? [
-            routeMatch
-        ] : getLoaderMatchesUntilBoundary(matches, Object.keys(pendingActionError || {})[0]);
-        let matchesToLoad = requestMatches.filter((m)=>m.route.loader || m.route.lazy); // Short circuit if we have no loaders to run (query())
-        if (matchesToLoad.length === 0) return {
-            matches,
-            // Add a null for all matched routes for proper revalidation on the client
-            loaderData: matches.reduce((acc, m)=>Object.assign(acc, {
-                    [m.route.id]: null
-                }), {}),
-            errors: pendingActionError || null,
-            statusCode: 200,
-            loaderHeaders: {},
-            activeDeferreds: null
-        };
-        let results = await Promise.all([
-            ...matchesToLoad.map((match)=>callLoaderOrAction("loader", request, match, matches, manifest, mapRouteProperties, basename, true, isRouteRequest, requestContext))
-        ]);
-        if (request.signal.aborted) {
-            let method = isRouteRequest ? "queryRoute" : "query";
-            throw new Error(method + "() call aborted");
-        } // Process and commit output from loaders
-        let activeDeferreds = new Map();
-        let context = processRouteLoaderData(matches, matchesToLoad, results, pendingActionError, activeDeferreds); // Add a null for any non-loader matches for proper revalidation on the client
-        let executedLoaders = new Set(matchesToLoad.map((match)=>match.route.id));
-        matches.forEach((match)=>{
-            if (!executedLoaders.has(match.route.id)) context.loaderData[match.route.id] = null;
-        });
-        return _extends({}, context, {
-            matches,
-            activeDeferreds: activeDeferreds.size > 0 ? Object.fromEntries(activeDeferreds.entries()) : null
-        });
-    }
-    return {
-        dataRoutes,
-        query,
-        queryRoute
-    };
-} //#endregion
-////////////////////////////////////////////////////////////////////////////////
-//#region Helpers
-////////////////////////////////////////////////////////////////////////////////
-/**
- * Given an existing StaticHandlerContext and an error thrown at render time,
- * provide an updated StaticHandlerContext suitable for a second SSR render
- */ function getStaticContextFromError(routes, context, error) {
-    let newContext = _extends({}, context, {
-        statusCode: 500,
-        errors: {
-            [context._deepestRenderedBoundaryId || routes[0].id]: error
-        }
-    });
-    return newContext;
-}
-function isSubmissionNavigation(opts) {
-    return opts != null && "formData" in opts;
-}
-function normalizeTo(location, matches, basename, prependBasename, to, fromRouteId, relative) {
-    let contextualMatches;
-    let activeRouteMatch;
-    if (fromRouteId != null && relative !== "path") {
-        // Grab matches up to the calling route so our route-relative logic is
-        // relative to the correct source route.  When using relative:path,
-        // fromRouteId is ignored since that is always relative to the current
-        // location path
-        contextualMatches = [];
-        for (let match of matches){
-            contextualMatches.push(match);
-            if (match.route.id === fromRouteId) {
-                activeRouteMatch = match;
-                break;
-            }
-        }
-    } else {
-        contextualMatches = matches;
-        activeRouteMatch = matches[matches.length - 1];
-    } // Resolve the relative path
-    let path = resolveTo(to ? to : ".", getPathContributingMatches(contextualMatches).map((m)=>m.pathnameBase), stripBasename(location.pathname, basename) || location.pathname, relative === "path"); // When `to` is not specified we inherit search/hash from the current
-    // location, unlike when to="." and we just inherit the path.
-    // See https://github.com/remix-run/remix/issues/927
-    if (to == null) {
-        path.search = location.search;
-        path.hash = location.hash;
-    } // Add an ?index param for matched index routes if we don't already have one
-    if ((to == null || to === "" || to === ".") && activeRouteMatch && activeRouteMatch.route.index && !hasNakedIndexQuery(path.search)) path.search = path.search ? path.search.replace(/^\?/, "?index&") : "?index";
-     // If we're operating within a basename, prepend it to the pathname.  If
-    // this is a root navigation, then just use the raw basename which allows
-    // the basename to have full control over the presence of a trailing slash
-    // on root actions
-    if (prependBasename && basename !== "/") path.pathname = path.pathname === "/" ? basename : joinPaths([
-        basename,
-        path.pathname
-    ]);
-    return createPath(path);
-} // Normalize navigation options by converting formMethod=GET formData objects to
-// URLSearchParams so they behave identically to links with query params
-function normalizeNavigateOptions(normalizeFormMethod, isFetcher, path, opts) {
-    // Return location verbatim on non-submission navigations
-    if (!opts || !isSubmissionNavigation(opts)) return {
-        path
-    };
-    if (opts.formMethod && !isValidMethod(opts.formMethod)) return {
-        path,
-        error: getInternalRouterError(405, {
-            method: opts.formMethod
-        })
-    };
-     // Create a Submission on non-GET navigations
-    let submission;
-    if (opts.formData) {
-        let formMethod = opts.formMethod || "get";
-        submission = {
-            formMethod: normalizeFormMethod ? formMethod.toUpperCase() : formMethod.toLowerCase(),
-            formAction: stripHashFromPath(path),
-            formEncType: opts && opts.formEncType || "application/x-www-form-urlencoded",
-            formData: opts.formData
-        };
-        if (isMutationMethod(submission.formMethod)) return {
-            path,
-            submission
-        };
-    } // Flatten submission onto URLSearchParams for GET submissions
-    let parsedPath = parsePath(path);
-    let searchParams = convertFormDataToSearchParams(opts.formData); // On GET navigation submissions we can drop the ?index param from the
-    // resulting location since all loaders will run.  But fetcher GET submissions
-    // only run a single loader so we need to preserve any incoming ?index params
-    if (isFetcher && parsedPath.search && hasNakedIndexQuery(parsedPath.search)) searchParams.append("index", "");
-    parsedPath.search = "?" + searchParams;
-    return {
-        path: createPath(parsedPath),
-        submission
-    };
-} // Filter out all routes below any caught error as they aren't going to
-// render so we don't need to load them
-function getLoaderMatchesUntilBoundary(matches, boundaryId) {
-    let boundaryMatches = matches;
-    if (boundaryId) {
-        let index = matches.findIndex((m)=>m.route.id === boundaryId);
-        if (index >= 0) boundaryMatches = matches.slice(0, index);
-    }
-    return boundaryMatches;
-}
-function getMatchesToLoad(history, state, matches, submission, location, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, fetchLoadMatches, routesToUse, basename, pendingActionData, pendingError) {
-    let actionResult = pendingError ? Object.values(pendingError)[0] : pendingActionData ? Object.values(pendingActionData)[0] : undefined;
-    let currentUrl = history.createURL(state.location);
-    let nextUrl = history.createURL(location); // Pick navigation matches that are net-new or qualify for revalidation
-    let boundaryId = pendingError ? Object.keys(pendingError)[0] : undefined;
-    let boundaryMatches = getLoaderMatchesUntilBoundary(matches, boundaryId);
-    let navigationMatches = boundaryMatches.filter((match, index)=>{
-        if (match.route.lazy) // We haven't loaded this route yet so we don't know if it's got a loader!
-        return true;
-        if (match.route.loader == null) return false;
-         // Always call the loader on new route instances and pending defer cancellations
-        if (isNewLoader(state.loaderData, state.matches[index], match) || cancelledDeferredRoutes.some((id)=>id === match.route.id)) return true;
-         // This is the default implementation for when we revalidate.  If the route
-        // provides it's own implementation, then we give them full control but
-        // provide this value so they can leverage it if needed after they check
-        // their own specific use cases
-        let currentRouteMatch = state.matches[index];
-        let nextRouteMatch = match;
-        return shouldRevalidateLoader(match, _extends({
-            currentUrl,
-            currentParams: currentRouteMatch.params,
-            nextUrl,
-            nextParams: nextRouteMatch.params
-        }, submission, {
-            actionResult,
-            defaultShouldRevalidate: isRevalidationRequired || // Clicked the same link, resubmitted a GET form
-            currentUrl.pathname + currentUrl.search === nextUrl.pathname + nextUrl.search || // Search params affect all loaders
-            currentUrl.search !== nextUrl.search || isNewRouteInstance(currentRouteMatch, nextRouteMatch)
-        }));
-    }); // Pick fetcher.loads that need to be revalidated
-    let revalidatingFetchers = [];
-    fetchLoadMatches.forEach((f, key)=>{
-        // Don't revalidate if fetcher won't be present in the subsequent render
-        if (!matches.some((m)=>m.route.id === f.routeId)) return;
-        let fetcherMatches = matchRoutes(routesToUse, f.path, basename); // If the fetcher path no longer matches, push it in with null matches so
-        // we can trigger a 404 in callLoadersAndMaybeResolveData
-        if (!fetcherMatches) {
-            revalidatingFetchers.push({
-                key,
-                routeId: f.routeId,
-                path: f.path,
-                matches: null,
-                match: null,
-                controller: null
-            });
-            return;
-        }
-        let fetcherMatch = getTargetMatch(fetcherMatches, f.path);
-        if (cancelledFetcherLoads.includes(key)) {
-            revalidatingFetchers.push({
-                key,
-                routeId: f.routeId,
-                path: f.path,
-                matches: fetcherMatches,
-                match: fetcherMatch,
-                controller: new AbortController()
-            });
-            return;
-        } // Revalidating fetchers are decoupled from the route matches since they
-        // hit a static href, so they _always_ check shouldRevalidate and the
-        // default is strictly if a revalidation is explicitly required (action
-        // submissions, useRevalidator, X-Remix-Revalidate).
-        let shouldRevalidate = shouldRevalidateLoader(fetcherMatch, _extends({
-            currentUrl,
-            currentParams: state.matches[state.matches.length - 1].params,
-            nextUrl,
-            nextParams: matches[matches.length - 1].params
-        }, submission, {
-            actionResult,
-            // Forced revalidation due to submission, useRevalidator, or X-Remix-Revalidate
-            defaultShouldRevalidate: isRevalidationRequired
-        }));
-        if (shouldRevalidate) revalidatingFetchers.push({
-            key,
-            routeId: f.routeId,
-            path: f.path,
-            matches: fetcherMatches,
-            match: fetcherMatch,
-            controller: new AbortController()
-        });
-    });
-    return [
-        navigationMatches,
-        revalidatingFetchers
-    ];
-}
-function isNewLoader(currentLoaderData, currentMatch, match) {
-    let isNew = !currentMatch || // [a, b] -> [a, c]
-    match.route.id !== currentMatch.route.id; // Handle the case that we don't have data for a re-used route, potentially
-    // from a prior error or from a cancelled pending deferred
-    let isMissingData = currentLoaderData[match.route.id] === undefined; // Always load if this is a net-new route or we don't yet have data
-    return isNew || isMissingData;
-}
-function isNewRouteInstance(currentMatch, match) {
-    let currentPath = currentMatch.route.path;
-    return currentMatch.pathname !== match.pathname || // splat param changed, which is not present in match.path
-    // e.g. /files/images/avatar.jpg -> files/finances.xls
-    currentPath != null && currentPath.endsWith("*") && currentMatch.params["*"] !== match.params["*"];
-}
-function shouldRevalidateLoader(loaderMatch, arg) {
-    if (loaderMatch.route.shouldRevalidate) {
-        let routeChoice = loaderMatch.route.shouldRevalidate(arg);
-        if (typeof routeChoice === "boolean") return routeChoice;
-    }
-    return arg.defaultShouldRevalidate;
-}
-/**
- * Execute route.lazy() methods to lazily load route modules (loader, action,
- * shouldRevalidate) and update the routeManifest in place which shares objects
- * with dataRoutes so those get updated as well.
- */ async function loadLazyRouteModule(route, mapRouteProperties, manifest) {
-    if (!route.lazy) return;
-    let lazyRoute = await route.lazy(); // If the lazy route function was executed and removed by another parallel
-    // call then we can return - first lazy() to finish wins because the return
-    // value of lazy is expected to be static
-    if (!route.lazy) return;
-    let routeToUpdate = manifest[route.id];
-    invariant(routeToUpdate, "No route found in manifest"); // Update the route in place.  This should be safe because there's no way
-    // we could yet be sitting on this route as we can't get there without
-    // resolving lazy() first.
-    //
-    // This is different than the HMR "update" use-case where we may actively be
-    // on the route being updated.  The main concern boils down to "does this
-    // mutation affect any ongoing navigations or any current state.matches
-    // values?".  If not, it should be safe to update in place.
-    let routeUpdates = {};
-    for(let lazyRouteProperty in lazyRoute){
-        let staticRouteValue = routeToUpdate[lazyRouteProperty];
-        let isPropertyStaticallyDefined = staticRouteValue !== undefined && // This property isn't static since it should always be updated based
-        // on the route updates
-        lazyRouteProperty !== "hasErrorBoundary";
-        warning(!isPropertyStaticallyDefined, 'Route "' + routeToUpdate.id + '" has a static property "' + lazyRouteProperty + '" ' + "defined but its lazy function is also returning a value for this property. " + ('The lazy route property "' + lazyRouteProperty + '" will be ignored.'));
-        if (!isPropertyStaticallyDefined && !immutableRouteKeys.has(lazyRouteProperty)) routeUpdates[lazyRouteProperty] = lazyRoute[lazyRouteProperty];
-    } // Mutate the route with the provided updates.  Do this first so we pass
-    // the updated version to mapRouteProperties
-    Object.assign(routeToUpdate, routeUpdates); // Mutate the `hasErrorBoundary` property on the route based on the route
-    // updates and remove the `lazy` function so we don't resolve the lazy
-    // route again.
-    Object.assign(routeToUpdate, _extends({}, mapRouteProperties(routeToUpdate), {
-        lazy: undefined
-    }));
-}
-async function callLoaderOrAction(type, request, match, matches, manifest, mapRouteProperties, basename, isStaticRequest, isRouteRequest, requestContext) {
-    if (isStaticRequest === void 0) isStaticRequest = false;
-    if (isRouteRequest === void 0) isRouteRequest = false;
-    let resultType;
-    let result;
-    let onReject;
-    let runHandler = (handler)=>{
-        // Setup a promise we can race against so that abort signals short circuit
-        let reject;
-        let abortPromise = new Promise((_, r)=>reject = r);
-        onReject = ()=>reject();
-        request.signal.addEventListener("abort", onReject);
-        return Promise.race([
-            handler({
-                request,
-                params: match.params,
-                context: requestContext
-            }),
-            abortPromise
-        ]);
-    };
-    try {
-        let handler = match.route[type];
-        if (match.route.lazy) {
-            if (handler) {
-                // Run statically defined handler in parallel with lazy()
-                let values = await Promise.all([
-                    runHandler(handler),
-                    loadLazyRouteModule(match.route, mapRouteProperties, manifest)
-                ]);
-                result = values[0];
-            } else {
-                // Load lazy route module, then run any returned handler
-                await loadLazyRouteModule(match.route, mapRouteProperties, manifest);
-                handler = match.route[type];
-                if (handler) // Handler still run even if we got interrupted to maintain consistency
-                // with un-abortable behavior of handler execution on non-lazy or
-                // previously-lazy-loaded routes
-                result = await runHandler(handler);
-                else if (type === "action") {
-                    let url = new URL(request.url);
-                    let pathname = url.pathname + url.search;
-                    throw getInternalRouterError(405, {
-                        method: request.method,
-                        pathname,
-                        routeId: match.route.id
-                    });
-                } else // lazy() route has no loader to run.  Short circuit here so we don't
-                // hit the invariant below that errors on returning undefined.
-                return {
-                    type: ResultType.data,
-                    data: undefined
-                };
-            }
-        } else if (!handler) {
-            let url = new URL(request.url);
-            let pathname = url.pathname + url.search;
-            throw getInternalRouterError(404, {
-                pathname
-            });
-        } else result = await runHandler(handler);
-        invariant(result !== undefined, "You defined " + (type === "action" ? "an action" : "a loader") + " for route " + ('"' + match.route.id + "\" but didn't return anything from your `" + type + "` ") + "function. Please return a value or `null`.");
-    } catch (e) {
-        resultType = ResultType.error;
-        result = e;
-    } finally{
-        if (onReject) request.signal.removeEventListener("abort", onReject);
-    }
-    if (isResponse(result)) {
-        let status = result.status; // Process redirects
-        if (redirectStatusCodes.has(status)) {
-            let location = result.headers.get("Location");
-            invariant(location, "Redirects returned/thrown from loaders/actions must have a Location header"); // Support relative routing in internal redirects
-            if (!ABSOLUTE_URL_REGEX.test(location)) location = normalizeTo(new URL(request.url), matches.slice(0, matches.indexOf(match) + 1), basename, true, location);
-            else if (!isStaticRequest) {
-                // Strip off the protocol+origin for same-origin + same-basename absolute
-                // redirects. If this is a static request, we can let it go back to the
-                // browser as-is
-                let currentUrl = new URL(request.url);
-                let url = location.startsWith("//") ? new URL(currentUrl.protocol + location) : new URL(location);
-                let isSameBasename = stripBasename(url.pathname, basename) != null;
-                if (url.origin === currentUrl.origin && isSameBasename) location = url.pathname + url.search + url.hash;
-            } // Don't process redirects in the router during static requests requests.
-            // Instead, throw the Response and let the server handle it with an HTTP
-            // redirect.  We also update the Location header in place in this flow so
-            // basename and relative routing is taken into account
-            if (isStaticRequest) {
-                result.headers.set("Location", location);
-                throw result;
-            }
-            return {
-                type: ResultType.redirect,
-                status,
-                location,
-                revalidate: result.headers.get("X-Remix-Revalidate") !== null
-            };
-        } // For SSR single-route requests, we want to hand Responses back directly
-        // without unwrapping.  We do this with the QueryRouteResponse wrapper
-        // interface so we can know whether it was returned or thrown
-        if (isRouteRequest) // eslint-disable-next-line no-throw-literal
-        throw {
-            type: resultType || ResultType.data,
-            response: result
-        };
-        let data;
-        let contentType = result.headers.get("Content-Type"); // Check between word boundaries instead of startsWith() due to the last
-        // paragraph of https://httpwg.org/specs/rfc9110.html#field.content-type
-        if (contentType && /\bapplication\/json\b/.test(contentType)) data = await result.json();
-        else data = await result.text();
-        if (resultType === ResultType.error) return {
-            type: resultType,
-            error: new ErrorResponse(status, result.statusText, data),
-            headers: result.headers
-        };
-        return {
-            type: ResultType.data,
-            data,
-            statusCode: result.status,
-            headers: result.headers
-        };
-    }
-    if (resultType === ResultType.error) return {
-        type: resultType,
-        error: result
-    };
-    if (isDeferredData(result)) {
-        var _result$init, _result$init2;
-        return {
-            type: ResultType.deferred,
-            deferredData: result,
-            statusCode: (_result$init = result.init) == null ? void 0 : _result$init.status,
-            headers: ((_result$init2 = result.init) == null ? void 0 : _result$init2.headers) && new Headers(result.init.headers)
-        };
-    }
-    return {
-        type: ResultType.data,
-        data: result
-    };
-} // Utility method for creating the Request instances for loaders/actions during
-// client-side navigations and fetches.  During SSR we will always have a
-// Request instance from the static handler (query/queryRoute)
-function createClientSideRequest(history, location, signal, submission) {
-    let url = history.createURL(stripHashFromPath(location)).toString();
-    let init = {
-        signal
-    };
-    if (submission && isMutationMethod(submission.formMethod)) {
-        let { formMethod , formEncType , formData  } = submission; // Didn't think we needed this but it turns out unlike other methods, patch
-        // won't be properly normalized to uppercase and results in a 405 error.
-        // See: https://fetch.spec.whatwg.org/#concept-method
-        init.method = formMethod.toUpperCase();
-        init.body = formEncType === "application/x-www-form-urlencoded" ? convertFormDataToSearchParams(formData) : formData;
-    } // Content-Type is inferred (https://fetch.spec.whatwg.org/#dom-request)
-    return new Request(url, init);
-}
-function convertFormDataToSearchParams(formData) {
-    let searchParams = new URLSearchParams();
-    for (let [key, value] of formData.entries())// https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#converting-an-entry-list-to-a-list-of-name-value-pairs
-    searchParams.append(key, value instanceof File ? value.name : value);
-    return searchParams;
-}
-function processRouteLoaderData(matches, matchesToLoad, results, pendingError, activeDeferreds) {
-    // Fill in loaderData/errors from our loaders
-    let loaderData = {};
-    let errors = null;
-    let statusCode;
-    let foundError = false;
-    let loaderHeaders = {}; // Process loader results into state.loaderData/state.errors
-    results.forEach((result, index)=>{
-        let id = matchesToLoad[index].route.id;
-        invariant(!isRedirectResult(result), "Cannot handle redirect results in processLoaderData");
-        if (isErrorResult(result)) {
-            // Look upwards from the matched route for the closest ancestor
-            // error boundary, defaulting to the root match
-            let boundaryMatch = findNearestBoundary(matches, id);
-            let error = result.error; // If we have a pending action error, we report it at the highest-route
-            // that throws a loader error, and then clear it out to indicate that
-            // it was consumed
-            if (pendingError) {
-                error = Object.values(pendingError)[0];
-                pendingError = undefined;
-            }
-            errors = errors || {}; // Prefer higher error values if lower errors bubble to the same boundary
-            if (errors[boundaryMatch.route.id] == null) errors[boundaryMatch.route.id] = error;
-             // Clear our any prior loaderData for the throwing route
-            loaderData[id] = undefined; // Once we find our first (highest) error, we set the status code and
-            // prevent deeper status codes from overriding
-            if (!foundError) {
-                foundError = true;
-                statusCode = isRouteErrorResponse(result.error) ? result.error.status : 500;
-            }
-            if (result.headers) loaderHeaders[id] = result.headers;
-        } else {
-            if (isDeferredResult(result)) {
-                activeDeferreds.set(id, result.deferredData);
-                loaderData[id] = result.deferredData.data;
-            } else loaderData[id] = result.data;
-             // Error status codes always override success status codes, but if all
-            // loaders are successful we take the deepest status code.
-            if (result.statusCode != null && result.statusCode !== 200 && !foundError) statusCode = result.statusCode;
-            if (result.headers) loaderHeaders[id] = result.headers;
-        }
-    }); // If we didn't consume the pending action error (i.e., all loaders
-    // resolved), then consume it here.  Also clear out any loaderData for the
-    // throwing route
-    if (pendingError) {
-        errors = pendingError;
-        loaderData[Object.keys(pendingError)[0]] = undefined;
-    }
-    return {
-        loaderData,
-        errors,
-        statusCode: statusCode || 200,
-        loaderHeaders
-    };
-}
-function processLoaderData(state, matches, matchesToLoad, results, pendingError, revalidatingFetchers, fetcherResults, activeDeferreds) {
-    let { loaderData , errors  } = processRouteLoaderData(matches, matchesToLoad, results, pendingError, activeDeferreds); // Process results from our revalidating fetchers
-    for(let index = 0; index < revalidatingFetchers.length; index++){
-        let { key , match , controller  } = revalidatingFetchers[index];
-        invariant(fetcherResults !== undefined && fetcherResults[index] !== undefined, "Did not find corresponding fetcher result");
-        let result = fetcherResults[index]; // Process fetcher non-redirect errors
-        if (controller && controller.signal.aborted) continue;
-        else if (isErrorResult(result)) {
-            let boundaryMatch = findNearestBoundary(state.matches, match == null ? void 0 : match.route.id);
-            if (!(errors && errors[boundaryMatch.route.id])) errors = _extends({}, errors, {
-                [boundaryMatch.route.id]: result.error
-            });
-            state.fetchers.delete(key);
-        } else if (isRedirectResult(result)) // Should never get here, redirects should get processed above, but we
-        // keep this to type narrow to a success result in the else
-        invariant(false, "Unhandled fetcher revalidation redirect");
-        else if (isDeferredResult(result)) // Should never get here, deferred data should be awaited for fetchers
-        // in resolveDeferredResults
-        invariant(false, "Unhandled fetcher deferred data");
-        else {
-            let doneFetcher = {
-                state: "idle",
-                data: result.data,
-                formMethod: undefined,
-                formAction: undefined,
-                formEncType: undefined,
-                formData: undefined,
-                " _hasFetcherDoneAnything ": true
-            };
-            state.fetchers.set(key, doneFetcher);
-        }
-    }
-    return {
-        loaderData,
-        errors
-    };
-}
-function mergeLoaderData(loaderData, newLoaderData, matches, errors) {
-    let mergedLoaderData = _extends({}, newLoaderData);
-    for (let match of matches){
-        let id = match.route.id;
-        if (newLoaderData.hasOwnProperty(id)) {
-            if (newLoaderData[id] !== undefined) mergedLoaderData[id] = newLoaderData[id];
-        } else if (loaderData[id] !== undefined && match.route.loader) // Preserve existing keys not included in newLoaderData and where a loader
-        // wasn't removed by HMR
-        mergedLoaderData[id] = loaderData[id];
-        if (errors && errors.hasOwnProperty(id)) break;
-    }
-    return mergedLoaderData;
-} // Find the nearest error boundary, looking upwards from the leaf route (or the
-// route specified by routeId) for the closest ancestor error boundary,
-// defaulting to the root match
-function findNearestBoundary(matches, routeId) {
-    let eligibleMatches = routeId ? matches.slice(0, matches.findIndex((m)=>m.route.id === routeId) + 1) : [
-        ...matches
-    ];
-    return eligibleMatches.reverse().find((m)=>m.route.hasErrorBoundary === true) || matches[0];
-}
-function getShortCircuitMatches(routes) {
-    // Prefer a root layout route if present, otherwise shim in a route object
-    let route = routes.find((r)=>r.index || !r.path || r.path === "/") || {
-        id: "__shim-error-route__"
-    };
-    return {
-        matches: [
-            {
-                params: {},
-                pathname: "",
-                pathnameBase: "",
-                route
-            }
-        ],
-        route
-    };
-}
-function getInternalRouterError(status, _temp4) {
-    let { pathname , routeId , method , type  } = _temp4 === void 0 ? {} : _temp4;
-    let statusText = "Unknown Server Error";
-    let errorMessage = "Unknown @remix-run/router error";
-    if (status === 400) {
-        statusText = "Bad Request";
-        if (method && pathname && routeId) errorMessage = "You made a " + method + ' request to "' + pathname + '" but ' + ('did not provide a `loader` for route "' + routeId + '", ') + "so there is no way to handle the request.";
-        else if (type === "defer-action") errorMessage = "defer() is not supported in actions";
-    } else if (status === 403) {
-        statusText = "Forbidden";
-        errorMessage = 'Route "' + routeId + '" does not match URL "' + pathname + '"';
-    } else if (status === 404) {
-        statusText = "Not Found";
-        errorMessage = 'No route matches URL "' + pathname + '"';
-    } else if (status === 405) {
-        statusText = "Method Not Allowed";
-        if (method && pathname && routeId) errorMessage = "You made a " + method.toUpperCase() + ' request to "' + pathname + '" but ' + ('did not provide an `action` for route "' + routeId + '", ') + "so there is no way to handle the request.";
-        else if (method) errorMessage = 'Invalid request method "' + method.toUpperCase() + '"';
-    }
-    return new ErrorResponse(status || 500, statusText, new Error(errorMessage), true);
-} // Find any returned redirect errors, starting from the lowest match
-function findRedirect(results) {
-    for(let i = results.length - 1; i >= 0; i--){
-        let result = results[i];
-        if (isRedirectResult(result)) return result;
-    }
-}
-function stripHashFromPath(path) {
-    let parsedPath = typeof path === "string" ? parsePath(path) : path;
-    return createPath(_extends({}, parsedPath, {
-        hash: ""
-    }));
-}
-function isHashChangeOnly(a, b) {
-    if (a.pathname !== b.pathname || a.search !== b.search) return false;
-    if (a.hash === "") // /page -> /page#hash
-    return b.hash !== "";
-    else if (a.hash === b.hash) // /page#hash -> /page#hash
-    return true;
-    else if (b.hash !== "") // /page#hash -> /page#other
-    return true;
-     // If the hash is removed the browser will re-perform a request to the server
-    // /page#hash -> /page
-    return false;
-}
-function isDeferredResult(result) {
-    return result.type === ResultType.deferred;
-}
-function isErrorResult(result) {
-    return result.type === ResultType.error;
-}
-function isRedirectResult(result) {
-    return (result && result.type) === ResultType.redirect;
-}
-function isDeferredData(value) {
-    let deferred = value;
-    return deferred && typeof deferred === "object" && typeof deferred.data === "object" && typeof deferred.subscribe === "function" && typeof deferred.cancel === "function" && typeof deferred.resolveData === "function";
-}
-function isResponse(value) {
-    return value != null && typeof value.status === "number" && typeof value.statusText === "string" && typeof value.headers === "object" && typeof value.body !== "undefined";
-}
-function isRedirectResponse(result) {
-    if (!isResponse(result)) return false;
-    let status = result.status;
-    let location = result.headers.get("Location");
-    return status >= 300 && status <= 399 && location != null;
-}
-function isQueryRouteResponse(obj) {
-    return obj && isResponse(obj.response) && (obj.type === ResultType.data || ResultType.error);
-}
-function isValidMethod(method) {
-    return validRequestMethods.has(method.toLowerCase());
-}
-function isMutationMethod(method) {
-    return validMutationMethods.has(method.toLowerCase());
-}
-async function resolveDeferredResults(currentMatches, matchesToLoad, results, signals, isFetcher, currentLoaderData) {
-    for(let index = 0; index < results.length; index++){
-        let result = results[index];
-        let match = matchesToLoad[index]; // If we don't have a match, then we can have a deferred result to do
-        // anything with.  This is for revalidating fetchers where the route was
-        // removed during HMR
-        if (!match) continue;
-        let currentMatch = currentMatches.find((m)=>m.route.id === match.route.id);
-        let isRevalidatingLoader = currentMatch != null && !isNewRouteInstance(currentMatch, match) && (currentLoaderData && currentLoaderData[match.route.id]) !== undefined;
-        if (isDeferredResult(result) && (isFetcher || isRevalidatingLoader)) {
-            // Note: we do not have to touch activeDeferreds here since we race them
-            // against the signal in resolveDeferredData and they'll get aborted
-            // there if needed
-            let signal = signals[index];
-            invariant(signal, "Expected an AbortSignal for revalidating fetcher deferred result");
-            await resolveDeferredData(result, signal, isFetcher).then((result)=>{
-                if (result) results[index] = result || results[index];
-            });
-        }
-    }
-}
-async function resolveDeferredData(result, signal, unwrap) {
-    if (unwrap === void 0) unwrap = false;
-    let aborted = await result.deferredData.resolveData(signal);
-    if (aborted) return;
-    if (unwrap) try {
-        return {
-            type: ResultType.data,
-            data: result.deferredData.unwrappedData
-        };
-    } catch (e) {
-        // Handle any TrackedPromise._error values encountered while unwrapping
-        return {
-            type: ResultType.error,
-            error: e
-        };
-    }
-    return {
-        type: ResultType.data,
-        data: result.deferredData.data
-    };
-}
-function hasNakedIndexQuery(search) {
-    return new URLSearchParams(search).getAll("index").some((v)=>v === "");
-} // Note: This should match the format exported by useMatches, so if you change
-// this please also change that :)  Eventually we'll DRY this up
-function createUseMatchesMatch(match, loaderData) {
-    let { route , pathname , params  } = match;
-    return {
-        id: route.id,
-        pathname,
-        params,
-        data: loaderData[route.id],
-        handle: route.handle
-    };
-}
-function getTargetMatch(matches, location) {
-    let search = typeof location === "string" ? parsePath(location).search : location.search;
-    if (matches[matches.length - 1].route.index && hasNakedIndexQuery(search || "")) // Return the leaf index route when index is present
-    return matches[matches.length - 1];
-     // Otherwise grab the deepest "path contributing" match (ignoring index and
-    // pathless layout routes)
-    let pathMatches = getPathContributingMatches(matches);
-    return pathMatches[pathMatches.length - 1];
-} //#endregion
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dXcMu":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$e277 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$e277.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "SignIn", ()=>SignIn);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-const SignIn = ({ onClick  })=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                children: "NORM ALERT"
-            }, void 0, false, {
-                fileName: "components/SignIn.jsx",
-                lineNumber: 6,
-                columnNumber: 9
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                style: {
-                    textAlign: "center"
-                },
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                    onClick: onClick,
-                    children: "Sign in with NEAR Wallet"
-                }, void 0, false, {
-                    fileName: "components/SignIn.jsx",
-                    lineNumber: 10,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
-                fileName: "components/SignIn.jsx",
-                lineNumber: 9,
-                columnNumber: 9
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "components/SignIn.jsx",
-        lineNumber: 5,
-        columnNumber: 5
-    }, undefined);
-};
-_c = SignIn;
-var _c;
-$RefreshReg$(_c, "SignIn");
-
-  $parcel$ReactRefreshHelpers$e277.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"f6LUR":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$804c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$804c.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "SignOut", ()=>SignOut);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-const SignOut = ({ accountId , onClick  })=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-            style: {
-                float: "right"
-            },
-            onClick: onClick,
-            children: [
-                "Sign out ",
-                accountId
-            ]
-        }, void 0, true, {
-            fileName: "components/SignOut.jsx",
-            lineNumber: 6,
-            columnNumber: 9
-        }, undefined)
-    }, void 0, false, {
-        fileName: "components/SignOut.jsx",
-        lineNumber: 5,
-        columnNumber: 5
-    }, undefined);
-};
-_c = SignOut;
-var _c;
-$RefreshReg$(_c, "SignOut");
-
-  $parcel$ReactRefreshHelpers$804c.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8hL4H":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$f7be = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$f7be.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "MedicalForm", ()=>MedicalForm);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _s = $RefreshSig$();
-const MedicalForm = ()=>{
-    _s();
-    const [age, setAge] = (0, _react.useState)("");
-    const [bloodType, setBloodType] = (0, _react.useState)("");
-    const [allergies, setAllergies] = (0, _react.useState)([]);
-    const [medications, setMedications] = (0, _react.useState)([]);
-    const handleSubmit = (e)=>{
-        e.preventDefault();
-        // Handle form submission, such as sending data to a server or performing necessary actions.
-        // You can access the entered values in the state variables (age, bloodType, allergies, medications).
-        console.log(age);
-        console.log(bloodType);
-        console.log(allergies);
-        console.log(medications);
-    };
-    const handleAllergyChange = (e, index)=>{
-        const updatedAllergies = [
-            ...allergies
-        ];
-        updatedAllergies[index] = e.target.value;
-        setAllergies(updatedAllergies);
-    };
-    const handleMedicationChange = (e, index)=>{
-        const updatedMedications = [
-            ...medications
-        ];
-        updatedMedications[index] = e.target.value;
-        setMedications(updatedMedications);
-    };
-    const addAllergy = ()=>{
-        setAllergies([
-            ...allergies,
-            ""
-        ]);
-    };
-    const removeAllergy = (index)=>{
-        const updatedAllergies = [
-            ...allergies
-        ];
-        updatedAllergies.splice(index, 1);
-        setAllergies(updatedAllergies);
-    };
-    const addMedication = ()=>{
-        setMedications([
-            ...medications,
-            ""
-        ]);
-    };
-    const removeMedication = (index)=>{
-        const updatedMedications = [
-            ...medications
-        ];
-        updatedMedications.splice(index, 1);
-        setMedications(updatedMedications);
-    };
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
-        onSubmit: handleSubmit,
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                children: [
-                    "Age:",
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                        type: "number",
-                        value: age,
-                        onChange: (e)=>setAge(e.target.value)
-                    }, void 0, false, {
-                        fileName: "components/MedicalForm.jsx",
-                        lineNumber: 55,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "components/MedicalForm.jsx",
-                lineNumber: 53,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "components/MedicalForm.jsx",
-                lineNumber: 61,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                children: [
-                    "Blood Type:",
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("select", {
-                        value: bloodType,
-                        onChange: (e)=>setBloodType(e.target.value),
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                value: "",
-                                children: "Select"
-                            }, void 0, false, {
-                                fileName: "components/MedicalForm.jsx",
-                                lineNumber: 68,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                value: "A+",
-                                children: "A+"
-                            }, void 0, false, {
-                                fileName: "components/MedicalForm.jsx",
-                                lineNumber: 69,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                value: "A-",
-                                children: "A-"
-                            }, void 0, false, {
-                                fileName: "components/MedicalForm.jsx",
-                                lineNumber: 70,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                value: "B+",
-                                children: "B+"
-                            }, void 0, false, {
-                                fileName: "components/MedicalForm.jsx",
-                                lineNumber: 71,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                value: "B-",
-                                children: "B-"
-                            }, void 0, false, {
-                                fileName: "components/MedicalForm.jsx",
-                                lineNumber: 72,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                value: "O+",
-                                children: "O+"
-                            }, void 0, false, {
-                                fileName: "components/MedicalForm.jsx",
-                                lineNumber: 73,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                value: "O-",
-                                children: "O-"
-                            }, void 0, false, {
-                                fileName: "components/MedicalForm.jsx",
-                                lineNumber: 74,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                value: "AB+",
-                                children: "AB+"
-                            }, void 0, false, {
-                                fileName: "components/MedicalForm.jsx",
-                                lineNumber: 75,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                value: "AB-",
-                                children: "AB-"
-                            }, void 0, false, {
-                                fileName: "components/MedicalForm.jsx",
-                                lineNumber: 76,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/MedicalForm.jsx",
-                        lineNumber: 64,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "components/MedicalForm.jsx",
-                lineNumber: 62,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "components/MedicalForm.jsx",
-                lineNumber: 79,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                children: [
-                    "Allergies:",
-                    allergies.map((allergy, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                    type: "text",
-                                    value: allergy,
-                                    onChange: (e)=>handleAllergyChange(e, index)
-                                }, void 0, false, {
-                                    fileName: "components/MedicalForm.jsx",
-                                    lineNumber: 84,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                    type: "button",
-                                    onClick: ()=>removeAllergy(index),
-                                    children: "Remove"
-                                }, void 0, false, {
-                                    fileName: "components/MedicalForm.jsx",
-                                    lineNumber: 89,
-                                    columnNumber: 13
-                                }, undefined)
-                            ]
-                        }, index, true, {
-                            fileName: "components/MedicalForm.jsx",
-                            lineNumber: 83,
-                            columnNumber: 11
-                        }, undefined)),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        type: "button",
-                        onClick: addAllergy,
-                        children: "Add Allergy"
-                    }, void 0, false, {
-                        fileName: "components/MedicalForm.jsx",
-                        lineNumber: 94,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "components/MedicalForm.jsx",
-                lineNumber: 80,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "components/MedicalForm.jsx",
-                lineNumber: 98,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                children: [
-                    "Medications:",
-                    medications.map((medication, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                    type: "text",
-                                    value: medication,
-                                    onChange: (e)=>handleMedicationChange(e, index)
-                                }, void 0, false, {
-                                    fileName: "components/MedicalForm.jsx",
-                                    lineNumber: 103,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                    type: "button",
-                                    onClick: ()=>removeMedication(index),
-                                    children: "Remove"
-                                }, void 0, false, {
-                                    fileName: "components/MedicalForm.jsx",
-                                    lineNumber: 108,
-                                    columnNumber: 13
-                                }, undefined)
-                            ]
-                        }, index, true, {
-                            fileName: "components/MedicalForm.jsx",
-                            lineNumber: 102,
-                            columnNumber: 11
-                        }, undefined)),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        type: "button",
-                        onClick: addMedication,
-                        children: "Add Medication"
-                    }, void 0, false, {
-                        fileName: "components/MedicalForm.jsx",
-                        lineNumber: 113,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "components/MedicalForm.jsx",
-                lineNumber: 99,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "components/MedicalForm.jsx",
-                lineNumber: 117,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                type: "submit",
-                children: "Submit"
-            }, void 0, false, {
-                fileName: "components/MedicalForm.jsx",
-                lineNumber: 118,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "components/MedicalForm.jsx",
-        lineNumber: 52,
-        columnNumber: 5
-    }, undefined);
-};
-_s(MedicalForm, "tzViYr38tlmQ2lLQgd2BDvE+R+Q=");
-_c = MedicalForm;
-var _c;
-$RefreshReg$(_c, "MedicalForm");
-
-  $parcel$ReactRefreshHelpers$f7be.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9A4fb":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$c2e7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$c2e7.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "Button", ()=>Button);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-const Button = ()=>{
-    const handleClick = ()=>{
-        // Handle button click event
-        console.log("pressed");
-    };
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-            style: {
-                backgroundColor: "red",
-                color: "#fff",
-                padding: "10px 20px",
-                fontSize: "20px",
-                borderRadius: "8px",
-                border: "none",
-                cursor: "pointer"
-            },
-            onClick: handleClick,
-            children: "Click Me"
-        }, void 0, false, {
-            fileName: "components/Button.jsx",
-            lineNumber: 12,
-            columnNumber: 11
-        }, undefined)
-    }, void 0, false, {
-        fileName: "components/Button.jsx",
-        lineNumber: 10,
-        columnNumber: 9
-    }, undefined);
-};
-_c = Button;
-var _c;
-$RefreshReg$(_c, "Button");
-
-  $parcel$ReactRefreshHelpers$c2e7.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"h9n8f":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$cdd8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$cdd8.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "Optional", ()=>Optional);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _s = $RefreshSig$();
-const Optional = ()=>{
-    _s();
-    const [description, setDescription] = (0, _react.useState)("");
-    const handleDescriptionChange = (e)=>{
-        setDescription(e.target.value);
-    };
-    const handleButtonClick = ()=>{
-        if (description === "") // Handle skip button click event
-        console.log("skipped");
-        else // Handle submit button click event
-        console.log("submit");
-    };
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                children: [
-                    "Description:",
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
-                        value: description,
-                        onChange: handleDescriptionChange,
-                        placeholder: "Enter your description"
-                    }, void 0, false, {
-                        fileName: "components/Optional.jsx",
-                        lineNumber: 24,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "components/Optional.jsx",
-                lineNumber: 22,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "components/Optional.jsx",
-                lineNumber: 30,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                type: "button",
-                onClick: handleButtonClick,
-                style: {
-                    backgroundColor: "#4caf50",
-                    color: "#fff",
-                    padding: "10px 20px",
-                    fontSize: "16px",
-                    borderRadius: "8px",
-                    border: "none",
-                    cursor: "pointer"
-                },
-                children: description.length === 0 ? "Skip" : "Submit"
-            }, void 0, false, {
-                fileName: "components/Optional.jsx",
-                lineNumber: 31,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "components/Optional.jsx",
-        lineNumber: 21,
-        columnNumber: 5
-    }, undefined);
-};
-_s(Optional, "T5v5dRzedMK18tfGxj2rihBX8Sg=");
-_c = Optional;
-var _c;
-$RefreshReg$(_c, "Optional");
-
-  $parcel$ReactRefreshHelpers$cdd8.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"h2iZR":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$d4a1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$d4a1.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "Final", ()=>Final);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-const Final = ()=>{
-    const people = [
-        {
-            name: "John Doe",
-            eta: "10 minutes",
-            distance: "2 miles"
-        },
-        {
-            name: "Jane Smith",
-            eta: "15 minutes",
-            distance: "3 miles"
-        },
-        {
-            name: "Alice Johnson",
-            eta: "8 minutes",
-            distance: "1 mile"
-        }
-    ];
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        style: {
-            display: "flex",
-            flexDirection: "column",
-            minHeight: "100vh"
-        },
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                style: {
-                    flex: "1",
-                    backgroundColor: "#f0f0f0",
-                    minHeight: "60vh"
-                }
-            }, void 0, false, {
-                fileName: "components/Final.jsx",
-                lineNumber: 12,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                style: {
-                    backgroundColor: "#ffffff",
-                    padding: "20px",
-                    minHeight: "40vh"
-                },
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
-                    style: {
-                        width: "100%"
-                    },
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("thead", {
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
-                                        children: "Name"
-                                    }, void 0, false, {
-                                        fileName: "components/Final.jsx",
-                                        lineNumber: 20,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
-                                        children: "ETA"
-                                    }, void 0, false, {
-                                        fileName: "components/Final.jsx",
-                                        lineNumber: 21,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
-                                        children: "Distance"
-                                    }, void 0, false, {
-                                        fileName: "components/Final.jsx",
-                                        lineNumber: 22,
-                                        columnNumber: 15
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/Final.jsx",
-                                lineNumber: 19,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "components/Final.jsx",
-                            lineNumber: 18,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tbody", {
-                            children: people.map((person, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                            children: person.name
-                                        }, void 0, false, {
-                                            fileName: "components/Final.jsx",
-                                            lineNumber: 28,
-                                            columnNumber: 17
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                            children: person.eta
-                                        }, void 0, false, {
-                                            fileName: "components/Final.jsx",
-                                            lineNumber: 29,
-                                            columnNumber: 17
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                            children: person.distance
-                                        }, void 0, false, {
-                                            fileName: "components/Final.jsx",
-                                            lineNumber: 30,
-                                            columnNumber: 17
-                                        }, undefined)
-                                    ]
-                                }, index, true, {
-                                    fileName: "components/Final.jsx",
-                                    lineNumber: 27,
-                                    columnNumber: 15
-                                }, undefined))
-                        }, void 0, false, {
-                            fileName: "components/Final.jsx",
-                            lineNumber: 25,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/Final.jsx",
-                    lineNumber: 17,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
-                fileName: "components/Final.jsx",
-                lineNumber: 15,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "components/Final.jsx",
-        lineNumber: 11,
-        columnNumber: 9
-    }, undefined);
-};
-_c = Final;
-var _c;
-$RefreshReg$(_c, "Final");
-
-  $parcel$ReactRefreshHelpers$d4a1.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1tpOb":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$24c0 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$24c0.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "Sidebar", ()=>Sidebar);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _s = $RefreshSig$();
-const Sidebar = ()=>{
-    _s();
-    const [sidebarOpen, setSidebarOpen] = (0, _react.useState)(false);
-    const handleToggleSidebar = ()=>{
-        setSidebarOpen(!sidebarOpen);
-    };
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        style: {
-            display: "flex",
-            minHeight: "100vh"
-        },
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                onClick: handleToggleSidebar,
-                style: {
-                    position: "fixed",
-                    top: "20px",
-                    right: "20px",
-                    zIndex: 9999
-                },
-                children: "Toggle Sidebar"
-            }, void 0, false, {
-                fileName: "components/Sidebar.jsx",
-                lineNumber: 12,
-                columnNumber: 9
-            }, undefined),
-            sidebarOpen && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                style: {
-                    position: "fixed",
-                    top: 0,
-                    right: 0,
-                    width: "50%",
-                    height: "100%",
-                    backgroundColor: "#fff",
-                    zIndex: 9998
-                },
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                        children: "Sidebar Content"
-                    }, void 0, false, {
-                        fileName: "components/Sidebar.jsx",
-                        lineNumber: 35,
-                        columnNumber: 13
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "This is the sidebar that appears on the right side of the screen."
-                    }, void 0, false, {
-                        fileName: "components/Sidebar.jsx",
-                        lineNumber: 36,
-                        columnNumber: 13
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "You can put any content you want inside it."
-                    }, void 0, false, {
-                        fileName: "components/Sidebar.jsx",
-                        lineNumber: 37,
-                        columnNumber: 13
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "components/Sidebar.jsx",
-                lineNumber: 24,
-                columnNumber: 11
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                style: {
-                    flex: 1,
-                    backgroundColor: "#f0f0f0",
-                    minHeight: "100vh"
-                },
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                        children: "Main Content"
-                    }, void 0, false, {
-                        fileName: "components/Sidebar.jsx",
-                        lineNumber: 42,
-                        columnNumber: 11
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "This is the main content of the page that goes behind the sidebar."
-                    }, void 0, false, {
-                        fileName: "components/Sidebar.jsx",
-                        lineNumber: 43,
-                        columnNumber: 11
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "components/Sidebar.jsx",
-                lineNumber: 40,
-                columnNumber: 9
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "components/Sidebar.jsx",
-        lineNumber: 11,
-        columnNumber: 7
-    }, undefined);
-};
-_s(Sidebar, "5rGDkYpGQ8fHM9RkMWnKOwsxadk=");
-_c = Sidebar;
-var _c;
-$RefreshReg$(_c, "Sidebar");
-
-  $parcel$ReactRefreshHelpers$24c0.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","8BXtR","bB7Pu"], "bB7Pu", "parcelRequiref931")
+},{"near-api-js":"ohc3m","@near-wallet-selector/wallet-utils":"5gEB8","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["1xC6H","8BXtR","bB7Pu"], "bB7Pu", "parcelRequiref931")
 
 //# sourceMappingURL=index.3d214d75.js.map

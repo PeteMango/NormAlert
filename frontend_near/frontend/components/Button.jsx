@@ -1,9 +1,12 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 export const Button = () => {
+  const navigate = useNavigate();
     const handleClick = () => {
         // Handle button click event
         console.log("pressed");
+        navigate('/optional');
       };
     
       return (
