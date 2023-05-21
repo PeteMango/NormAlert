@@ -1464,4 +1464,49 @@
 
 
 
+.navbar {
+  color: #fff;
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+.navbar-logo {
+  margin: 0;
+  font-size: 24px;
+}
+
+.nav-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (width <= 768px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .navbar-logo {
+    font-size: 20px;
+  }
+}
+
 /*# sourceMappingURL=index.471187ca.css.map */

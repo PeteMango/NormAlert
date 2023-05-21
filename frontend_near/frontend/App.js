@@ -5,6 +5,10 @@ import './assets/global.css';
 
 import { EducationalText, SignInPrompt, SignOutButton } from './ui-components';
 import { Hello } from './components/Hello';
+import { ChatGPT } from './components/ChatGPT';
+import { Nav } from './components/Nav';
+import { Link, BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { SignIn } from './components/SignIn';
 
 export default function App({ isSignedIn, contractId, wallet }) {
   // const [valueFromBlockchain, setValueFromBlockchain] = React.useState();
@@ -26,7 +30,7 @@ export default function App({ isSignedIn, contractId, wallet }) {
   if (!isSignedIn) {
     // Sign-in flow will reload the page later
     // return <SignInPrompt greeting={valueFromBlockchain} onClick={() => wallet.signIn()}/>;
-    return <SignInPrompt onClick={() => wallet.signIn()}/>;
+    return <SignIn onClick={() => wallet.signIn()}/>;
   }
 
   // function changeGreeting(e) {
@@ -50,8 +54,14 @@ export default function App({ isSignedIn, contractId, wallet }) {
 
   return (
     <>
+      <Nav />
       <SignOutButton accountId={wallet.accountId} onClick={() => wallet.signOut()}/>
-      <Hello />
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Hello />} />
+          <Route path="aid" element={<ChatGPT /> } />
+        </Routes>
+      </Router>
       {/* <main className={uiPleaseWait ? 'please-wait' : ''}>
         <h1>
           The contract says: <span className="greeting">{valueFromBlockchain}</span>
