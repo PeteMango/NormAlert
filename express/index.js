@@ -7,9 +7,9 @@ const app = express();
 const pgp = require('pg-promise')();
 const db = pgp({
   host: 'localhost',
-  port: 5432,
-  database: 'olympihacks',
-  user: 'normanchen',
+  port: 5433,
+  database: 'petemango',
+  user: 'petemango',
   password: process.env.POSTGRES_PWRD,
 });
 
@@ -190,10 +190,14 @@ app.get('/api/drivingTime/:origin', async (req, res) => {
 });
 
 
-app.get('/api/test/postgres', (req, res) => {
-  db.any('SELECT * FROM users')
+app.get('/api/test/nearby', (req, res) => {
+  db.any('SELECT * FROM locations')
     .then((data) => {
-      res.status(200).send(data);
+      const locations = data.map((location) => ({
+        latitude: location.latitude,
+        longitude: location.longitude,
+      }));
+      res.status(200).json(locations);
     })
     .catch((error) => {
       console.log(error);

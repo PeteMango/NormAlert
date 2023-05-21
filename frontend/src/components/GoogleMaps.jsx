@@ -23,9 +23,6 @@ const GoogleMaps = () => {
 
   useEffect(() => {
     fetchDrivingData();
-    addMarker(40, -80);
-    addMarker(41, -81);
-    addMarker(42, -82);
   }, [origin]);
 
   const fetchDrivingData = async () => {
@@ -35,16 +32,26 @@ const GoogleMaps = () => {
           `http://localhost:4000/api/drivingDistance/${origin}`
         );
         setDrivingDistance(responseDistance.data.distance);
-
+  
         const responseTime = await axios.get(
           `http://localhost:4000/api/drivingTime/${origin}`
         );
         setDrivingTime(responseTime.data.duration);
       }
+  
+      const response = await axios.get("http://localhost:4000/api/test/nearby");
+      const locations = response.data;
+  
+      console.log(locations);
+
+      locations.forEach((location) => {
+        addMarker(parseFloat(location.latitude), parseFloat(location.longitude));
+      });
     } catch (error) {
       console.error("Error fetching driving data:", error);
     }
   };
+  
 
   const fetchCurrentLocation = async () => {
     try {
