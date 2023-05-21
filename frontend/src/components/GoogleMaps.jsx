@@ -16,7 +16,7 @@ const GoogleMaps = () => {
     try {
       const response = await axios.get('http://localhost:4000/api/googlemaps/currentLocation');
       const { latitude, longitude } = response.data;
-      setDestination(`${latitude},${longitude}`); // Set current location as the destination
+      setDestination(`${latitude},${longitude}`);
     } catch (error) {
       console.error('Error fetching current location:', error);
     }
@@ -39,8 +39,6 @@ const GoogleMaps = () => {
     const { name, value } = event.target;
     if (name === 'origin') {
       setOrigin(value);
-    } else if (name === 'destination') {
-      setDestination(value);
     }
   };
 
@@ -63,8 +61,8 @@ const GoogleMaps = () => {
       const directionsService = new window.google.maps.DirectionsService();
 
       const directionsRequest = {
-        origin,
-        destination,
+        origin: destination,
+        destination: origin,
         travelMode: 'DRIVING',
       };
 
@@ -90,10 +88,6 @@ const GoogleMaps = () => {
         <div>
           <label htmlFor="origin">Origin:</label>
           <input type="text" id="origin" name="origin" value={origin} onChange={onInputChange} />
-        </div>
-        <div>
-          <label htmlFor="destination">Destination:</label>
-          <input type="text" id="destination" name="destination" value={destination} onChange={onInputChange} />
         </div>
         <button type="submit">Get Directions</button>
       </form>
