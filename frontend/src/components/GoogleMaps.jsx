@@ -19,11 +19,21 @@ const GoogleMaps = () => {
   useEffect(() => {
     fetchCurrentLocation();
   }, []);
-  
 
   useEffect(() => {
     fetchDrivingData();
   }, [origin]);
+
+  useEffect(() => {
+    if (map) {
+      const bounds = new window.google.maps.LatLngBounds();
+      coordinatesList.forEach((coordinate) => {
+        bounds.extend(new window.google.maps.LatLng(coordinate.lat, coordinate.lng));
+      });
+      map.fitBounds(bounds);
+    }
+  }, [map, coordinatesList]);
+
 
   const fetchDrivingData = async () => {
     try {
@@ -32,26 +42,28 @@ const GoogleMaps = () => {
           `http://localhost:4000/api/drivingDistance/${origin}`
         );
         setDrivingDistance(responseDistance.data.distance);
-  
+
         const responseTime = await axios.get(
           `http://localhost:4000/api/drivingTime/${origin}`
         );
         setDrivingTime(responseTime.data.duration);
       }
-  
+
       const response = await axios.get("http://localhost:4000/api/test/nearby");
       const locations = response.data;
-  
+
       console.log(locations);
 
       locations.forEach((location) => {
-        addMarker(parseFloat(location.latitude), parseFloat(location.longitude));
+        addMarker(
+          parseFloat(location.latitude),
+          parseFloat(location.longitude)
+        );
       });
     } catch (error) {
       console.error("Error fetching driving data:", error);
     }
   };
-  
 
   const fetchCurrentLocation = async () => {
     try {
@@ -90,19 +102,38 @@ const GoogleMaps = () => {
     renderDirections();
   };
 
-const addMarker = (lat, lng) => {
-  setCoordinatesList(prevState => [...prevState, { lat, lng }]);
-};
+  const addMarker = (lat, lng) => {
+    setCoordinatesList((prevState) => [...prevState, { lat, lng }]);
+  };
 
   const renderMarkers = () => {
+    const pinColor = "blue"; // Change the color here
+
     return (
       <>
-        {origin && <Marker position={origin} />}
-        {destination && <Marker position={destination} />}
+        {origin && (
+          <Marker
+            position={origin}
+            icon={{
+              url: `http://maps.google.com/mapfiles/ms/icons/${pinColor}-dot.png`,
+            }}
+          />
+        )}
+        {destination && (
+          <Marker
+            position={destination}
+            icon={{
+              url: `http://maps.google.com/mapfiles/ms/icons/${pinColor}-dot.png`,
+            }}
+          />
+        )}
         {coordinatesList.map((coordinate, index) => (
           <Marker
             key={index}
             position={{ lat: coordinate.lat, lng: coordinate.lng }}
+            icon={{
+              url: `http://maps.google.com/mapfiles/ms/icons/${pinColor}-dot.png`,
+            }}
           />
         ))}
       </>
