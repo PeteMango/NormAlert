@@ -68838,64 +68838,39 @@ var _runtime = require("regenerator-runtime/runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _globalCss = require("./assets/global.css");
-var _uiComponents = require("./ui-components");
 var _hello = require("./components/Hello");
 var _chatGPT = require("./components/ChatGPT");
 var _nav = require("./components/Nav");
 var _reactRouterDom = require("react-router-dom");
 var _signIn = require("./components/SignIn");
+var _signOut = require("./components/SignOut");
+var _medicalForm = require("./components/MedicalForm");
+var _button = require("./components/Button");
+var _optional = require("./components/Optional");
+var _final = require("./components/Final");
+var _sidebar = require("./components/Sidebar");
 function App({ isSignedIn , contractId , wallet  }) {
-    // const [valueFromBlockchain, setValueFromBlockchain] = React.useState();
-    // const [uiPleaseWait, setUiPleaseWait] = React.useState(true);
-    // Get blockchian state once on component load
-    // React.useEffect(() => {
-    //   getGreeting()
-    //     .then(setValueFromBlockchain)
-    //     .catch(alert)
-    //     .finally(() => {
-    //       setUiPleaseWait(false);
-    //     });
-    //   }
-    // , []);
     /// If user not signed-in with wallet - show prompt
-    if (!isSignedIn) // Sign-in flow will reload the page later
-    // return <SignInPrompt greeting={valueFromBlockchain} onClick={() => wallet.signIn()}/>;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _signIn.SignIn), {
+    if (!isSignedIn) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _signIn.SignIn), {
         onClick: ()=>wallet.signIn()
     }, void 0, false, {
         fileName: "App.js",
-        lineNumber: 33,
+        lineNumber: 22,
         columnNumber: 12
     }, this);
-    // function changeGreeting(e) {
-    //   e.preventDefault();
-    //   setUiPleaseWait(true);
-    //   const { greetingInput } = e.target.elements;
-    //   // use the wallet to send the greeting to the contract
-    //   wallet.callMethod({ method: 'set_greeting', args: { message: greetingInput.value }, contractId })
-    //     .then(async () => {return getGreeting();})
-    //     .then(setValueFromBlockchain)
-    //     .finally(() => {
-    //       setUiPleaseWait(false);
-    //     });
-    // }
-    // function getGreeting(){
-    //   // use the wallet to query the contract's greeting
-    //   return wallet.viewMethod({ method: 'get_greeting', contractId })
-    // }
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _nav.Nav), {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 57,
+                lineNumber: 26,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _uiComponents.SignOutButton), {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _signOut.SignOut), {
                 accountId: wallet.accountId,
                 onClick: ()=>wallet.signOut()
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 58,
+                lineNumber: 27,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
@@ -68907,26 +68882,66 @@ function App({ isSignedIn , contractId , wallet  }) {
                             element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _hello.Hello), {}, void 0, false, void 0, void 0)
                         }, void 0, false, {
                             fileName: "App.js",
-                            lineNumber: 61,
+                            lineNumber: 30,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                            path: "aid",
+                            path: "first-aid",
                             element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _chatGPT.ChatGPT), {}, void 0, false, void 0, void 0)
                         }, void 0, false, {
                             fileName: "App.js",
-                            lineNumber: 62,
+                            lineNumber: 31,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "medical-history",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _medicalForm.MedicalForm), {}, void 0, false, void 0, void 0)
+                        }, void 0, false, {
+                            fileName: "App.js",
+                            lineNumber: 32,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "button",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _button.Button), {}, void 0, false, void 0, void 0)
+                        }, void 0, false, {
+                            fileName: "App.js",
+                            lineNumber: 33,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "optional",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _optional.Optional), {}, void 0, false, void 0, void 0)
+                        }, void 0, false, {
+                            fileName: "App.js",
+                            lineNumber: 34,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "final",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _final.Final), {}, void 0, false, void 0, void 0)
+                        }, void 0, false, {
+                            fileName: "App.js",
+                            lineNumber: 35,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "sidebar",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sidebar.Sidebar), {}, void 0, false, void 0, void 0)
+                        }, void 0, false, {
+                            fileName: "App.js",
+                            lineNumber: 36,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "App.js",
-                    lineNumber: 60,
+                    lineNumber: 29,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 59,
+                lineNumber: 28,
                 columnNumber: 7
             }, this)
         ]
@@ -68942,7 +68957,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","regenerator-runtime/runtime":"dXNgZ","react":"21dqq","./assets/global.css":"1hP5v","./ui-components":"4LIXu","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/Hello":"fZlyE","./components/ChatGPT":"41oow","./components/Nav":"bk2KG","react-router-dom":"9xmpe","./components/SignIn":"dXcMu"}],"dXNgZ":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","regenerator-runtime/runtime":"dXNgZ","react":"21dqq","./assets/global.css":"1hP5v","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/Hello":"fZlyE","./components/ChatGPT":"41oow","./components/Nav":"bk2KG","react-router-dom":"9xmpe","./components/SignIn":"dXcMu","./components/SignOut":"f6LUR","./components/MedicalForm":"8hL4H","./components/Button":"9A4fb","./components/Optional":"h9n8f","./components/Final":"h2iZR","./components/Sidebar":"1tpOb"}],"dXNgZ":[function(require,module,exports) {
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
  *
@@ -69529,88 +69544,7 @@ try {
     else Function("r", "regeneratorRuntime = r")(runtime);
 }
 
-},{}],"1hP5v":[function() {},{}],"4LIXu":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$38d8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$38d8.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "SignInPrompt", ()=>SignInPrompt);
-parcelHelpers.export(exports, "SignOutButton", ()=>SignOutButton);
-parcelHelpers.export(exports, "EducationalText", ()=>EducationalText);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-function SignInPrompt({ greeting , onClick  }) {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                children: "NORM ALERT"
-            }, void 0, false, {
-                fileName: "ui-components.js",
-                lineNumber: 23,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                style: {
-                    textAlign: "center"
-                },
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                    onClick: onClick,
-                    children: "Sign in with NEAR Wallet"
-                }, void 0, false, {
-                    fileName: "ui-components.js",
-                    lineNumber: 27,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "ui-components.js",
-                lineNumber: 26,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "ui-components.js",
-        lineNumber: 5,
-        columnNumber: 5
-    }, this);
-}
-_c = SignInPrompt;
-function SignOutButton({ accountId , onClick  }) {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-        style: {
-            float: "right"
-        },
-        onClick: onClick,
-        children: [
-            "Sign out ",
-            accountId
-        ]
-    }, void 0, true, {
-        fileName: "ui-components.js",
-        lineNumber: 35,
-        columnNumber: 5
-    }, this);
-}
-_c1 = SignOutButton;
-function EducationalText() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {}, void 0, false);
-}
-_c2 = EducationalText;
-var _c, _c1, _c2;
-$RefreshReg$(_c, "SignInPrompt");
-$RefreshReg$(_c1, "SignOutButton");
-$RefreshReg$(_c2, "EducationalText");
-
-  $parcel$ReactRefreshHelpers$38d8.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fZlyE":[function(require,module,exports) {
+},{}],"1hP5v":[function() {},{}],"fZlyE":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$1bc3 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -75187,6 +75121,780 @@ var _c;
 $RefreshReg$(_c, "SignIn");
 
   $parcel$ReactRefreshHelpers$e277.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"f6LUR":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$804c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$804c.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "SignOut", ()=>SignOut);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const SignOut = ({ accountId , onClick  })=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+            style: {
+                float: "right"
+            },
+            onClick: onClick,
+            children: [
+                "Sign out ",
+                accountId
+            ]
+        }, void 0, true, {
+            fileName: "components/SignOut.jsx",
+            lineNumber: 6,
+            columnNumber: 9
+        }, undefined)
+    }, void 0, false, {
+        fileName: "components/SignOut.jsx",
+        lineNumber: 5,
+        columnNumber: 5
+    }, undefined);
+};
+_c = SignOut;
+var _c;
+$RefreshReg$(_c, "SignOut");
+
+  $parcel$ReactRefreshHelpers$804c.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8hL4H":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$f7be = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$f7be.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "MedicalForm", ()=>MedicalForm);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _s = $RefreshSig$();
+const MedicalForm = ()=>{
+    _s();
+    const [age, setAge] = (0, _react.useState)("");
+    const [bloodType, setBloodType] = (0, _react.useState)("");
+    const [allergies, setAllergies] = (0, _react.useState)([]);
+    const [medications, setMedications] = (0, _react.useState)([]);
+    const handleSubmit = (e)=>{
+        e.preventDefault();
+        // Handle form submission, such as sending data to a server or performing necessary actions.
+        // You can access the entered values in the state variables (age, bloodType, allergies, medications).
+        console.log(age);
+        console.log(bloodType);
+        console.log(allergies);
+        console.log(medications);
+    };
+    const handleAllergyChange = (e, index)=>{
+        const updatedAllergies = [
+            ...allergies
+        ];
+        updatedAllergies[index] = e.target.value;
+        setAllergies(updatedAllergies);
+    };
+    const handleMedicationChange = (e, index)=>{
+        const updatedMedications = [
+            ...medications
+        ];
+        updatedMedications[index] = e.target.value;
+        setMedications(updatedMedications);
+    };
+    const addAllergy = ()=>{
+        setAllergies([
+            ...allergies,
+            ""
+        ]);
+    };
+    const removeAllergy = (index)=>{
+        const updatedAllergies = [
+            ...allergies
+        ];
+        updatedAllergies.splice(index, 1);
+        setAllergies(updatedAllergies);
+    };
+    const addMedication = ()=>{
+        setMedications([
+            ...medications,
+            ""
+        ]);
+    };
+    const removeMedication = (index)=>{
+        const updatedMedications = [
+            ...medications
+        ];
+        updatedMedications.splice(index, 1);
+        setMedications(updatedMedications);
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+        onSubmit: handleSubmit,
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                children: [
+                    "Age:",
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        type: "number",
+                        value: age,
+                        onChange: (e)=>setAge(e.target.value)
+                    }, void 0, false, {
+                        fileName: "components/MedicalForm.jsx",
+                        lineNumber: 55,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "components/MedicalForm.jsx",
+                lineNumber: 53,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "components/MedicalForm.jsx",
+                lineNumber: 61,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                children: [
+                    "Blood Type:",
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("select", {
+                        value: bloodType,
+                        onChange: (e)=>setBloodType(e.target.value),
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                value: "",
+                                children: "Select"
+                            }, void 0, false, {
+                                fileName: "components/MedicalForm.jsx",
+                                lineNumber: 68,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                value: "A+",
+                                children: "A+"
+                            }, void 0, false, {
+                                fileName: "components/MedicalForm.jsx",
+                                lineNumber: 69,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                value: "A-",
+                                children: "A-"
+                            }, void 0, false, {
+                                fileName: "components/MedicalForm.jsx",
+                                lineNumber: 70,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                value: "B+",
+                                children: "B+"
+                            }, void 0, false, {
+                                fileName: "components/MedicalForm.jsx",
+                                lineNumber: 71,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                value: "B-",
+                                children: "B-"
+                            }, void 0, false, {
+                                fileName: "components/MedicalForm.jsx",
+                                lineNumber: 72,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                value: "O+",
+                                children: "O+"
+                            }, void 0, false, {
+                                fileName: "components/MedicalForm.jsx",
+                                lineNumber: 73,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                value: "O-",
+                                children: "O-"
+                            }, void 0, false, {
+                                fileName: "components/MedicalForm.jsx",
+                                lineNumber: 74,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                value: "AB+",
+                                children: "AB+"
+                            }, void 0, false, {
+                                fileName: "components/MedicalForm.jsx",
+                                lineNumber: 75,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                value: "AB-",
+                                children: "AB-"
+                            }, void 0, false, {
+                                fileName: "components/MedicalForm.jsx",
+                                lineNumber: 76,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/MedicalForm.jsx",
+                        lineNumber: 64,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "components/MedicalForm.jsx",
+                lineNumber: 62,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "components/MedicalForm.jsx",
+                lineNumber: 79,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                children: [
+                    "Allergies:",
+                    allergies.map((allergy, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                    type: "text",
+                                    value: allergy,
+                                    onChange: (e)=>handleAllergyChange(e, index)
+                                }, void 0, false, {
+                                    fileName: "components/MedicalForm.jsx",
+                                    lineNumber: 84,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                    type: "button",
+                                    onClick: ()=>removeAllergy(index),
+                                    children: "Remove"
+                                }, void 0, false, {
+                                    fileName: "components/MedicalForm.jsx",
+                                    lineNumber: 89,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, index, true, {
+                            fileName: "components/MedicalForm.jsx",
+                            lineNumber: 83,
+                            columnNumber: 11
+                        }, undefined)),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        type: "button",
+                        onClick: addAllergy,
+                        children: "Add Allergy"
+                    }, void 0, false, {
+                        fileName: "components/MedicalForm.jsx",
+                        lineNumber: 94,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "components/MedicalForm.jsx",
+                lineNumber: 80,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "components/MedicalForm.jsx",
+                lineNumber: 98,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                children: [
+                    "Medications:",
+                    medications.map((medication, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                    type: "text",
+                                    value: medication,
+                                    onChange: (e)=>handleMedicationChange(e, index)
+                                }, void 0, false, {
+                                    fileName: "components/MedicalForm.jsx",
+                                    lineNumber: 103,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                    type: "button",
+                                    onClick: ()=>removeMedication(index),
+                                    children: "Remove"
+                                }, void 0, false, {
+                                    fileName: "components/MedicalForm.jsx",
+                                    lineNumber: 108,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, index, true, {
+                            fileName: "components/MedicalForm.jsx",
+                            lineNumber: 102,
+                            columnNumber: 11
+                        }, undefined)),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        type: "button",
+                        onClick: addMedication,
+                        children: "Add Medication"
+                    }, void 0, false, {
+                        fileName: "components/MedicalForm.jsx",
+                        lineNumber: 113,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "components/MedicalForm.jsx",
+                lineNumber: 99,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "components/MedicalForm.jsx",
+                lineNumber: 117,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                type: "submit",
+                children: "Submit"
+            }, void 0, false, {
+                fileName: "components/MedicalForm.jsx",
+                lineNumber: 118,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "components/MedicalForm.jsx",
+        lineNumber: 52,
+        columnNumber: 5
+    }, undefined);
+};
+_s(MedicalForm, "tzViYr38tlmQ2lLQgd2BDvE+R+Q=");
+_c = MedicalForm;
+var _c;
+$RefreshReg$(_c, "MedicalForm");
+
+  $parcel$ReactRefreshHelpers$f7be.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9A4fb":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$c2e7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$c2e7.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Button", ()=>Button);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const Button = ()=>{
+    const handleClick = ()=>{
+        // Handle button click event
+        console.log("pressed");
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+            style: {
+                backgroundColor: "red",
+                color: "#fff",
+                padding: "10px 20px",
+                fontSize: "20px",
+                borderRadius: "8px",
+                border: "none",
+                cursor: "pointer"
+            },
+            onClick: handleClick,
+            children: "Click Me"
+        }, void 0, false, {
+            fileName: "components/Button.jsx",
+            lineNumber: 12,
+            columnNumber: 11
+        }, undefined)
+    }, void 0, false, {
+        fileName: "components/Button.jsx",
+        lineNumber: 10,
+        columnNumber: 9
+    }, undefined);
+};
+_c = Button;
+var _c;
+$RefreshReg$(_c, "Button");
+
+  $parcel$ReactRefreshHelpers$c2e7.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"h9n8f":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$cdd8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$cdd8.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Optional", ()=>Optional);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _s = $RefreshSig$();
+const Optional = ()=>{
+    _s();
+    const [description, setDescription] = (0, _react.useState)("");
+    const handleDescriptionChange = (e)=>{
+        setDescription(e.target.value);
+    };
+    const handleButtonClick = ()=>{
+        if (description === "") // Handle skip button click event
+        console.log("skipped");
+        else // Handle submit button click event
+        console.log("submit");
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                children: [
+                    "Description:",
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
+                        value: description,
+                        onChange: handleDescriptionChange,
+                        placeholder: "Enter your description"
+                    }, void 0, false, {
+                        fileName: "components/Optional.jsx",
+                        lineNumber: 24,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "components/Optional.jsx",
+                lineNumber: 22,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "components/Optional.jsx",
+                lineNumber: 30,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                type: "button",
+                onClick: handleButtonClick,
+                style: {
+                    backgroundColor: "#4caf50",
+                    color: "#fff",
+                    padding: "10px 20px",
+                    fontSize: "16px",
+                    borderRadius: "8px",
+                    border: "none",
+                    cursor: "pointer"
+                },
+                children: description.length === 0 ? "Skip" : "Submit"
+            }, void 0, false, {
+                fileName: "components/Optional.jsx",
+                lineNumber: 31,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "components/Optional.jsx",
+        lineNumber: 21,
+        columnNumber: 5
+    }, undefined);
+};
+_s(Optional, "T5v5dRzedMK18tfGxj2rihBX8Sg=");
+_c = Optional;
+var _c;
+$RefreshReg$(_c, "Optional");
+
+  $parcel$ReactRefreshHelpers$cdd8.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"h2iZR":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$d4a1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$d4a1.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Final", ()=>Final);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const Final = ()=>{
+    const people = [
+        {
+            name: "John Doe",
+            eta: "10 minutes",
+            distance: "2 miles"
+        },
+        {
+            name: "Jane Smith",
+            eta: "15 minutes",
+            distance: "3 miles"
+        },
+        {
+            name: "Alice Johnson",
+            eta: "8 minutes",
+            distance: "1 mile"
+        }
+    ];
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        style: {
+            display: "flex",
+            flexDirection: "column",
+            minHeight: "100vh"
+        },
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                style: {
+                    flex: "1",
+                    backgroundColor: "#f0f0f0",
+                    minHeight: "60vh"
+                }
+            }, void 0, false, {
+                fileName: "components/Final.jsx",
+                lineNumber: 12,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                style: {
+                    backgroundColor: "#ffffff",
+                    padding: "20px",
+                    minHeight: "40vh"
+                },
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
+                    style: {
+                        width: "100%"
+                    },
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("thead", {
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                        children: "Name"
+                                    }, void 0, false, {
+                                        fileName: "components/Final.jsx",
+                                        lineNumber: 20,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                        children: "ETA"
+                                    }, void 0, false, {
+                                        fileName: "components/Final.jsx",
+                                        lineNumber: 21,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                        children: "Distance"
+                                    }, void 0, false, {
+                                        fileName: "components/Final.jsx",
+                                        lineNumber: 22,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/Final.jsx",
+                                lineNumber: 19,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "components/Final.jsx",
+                            lineNumber: 18,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tbody", {
+                            children: people.map((person, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                            children: person.name
+                                        }, void 0, false, {
+                                            fileName: "components/Final.jsx",
+                                            lineNumber: 28,
+                                            columnNumber: 17
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                            children: person.eta
+                                        }, void 0, false, {
+                                            fileName: "components/Final.jsx",
+                                            lineNumber: 29,
+                                            columnNumber: 17
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                            children: person.distance
+                                        }, void 0, false, {
+                                            fileName: "components/Final.jsx",
+                                            lineNumber: 30,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    ]
+                                }, index, true, {
+                                    fileName: "components/Final.jsx",
+                                    lineNumber: 27,
+                                    columnNumber: 15
+                                }, undefined))
+                        }, void 0, false, {
+                            fileName: "components/Final.jsx",
+                            lineNumber: 25,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/Final.jsx",
+                    lineNumber: 17,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "components/Final.jsx",
+                lineNumber: 15,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "components/Final.jsx",
+        lineNumber: 11,
+        columnNumber: 9
+    }, undefined);
+};
+_c = Final;
+var _c;
+$RefreshReg$(_c, "Final");
+
+  $parcel$ReactRefreshHelpers$d4a1.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1tpOb":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$24c0 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$24c0.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Sidebar", ()=>Sidebar);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _s = $RefreshSig$();
+const Sidebar = ()=>{
+    _s();
+    const [sidebarOpen, setSidebarOpen] = (0, _react.useState)(false);
+    const handleToggleSidebar = ()=>{
+        setSidebarOpen(!sidebarOpen);
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        style: {
+            display: "flex",
+            minHeight: "100vh"
+        },
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                onClick: handleToggleSidebar,
+                style: {
+                    position: "fixed",
+                    top: "20px",
+                    right: "20px",
+                    zIndex: 9999
+                },
+                children: "Toggle Sidebar"
+            }, void 0, false, {
+                fileName: "components/Sidebar.jsx",
+                lineNumber: 12,
+                columnNumber: 9
+            }, undefined),
+            sidebarOpen && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                style: {
+                    position: "fixed",
+                    top: 0,
+                    right: 0,
+                    width: "50%",
+                    height: "100%",
+                    backgroundColor: "#fff",
+                    zIndex: 9998
+                },
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "Sidebar Content"
+                    }, void 0, false, {
+                        fileName: "components/Sidebar.jsx",
+                        lineNumber: 35,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "This is the sidebar that appears on the right side of the screen."
+                    }, void 0, false, {
+                        fileName: "components/Sidebar.jsx",
+                        lineNumber: 36,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "You can put any content you want inside it."
+                    }, void 0, false, {
+                        fileName: "components/Sidebar.jsx",
+                        lineNumber: 37,
+                        columnNumber: 13
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "components/Sidebar.jsx",
+                lineNumber: 24,
+                columnNumber: 11
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                style: {
+                    flex: 1,
+                    backgroundColor: "#f0f0f0",
+                    minHeight: "100vh"
+                },
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        children: "Main Content"
+                    }, void 0, false, {
+                        fileName: "components/Sidebar.jsx",
+                        lineNumber: 42,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "This is the main content of the page that goes behind the sidebar."
+                    }, void 0, false, {
+                        fileName: "components/Sidebar.jsx",
+                        lineNumber: 43,
+                        columnNumber: 11
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "components/Sidebar.jsx",
+                lineNumber: 40,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "components/Sidebar.jsx",
+        lineNumber: 11,
+        columnNumber: 7
+    }, undefined);
+};
+_s(Sidebar, "5rGDkYpGQ8fHM9RkMWnKOwsxadk=");
+_c = Sidebar;
+var _c;
+$RefreshReg$(_c, "Sidebar");
+
+  $parcel$ReactRefreshHelpers$24c0.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
