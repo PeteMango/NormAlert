@@ -27877,15 +27877,25 @@ parcelHelpers.export(exports, "Hello", ()=>Hello);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
 const Hello = ()=>{
+    _s();
+    const navigate = (0, _reactRouterDom.useNavigate)();
+    navigate("/medical-history");
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: "Hello"
     }, void 0, false, {
         fileName: "components/Hello.jsx",
-        lineNumber: 5,
+        lineNumber: 8,
         columnNumber: 5
     }, undefined);
 };
+_s(Hello, "CzcTeTziyjMsSrAVmHuCCb6+Bfg=", false, function() {
+    return [
+        (0, _reactRouterDom.useNavigate)
+    ];
+});
 _c = Hello;
 var _c;
 $RefreshReg$(_c, "Hello");
@@ -27895,7 +27905,7 @@ $RefreshReg$(_c, "Hello");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gkKU3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"9xmpe"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -28058,272 +28068,7 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"ac201cdd2dc952aa":"786KC"}],"41oow":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$4e25 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$4e25.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "ChatGPT", ()=>ChatGPT);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _s = $RefreshSig$();
-const ChatGPT = ()=>{
-    _s();
-    const [response, setResponse] = (0, _react.useState)(null);
-    const [mess, setMess] = (0, _react.useState)("");
-    const [cont, setCont] = (0, _react.useState)([]);
-    const [answer, setAnswer] = (0, _react.useState)("");
-    const handleSubmit = async (e)=>{
-        e.preventDefault();
-        try {
-            const res = await fetch("http://localhost:4000/first-aid", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify({
-                    message: mess,
-                    context: cont
-                })
-            });
-            const responseData = await res.json();
-            setResponse(responseData);
-            setAnswer(responseData.context);
-            setCont(responseData.context);
-            console.log("DONEEEeeeeeeeeee");
-        } catch (error) {
-            console.error(error);
-        }
-    };
-    (0, _react.useEffect)(()=>{
-        console.log("answer");
-        console.log(answer);
-    }, [
-        answer
-    ]);
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: [
-            "ChatGPT",
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
-                onSubmit: handleSubmit,
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                        children: [
-                            "Message: ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                type: "text",
-                                onChange: (e)=>setMess(e.target.value)
-                            }, void 0, false, {
-                                fileName: "components/ChatGPT.jsx",
-                                lineNumber: 43,
-                                columnNumber: 29
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/ChatGPT.jsx",
-                        lineNumber: 43,
-                        columnNumber: 13
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        type: "submit",
-                        children: "submit"
-                    }, void 0, false, {
-                        fileName: "components/ChatGPT.jsx",
-                        lineNumber: 44,
-                        columnNumber: 13
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "components/ChatGPT.jsx",
-                lineNumber: 42,
-                columnNumber: 9
-            }, undefined),
-            response ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                children: [
-                    "Done",
-                    answer.map((item, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                    children: [
-                                        "Person: ",
-                                        item.role
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "components/ChatGPT.jsx",
-                                    lineNumber: 51,
-                                    columnNumber: 21
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    className: "text-red-500",
-                                    children: item.message
-                                }, void 0, false, {
-                                    fileName: "components/ChatGPT.jsx",
-                                    lineNumber: 52,
-                                    columnNumber: 21
-                                }, undefined)
-                            ]
-                        }, index, true, {
-                            fileName: "components/ChatGPT.jsx",
-                            lineNumber: 50,
-                            columnNumber: 21
-                        }, undefined))
-                ]
-            }, void 0, true, {
-                fileName: "components/ChatGPT.jsx",
-                lineNumber: 47,
-                columnNumber: 13
-            }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                children: "Loading..."
-            }, void 0, false, {
-                fileName: "components/ChatGPT.jsx",
-                lineNumber: 57,
-                columnNumber: 13
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "components/ChatGPT.jsx",
-        lineNumber: 40,
-        columnNumber: 5
-    }, undefined);
-};
-_s(ChatGPT, "gRCVC9mhURT35lwoysdyqMFV8sE=");
-_c = ChatGPT;
-var _c;
-$RefreshReg$(_c, "ChatGPT");
-
-  $parcel$ReactRefreshHelpers$4e25.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bk2KG":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$0313 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$0313.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "Nav", ()=>Nav);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _navCss = require("/Nav.css");
-const Nav = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
-        className: "navbar",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "navbar-container",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                    className: "navbar-logo",
-                    children: "Your App"
-                }, void 0, false, {
-                    fileName: "components/Nav.jsx",
-                    lineNumber: 8,
-                    columnNumber: 13
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                    className: "nav-menu",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            className: "nav-item",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "#",
-                                className: "nav-link",
-                                children: "Home"
-                            }, void 0, false, {
-                                fileName: "components/Nav.jsx",
-                                lineNumber: 11,
-                                columnNumber: 17
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "components/Nav.jsx",
-                            lineNumber: 10,
-                            columnNumber: 15
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            className: "nav-item",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "#",
-                                className: "nav-link",
-                                children: "About"
-                            }, void 0, false, {
-                                fileName: "components/Nav.jsx",
-                                lineNumber: 14,
-                                columnNumber: 17
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "components/Nav.jsx",
-                            lineNumber: 13,
-                            columnNumber: 15
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            className: "nav-item",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "#",
-                                className: "nav-link",
-                                children: "Services"
-                            }, void 0, false, {
-                                fileName: "components/Nav.jsx",
-                                lineNumber: 17,
-                                columnNumber: 17
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "components/Nav.jsx",
-                            lineNumber: 16,
-                            columnNumber: 15
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            className: "nav-item",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "#",
-                                className: "nav-link",
-                                children: "Contact"
-                            }, void 0, false, {
-                                fileName: "components/Nav.jsx",
-                                lineNumber: 20,
-                                columnNumber: 17
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "components/Nav.jsx",
-                            lineNumber: 19,
-                            columnNumber: 15
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/Nav.jsx",
-                    lineNumber: 9,
-                    columnNumber: 13
-                }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "components/Nav.jsx",
-            lineNumber: 7,
-            columnNumber: 11
-        }, undefined)
-    }, void 0, false, {
-        fileName: "components/Nav.jsx",
-        lineNumber: 6,
-        columnNumber: 9
-    }, undefined);
-};
-_c = Nav;
-var _c;
-$RefreshReg$(_c, "Nav");
-
-  $parcel$ReactRefreshHelpers$0313.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","/Nav.css":"8vMCX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8vMCX":[function() {},{}],"9xmpe":[function(require,module,exports) {
+},{"ac201cdd2dc952aa":"786KC"}],"9xmpe":[function(require,module,exports) {
 /**
  * React Router DOM v6.11.2
  *
@@ -33552,7 +33297,272 @@ function getTargetMatch(matches, location) {
     return pathMatches[pathMatches.length - 1];
 } //#endregion
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dXcMu":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"41oow":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$4e25 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$4e25.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ChatGPT", ()=>ChatGPT);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _s = $RefreshSig$();
+const ChatGPT = ()=>{
+    _s();
+    const [response, setResponse] = (0, _react.useState)(null);
+    const [mess, setMess] = (0, _react.useState)("");
+    const [cont, setCont] = (0, _react.useState)([]);
+    const [answer, setAnswer] = (0, _react.useState)("");
+    const handleSubmit = async (e)=>{
+        e.preventDefault();
+        try {
+            const res = await fetch("http://localhost:4000/first-aid", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    message: mess,
+                    context: cont
+                })
+            });
+            const responseData = await res.json();
+            setResponse(responseData);
+            setAnswer(responseData.context);
+            setCont(responseData.context);
+            console.log("DONEEEeeeeeeeeee");
+        } catch (error) {
+            console.error(error);
+        }
+    };
+    (0, _react.useEffect)(()=>{
+        console.log("answer");
+        console.log(answer);
+    }, [
+        answer
+    ]);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            "ChatGPT",
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                onSubmit: handleSubmit,
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        children: [
+                            "Message: ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                type: "text",
+                                onChange: (e)=>setMess(e.target.value)
+                            }, void 0, false, {
+                                fileName: "components/ChatGPT.jsx",
+                                lineNumber: 43,
+                                columnNumber: 29
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/ChatGPT.jsx",
+                        lineNumber: 43,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        type: "submit",
+                        children: "submit"
+                    }, void 0, false, {
+                        fileName: "components/ChatGPT.jsx",
+                        lineNumber: 44,
+                        columnNumber: 13
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "components/ChatGPT.jsx",
+                lineNumber: 42,
+                columnNumber: 9
+            }, undefined),
+            response ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: [
+                    "Done",
+                    answer.map((item, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                    children: [
+                                        "Person: ",
+                                        item.role
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "components/ChatGPT.jsx",
+                                    lineNumber: 51,
+                                    columnNumber: 21
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "text-red-500",
+                                    children: item.message
+                                }, void 0, false, {
+                                    fileName: "components/ChatGPT.jsx",
+                                    lineNumber: 52,
+                                    columnNumber: 21
+                                }, undefined)
+                            ]
+                        }, index, true, {
+                            fileName: "components/ChatGPT.jsx",
+                            lineNumber: 50,
+                            columnNumber: 21
+                        }, undefined))
+                ]
+            }, void 0, true, {
+                fileName: "components/ChatGPT.jsx",
+                lineNumber: 47,
+                columnNumber: 13
+            }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: "Loading..."
+            }, void 0, false, {
+                fileName: "components/ChatGPT.jsx",
+                lineNumber: 57,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "components/ChatGPT.jsx",
+        lineNumber: 40,
+        columnNumber: 5
+    }, undefined);
+};
+_s(ChatGPT, "gRCVC9mhURT35lwoysdyqMFV8sE=");
+_c = ChatGPT;
+var _c;
+$RefreshReg$(_c, "ChatGPT");
+
+  $parcel$ReactRefreshHelpers$4e25.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bk2KG":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$0313 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$0313.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Nav", ()=>Nav);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _navCss = require("/Nav.css");
+const Nav = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
+        className: "navbar",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "navbar-container",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                    className: "navbar-logo",
+                    children: "Your App"
+                }, void 0, false, {
+                    fileName: "components/Nav.jsx",
+                    lineNumber: 8,
+                    columnNumber: 13
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                    className: "nav-menu",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            className: "nav-item",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "#",
+                                className: "nav-link",
+                                children: "Home"
+                            }, void 0, false, {
+                                fileName: "components/Nav.jsx",
+                                lineNumber: 11,
+                                columnNumber: 17
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "components/Nav.jsx",
+                            lineNumber: 10,
+                            columnNumber: 15
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            className: "nav-item",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "#",
+                                className: "nav-link",
+                                children: "About"
+                            }, void 0, false, {
+                                fileName: "components/Nav.jsx",
+                                lineNumber: 14,
+                                columnNumber: 17
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "components/Nav.jsx",
+                            lineNumber: 13,
+                            columnNumber: 15
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            className: "nav-item",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "#",
+                                className: "nav-link",
+                                children: "Services"
+                            }, void 0, false, {
+                                fileName: "components/Nav.jsx",
+                                lineNumber: 17,
+                                columnNumber: 17
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "components/Nav.jsx",
+                            lineNumber: 16,
+                            columnNumber: 15
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            className: "nav-item",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "#",
+                                className: "nav-link",
+                                children: "Contact"
+                            }, void 0, false, {
+                                fileName: "components/Nav.jsx",
+                                lineNumber: 20,
+                                columnNumber: 17
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "components/Nav.jsx",
+                            lineNumber: 19,
+                            columnNumber: 15
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/Nav.jsx",
+                    lineNumber: 9,
+                    columnNumber: 13
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "components/Nav.jsx",
+            lineNumber: 7,
+            columnNumber: 11
+        }, undefined)
+    }, void 0, false, {
+        fileName: "components/Nav.jsx",
+        lineNumber: 6,
+        columnNumber: 9
+    }, undefined);
+};
+_c = Nav;
+var _c;
+$RefreshReg$(_c, "Nav");
+
+  $parcel$ReactRefreshHelpers$0313.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","/Nav.css":"8vMCX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8vMCX":[function() {},{}],"dXcMu":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$e277 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -33665,21 +33675,54 @@ parcelHelpers.export(exports, "MedicalForm", ()=>MedicalForm);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
 var _s = $RefreshSig$();
-const MedicalForm = ()=>{
+const MedicalForm = ({ toRender  })=>{
     _s();
+    const navigate = (0, _reactRouterDom.useNavigate)();
+    const [name, setName] = (0, _react.useState)("");
     const [age, setAge] = (0, _react.useState)("");
     const [bloodType, setBloodType] = (0, _react.useState)("");
     const [allergies, setAllergies] = (0, _react.useState)([]);
     const [medications, setMedications] = (0, _react.useState)([]);
+    const [toHash, setToHash] = (0, _react.useState)("");
+    const [accounts, setAccounts] = (0, _react.useState)(null);
+    if (!toRender) {
+        console.log("rendering");
+        toRender = !toRender;
+        navigate("/button");
+    } else navigate("/medical-history");
     const handleSubmit = (e)=>{
         e.preventDefault();
         // Handle form submission, such as sending data to a server or performing necessary actions.
-        // You can access the entered values in the state variables (age, bloodType, allergies, medications).
-        console.log(age);
-        console.log(bloodType);
-        console.log(allergies);
-        console.log(medications);
+        // You can access the entered values in the state variables (name, age, bloodType, allergies, medications).
+        const appendedAllergies = allergies.join(", ");
+        const appendedMedications = medications.join(", ");
+        const concatenatedString = name + age + bloodType + appendedAllergies + appendedMedications;
+        console.log(concatenatedString);
+        setToHash(concatenatedString);
+        fetch("http://localhost:4000/api/medical", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                hash: concatenatedString,
+                name: name,
+                age: age,
+                blood: bloodType,
+                allergies: allergies,
+                medication: medications
+            })
+        }).then((response)=>response.json()).then((data)=>{
+            // Handle the response from the server
+            // localStorage.setItem('hash', concatenatedString);
+            console.log("User information successfully sent to the server:", data);
+            navigate("/button");
+        }).catch((error)=>{
+            // Handle any error that occurred during the request
+            console.error("Error sending user information:", error);
+        });
     };
     const handleAllergyChange = (e, index)=>{
         const updatedAllergies = [
@@ -33721,242 +33764,284 @@ const MedicalForm = ()=>{
         updatedMedications.splice(index, 1);
         setMedications(updatedMedications);
     };
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
-        onSubmit: handleSubmit,
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                children: [
-                    "Age:",
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                        type: "number",
-                        value: age,
-                        onChange: (e)=>setAge(e.target.value)
-                    }, void 0, false, {
-                        fileName: "components/MedicalForm.jsx",
-                        lineNumber: 55,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                children: "WE JUST NEED A LITTLE MORE INFORMATION"
+            }, void 0, false, {
                 fileName: "components/MedicalForm.jsx",
-                lineNumber: 53,
+                lineNumber: 94,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "components/MedicalForm.jsx",
-                lineNumber: 61,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                onSubmit: handleSubmit,
                 children: [
-                    "Blood Type:",
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("select", {
-                        value: bloodType,
-                        onChange: (e)=>setBloodType(e.target.value),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
                         children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                value: "",
-                                children: "Select"
+                            "Name:",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                type: "text",
+                                value: name,
+                                onChange: (e)=>setName(e.target.value)
                             }, void 0, false, {
                                 fileName: "components/MedicalForm.jsx",
-                                lineNumber: 68,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                value: "A+",
-                                children: "A+"
-                            }, void 0, false, {
-                                fileName: "components/MedicalForm.jsx",
-                                lineNumber: 69,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                value: "A-",
-                                children: "A-"
-                            }, void 0, false, {
-                                fileName: "components/MedicalForm.jsx",
-                                lineNumber: 70,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                value: "B+",
-                                children: "B+"
-                            }, void 0, false, {
-                                fileName: "components/MedicalForm.jsx",
-                                lineNumber: 71,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                value: "B-",
-                                children: "B-"
-                            }, void 0, false, {
-                                fileName: "components/MedicalForm.jsx",
-                                lineNumber: 72,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                value: "O+",
-                                children: "O+"
-                            }, void 0, false, {
-                                fileName: "components/MedicalForm.jsx",
-                                lineNumber: 73,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                value: "O-",
-                                children: "O-"
-                            }, void 0, false, {
-                                fileName: "components/MedicalForm.jsx",
-                                lineNumber: 74,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                value: "AB+",
-                                children: "AB+"
-                            }, void 0, false, {
-                                fileName: "components/MedicalForm.jsx",
-                                lineNumber: 75,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                value: "AB-",
-                                children: "AB-"
-                            }, void 0, false, {
-                                fileName: "components/MedicalForm.jsx",
-                                lineNumber: 76,
+                                lineNumber: 98,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "components/MedicalForm.jsx",
-                        lineNumber: 64,
+                        lineNumber: 96,
                         columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "components/MedicalForm.jsx",
-                lineNumber: 62,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "components/MedicalForm.jsx",
-                lineNumber: 79,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                children: [
-                    "Allergies:",
-                    allergies.map((allergy, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                    type: "text",
-                                    value: allergy,
-                                    onChange: (e)=>handleAllergyChange(e, index)
-                                }, void 0, false, {
-                                    fileName: "components/MedicalForm.jsx",
-                                    lineNumber: 84,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                    type: "button",
-                                    onClick: ()=>removeAllergy(index),
-                                    children: "Remove"
-                                }, void 0, false, {
-                                    fileName: "components/MedicalForm.jsx",
-                                    lineNumber: 89,
-                                    columnNumber: 13
-                                }, undefined)
-                            ]
-                        }, index, true, {
-                            fileName: "components/MedicalForm.jsx",
-                            lineNumber: 83,
-                            columnNumber: 11
-                        }, undefined)),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        type: "button",
-                        onClick: addAllergy,
-                        children: "Add Allergy"
-                    }, void 0, false, {
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                         fileName: "components/MedicalForm.jsx",
-                        lineNumber: 94,
+                        lineNumber: 104,
                         columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "components/MedicalForm.jsx",
-                lineNumber: 80,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "components/MedicalForm.jsx",
-                lineNumber: 98,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                children: [
-                    "Medications:",
-                    medications.map((medication, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                    type: "text",
-                                    value: medication,
-                                    onChange: (e)=>handleMedicationChange(e, index)
-                                }, void 0, false, {
-                                    fileName: "components/MedicalForm.jsx",
-                                    lineNumber: 103,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                    type: "button",
-                                    onClick: ()=>removeMedication(index),
-                                    children: "Remove"
-                                }, void 0, false, {
-                                    fileName: "components/MedicalForm.jsx",
-                                    lineNumber: 108,
-                                    columnNumber: 13
-                                }, undefined)
-                            ]
-                        }, index, true, {
-                            fileName: "components/MedicalForm.jsx",
-                            lineNumber: 102,
-                            columnNumber: 11
-                        }, undefined)),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        type: "button",
-                        onClick: addMedication,
-                        children: "Add Medication"
-                    }, void 0, false, {
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        children: [
+                            "Age:",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                type: "number",
+                                value: age,
+                                onChange: (e)=>setAge(e.target.value)
+                            }, void 0, false, {
+                                fileName: "components/MedicalForm.jsx",
+                                lineNumber: 107,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/MedicalForm.jsx",
+                        lineNumber: 105,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                         fileName: "components/MedicalForm.jsx",
                         lineNumber: 113,
                         columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        children: [
+                            "Blood Type:",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("select", {
+                                value: bloodType,
+                                onChange: (e)=>setBloodType(e.target.value),
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "",
+                                        children: "Select"
+                                    }, void 0, false, {
+                                        fileName: "components/MedicalForm.jsx",
+                                        lineNumber: 120,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "A+",
+                                        children: "A+"
+                                    }, void 0, false, {
+                                        fileName: "components/MedicalForm.jsx",
+                                        lineNumber: 121,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "A-",
+                                        children: "A-"
+                                    }, void 0, false, {
+                                        fileName: "components/MedicalForm.jsx",
+                                        lineNumber: 122,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "B+",
+                                        children: "B+"
+                                    }, void 0, false, {
+                                        fileName: "components/MedicalForm.jsx",
+                                        lineNumber: 123,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "B-",
+                                        children: "B-"
+                                    }, void 0, false, {
+                                        fileName: "components/MedicalForm.jsx",
+                                        lineNumber: 124,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "O+",
+                                        children: "O+"
+                                    }, void 0, false, {
+                                        fileName: "components/MedicalForm.jsx",
+                                        lineNumber: 125,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "O-",
+                                        children: "O-"
+                                    }, void 0, false, {
+                                        fileName: "components/MedicalForm.jsx",
+                                        lineNumber: 126,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "AB+",
+                                        children: "AB+"
+                                    }, void 0, false, {
+                                        fileName: "components/MedicalForm.jsx",
+                                        lineNumber: 127,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "AB-",
+                                        children: "AB-"
+                                    }, void 0, false, {
+                                        fileName: "components/MedicalForm.jsx",
+                                        lineNumber: 128,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/MedicalForm.jsx",
+                                lineNumber: 116,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/MedicalForm.jsx",
+                        lineNumber: 114,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/MedicalForm.jsx",
+                        lineNumber: 131,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        children: [
+                            "Allergies:",
+                            allergies.map((allergy, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                            type: "text",
+                                            value: allergy,
+                                            onChange: (e)=>handleAllergyChange(e, index)
+                                        }, void 0, false, {
+                                            fileName: "components/MedicalForm.jsx",
+                                            lineNumber: 136,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                            type: "button",
+                                            onClick: ()=>removeAllergy(index),
+                                            children: "Remove"
+                                        }, void 0, false, {
+                                            fileName: "components/MedicalForm.jsx",
+                                            lineNumber: 141,
+                                            columnNumber: 15
+                                        }, undefined)
+                                    ]
+                                }, index, true, {
+                                    fileName: "components/MedicalForm.jsx",
+                                    lineNumber: 135,
+                                    columnNumber: 13
+                                }, undefined)),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                type: "button",
+                                onClick: addAllergy,
+                                children: "Add Allergy"
+                            }, void 0, false, {
+                                fileName: "components/MedicalForm.jsx",
+                                lineNumber: 146,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/MedicalForm.jsx",
+                        lineNumber: 132,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/MedicalForm.jsx",
+                        lineNumber: 150,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        children: [
+                            "Medications:",
+                            medications.map((medication, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                            type: "text",
+                                            value: medication,
+                                            onChange: (e)=>handleMedicationChange(e, index)
+                                        }, void 0, false, {
+                                            fileName: "components/MedicalForm.jsx",
+                                            lineNumber: 155,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                            type: "button",
+                                            onClick: ()=>removeMedication(index),
+                                            children: "Remove"
+                                        }, void 0, false, {
+                                            fileName: "components/MedicalForm.jsx",
+                                            lineNumber: 160,
+                                            columnNumber: 15
+                                        }, undefined)
+                                    ]
+                                }, index, true, {
+                                    fileName: "components/MedicalForm.jsx",
+                                    lineNumber: 154,
+                                    columnNumber: 13
+                                }, undefined)),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                type: "button",
+                                onClick: addMedication,
+                                children: "Add Medication"
+                            }, void 0, false, {
+                                fileName: "components/MedicalForm.jsx",
+                                lineNumber: 165,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/MedicalForm.jsx",
+                        lineNumber: 151,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/MedicalForm.jsx",
+                        lineNumber: 169,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        type: "submit",
+                        children: "Submit"
+                    }, void 0, false, {
+                        fileName: "components/MedicalForm.jsx",
+                        lineNumber: 170,
+                        columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "components/MedicalForm.jsx",
-                lineNumber: 99,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "components/MedicalForm.jsx",
-                lineNumber: 117,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                type: "submit",
-                children: "Submit"
-            }, void 0, false, {
-                fileName: "components/MedicalForm.jsx",
-                lineNumber: 118,
+                lineNumber: 95,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "components/MedicalForm.jsx",
-        lineNumber: 52,
+        lineNumber: 93,
         columnNumber: 5
     }, undefined);
 };
-_s(MedicalForm, "tzViYr38tlmQ2lLQgd2BDvE+R+Q=");
+_s(MedicalForm, "UvoSJbUI6XpPJRGzi320DRBmz0I=", false, function() {
+    return [
+        (0, _reactRouterDom.useNavigate)
+    ];
+});
 _c = MedicalForm;
 var _c;
 $RefreshReg$(_c, "MedicalForm");
@@ -33966,7 +34051,7 @@ $RefreshReg$(_c, "MedicalForm");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9A4fb":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"9xmpe"}],"9A4fb":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$c2e7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -33979,10 +34064,15 @@ parcelHelpers.export(exports, "Button", ()=>Button);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
 const Button = ()=>{
+    _s();
+    const navigate = (0, _reactRouterDom.useNavigate)();
     const handleClick = ()=>{
         // Handle button click event
         console.log("pressed");
+        navigate("/optional");
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -33999,15 +34089,20 @@ const Button = ()=>{
             children: "Click Me"
         }, void 0, false, {
             fileName: "components/Button.jsx",
-            lineNumber: 12,
+            lineNumber: 15,
             columnNumber: 11
         }, undefined)
     }, void 0, false, {
         fileName: "components/Button.jsx",
-        lineNumber: 10,
+        lineNumber: 13,
         columnNumber: 9
     }, undefined);
 };
+_s(Button, "CzcTeTziyjMsSrAVmHuCCb6+Bfg=", false, function() {
+    return [
+        (0, _reactRouterDom.useNavigate)
+    ];
+});
 _c = Button;
 var _c;
 $RefreshReg$(_c, "Button");
@@ -34017,7 +34112,7 @@ $RefreshReg$(_c, "Button");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"h9n8f":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"9xmpe"}],"h9n8f":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$cdd8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -34030,9 +34125,11 @@ parcelHelpers.export(exports, "Optional", ()=>Optional);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
 var _s = $RefreshSig$();
 const Optional = ()=>{
     _s();
+    const navigate = (0, _reactRouterDom.useNavigate)();
     const [description, setDescription] = (0, _react.useState)("");
     const handleDescriptionChange = (e)=>{
         setDescription(e.target.value);
@@ -34042,6 +34139,8 @@ const Optional = ()=>{
         console.log("skipped");
         else // Handle submit button click event
         console.log("submit");
+        console.log(description);
+        navigate("/final");
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
         children: [
@@ -34054,18 +34153,18 @@ const Optional = ()=>{
                         placeholder: "Enter your description"
                     }, void 0, false, {
                         fileName: "components/Optional.jsx",
-                        lineNumber: 24,
+                        lineNumber: 28,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "components/Optional.jsx",
-                lineNumber: 22,
+                lineNumber: 26,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "components/Optional.jsx",
-                lineNumber: 30,
+                lineNumber: 34,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -34083,17 +34182,21 @@ const Optional = ()=>{
                 children: description.length === 0 ? "Skip" : "Submit"
             }, void 0, false, {
                 fileName: "components/Optional.jsx",
-                lineNumber: 31,
+                lineNumber: 35,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "components/Optional.jsx",
-        lineNumber: 21,
+        lineNumber: 25,
         columnNumber: 5
     }, undefined);
 };
-_s(Optional, "T5v5dRzedMK18tfGxj2rihBX8Sg=");
+_s(Optional, "1w/ovYjyqL1Bss56uZc/sK5qcyg=", false, function() {
+    return [
+        (0, _reactRouterDom.useNavigate)
+    ];
+});
 _c = Optional;
 var _c;
 $RefreshReg$(_c, "Optional");
@@ -34103,7 +34206,7 @@ $RefreshReg$(_c, "Optional");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"h2iZR":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"9xmpe"}],"h2iZR":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$d4a1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;

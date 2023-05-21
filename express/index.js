@@ -7,15 +7,15 @@ const app = express();
 const pgp = require('pg-promise')();
 const db = pgp({
   host: 'localhost',
-  port: 5433,
-  database: 'petemango',
-  user: 'petemango',
+  port: 5432,
+  database: 'olympihacks',
+  user: 'normanchen',
   password: process.env.POSTGRES_PWRD,
 });
 
 
 const { Configuration, OpenAIApi } = require('openai');
-const { c } = require('tar');
+// const { c } = require('tar');
 
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
@@ -210,4 +210,69 @@ app.get('/api/test/nearby', (req, res) => {
 const PORT = 4000;
 app.listen(PORT, () => {
   console.log(`Listening on port ${PORT}`);
+});
+
+app.post('/api/medical', (req, res) => {
+  const { hash, name, age, blood, allergies, medication } = req.body;
+  console.log(hash);
+  console.log(name);
+  console.log(age);
+  console.log(blood);
+  console.log(allergies);
+  console.log(medication);
+
+  db.none('INSERT INTO users (hash, name, age, blood, allergies, medication) VALUES ($1, $2, $3, $4, $5, $6)', [hash, name, age, blood, allergies, medication])
+    .then(() => {
+      console.log('User information inserted into the database');
+      res.status(200).json({ message: 'User information saved successfully' });
+    })
+    .catch((error) => {
+      console.error('Error inserting user information into the database:', error);
+      res.status(500).json({ message: 'An error occurred while inserting user information' });
+    });
+});
+
+// CREATE TABLE users (
+//   id SERIAL PRIMARY KEY,
+//   hash VARCHAR(255) NOT NULL,
+//   name VARCHAR(255) NOT NULL,
+//   age INTEGER NOT NULL,
+//   blood VARCHAR(10) NOT NULL,
+//   allergies TEXT[],
+//   medication TEXT[],
+//   created_at TIMESTAMP DEFAULT NOW()
+// );
+
+app.get("/api/users", (req, res) => {
+  db.any('SELECT * FROM users')
+  .then(data => {
+      res.status(200).send(data);
+      // res.send("hello");
+  })
+  .catch(error => {
+      console.log(error);
+      res.status(500).send("error retrieving data");
+  });
+});
+
+app.get('/api/check-account/:account', (req, res) => {
+  const account = req.params.account;
+
+  db.oneOrNone('SELECT * FROM users WHERE name = $1', [account])
+    .then((result) => {
+      if (result) {
+        // Account exists in the database
+        console.log("the user is in the database");
+        res.status(200).json({ exists: true });
+      } else {
+        // Account does not exist in the database
+        console.log(`user is ${account}`);
+        console.log("the user is NOT in the database");
+        res.status(200).json({ exists: false });
+      }
+    })
+    .catch((error) => {
+      console.error('Error checking account:', error);
+      res.status(500).json({ message: 'An error occurred while checking the account' });
+    });
 });

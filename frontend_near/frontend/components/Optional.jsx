@@ -1,7 +1,9 @@
 import React, {useState} from 'react'
+import { useNavigate } from 'react-router-dom';
 
 export const Optional = () => {
-    const [description, setDescription] = useState('');
+  const navigate = useNavigate();
+  const [description, setDescription] = useState('');
 
   const handleDescriptionChange = (e) => {
     setDescription(e.target.value);
@@ -15,6 +17,8 @@ export const Optional = () => {
       // Handle submit button click event
       console.log("submit");
     }
+    console.log(description);
+    navigate('/final');
   };
 
   return (
