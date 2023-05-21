@@ -1,20 +1,20 @@
-require("dotenv").config();
-const express = require("express");
-const axios = require("axios");
-const bodyParser = require("body-parser");
-const cors = require("cors");
+require('dotenv').config();
+const express = require('express');
+const axios = require('axios');
+const bodyParser = require('body-parser');
+const cors = require('cors');
 const app = express();
 const pgp = require('pg-promise')();
 const db = pgp({
-    host: 'localhost',
-    port: 5432,
-    database: 'olympihacks',
-    user: 'normanchen',
-    password: process.env.POSTGRES_PWRD,
+  host: 'localhost',
+  port: 5432,
+  database: 'olympihacks',
+  user: 'normanchen',
+  password: process.env.POSTGRES_PWRD,
 });
 
-const { Configuration, OpenAIApi } = require("openai");
-const { c } = require("tar");
+const { Configuration, OpenAIApi } = require('openai');
+const { c } = require('tar');
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
   mapKey: process.env.GOOGLE_MAPS_API_KEY,
@@ -25,43 +25,33 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.send("Hello world, from olympihacks");
+app.get('/', (req, res) => {
+  res.send('Hello world, from olympihacks');
 });
 
-const getDistance = async (
-  originLat,
-  originLng,
-  destinationLat,
-  destinationLng
-) => {
+const getDistance = async (origin, destinationLat, destinationLng) => {
   try {
     const response = await axios.get(
-      `https://maps.googleapis.com/maps/api/directions/json?origin=${originLat},${originLng}&destination=${destinationLat},${destinationLng}&key=${process.env.GOOGLE_MAPS_API_KEY}`
+      `https://maps.googleapis.com/maps/api/directions/json?origin=${origin}&destination=${destinationLat},${destinationLng}&key=${process.env.GOOGLE_MAPS_API_KEY}`
     );
     const distance = response.data.routes[0].legs[0].distance.text;
     return distance;
   } catch (error) {
-    console.error("Error:", error.message);
-    throw new Error("Unable to calculate distance");
+    console.error('Error:', error.message);
+    throw new Error('Unable to calculate distance');
   }
 };
 
-const getDuration = async (
-  originLat,
-  originLng,
-  destinationLat,
-  destinationLng
-) => {
+const getDuration = async (origin, destinationLat, destinationLng) => {
   try {
     const response = await axios.get(
-      `https://maps.googleapis.com/maps/api/directions/json?origin=${originLat},${originLng}&destination=${destinationLat},${destinationLng}&key=${process.env.GOOGLE_MAPS_API_KEY}`
+      `https://maps.googleapis.com/maps/api/directions/json?origin=${origin}&destination=${destinationLat},${destinationLng}&key=${process.env.GOOGLE_MAPS_API_KEY}`
     );
     const duration = response.data.routes[0].legs[0].duration.text;
     return duration;
   } catch (error) {
-    console.error("Error:", error.message);
-    throw new Error("Unable to calculate duration");
+    console.error('Error:', error.message);
+    throw new Error('Unable to calculate duration');
   }
 };
 
@@ -71,59 +61,28 @@ const getCurrentLocation = async () => {
       `https://www.googleapis.com/geolocation/v1/geolocate?key=${process.env.GOOGLE_MAPS_API_KEY}`
     );
     const { lat, lng } = response.data.location;
-    console.log({ lat, lng });
+    console.log('Current Location:', { lat, lng });
     return { latitude: lat, longitude: lng };
   } catch (error) {
-    console.error("Error getting user location:", error);
-    throw new Error("Unable to get user location");
+    console.error('Error getting user location:', error);
+    throw new Error('Unable to get user location');
   }
 };
 
-app.get("/api/googlemaps/currentLocation", async (req, res) => {
+app.get('/api/googlemaps/currentLocation', async (req, res) => {
   try {
     const userLocation = await getCurrentLocation();
     res.json(userLocation);
   } catch (error) {
-    console.error("Error getting user location:", error);
-    res.status(500).send("Error getting user location");
+    console.error('Error getting user location:', error);
+    res.status(500).send('Error getting user location');
   }
 });
 
-app.get("/distance", async (req, res) => {
-  try {
-    const distance = await getDistance(
-      43.473103561471284,
-      -80.53983501505313,
-      43.66258746771611,
-      -79.39603676128505
-    );
-
-    res.status(200).json({ distance });
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ error: "Internal server error" });
-  }
-});
-
-app.get("/duration", async (req, res) => {
-  try {
-    const origin = "New York, NY";
-    const destination = "San Francisco, CA";
-
-    const duration = await getDuration(origin, destination);
-
-    res.status(200).json({ duration });
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ error: "Internal server error" });
-  }
-});
-
-app.get("/distanceTo/:destination", async (req, res) => {
+app.get('/distanceTo/:destination', async (req, res) => {
   try {
     const userLocation = await getCurrentLocation();
-
-    console.log(userLocation);
+    console.log('User Location:', userLocation);
 
     const destination = req.params.destination;
     const geocodingUrl = `https://maps.googleapis.com/maps/api/geocode/json?address=${encodeURIComponent(
@@ -151,36 +110,39 @@ app.get("/distanceTo/:destination", async (req, res) => {
         destinationLng
       );
 
+      console.log('Driving Distance to', destination, ':', distance);
+      console.log('Driving Duration to', destination, ':', duration);
+
       res.status(200).json({ distance, duration });
     } else {
-      throw new Error("Invalid destination address");
+      throw new Error('Invalid destination address');
     }
   } catch (error) {
     console.error(error);
-    res.status(500).json({ error: "Internal server error" });
+    res.status(500).json({ error: 'Internal server error' });
   }
 });
 
-app.post("/first-aid", async (req, res) => {
+app.post('/first-aid', async (req, res) => {
   try {
     const { message, context } = req.body;
-    context.push({ role: "user", message: message });
+    context.push({ role: 'user', message: message });
 
     const completion = await openai.createChatCompletion({
-      model: "gpt-3.5-turbo",
+      model: 'gpt-3.5-turbo',
       messages: [
         {
-          role: "system",
+          role: 'system',
           content:
-            "you are a bot that provides the user essential first aid advice. Please find chat history in the assistant role content to respond to the best of your ability.",
+            'you are a bot that provides the user essential first aid advice. Please find chat history in the assistant role content to respond to the best of your ability.',
         },
-        { role: "user", content: message },
-        { role: "assistant", content: toString(context) },
+        { role: 'user', content: message },
+        { role: 'assistant', content: toString(context) },
       ],
     });
 
     const response = completion.data.choices[0].message.content;
-    context.push({ role: "openAI", message: response });
+    context.push({ role: 'openAI', message: response });
 
     const add = {
       ...completion.data.choices[0],
@@ -190,29 +152,56 @@ app.post("/first-aid", async (req, res) => {
     res.status(200).json(add);
   } catch (error) {
     console.error(error);
-    res.status(500).json({ error: "Internal server error" });
+    res.status(500).json({ error: 'Internal server error' });
   }
+});
+
+app.get('/api/drivingDistance/:origin', async (req, res) => {
+  try {
+    const origin = req.params.origin;
+    const userLocation = await getCurrentLocation();
+
+    const distance = await getDistance(origin, userLocation.latitude, userLocation.longitude);
+
+    console.log('Driving Distance:', distance);
+
+    res.status(200).json({ distance });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
+app.get('/api/drivingTime/:origin', async (req, res) => {
+  try {
+    const { origin } = req.params;
+    const userLocation = await getCurrentLocation();
+    const destination = `${userLocation.latitude},${userLocation.longitude}`;
+
+    const duration = await getDuration(origin, userLocation.latitude, userLocation.longitude);
+
+    console.log('Driving Duration:', duration);
+
+    res.status(200).json({ duration });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
+
+app.get('/api/test/postgres', (req, res) => {
+  db.any('SELECT * FROM users')
+    .then((data) => {
+      res.status(200).send(data);
+    })
+    .catch((error) => {
+      console.log(error);
+      res.status(500).send('Error retrieving data');
+    });
 });
 
 const PORT = 4000;
 app.listen(PORT, () => {
   console.log(`Listening on port ${PORT}`);
 });
-
-app.get("/api/test/postgres", (req, res) => {
-    db.any('SELECT * FROM users')
-    .then(data => {
-        res.status(200).send(data);
-        // res.send("hello");
-    })
-    .catch(error => {
-        console.log(error);
-        res.status(500).send("error retrieving data");
-    });
-});
- // comment
-// psql
-// create database olympihacks
-// \c olympihacks
-// CREATE TABLE users (                                                                                  id serial NOT NULL,                                                                                             username character varying(255) NOT NULL,                                                                       email character varying(255) NOT NULL,                                                                          password_hash character varying(255) NOT NULL,                                                                  created_at timestamp without time zone DEFAULT now(),                                                       name text not null);
-// INSERT INTO users (username, email, password_hash, name) VALUES ('johnDoe', 'johndoe@example.com', 'hashedPassword123', 'John Doe');
