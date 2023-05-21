@@ -14,6 +14,7 @@ const db = pgp({
 });
 
 const { Configuration, OpenAIApi } = require("openai");
+const { c } = require("tar");
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
   mapKey: process.env.GOOGLE_MAPS_API_KEY,
@@ -70,6 +71,7 @@ const getCurrentLocation = async () => {
       `https://www.googleapis.com/geolocation/v1/geolocate?key=${process.env.GOOGLE_MAPS_API_KEY}`
     );
     const { lat, lng } = response.data.location;
+    console.log({ lat, lng });
     return { latitude: lat, longitude: lng };
   } catch (error) {
     console.error("Error getting user location:", error);
